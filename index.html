@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Teachers Give Teachers</title>
+  <meta name="description"
+        content="Teachers Give Teachers — a space where teachers freely share classroom ideas and creations. Free, printable, ready to use.">
+  <link rel="stylesheet" href="assets/styles.css">
+  <!-- Manifest is loaded only to show a live count on the Student Refusal Forms card. -->
+  <script src="srf/assets/srf-manifest.js" defer></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var n = (window.SRF_MANIFEST || []).length;
+      var badge = document.getElementById('srf-count');
+      if (badge && n) badge.textContent = n + ' forms';
+    });
+  </script>
+</head>
+<body>
+
+  <header class="hero">
+    <div class="hero-inner">
+      <h1 class="brandmark">
+        <span class="brandmark-badge" aria-hidden="true">TGT</span>
+        Teachers <span class="give">Give</span> Teachers
+      </h1>
+      <p class="tagline">A space where teachers freely share ideas and creations. No carts, no checkout — just
+        classroom-ready resources you can download, print, and adapt. Give one, take one.</p>
+      <nav class="hero-nav">
+        <a class="primary" href="#collections">Browse collections</a>
+        <a href="https://github.com/mglearn" target="_blank" rel="noopener">About mglearn</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="collections" aria-labelledby="collections-h">
+      <h2 id="collections-h" class="section-title">Collections</h2>
+      <p class="section-sub">Each collection is free to use and share. More on the way.</p>
+
+      <div class="collections">
+
+        <a class="collection" href="srf/index.html">
+          <div class="collection-thumb">
+            <span class="collection-tag">Free</span>
+            <img src="assets/thumb-srf.png" alt="A colorful '404: Assignment Not Found' student reflection form">
+          </div>
+          <div class="collection-body">
+            <h3>Student Refusal Forms</h3>
+            <p>Meme, gaming, and content-area reflection sheets for the moment a reminder won't help — turning
+              “I'm not doing this” into “here's what I'll try next.”</p>
+            <span class="collection-meta">
+              <span class="collection-count" id="srf-count">Browse</span>
+              <span class="collection-cta">Open collection</span>
+            </span>
+          </div>
+        </a>
+
+        <a class="collection" href="https://mglearn.github.io/gtky/">
+          <div class="collection-thumb">
+            <span class="collection-tag">Free</span>
+            <img src="assets/thumb-gtky.png" alt="Getting to Know You interest-inventory worksheets">
+          </div>
+          <div class="collection-body">
+            <h3>Getting to Know You</h3>
+            <p>Subject-based interest-inventory worksheets for Grades K–12 in English, Spanish, and Vietnamese —
+              a research-backed way to start the year.</p>
+            <span class="collection-meta">
+              <span class="collection-count">K–12 · 3 languages</span>
+              <span class="collection-cta">Open collection</span>
+            </span>
+          </div>
+        </a>
+
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p class="built">Teachers Give Teachers</p>
+    <p>Made by Miguel Guhlin · Resources licensed <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC BY-SA 4.0</a> · Free to share and adapt.</p>
+  </footer>
+
+</body>
+</html>

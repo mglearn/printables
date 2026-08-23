@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Student Refusal Forms · Teachers Give Teachers</title>
+  <meta name="description"
+        content="Free, printable student refusal reflection forms — meme, gaming, and content-area versions that turn 'I'm not doing this' into 'here's what I'll try next.' PNG + print-ready PDF.">
+  <link rel="stylesheet" href="../assets/styles.css">
+  <script src="assets/srf-manifest.js" defer></script>
+  <script src="assets/srf-app.js" defer></script>
+</head>
+<body>
+
+  <header class="subhero">
+    <div class="subhero-inner">
+      <a class="back-link" href="../index.html">← Teachers Give Teachers</a>
+      <h1>Student Refusal Forms</h1>
+      <p class="tagline">Reflection sheets for the moment a reminder won't help anymore. The meme gets a student's
+        attention; the questions underneath still ask for ownership — and point at the next move.</p>
+      <nav class="hero-nav" style="justify-content:flex-start">
+        <a class="primary" href="#gallery-section">Browse the forms</a>
+        <a href="research.html">The reflection behind them</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="notice">
+      <p><strong>These are reflection tools, not punishment sheets.</strong> The strongest forms don't end with
+        “You didn't do your work.” They end with “What are you going to do now?”</p>
+      <p class="notice-sub">Free to use and share · Print the color page, or the built-in black-and-white page for
+        the copier · <a href="research.html">See how they connect to the ACE framework &amp; Visible Learning research →</a></p>
+    </div>
+
+    <section id="gallery-section" aria-labelledby="gallery-h">
+      <h2 id="gallery-h" class="section-title">The forms</h2>
+      <p class="section-sub">Pick an entry point that fits the student in front of you — tech and gaming language,
+        familiar meme formats, a sports/challenge frame, or a version dressed for your content area.</p>
+
+      <div class="filters" role="group" aria-labelledby="gallery-h">
+        <div class="field">
+          <label for="filter-category">Category</label>
+          <select id="filter-category"></select>
+        </div>
+        <button id="filter-reset" type="button">Reset</button>
+        <div class="spacer"></div>
+        <div class="count" id="gallery-count">—</div>
+      </div>
+
+      <div id="gallery"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p class="built">Teachers Give Teachers · Student Refusal Forms</p>
+    <p>Forms © Miguel Guhlin, licensed <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC BY-SA 4.0</a>. Free to share and adapt.</p>
+  </footer>
+
+  <!-- Lightbox -->
+  <div id="lightbox" aria-hidden="true" role="dialog" aria-modal="true">
+    <div class="lightbox-bar">
+      <a id="lightbox-dl-png" href="#" download>↓ PNG</a>
+      <a id="lightbox-dl-pdf" href="#" download>↓ PDF</a>
+      <button id="lightbox-close" type="button">Close ✕</button>
+    </div>
+    <img id="lightbox-img" src="" alt="">
+  </div>
+
+</body>
+</html>

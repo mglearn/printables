@@ -45,7 +45,10 @@ The **Getting to Know You** card links out to its own repo/site at
 GitHub Pages serves this repo as a project site at `mglearn.github.io/tgt`
 (Deploy from branch → `main` / root). Push to `main` to publish.
 
-## License
+## License & provenance
 
-Resources © Miguel Guhlin, licensed
-[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+© 2026 TCEA, created by Miguel Guhlin. **Content** is licensed
+[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/); **code** is MIT.
+The authoritative statement — reuse terms, attribution, provenance, and privacy —
+lives at [`licensing.html`](licensing.html) (`mglearn.github.io/tgt/licensing.html`),
+surfaced on every page by the quiet one-line footer that `licensing-footer.js` injects.

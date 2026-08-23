@@ -47,6 +47,10 @@ a { color: var(--brand); }
   border-bottom: 1px solid var(--line);
 }
 .hero-inner { max-width: var(--maxw); margin: 0 auto; text-align: center; }
+.hero-banner {
+  width: 100%; max-width: 1120px; margin: 0 auto; height: auto; display: block;
+  border-radius: 18px; box-shadow: var(--shadow); border: 1px solid var(--line);
+}
 .brandmark {
   display: inline-flex; align-items: center; gap: .55rem;
   font-weight: 900; letter-spacing: .01em; color: var(--brand-dark);

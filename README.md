@@ -14,6 +14,7 @@ tgt/
     styles.css          Shared styles (dashboard + galleries)
     thumb-srf.png        Dashboard card thumbnails
     thumb-gtky.png
+    thumb-case-files.png
   srf/                  Student Refusal Forms collection
     index.html          Gallery of the forms
     research.html       The reflection/ACE/Visible Learning writeup
@@ -26,7 +27,8 @@ tgt/
 ```
 
 The **Getting to Know You** card links out to its own repo/site at
-`mglearn.github.io/gtky`.
+`mglearn.github.io/gtky`. The **CER & ACE Case Files** card links out to the
+Learning Activities Hub at `mglearn.github.io/activities/science/case-files/`.
 
 ## Adding or updating Student Refusal Forms
 

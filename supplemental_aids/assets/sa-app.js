@@ -25,9 +25,17 @@
       grid.appendChild(el('p', 'empty', 'No sheets yet.'));
       return;
     }
-    var row = el('div', 'row');
-    M.forEach(function (w) { row.appendChild(card(w)); });
-    grid.appendChild(row);
+    // Group under strand headings, in manifest order.
+    var lastStrand = null, row = null;
+    M.forEach(function (w) {
+      if (w.strand !== lastStrand) {
+        lastStrand = w.strand;
+        grid.appendChild(el('h3', 'group-head', w.strand));
+        row = el('div', 'row');
+        grid.appendChild(row);
+      }
+      row.appendChild(card(w));
+    });
   }
 
   function card(w) {
@@ -46,7 +54,6 @@
 
     var cap = el('figcaption');
     cap.appendChild(el('span', 'card-title', w.title));
-    if (w.strand) cap.appendChild(el('span', 'card-tag', w.strand));
     if (w.blurb) cap.appendChild(el('span', 'card-focus', w.blurb));
 
     var dls = el('span', 'card-dls');

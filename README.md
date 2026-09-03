@@ -15,6 +15,7 @@ tgt/
     thumb-srf.png        Dashboard card thumbnails
     thumb-gtky.png
     thumb-case-files.png
+    thumb-phase-change.png
   srf/                  Student Refusal Forms collection
     index.html          Gallery of the forms
     research.html       The reflection/ACE/Visible Learning writeup
@@ -24,6 +25,14 @@ tgt/
     build-manifest.sh   Regenerates the manifest from the PNGs + curated titles
     build-pdfs.sh       Makes a print-ready 2-page PDF next to each PNG
     srf_*.png / *.pdf   The forms (color PNG + 2-page print PDF)
+  phase_change_stations/  Phase Change Station Lab collection
+    index.html          Gallery of the seven stations (lab order, no categories)
+    assets/
+      pcs-app.js        Gallery logic (vanilla JS)
+      pcs-manifest.js   AUTO-GENERATED — do not edit by hand
+    build-manifest.sh   Regenerates the manifest (title, transition, focus question)
+    build-pdfs.sh       Makes a print-ready 2-page PDF next to each PNG
+    pcs_*.png / *.pdf   The station sheets (color PNG + 2-page print PDF)
 ```
 
 The **Getting to Know You** card links out to its own repo/site at
@@ -39,6 +48,19 @@ Learning Activities Hub at `mglearn.github.io/activities/science/case-files/`.
    ```bash
    ./build-pdfs.sh        # 2-page PDF (color + B&W print page) per PNG
    ./build-manifest.sh    # regenerates assets/srf-manifest.js
+   ```
+   Both scripts warn if a PNG is missing from the catalog (or vice-versa).
+
+## Adding or updating Phase Change stations
+
+1. Drop the new `pcs_*.png` into `phase_change_stations/`.
+2. Add a row to the `CATALOG` in `phase_change_stations/build-manifest.sh` (base
+   name, station number, phase-change transition, exact title, focus question —
+   all curated from the artwork). Row order is the gallery display order.
+3. From `phase_change_stations/`, run:
+   ```bash
+   ./build-pdfs.sh        # 2-page PDF (color + B&W print page) per PNG
+   ./build-manifest.sh    # regenerates assets/pcs-manifest.js
    ```
    Both scripts warn if a PNG is missing from the catalog (or vice-versa).
 

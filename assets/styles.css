@@ -204,6 +204,11 @@ main { max-width: var(--maxw); margin: 0 auto; padding: clamp(1.4rem, 3vw, 2.4re
 .card .thumb:focus-visible { outline: 3px solid var(--focus); outline-offset: -3px; }
 .card figcaption { padding: .7rem .85rem .85rem; display: flex; flex-direction: column; gap: .5rem; }
 .card-title { font-weight: 800; color: var(--ink); font-size: .98rem; line-height: 1.25; }
+.card-tag {
+  align-self: flex-start; font-weight: 800; font-size: .74rem; letter-spacing: .01em;
+  color: var(--brand-dark); background: #e2f1ec; border-radius: 999px; padding: .18rem .55rem;
+}
+.card-focus { color: var(--ink-soft); font-size: .86rem; line-height: 1.35; }
 .card-dls { display: flex; gap: .45rem; }
 .card-dl {
   text-decoration: none; font-weight: 800; font-size: .82rem;

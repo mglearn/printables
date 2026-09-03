@@ -17,7 +17,7 @@ sa_atomic_structure|Matter & Energy|Atomic Structure|Protons (positive, in the n
 sa_elements_compounds_mixtures|Matter & Energy|Elements, Compounds & Mixtures|How particles are grouped — one kind of atom, elements chemically bonded, or substances mixed but not bonded.
 sa_metals_nonmetals_metalloids|Matter & Energy|Metals, Nonmetals & Metalloids|Compare properties — shiny conductors, dull brittle nonmetals, and in-between metalloids along the periodic table's stair-step.
 sa_states_of_matter|Matter & Energy|States of Matter|Particle-model quick cue for solid, liquid, and gas — shape, volume, and how more space means more motion.
-sa_physical_properties|Matter & Energy|Physical Properties of Matter|Density, conductivity, solubility, and magnetism — observed or measured without changing the substance's identity.
+sa_physical_properties|Matter & Energy|Physical Properties of Matter|Mass, volume, density, solubility, conductivity, and magnetism — observed or measured without changing the substance's identity.
 sa_chemical_formulas|Matter & Energy|Chemical Formulas|Count the atoms — a subscript counts one element; a coefficient multiplies the whole formula.
 sa_chemical_changes|Matter & Energy|Chemical Changes|Four signs a reaction happened — color change, gas forms, a precipitate forms, and temperature or light change.
 sa_force_motion_energy|Force, Motion & Energy|Force, Motion & Energy — Five Cue Cards|Average-speed and force formula triangles, Newton's three laws, heat transfer, and wave properties.

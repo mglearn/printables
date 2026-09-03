@@ -1,0 +1,56 @@
+{
+  "id": "G07_SCI_ThermalEnergy_01",
+  "title": "Thermal Energy at School",
+  "slug": "thermal-energy-at-school",
+  "grade": 7,
+  "subject": "science",
+  "duration": {
+    "core_minutes": 45,
+    "extension_minutes": 15
+  },
+  "materials": [
+    "printed student packet",
+    "pencil"
+  ],
+  "work_mode": "independent",
+  "standards": {
+    "framework": "19 TAC §112.27 (Grade 7 Science)",
+    "knowledge_and_skills": "7.8",
+    "primary": [
+      {
+        "code": "7.8A",
+        "section": "19 TAC §112.27",
+        "focus": "methods of thermal energy transfer: conduction, convection, radiation",
+        "verification_status": "pending"
+      },
+      {
+        "code": "7.8C",
+        "section": "19 TAC §112.27",
+        "focus": "relationship between temperature and the kinetic energy of particles",
+        "verification_status": "pending"
+      }
+    ],
+    "alignment_note": "Provisional — pending educator verification against the current official TAC source. Standards paraphrased, not quoted."
+  },
+  "calculator_allowed": false,
+  "color_required": false,
+  "files": [
+    "student.html",
+    "subguide.html",
+    "answerkey.html",
+    "index.html",
+    "manifest.json"
+  ],
+  "copyright": {
+    "text": "original",
+    "images": "original-svg",
+    "license": "CC-BY-4.0"
+  },
+  "status": "draft",
+  "review": {
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "verification_status": null
+  },
+  "version": "0.1.0"
+}

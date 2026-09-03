@@ -1,0 +1,61 @@
+{
+  "id": "G07_RLA_Theme_01",
+  "title": "Theme and Character in a Short Story",
+  "slug": "theme-and-character-in-a-short-story",
+  "grade": 7,
+  "subject": "rla",
+  "duration": {
+    "core_minutes": 45,
+    "extension_minutes": 15
+  },
+  "materials": [
+    "printed student packet",
+    "pencil"
+  ],
+  "work_mode": "independent",
+  "standards": {
+    "framework": "19 TAC §110.23 (Grade 7 English Language Arts and Reading)",
+    "primary": [
+      {
+        "code": "provisional-theme",
+        "section": "19 TAC §110.23",
+        "focus": "analyze how a theme or central idea is developed across a literary text",
+        "verification_status": "pending"
+      },
+      {
+        "code": "provisional-character",
+        "section": "19 TAC §110.23",
+        "focus": "analyze how a character's qualities and responses change and shape the plot",
+        "verification_status": "pending"
+      },
+      {
+        "code": "provisional-craft",
+        "section": "19 TAC §110.23",
+        "focus": "analyze how word choice and structure contribute to meaning and tone",
+        "verification_status": "pending"
+      }
+    ],
+    "alignment_note": "Provisional — pending educator verification against the current official TAC source. Standards paraphrased, not quoted."
+  },
+  "calculator_allowed": false,
+  "color_required": false,
+  "files": [
+    "student.html",
+    "subguide.html",
+    "answerkey.html",
+    "index.html",
+    "manifest.json"
+  ],
+  "copyright": {
+    "text": "original",
+    "images": "none",
+    "license": "CC-BY-4.0"
+  },
+  "status": "draft",
+  "review": {
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "verification_status": null
+  },
+  "version": "0.1.0"
+}

@@ -91,7 +91,7 @@ figcaption{font-size:.78rem;color:var(--muted);font-weight:700;margin-top:5px}
 .callout .lab{font-weight:800;display:block;margin-bottom:2px}
 
 /* Answer-key look */
-.key .q .ans{border:2px solid var(--science);border-left-width:6px;border-radius:8px;background:#f1f7f4;
+.key .q .ans{border:2px solid var(--accent);border-left-width:6px;border-radius:8px;background:var(--panel);
   padding:8px 11px;margin-top:5px;font-weight:600}
 .key .rubric{border-collapse:collapse;width:100%;font-size:.84rem;margin:6px 0}
 .key .rubric th,.key .rubric td{border:1px solid var(--ink);padding:6px 8px;vertical-align:top}

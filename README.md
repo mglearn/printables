@@ -3,12 +3,12 @@
 A space where teachers freely share ideas and creations — the "give one, take one"
 answer to Teachers Pay Teachers. Everything here is free to download, print, and adapt.
 
-**Live site:** https://mglearn.github.io/tgt/
+**Live site:** https://mglearn.github.io/printables/
 
 ## Structure
 
 ```
-tgt/
+printables/
   index.html            Hub dashboard — cards for each collection
   assets/
     styles.css          Shared styles (dashboard + galleries)
@@ -66,13 +66,15 @@ Learning Activities Hub at `mglearn.github.io/activities/science/case-files/`.
 
 ## Deploy
 
-GitHub Pages serves this repo as a project site at `mglearn.github.io/tgt`
-(Deploy from branch → `main` / root). Push to `main` to publish.
+GitHub Pages serves this repo as a project site at `mglearn.github.io/printables`
+(Deploy from branch → `main` / root). Push to `main` to publish. The old
+`mglearn.github.io/tgt/` path is served by a separate redirect-stub repo
+(`mglearn/tgt`) that forwards to the matching `/printables/…` path.
 
 ## License & provenance
 
 © 2026 TCEA, created by Miguel Guhlin. **Content** is licensed
 [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/); **code** is MIT.
 The authoritative statement — reuse terms, attribution, provenance, and privacy —
-lives at [`licensing.html`](licensing.html) (`mglearn.github.io/tgt/licensing.html`),
+lives at [`licensing.html`](licensing.html) (`mglearn.github.io/printables/licensing.html`),
 surfaced on every page by the quiet one-line footer that `licensing-footer.js` injects.

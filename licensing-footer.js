@@ -1,11 +1,11 @@
 /* ============================================================
    Teachers Give Teachers (TGT) — licensing footer (unobtrusive)
    Appends a quiet one-line licensing notice to the end of the
-   page, linking to /tgt/licensing.html. Injects its own scoped
+   page, linking to /printables/licensing.html. Injects its own scoped
    styles so it cannot clash with a page's existing CSS.
 
    Include on a page with:
-     <script src="/tgt/licensing-footer.js" defer></script>
+     <script src="/printables/licensing-footer.js" defer></script>
 
    The path is absolute, so the same tag works at any folder
    depth (the hub root and the collection sub-folders). To change
@@ -17,7 +17,7 @@
 
   var HOLDER       = "© 2026 TCEA";
   var LICENSE_TEXT = "Content CC BY-NC 4.0 · Code MIT";
-  var HREF         = "/tgt/licensing.html";
+  var HREF         = "/printables/licensing.html";
 
   // Never inject inside an embedded iframe — the host page carries it.
   try { if (window.top !== window.self) return; } catch (e) { return; }

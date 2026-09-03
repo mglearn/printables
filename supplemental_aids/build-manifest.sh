@@ -13,10 +13,20 @@ cd "$(dirname "$0")"
 read -r -d '' CATALOG <<'ROWS' || true
 sa_overview|Start here|All Four Strands — Overview|A one-page map of the collection: the four science strands and the cue cards inside each.
 sa_matter_and_energy|Matter & Energy|Matter & Energy — Five Cue Cards|States of matter, evidence of chemical change (GTPC), physical vs. chemical change, particle motion, and conservation of mass.
+sa_atomic_structure|Matter & Energy|Atomic Structure|Protons (positive, in the nucleus), neutrons (no charge, in the nucleus), and electrons (negative, outside the nucleus).
+sa_elements_compounds_mixtures|Matter & Energy|Elements, Compounds & Mixtures|How particles are grouped — one kind of atom, elements chemically bonded, or substances mixed but not bonded.
+sa_metals_nonmetals_metalloids|Matter & Energy|Metals, Nonmetals & Metalloids|Compare properties — shiny conductors, dull brittle nonmetals, and in-between metalloids along the periodic table's stair-step.
 sa_states_of_matter|Matter & Energy|States of Matter|Particle-model quick cue for solid, liquid, and gas — shape, volume, and how more space means more motion.
+sa_physical_properties|Matter & Energy|Physical Properties of Matter|Density, conductivity, solubility, and magnetism — observed or measured without changing the substance's identity.
+sa_chemical_formulas|Matter & Energy|Chemical Formulas|Count the atoms — a subscript counts one element; a coefficient multiplies the whole formula.
 sa_chemical_changes|Matter & Energy|Chemical Changes|Four signs a reaction happened — color change, gas forms, a precipitate forms, and temperature or light change.
 sa_force_motion_energy|Force, Motion & Energy|Force, Motion & Energy — Five Cue Cards|Average-speed and force formula triangles, Newton's three laws, heat transfer, and wave properties.
+sa_net_force|Force, Motion & Energy|Net Force|Add forces in the same direction, subtract opposite directions — the net force is the overall push or pull.
+sa_balanced_unbalanced_forces|Force, Motion & Energy|Balanced & Unbalanced Forces|Balanced forces cancel and motion doesn't change; unbalanced forces have a winning direction and motion changes.
 sa_newtons_laws|Force, Motion & Energy|Newton's Laws of Motion|Quick cues for the three laws — inertia, F = m × a, and action–reaction.
+sa_friction_surface_type|Force, Motion & Energy|Friction & Surface Type|Smooth surfaces mean less friction, rough surfaces mean more — friction acts opposite the direction of motion.
+sa_distance_time_graphs|Force, Motion & Energy|Distance-Time Graphs|Read motion from the slope — flat means stopped, sloped means constant speed, steeper means faster.
+sa_potential_kinetic_energy|Force, Motion & Energy|Potential & Kinetic Energy|Stored energy of position versus energy of motion — higher position means more gravitational potential energy.
 sa_heat_transfer|Force, Motion & Energy|Heat Transfer|Conduction, convection, and radiation — how heat moves from warmer to cooler areas.
 sa_wave_properties|Force, Motion & Energy|Wave Properties|Amplitude, wavelength, and frequency on a transverse wave — higher frequency means shorter wavelength.
 sa_electromagnetic_spectrum|Force, Motion & Energy|Electromagnetic Spectrum|Radio to gamma by wavelength, frequency, and energy — visible light is a small part of the spectrum.

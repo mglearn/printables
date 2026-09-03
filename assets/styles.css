@@ -189,10 +189,32 @@ main { max-width: var(--maxw); margin: 0 auto; padding: clamp(1.4rem, 3vw, 2.4re
 .filters .spacer { flex: 1; }
 .filters .count { font-weight: 800; color: var(--ink-soft); }
 
+/* --- Collection dashboard (group cards that jump to each section) --- */
+.sa-dashboard {
+  display: grid; gap: clamp(.7rem, 1.8vw, 1rem);
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  margin: .2rem 0 1.8rem;
+}
+.sa-dash-card {
+  display: flex; flex-direction: column; text-decoration: none; color: inherit;
+  background: var(--card); border: 1px solid var(--line); border-radius: 12px;
+  overflow: hidden; box-shadow: var(--shadow-sm); transition: transform .12s ease, box-shadow .12s ease, border-color .12s ease;
+}
+.sa-dash-card:hover { transform: translateY(-2px); box-shadow: var(--shadow); border-color: var(--brand); }
+.sa-dash-card:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
+.sa-dash-thumb { display: block; aspect-ratio: 16 / 9; background: #eef5f2; overflow: hidden; border-bottom: 1px solid var(--line); }
+.sa-dash-thumb img { width: 100%; height: 100%; object-fit: cover; object-position: top center; }
+.sa-dash-body { padding: .6rem .8rem .7rem; display: flex; flex-direction: column; gap: .3rem; }
+.sa-dash-title { font-weight: 800; color: var(--brand-dark); font-size: .98rem; line-height: 1.2; }
+.sa-dash-count {
+  align-self: flex-start; font-size: .74rem; font-weight: 800; color: var(--brand-dark);
+  background: #e2f1ec; border-radius: 999px; padding: .16rem .55rem;
+}
+
 /* --- Gallery grid --- */
 .group-head {
   margin: 1.6rem 0 .2rem; color: var(--brand-dark); font-size: 1.1rem;
-  display: flex; align-items: center; gap: .55rem;
+  display: flex; align-items: center; gap: .55rem; scroll-margin-top: 1rem;
 }
 .group-head::before {
   content: ""; width: .7rem; height: .7rem; border-radius: 3px;

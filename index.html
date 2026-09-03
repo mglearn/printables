@@ -7,14 +7,22 @@
   <meta name="description"
         content="Teacher Printables — free, classroom-ready resources teachers can download, print, and adapt. Science labs and cue cards plus classroom-management tools. No carts, no checkout.">
   <link rel="stylesheet" href="assets/styles.css">
-  <!-- Manifest is loaded only to show a live count on the Student Refusal Forms card. -->
+  <!-- Manifests load a live count on the Student Refusal Forms card and a running
+       total of the printables hosted here (refusal forms + stations + supplemental aids). -->
   <script src="srf/assets/srf-manifest.js" defer></script>
+  <script src="phase_change_stations/assets/pcs-manifest.js" defer></script>
+  <script src="supplemental_aids/assets/sa-manifest.js" defer></script>
   <script src="/printables/licensing-footer.js" defer></script>
   <script>
     document.addEventListener('DOMContentLoaded', function () {
-      var n = (window.SRF_MANIFEST || []).length;
+      var srf = (window.SRF_MANIFEST || []).length;
+      var pcs = (window.PCS_MANIFEST || []).length;
+      var sa  = (window.SA_MANIFEST || []).length;
       var badge = document.getElementById('srf-count');
-      if (badge && n) badge.textContent = n + ' forms';
+      if (badge && srf) badge.textContent = srf + ' forms';
+      var total = srf + pcs + sa;
+      var t = document.getElementById('total-count');
+      if (t && total) t.textContent = total;
     });
   </script>
 </head>
@@ -34,7 +42,8 @@
   <main>
     <section id="collections" aria-labelledby="collections-h">
       <h2 id="collections-h" class="section-title">Collections</h2>
-      <p class="section-sub">Each collection is free to use and share. More on the way.</p>
+      <p class="section-sub">Each collection is free to use and share — <strong><span id="total-count">70</span> free
+        printables</strong> hosted here and counting. More on the way.</p>
 
       <h3 class="group-title">Science</h3>
       <div class="collections">
@@ -63,8 +72,9 @@
           </div>
           <div class="collection-body">
             <h3>Science Supplemental Aids</h3>
-            <p>Visual cue cards for middle school science — mnemonics, diagrams, particle models, and formula
-              triangles across four TEKS strands, grades 6–8. Classroom supports for Science teaching and learning.</p>
+            <p>Visual cue cards for middle school science, grades 6–8 — formula triangles plus mnemonics, diagrams,
+              and particle models across four TEKS strands. Each concept card includes a printable 4-page student
+              activity packet (Retrieve · Apply · ACE · teacher key).</p>
             <span class="collection-meta">
               <span class="collection-count">Grades 6–8 · 41 sheets</span>
               <span class="collection-cta">Open collection</span>

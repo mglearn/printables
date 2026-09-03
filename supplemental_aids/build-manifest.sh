@@ -14,16 +14,24 @@ read -r -d '' CATALOG <<'ROWS' || true
 sa_overview|Start here|All Four Strands — Overview|A one-page map of the collection: the four science strands and the cue cards inside each.
 sa_matter_and_energy|Matter & Energy|Matter & Energy — Five Cue Cards|States of matter, evidence of chemical change (GTPC), physical vs. chemical change, particle motion, and conservation of mass.
 sa_states_of_matter|Matter & Energy|States of Matter|Particle-model quick cue for solid, liquid, and gas — shape, volume, and how more space means more motion.
+sa_chemical_changes|Matter & Energy|Chemical Changes|Four signs a reaction happened — color change, gas forms, a precipitate forms, and temperature or light change.
 sa_force_motion_energy|Force, Motion & Energy|Force, Motion & Energy — Five Cue Cards|Average-speed and force formula triangles, Newton's three laws, heat transfer, and wave properties.
 sa_newtons_laws|Force, Motion & Energy|Newton's Laws of Motion|Quick cues for the three laws — inertia, F = m × a, and action–reaction.
+sa_heat_transfer|Force, Motion & Energy|Heat Transfer|Conduction, convection, and radiation — how heat moves from warmer to cooler areas.
+sa_wave_properties|Force, Motion & Energy|Wave Properties|Amplitude, wavelength, and frequency on a transverse wave — higher frequency means shorter wavelength.
+sa_electromagnetic_spectrum|Force, Motion & Energy|Electromagnetic Spectrum|Radio to gamma by wavelength, frequency, and energy — visible light is a small part of the spectrum.
 sa_earth_and_space|Earth & Space|Earth & Space — Five Cue Cards|Plate boundaries, rock layers and fossils, weather systems, the star life cycle, and galaxy types.
 sa_plate_boundaries|Earth & Space|Plate Boundaries|Earth's moving crust — divergent, convergent, and transform boundaries and what each one forms.
-sa_phases_of_the_moon|Earth & Space|Phases of the Moon|The eight moon phases as seen from Earth, with waxing (growing light) vs. waning (shrinking light).
+sa_rock_cycle|Earth & Space|The Rock Cycle|How igneous, sedimentary, and metamorphic rock change over time through Earth's processes.
+sa_weathering_erosion_deposition|Earth & Space|Weathering, Erosion & Deposition|How Earth's surface changes — weathering breaks it, erosion moves it, deposition drops it.
 sa_weather_water_cycle|Earth & Space|Weather Systems & the Water Cycle|The Sun-powered water cycle — evaporation, condensation, precipitation, runoff, and collection.
+sa_phases_of_the_moon|Earth & Space|Phases of the Moon|The eight moon phases as seen from Earth, with waxing (growing light) vs. waning (shrinking light).
+sa_star_life_cycle|Earth & Space|Star Life Cycle|From nebula to white dwarf, neutron star, or black hole — a star's mass determines its path.
 sa_organisms_environments|Organisms & Environments|Organisms & Environments — Five Cue Cards|Plant and animal cells, cell structures, photosynthesis, ecological succession, and food chains and webs.
 sa_cell_structures|Organisms & Environments|Cell Structures|Mnemonic and picture guide (MWNRCMCV) for eight key cell parts and what each one does.
 sa_photosynthesis|Organisms & Environments|Photosynthesis|The big idea — sunlight, carbon dioxide, and water become glucose and oxygen (6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂).
 sa_food_chains_webs|Organisms & Environments|Food Chains & Food Webs|How energy flows — a single food-chain path versus a food web of many connected chains.
+sa_ecological_succession|Organisms & Environments|Ecological Succession|How ecosystems change over time from bare rock to mature forest, with biodiversity increasing.
 ROWS
 
 esc() { printf '%s' "$1" | sed 's/\\/\\\\/g; s/"/\\"/g'; }

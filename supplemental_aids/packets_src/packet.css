@@ -1,0 +1,66 @@
+/* Shared styles for the formula-triangle activity packets (rendered to a 4-page
+   Letter PDF via headless Chrome). Matches the style of the existing cue-card
+   companion packets: navy accents, cue-focus callout, Round headings, ACE badges,
+   and a per-page footer. */
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+body {
+  font-family: Helvetica, Arial, sans-serif; color: #14213a;
+  font-size: 11.5pt; line-height: 1.42;
+}
+@page { size: Letter; margin: 0.55in 0.7in 0.5in; }
+
+.page { page-break-after: always; position: relative; min-height: 9.15in; padding-bottom: 0.45in; }
+.page:last-child { page-break-after: auto; }
+
+.strand {
+  font-size: 8.5pt; letter-spacing: .05em; text-transform: uppercase; color: #5b6b86;
+  font-weight: 800; border-bottom: 2px solid #e2e8f2; padding-bottom: 5px; margin-bottom: 14px;
+}
+h1 { font-size: 18pt; color: #0b3d6b; margin: 0 0 5px; letter-spacing: -.01em; }
+.instr { color: #4a5876; font-style: italic; margin: 0 0 12px; font-size: 10pt; }
+
+.cuebox {
+  border: 1.5px solid #bcd3e8; background: #eef5fb; border-radius: 8px;
+  padding: 9px 12px; margin: 0 0 15px; font-size: 10.5pt;
+}
+.cuebox .lbl { font-weight: 800; color: #0b3d6b; text-transform: uppercase; font-size: 8.5pt; letter-spacing: .04em; }
+
+h2 { font-size: 12.5pt; color: #0b3d6b; margin: 15px 0 8px; }
+ol { margin: 0; padding-left: 22px; }
+ol li { margin: 0 0 9px; }
+.q { margin: 0 0 4px; }
+.lines { border-bottom: 1px solid #c7d2e0; height: 1.35em; margin: 5px 0; }
+.sketchbox { border: 1px dashed #b9c6d8; border-radius: 8px; height: 2.0in; margin-top: 6px; }
+
+/* ACE section */
+.ace-row { display: grid; grid-template-columns: 40px 1fr; gap: 4px 12px; margin: 2px 0 12px; align-items: start; }
+.badge {
+  width: 30px; height: 30px; border-radius: 50%; background: #0b3d6b; color: #fff;
+  font-weight: 800; font-size: 14pt; display: flex; align-items: center; justify-content: center;
+}
+.ace-row h3 { margin: 2px 0 4px; color: #0b3d6b; font-size: 11.5pt; }
+.confidence {
+  border: 1.5px solid #bcd3e8; background: #f5f9fd; border-radius: 8px;
+  padding: 8px 12px; font-size: 10pt; margin-top: 8px;
+}
+.confidence b { color: #0b3d6b; }
+
+/* Teacher key */
+.key h3 { color: #0b3d6b; font-size: 11.5pt; margin: 13px 0 3px; }
+.key h3:first-of-type { margin-top: 4px; }
+.key ol { padding-left: 20px; }
+.key ol li { margin: 0 0 3px; }
+.key p { margin: 2px 0; }
+.keynote {
+  border-left: 4px solid #0b3d6b; background: #f5f9fd; border-radius: 0 8px 8px 0;
+  padding: 9px 13px; margin-top: 14px; font-size: 10pt;
+}
+.keynote .lbl { font-weight: 800; color: #0b3d6b; }
+.warn { color: #a12; font-weight: 700; font-size: 10pt; margin: 0 0 10px; }
+
+.footer {
+  position: absolute; bottom: 0; left: 0; right: 0;
+  font-size: 8.5pt; color: #7a8aa3; border-top: 1px solid #e2e8f2; padding-top: 5px;
+  display: flex; justify-content: space-between;
+}

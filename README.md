@@ -41,7 +41,9 @@ printables/
     build-manifest.sh   Regenerates the manifest (strand, title, blurb, packet)
     build-pdfs.sh       Makes a print-ready 2-page PDF next to each PNG
     build-packets.sh    Splits activity_packets_master.pdf into per-card packets
+    build-formula-packets.sh  Renders packets_src/*.html to formula-triangle packets
     activity_packets_master.pdf   Combined 4-page-per-concept activity packets
+    packets_src/        HTML sources for the formula-triangle packets (+ packet.css)
     sa_*.png / *.pdf    The strand sheets (color PNG + 2-page print PDF)
     sa_*_packet.pdf     4-page activity packet per concept card (Retrieve/Apply/ACE/key)
 ```
@@ -101,6 +103,12 @@ manifest auto-includes a packet whenever `sa_<base>_packet.pdf` exists, so the
 overview and the four strand-overview posters simply have none. To revise a
 packet, replace the master PDF and re-run `build-packets.sh` then
 `build-manifest.sh`.
+
+The **Formula Triangles** cards are a separate group; their packets are authored
+as HTML in `packets_src/` (shared `packet.css`) and rendered to
+`sa_<base>_packet.pdf` by `build-formula-packets.sh` (headless Chrome, 4 pages
+each). To revise one, edit its `packets_src/*.html`, then run
+`build-formula-packets.sh` and `build-manifest.sh`.
 
 ## Deploy
 

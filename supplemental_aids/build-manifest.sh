@@ -12,6 +12,16 @@ cd "$(dirname "$0")"
 # the individual concept cue cards.
 read -r -d '' CATALOG <<'ROWS' || true
 sa_overview|Start here|All Four Strands — Overview|A one-page map of the collection: the four science strands and the cue cards inside each.
+sa_speed_formula_triangle|Formula Triangles|Average Speed (d = s × t)|Distance, speed, and time — cover the unknown to read d = s × t, s = d ÷ t, t = d ÷ s.
+sa_force_formula_triangle|Formula Triangles|Force (F = m × a)|Force, mass, and acceleration — F = m × a, m = F ÷ a, a = F ÷ m.
+sa_weight_formula_triangle|Formula Triangles|Weight (W = m × g)|Weight, mass, and gravity — W = m × g, m = W ÷ g, g = W ÷ m.
+sa_momentum_formula_triangle|Formula Triangles|Momentum (p = m × v)|Momentum, mass, and velocity — p = m × v, m = p ÷ v, v = p ÷ m.
+sa_density_formula_triangle|Formula Triangles|Density (m = d × v)|Mass, density, and volume — m = d × v, d = m ÷ v, v = m ÷ d.
+sa_pressure_formula_triangle|Formula Triangles|Pressure (P = F ÷ A)|Pressure, force, and area — P = F ÷ A, F = P × A, A = F ÷ P.
+sa_work_formula_triangle|Formula Triangles|Work (W = F × d)|Work, force, and distance — W = F × d, F = W ÷ d, d = W ÷ F.
+sa_power_formula_triangle|Formula Triangles|Power (P = W ÷ t)|Power, work, and time — P = W ÷ t, W = P × t, t = W ÷ P.
+sa_wave_speed_formula_triangle|Formula Triangles|Wave Speed (v = f × λ)|Wave speed, frequency, and wavelength — v = f × λ, f = v ÷ λ, λ = v ÷ f.
+sa_ohms_law_formula_triangle|Formula Triangles|Ohm's Law (V = I × R)|Voltage, current, and resistance — V = I × R, I = V ÷ R, R = V ÷ I.
 sa_matter_and_energy|Matter & Energy|Matter & Energy — Five Cue Cards|States of matter, evidence of chemical change (GTPC), physical vs. chemical change, particle motion, and conservation of mass.
 sa_atomic_structure|Matter & Energy|Atomic Structure|Protons (positive, in the nucleus), neutrons (no charge, in the nucleus), and electrons (negative, outside the nucleus).
 sa_elements_compounds_mixtures|Matter & Energy|Elements, Compounds & Mixtures|How particles are grouped — one kind of atom, elements chemically bonded, or substances mixed but not bonded.

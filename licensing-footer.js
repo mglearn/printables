@@ -1,5 +1,5 @@
 /* ============================================================
-   Teachers Give Teachers (TGT) — licensing footer (unobtrusive)
+   Teacher Printables — licensing footer (unobtrusive)
    Appends a quiet one-line licensing notice to the end of the
    page, linking to /printables/licensing.html. Injects its own scoped
    styles so it cannot clash with a page's existing CSS.

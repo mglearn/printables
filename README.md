@@ -1,4 +1,4 @@
-# Teachers Give Teachers (TGT)
+# Teacher Printables
 
 A space where teachers freely share ideas and creations — the "give one, take one"
 answer to Teachers Pay Teachers. Everything here is free to download, print, and adapt.
@@ -33,7 +33,19 @@ printables/
     build-manifest.sh   Regenerates the manifest (title, transition, focus question)
     build-pdfs.sh       Makes a print-ready 2-page PDF next to each PNG
     pcs_*.png / *.pdf   The station sheets (color PNG + 2-page print PDF)
+  supplemental_aids/    Science Supplemental Aids collection
+    index.html          Gallery of the strand sheets (flat list, no categories)
+    assets/
+      sa-app.js         Gallery logic (vanilla JS)
+      sa-manifest.js    AUTO-GENERATED — do not edit by hand
+    build-manifest.sh   Regenerates the manifest (strand, title, blurb)
+    build-pdfs.sh       Makes a print-ready 2-page PDF next to each PNG
+    sa_*.png / *.pdf    The strand sheets (color PNG + 2-page print PDF)
 ```
+
+The dashboard groups the cards into a **Science** section (Phase Change Station
+Lab, Science Supplemental Aids, CER & ACE Case Files) and a **Classroom
+Management** section (Student Refusal Forms, Getting to Know You).
 
 The **Getting to Know You** card links out to its own repo/site at
 `mglearn.github.io/gtky`. The **CER & ACE Case Files** card links out to the
@@ -61,6 +73,19 @@ Learning Activities Hub at `mglearn.github.io/activities/science/case-files/`.
    ```bash
    ./build-pdfs.sh        # 2-page PDF (color + B&W print page) per PNG
    ./build-manifest.sh    # regenerates assets/pcs-manifest.js
+   ```
+   Both scripts warn if a PNG is missing from the catalog (or vice-versa).
+
+## Adding or updating Supplemental Aids
+
+1. Drop the new `sa_*.png` into `supplemental_aids/`.
+2. Add a row to the `CATALOG` in `supplemental_aids/build-manifest.sh` (base name,
+   TEKS strand, exact title, and a short "what's on it" blurb — all curated from
+   the artwork). Row order is the gallery display order.
+3. From `supplemental_aids/`, run:
+   ```bash
+   ./build-pdfs.sh        # 2-page PDF (color + B&W print page) per PNG
+   ./build-manifest.sh    # regenerates assets/sa-manifest.js
    ```
    Both scripts warn if a PNG is missing from the catalog (or vice-versa).
 

@@ -38,9 +38,12 @@ printables/
     assets/
       sa-app.js         Gallery logic (vanilla JS)
       sa-manifest.js    AUTO-GENERATED — do not edit by hand
-    build-manifest.sh   Regenerates the manifest (strand, title, blurb)
+    build-manifest.sh   Regenerates the manifest (strand, title, blurb, packet)
     build-pdfs.sh       Makes a print-ready 2-page PDF next to each PNG
+    build-packets.sh    Splits activity_packets_master.pdf into per-card packets
+    activity_packets_master.pdf   Combined 4-page-per-concept activity packets
     sa_*.png / *.pdf    The strand sheets (color PNG + 2-page print PDF)
+    sa_*_packet.pdf     4-page activity packet per concept card (Retrieve/Apply/ACE/key)
 ```
 
 The dashboard groups the cards into a **Science** section (Phase Change Station
@@ -85,9 +88,19 @@ Learning Activities Hub at `mglearn.github.io/activities/science/case-files/`.
 3. From `supplemental_aids/`, run:
    ```bash
    ./build-pdfs.sh        # 2-page PDF (color + B&W print page) per PNG
-   ./build-manifest.sh    # regenerates assets/sa-manifest.js
+   ./build-packets.sh     # splits activity_packets_master.pdf into sa_*_packet.pdf
+   ./build-manifest.sh    # regenerates assets/sa-manifest.js (picks up pdf + packet)
    ```
    Both scripts warn if a PNG is missing from the catalog (or vice-versa).
+
+Each concept card also offers a 4-page **activity packet** (Retrieve · Apply · ACE
+· teacher key). The packets live combined in `activity_packets_master.pdf`
+(4 pages per concept, grouped by strand); `build-packets.sh` splits them into one
+`sa_<base>_packet.pdf` per card via the base→first-page table it carries. The
+manifest auto-includes a packet whenever `sa_<base>_packet.pdf` exists, so the
+overview and the four strand-overview posters simply have none. To revise a
+packet, replace the master PDF and re-run `build-packets.sh` then
+`build-manifest.sh`.
 
 ## Deploy
 

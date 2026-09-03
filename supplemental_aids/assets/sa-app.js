@@ -59,6 +59,8 @@
     var dls = el('span', 'card-dls');
     dls.appendChild(dl(w.file, '↓ PNG', 'Download ' + w.title + ' as PNG'));
     if (w.pdf) dls.appendChild(dl(w.pdf, '↓ PDF', 'Download ' + w.title + ' as a print-ready PDF'));
+    if (w.packet) dls.appendChild(dl(w.packet, '↓ Activity packet',
+      'Download the ' + w.title + ' activity packet (Retrieve · Apply · ACE · teacher key)'));
     cap.appendChild(dls);
 
     fig.appendChild(cap);
@@ -80,11 +82,14 @@
     var img = document.getElementById('lightbox-img');
     var dlPng = document.getElementById('lightbox-dl-png');
     var dlPdf = document.getElementById('lightbox-dl-pdf');
+    var dlPacket = document.getElementById('lightbox-dl-packet');
     img.src = w.file;
     img.alt = w.title;
     dlPng.href = w.file;
     if (w.pdf) { dlPdf.href = w.pdf; dlPdf.style.display = ''; }
     else { dlPdf.style.display = 'none'; }
+    if (w.packet) { dlPacket.href = w.packet; dlPacket.style.display = ''; }
+    else { dlPacket.style.display = 'none'; }
     lb.classList.add('open');
     lb.setAttribute('aria-hidden', 'false');
     document.getElementById('lightbox-close').focus();

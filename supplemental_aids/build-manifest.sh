@@ -61,8 +61,13 @@ n=0
     pdf="${base}.pdf"
     pdfval=""
     [ -f "$pdf" ] && pdfval="$pdf"
-    printf '  { "strand": "%s", "title": "%s", "blurb": "%s", "file": "%s", "pdf": "%s" },\n' \
-      "$(esc "$strand")" "$(esc "$title")" "$(esc "$blurb")" "$png" "$pdfval"
+    # Optional 4-page activity packet (built by build-packets.sh); concept cards
+    # have one, the overview and strand-overview posters do not.
+    packet="${base}_packet.pdf"
+    packetval=""
+    [ -f "$packet" ] && packetval="$packet"
+    printf '  { "strand": "%s", "title": "%s", "blurb": "%s", "file": "%s", "pdf": "%s", "packet": "%s" },\n' \
+      "$(esc "$strand")" "$(esc "$title")" "$(esc "$blurb")" "$png" "$pdfval" "$packetval"
     n=$((n+1))
   done <<< "$CATALOG"
   echo "];"

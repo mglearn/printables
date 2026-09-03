@@ -86,6 +86,12 @@ main { max-width: var(--maxw); margin: 0 auto; padding: clamp(1.4rem, 3vw, 2.4re
 }
 .section-sub { color: var(--ink-soft); margin: 0 0 1.4rem; max-width: 70ch; }
 .section-sub.wide { max-width: none; }
+.use-list {
+  color: var(--ink-soft); margin: 0 0 1rem; padding-left: 1.5rem;
+  display: grid; gap: .55rem;
+}
+.use-list li { padding-left: .25rem; }
+.use-list strong { color: var(--ink); }
 
 /* --- Dashboard collection cards --- */
 .group-title {

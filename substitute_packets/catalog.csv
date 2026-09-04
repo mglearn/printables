@@ -1,12 +1,12 @@
 id,title,grade,subject,duration_minutes,calculator_allowed,standards,standards_status,status,version,href
-G03_MATH_MultiplicationShares_01,Multiplication and Fair Shares,3,Mathematics,45,true,3.4D; 3.4E; 3.4H,pending,draft,0.1.0,G03_MATH_MultiplicationShares_01/index.html
-G03_RLA_CentralMessage_01,Characters and the Lesson of a Story,3,Reading/ELA,45,false,3.8A; 3.8B; 3.7C,pending,draft,0.1.0,G03_RLA_CentralMessage_01/index.html
-G03_SCI_MatterProperties_01,Sorting Matter by Its Properties,3,Science,45,false,[object Object]; [object Object],pending,draft,0.1.0,G03_SCI_MatterProperties_01/index.html
-G03_SOC_CommunitiesCompare_01,"Comparing Communities: City, Suburb, and Country",3,Social Studies,45,false,3.SOC.communities.compare; 3.SOC.humangeography.place; 3.SOC.skills.mapchart,pending,draft,0.1.0,G03_SOC_CommunitiesCompare_01/index.html
-G04_MATH_FractionsDecimals_01,Fractions and Decimals: Compare and Combine,4,Mathematics,45,true,4.3C; 4.3E; 4.2G,pending,draft,0.1.0,G04_MATH_FractionsDecimals_01/index.html
-G04_RLA_MainIdeaSummary_01,"Main Idea, Details, and Author's Purpose",4,Reading/ELA,45,false,4.6; 4.6; 4.9,pending,draft,0.1.0,G04_RLA_MainIdeaSummary_01/index.html
-G04_SCI_FoodWebs_01,Food Webs and Energy Flow,4,Science,45,false,[object Object]; [object Object],pending,draft,0.1.0,G04_SCI_FoodWebs_01/index.html
-G04_SOC_TexasRegions_01,The Four Regions of Texas,4,Social Studies,45,false,4.geo.regions(soc); 4.geo.wayoflife(soc); 4.skills.maps(soc),pending,draft,0.1.0,G04_SOC_TexasRegions_01/index.html
+G03_MATH_MultiplicationShares_01,Multiplication and Fair Shares,3,Mathematics,45,true,3.4D; 3.4E; 3.4H; 3.4K,verified,draft,0.1.0,G03_MATH_MultiplicationShares_01/index.html
+G03_RLA_CentralMessage_01,Characters and the Lesson of a Story,3,Reading/ELA,45,false,3.8A; 3.8B; 3.7C,verified,draft,0.1.0,G03_RLA_CentralMessage_01/index.html
+G03_SCI_MatterProperties_01,Sorting Matter by Its Properties,3,Science,45,false,3.6A; 3.6B,verified,draft,0.1.0,G03_SCI_MatterProperties_01/index.html
+G03_SOC_CommunitiesCompare_01,"Comparing Communities: City, Suburb, and Country",3,Social Studies,45,false,3.2B; 3.3B; 3.4C,verified,draft,0.1.0,G03_SOC_CommunitiesCompare_01/index.html
+G04_MATH_FractionsDecimals_01,Fractions and Decimals: Compare and Combine,4,Mathematics,45,true,4.3C; 4.3D; 4.3E; 4.2G,verified,draft,0.1.0,G04_MATH_FractionsDecimals_01/index.html
+G04_RLA_MainIdeaSummary_01,"Main Idea, Details, and Author's Purpose",4,Reading/ELA,45,false,4.6G; 4.7D; 4.10A,verified,draft,0.1.0,G04_RLA_MainIdeaSummary_01/index.html
+G04_SCI_FoodWebs_01,Food Webs and Energy Flow,4,Science,45,false,4.12B; 4.12A,verified,draft,0.1.0,G04_SCI_FoodWebs_01/index.html
+G04_SOC_TexasRegions_01,The Four Regions of Texas,4,Social Studies,45,false,4.6A; 4.11B; 4.20A,verified,draft,0.1.0,G04_SOC_TexasRegions_01/index.html
 G05_MATH_FractionsDecimals_01,Fractions and Decimals in Everyday Problems,5,Mathematics,45,true,5.2B; 5.3H; 5.2A,verified,draft,0.1.0,G05_MATH_FractionsDecimals_01/index.html
 G05_RLA_ThemeSummary_01,Theme and Summary in a Short Story,5,Reading/ELA,45,false,5.8A; 5.7D; 5.7C,verified,draft,0.1.0,G05_RLA_ThemeSummary_01/index.html
 G05_SCI_MixturesSolutions_01,Mixtures and Solutions,5,Science,45,false,5.6B; 5.6C,verified,draft,0.1.0,G05_SCI_MixturesSolutions_01/index.html

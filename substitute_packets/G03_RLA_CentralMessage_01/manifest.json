@@ -21,33 +21,33 @@
         "canonical_code": "110.5.b.8.A",
         "section": "19 TAC §110.5",
         "strand": "Multiple genres",
-        "focus": "inferring the central message or lesson of a story and supporting it with a text detail",
-        "verification_status": "pending",
-        "source_url": null
+        "focus": "inferring the central message/lesson (theme) of a literary text, distinct from topic",
+        "verification_status": "verified",
+        "source_url": "https://www.law.cornell.edu/regulations/texas/19-Tex-Admin-Code-SS-110-5"
       },
       {
         "code": "3.8B",
         "canonical_code": "110.5.b.8.B",
         "section": "19 TAC §110.5",
         "strand": "Multiple genres",
-        "focus": "describing the main character and the character's feelings or actions",
-        "verification_status": "pending",
-        "source_url": null
+        "focus": "describing/analyzing characters and their relationships in a literary text",
+        "verification_status": "verified",
+        "source_url": "https://www.law.cornell.edu/regulations/texas/19-Tex-Admin-Code-SS-110-5"
       },
       {
         "code": "3.7C",
         "canonical_code": "110.5.b.7.C",
         "section": "19 TAC §110.5",
         "strand": "Response skills",
-        "focus": "using a text detail to support a response",
-        "verification_status": "pending",
-        "source_url": null
+        "focus": "using text details/evidence to support a response",
+        "verification_status": "verified",
+        "source_url": "https://www.law.cornell.edu/regulations/texas/19-Tex-Admin-Code-SS-110-5"
       }
     ],
     "alignment_note": "Provisional — pending educator verification against the current official TAC source. Standards paraphrased, not quoted. Codes to be verified separately.",
     "supporting": [],
     "lock": "standards/standards-lock.json",
-    "verified_on": null
+    "verified_on": "2026-09-04"
   },
   "calculator_allowed": false,
   "color_required": false,

@@ -21,20 +21,25 @@
         {
           "code": "3.4D",
           "section": "19 TAC §111.5",
-          "status": "pending"
+          "status": "verified"
         },
         {
           "code": "3.4E",
           "section": "19 TAC §111.5",
-          "status": "pending"
+          "status": "verified"
         },
         {
           "code": "3.4H",
           "section": "19 TAC §111.5",
-          "status": "pending"
+          "status": "verified"
+        },
+        {
+          "code": "3.4K",
+          "section": "19 TAC §111.5",
+          "status": "verified"
         }
       ],
-      "standards_status": "pending",
+      "standards_status": "verified",
       "status": "draft",
       "version": "0.1.0",
       "href": "G03_MATH_MultiplicationShares_01/index.html",
@@ -65,20 +70,20 @@
         {
           "code": "3.8A",
           "section": "19 TAC §110.5",
-          "status": "pending"
+          "status": "verified"
         },
         {
           "code": "3.8B",
           "section": "19 TAC §110.5",
-          "status": "pending"
+          "status": "verified"
         },
         {
           "code": "3.7C",
           "section": "19 TAC §110.5",
-          "status": "pending"
+          "status": "verified"
         }
       ],
-      "standards_status": "pending",
+      "standards_status": "verified",
       "status": "draft",
       "version": "0.1.0",
       "href": "G03_RLA_CentralMessage_01/index.html",
@@ -107,17 +112,17 @@
       "color_required": false,
       "standards": [
         {
-          "code": "",
-          "section": "",
-          "status": "pending"
+          "code": "3.6A",
+          "section": "19 TAC §112.5",
+          "status": "verified"
         },
         {
-          "code": "",
-          "section": "",
-          "status": "pending"
+          "code": "3.6B",
+          "section": "19 TAC §112.5",
+          "status": "verified"
         }
       ],
-      "standards_status": "pending",
+      "standards_status": "verified",
       "status": "draft",
       "version": "0.1.0",
       "href": "G03_SCI_MatterProperties_01/index.html",
@@ -146,22 +151,22 @@
       "color_required": false,
       "standards": [
         {
-          "code": "3.SOC.communities.compare",
-          "section": "",
-          "status": "pending"
+          "code": "3.2B",
+          "section": "19 TAC §113.14",
+          "status": "verified"
         },
         {
-          "code": "3.SOC.humangeography.place",
-          "section": "",
-          "status": "pending"
+          "code": "3.3B",
+          "section": "19 TAC §113.14",
+          "status": "verified"
         },
         {
-          "code": "3.SOC.skills.mapchart",
-          "section": "",
-          "status": "pending"
+          "code": "3.4C",
+          "section": "19 TAC §113.14",
+          "status": "verified"
         }
       ],
-      "standards_status": "pending",
+      "standards_status": "verified",
       "status": "draft",
       "version": "0.1.0",
       "href": "G03_SOC_CommunitiesCompare_01/index.html",
@@ -193,20 +198,25 @@
         {
           "code": "4.3C",
           "section": "19 TAC §111.6",
-          "status": "pending"
+          "status": "verified"
+        },
+        {
+          "code": "4.3D",
+          "section": "19 TAC §111.6",
+          "status": "verified"
         },
         {
           "code": "4.3E",
           "section": "19 TAC §111.6",
-          "status": "pending"
+          "status": "verified"
         },
         {
           "code": "4.2G",
           "section": "19 TAC §111.6",
-          "status": "pending"
+          "status": "verified"
         }
       ],
-      "standards_status": "pending",
+      "standards_status": "verified",
       "status": "draft",
       "version": "0.1.0",
       "href": "G04_MATH_FractionsDecimals_01/index.html",
@@ -235,22 +245,22 @@
       "color_required": false,
       "standards": [
         {
-          "code": "4.6",
+          "code": "4.6G",
           "section": "19 TAC §110.6",
-          "status": "pending"
+          "status": "verified"
         },
         {
-          "code": "4.6",
+          "code": "4.7D",
           "section": "19 TAC §110.6",
-          "status": "pending"
+          "status": "verified"
         },
         {
-          "code": "4.9",
+          "code": "4.10A",
           "section": "19 TAC §110.6",
-          "status": "pending"
+          "status": "verified"
         }
       ],
-      "standards_status": "pending",
+      "standards_status": "verified",
       "status": "draft",
       "version": "0.1.0",
       "href": "G04_RLA_MainIdeaSummary_01/index.html",
@@ -279,17 +289,17 @@
       "color_required": false,
       "standards": [
         {
-          "code": "",
-          "section": "",
-          "status": "pending"
+          "code": "4.12B",
+          "section": "19 TAC §112.6",
+          "status": "verified"
         },
         {
-          "code": "",
-          "section": "",
-          "status": "pending"
+          "code": "4.12A",
+          "section": "19 TAC §112.6",
+          "status": "verified"
         }
       ],
-      "standards_status": "pending",
+      "standards_status": "verified",
       "status": "draft",
       "version": "0.1.0",
       "href": "G04_SCI_FoodWebs_01/index.html",
@@ -318,22 +328,22 @@
       "color_required": false,
       "standards": [
         {
-          "code": "4.geo.regions(soc)",
-          "section": "",
-          "status": "pending"
+          "code": "4.6A",
+          "section": "19 TAC §113.15",
+          "status": "verified"
         },
         {
-          "code": "4.geo.wayoflife(soc)",
-          "section": "",
-          "status": "pending"
+          "code": "4.11B",
+          "section": "19 TAC §113.15",
+          "status": "verified"
         },
         {
-          "code": "4.skills.maps(soc)",
-          "section": "",
-          "status": "pending"
+          "code": "4.20A",
+          "section": "19 TAC §113.15",
+          "status": "verified"
         }
       ],
-      "standards_status": "pending",
+      "standards_status": "verified",
       "status": "draft",
       "version": "0.1.0",
       "href": "G04_SOC_TexasRegions_01/index.html",

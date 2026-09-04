@@ -23,27 +23,36 @@
         "canonical_code": "111.6.b.3.C",
         "section": "19 TAC §111.6",
         "strand": "Number and operations",
-        "focus": "determine equivalent fractions and compare two fractions with the same denominator using a model",
-        "verification_status": "pending",
-        "source_url": null
+        "focus": "identifying equivalent fractions",
+        "verification_status": "verified",
+        "source_url": "https://www.law.cornell.edu/regulations/texas/19-Tex-Admin-Code-SS-111-6"
+      },
+      {
+        "code": "4.3D",
+        "canonical_code": "111.6.b.3.D",
+        "section": "19 TAC §111.6",
+        "strand": "Number and operations",
+        "focus": "comparing two fractions using >, =, <",
+        "verification_status": "verified",
+        "source_url": "https://www.law.cornell.edu/regulations/texas/19-Tex-Admin-Code-SS-111-6"
       },
       {
         "code": "4.3E",
         "canonical_code": "111.6.b.3.E",
         "section": "19 TAC §111.6",
         "strand": "Number and operations",
-        "focus": "add and subtract fractions with like (equal) denominators using a model",
-        "verification_status": "pending",
-        "source_url": null
+        "focus": "adding and subtracting fractions with like (equal) denominators",
+        "verification_status": "verified",
+        "source_url": "https://www.law.cornell.edu/regulations/texas/19-Tex-Admin-Code-SS-111-6"
       },
       {
         "code": "4.2G",
         "canonical_code": "111.6.b.2.G",
         "section": "19 TAC §111.6",
         "strand": "Number and operations",
-        "focus": "relate a fraction with a denominator of 10 or 100 to its decimal (tenths and hundredths)",
-        "verification_status": "pending",
-        "source_url": null
+        "focus": "relating fractions to decimals (tenths and hundredths)",
+        "verification_status": "verified",
+        "source_url": "https://www.law.cornell.edu/regulations/texas/19-Tex-Admin-Code-SS-111-6"
       }
     ],
     "supporting": [
@@ -58,7 +67,7 @@
       }
     ],
     "alignment_note": "Provisional — pending educator verification against the current official TAC source. Standards paraphrased, not quoted. Not a claim of TEKS alignment.",
-    "verified_on": null,
+    "verified_on": "2026-09-04",
     "lock": "standards/standards-lock.json"
   },
   "calculator_allowed": true,

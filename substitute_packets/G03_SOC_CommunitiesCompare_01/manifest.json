@@ -17,28 +17,37 @@
     "framework": "19 TAC Chapter 113 (Grade 3 Social Studies)",
     "primary": [
       {
-        "code": "3.SOC.communities.compare",
-        "strand": "Geography / Communities",
-        "focus": "comparing urban, suburban, and rural communities and how the human and physical features of a place shape daily life, jobs, and travel",
-        "verification_status": "pending"
+        "code": "3.2B",
+        "canonical_code": "113.14.c.2.B",
+        "section": "19 TAC §113.14",
+        "strand": "History",
+        "focus": "comparing communities and how they meet common needs (human geography / community comparison)",
+        "verification_status": "verified",
+        "source_url": "https://www.law.cornell.edu/regulations/texas/19-Tex-Admin-Code-SS-113-14"
       },
       {
-        "code": "3.SOC.humangeography.place",
+        "code": "3.3B",
+        "canonical_code": "113.14.c.3.B",
+        "section": "19 TAC §113.14",
         "strand": "Geography",
-        "focus": "describing how where people live shapes how they meet basic needs, do their work, and get from place to place",
-        "verification_status": "pending"
+        "focus": "comparing how different communities relate to their physical environment (human geography)",
+        "verification_status": "verified",
+        "source_url": "https://www.law.cornell.edu/regulations/texas/19-Tex-Admin-Code-SS-113-14"
       },
       {
-        "code": "3.SOC.skills.mapchart",
-        "strand": "Social studies skills",
-        "focus": "using and interpreting a simple picture chart and a table to compare communities with evidence",
-        "verification_status": "pending"
+        "code": "3.4C",
+        "canonical_code": "113.14.c.4.C",
+        "section": "19 TAC §113.14",
+        "strand": "Geography",
+        "focus": "map skills: identifying, creating, and interpreting maps and their elements",
+        "verification_status": "verified",
+        "source_url": "https://www.law.cornell.edu/regulations/texas/19-Tex-Admin-Code-SS-113-14"
       }
     ],
     "supporting": [],
     "alignment_note": "Provisional — pending educator verification against the current official TAC source. Standards are paraphrased, not quoted; no specific section number is asserted. Not aligned to the TEKS until reviewed.",
-    "lock": null,
-    "verified_on": null
+    "lock": "standards/standards-lock.json",
+    "verified_on": "2026-09-04"
   },
   "calculator_allowed": false,
   "color_required": false,

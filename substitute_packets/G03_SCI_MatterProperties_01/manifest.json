@@ -18,28 +18,28 @@
     "knowledge_and_skills": null,
     "primary": [
       {
-        "code": null,
-        "canonical_code": null,
-        "section": null,
+        "code": "3.6A",
+        "canonical_code": "112.5.b.6.A",
+        "section": "19 TAC §112.5",
         "strand": "Matter and energy",
-        "focus": "classify matter by observable physical properties such as mass, magnetism, and whether an object sinks or floats in water",
-        "verification_status": "pending",
-        "source_url": null
+        "focus": "measuring/testing observable and measurable physical properties of matter",
+        "verification_status": "verified",
+        "source_url": "https://www.law.cornell.edu/regulations/texas/19-Tex-Admin-Code-SS-112-5"
       },
       {
-        "code": null,
-        "canonical_code": null,
-        "section": null,
+        "code": "3.6B",
+        "canonical_code": "112.5.b.6.B",
+        "section": "19 TAC §112.5",
         "strand": "Matter and energy",
-        "focus": "describe and compare the physical states of matter: solid, liquid, and gas",
-        "verification_status": "pending",
-        "source_url": null
+        "focus": "classifying/sorting matter (solids, liquids, gases) by observable properties",
+        "verification_status": "verified",
+        "source_url": "https://www.law.cornell.edu/regulations/texas/19-Tex-Admin-Code-SS-112-5"
       }
     ],
     "alignment_note": "Provisional — specific section number and student expectation codes are pending educator verification against the current official TAC source. Standards paraphrased, not quoted; not claimed as aligned to the TEKS.",
     "supporting": [],
     "lock": "standards/standards-lock.json",
-    "verified_on": null
+    "verified_on": "2026-09-04"
   },
   "calculator_allowed": false,
   "color_required": false,

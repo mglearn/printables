@@ -18,28 +18,28 @@
     "knowledge_and_skills": null,
     "primary": [
       {
-        "code": null,
-        "canonical_code": null,
-        "section": null,
+        "code": "4.12B",
+        "canonical_code": "112.6.b.12.B",
+        "section": "19 TAC §112.6",
         "strand": "Organisms and environments",
-        "focus": "how energy flows through a food web, from the Sun to producers to consumers",
-        "verification_status": "pending",
-        "source_url": null
+        "focus": "food webs: cycling of matter and energy flow, roles of producers/consumers/decomposers (predicting effects of change)",
+        "verification_status": "verified",
+        "source_url": "https://teksguide.org/teks/s412b/overview"
       },
       {
-        "code": null,
-        "canonical_code": null,
-        "section": null,
+        "code": "4.12A",
+        "canonical_code": "112.6.b.12.A",
+        "section": "19 TAC §112.6",
         "strand": "Organisms and environments",
-        "focus": "roles of producers, consumers, and decomposers in an ecosystem, and predicting the effect of a change to the food web",
-        "verification_status": "pending",
-        "source_url": null
+        "focus": "role of producers making food (photosynthesis) within the cycling of matter",
+        "verification_status": "verified",
+        "source_url": "https://www.law.cornell.edu/regulations/texas/19-Tex-Admin-Code-SS-112-6"
       }
     ],
     "alignment_note": "Provisional — specific section number and student expectation codes are pending educator verification against the current official TAC source. Standards paraphrased, not quoted; not claimed as aligned to the TEKS.",
     "supporting": [],
     "lock": "standards/standards-lock.json",
-    "verified_on": null
+    "verified_on": "2026-09-04"
   },
   "calculator_allowed": false,
   "color_required": false,

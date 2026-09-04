@@ -17,28 +17,37 @@
     "framework": "19 TAC Chapter 113 (Grade 4 Social Studies)",
     "primary": [
       {
-        "code": "4.geo.regions(soc)",
+        "code": "4.6A",
+        "canonical_code": "113.15.c.6.A",
+        "section": "19 TAC §113.15",
         "strand": "Geography",
-        "focus": "identifying the natural regions of Texas (Mountains and Basins, Great Plains, North Central Plains, Coastal Plains) by landform and climate",
-        "verification_status": "pending"
+        "focus": "the natural/physical regions of Texas and their characteristics",
+        "verification_status": "verified",
+        "source_url": "https://www.law.cornell.edu/regulations/texas/19-Tex-Admin-Code-SS-113-15"
       },
       {
-        "code": "4.geo.wayoflife(soc)",
-        "strand": "Geography",
-        "focus": "explaining how physical geography and climate shape settlement and ways of life across the Texas regions",
-        "verification_status": "pending"
+        "code": "4.11B",
+        "canonical_code": "113.15.c.11.B",
+        "section": "19 TAC §113.15",
+        "strand": "Economics",
+        "focus": "how geography shapes economic activity in Texas",
+        "verification_status": "verified",
+        "source_url": "https://www.law.cornell.edu/regulations/texas/19-Tex-Admin-Code-SS-113-15"
       },
       {
-        "code": "4.skills.maps(soc)",
+        "code": "4.20A",
+        "canonical_code": "113.15.c.20.A",
+        "section": "19 TAC §113.15",
         "strand": "Social studies skills",
-        "focus": "using and interpreting a map and a table to locate Texas regions and compare them with evidence",
-        "verification_status": "pending"
+        "focus": "map skills: applying map elements to create and interpret maps",
+        "verification_status": "verified",
+        "source_url": "https://www.law.cornell.edu/regulations/texas/19-Tex-Admin-Code-SS-113-15"
       }
     ],
     "supporting": [],
     "alignment_note": "Provisional — pending educator verification against the current official TAC source. Standards are paraphrased, not quoted; no specific section number is asserted. Not aligned to the TEKS until reviewed.",
-    "lock": null,
-    "verified_on": null
+    "lock": "standards/standards-lock.json",
+    "verified_on": "2026-09-04"
   },
   "calculator_allowed": false,
   "color_required": false,

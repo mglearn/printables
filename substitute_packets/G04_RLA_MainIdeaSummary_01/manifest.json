@@ -17,37 +17,37 @@
     "framework": "19 TAC §110.6 (Grade 4 English Language Arts and Reading)",
     "primary": [
       {
-        "code": "4.6",
-        "canonical_code": null,
+        "code": "4.6G",
+        "canonical_code": "110.6.b.6.G",
         "section": "19 TAC §110.6",
         "strand": "Comprehension skills",
-        "focus": "identifying the main idea of a text and explaining how supporting details develop it",
-        "verification_status": "pending",
-        "source_url": null
+        "focus": "determining the main/key idea of a text from its details",
+        "verification_status": "verified",
+        "source_url": "https://www.law.cornell.edu/regulations/texas/19-Tex-Admin-Code-SS-110-6"
       },
       {
-        "code": "4.6",
-        "canonical_code": null,
+        "code": "4.7D",
+        "canonical_code": "110.6.b.7.D",
         "section": "19 TAC §110.6",
         "strand": "Response skills",
-        "focus": "summarizing an informational text while maintaining meaning and logical order",
-        "verification_status": "pending",
-        "source_url": null
+        "focus": "summarizing a text while maintaining meaning and logical order",
+        "verification_status": "verified",
+        "source_url": "https://www.law.cornell.edu/regulations/texas/19-Tex-Admin-Code-SS-110-6"
       },
       {
-        "code": "4.9",
-        "canonical_code": null,
+        "code": "4.10A",
+        "canonical_code": "110.6.b.10.A",
         "section": "19 TAC §110.6",
-        "strand": "Multiple genres / informational text",
-        "focus": "explaining the author's purpose and message in an informational text",
-        "verification_status": "pending",
-        "source_url": null
+        "strand": "Author's purpose and craft",
+        "focus": "identifying the author's purpose and message in informational text",
+        "verification_status": "verified",
+        "source_url": "https://www.law.cornell.edu/regulations/texas/19-Tex-Admin-Code-SS-110-6"
       }
     ],
     "alignment_note": "Provisional — pending educator verification against the current official TAC source. Standards paraphrased, not quoted. Not described as aligned to the TEKS. Codes to be verified separately.",
     "supporting": [],
-    "lock": null,
-    "verified_on": null
+    "lock": "standards/standards-lock.json",
+    "verified_on": "2026-09-04"
   },
   "calculator_allowed": false,
   "color_required": false,

@@ -23,27 +23,36 @@
         "canonical_code": "111.5.b.4.D",
         "section": "19 TAC §111.5",
         "strand": "Number and operations",
-        "focus": "represent multiplication as equal groups of objects",
-        "verification_status": "pending",
-        "source_url": null
+        "focus": "multiplication as equal groups and arrays (finding the total)",
+        "verification_status": "verified",
+        "source_url": "https://www.law.cornell.edu/regulations/texas/19-Tex-Admin-Code-SS-111-5"
       },
       {
         "code": "3.4E",
         "canonical_code": "111.5.b.4.E",
         "section": "19 TAC §111.5",
         "strand": "Number and operations",
-        "focus": "represent multiplication as arrays using rows and columns",
-        "verification_status": "pending",
-        "source_url": null
+        "focus": "representing multiplication (equal groups, arrays, area models, number line)",
+        "verification_status": "verified",
+        "source_url": "https://www.law.cornell.edu/regulations/texas/19-Tex-Admin-Code-SS-111-5"
       },
       {
         "code": "3.4H",
         "canonical_code": "111.5.b.4.H",
         "section": "19 TAC §111.5",
         "strand": "Number and operations",
-        "focus": "represent division as sharing a total into equal groups (fair shares)",
-        "verification_status": "pending",
-        "source_url": null
+        "focus": "division as fair sharing / partitioning into equal shares",
+        "verification_status": "verified",
+        "source_url": "https://www.law.cornell.edu/regulations/texas/19-Tex-Admin-Code-SS-111-5"
+      },
+      {
+        "code": "3.4K",
+        "canonical_code": "111.5.b.4.K",
+        "section": "19 TAC §111.5",
+        "strand": "Number and operations",
+        "focus": "solving multiplication and division problems within 100",
+        "verification_status": "verified",
+        "source_url": "https://www.law.cornell.edu/regulations/texas/19-Tex-Admin-Code-SS-111-5"
       }
     ],
     "supporting": [
@@ -57,7 +66,7 @@
       }
     ],
     "alignment_note": "Provisional — pending educator verification against the current official TAC source. Standards paraphrased, not quoted. Not to be described as aligned to the TEKS until reviewed.",
-    "verified_on": null,
+    "verified_on": "2026-09-04",
     "lock": "standards/standards-lock.json"
   },
   "calculator_allowed": true,

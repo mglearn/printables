@@ -25,36 +25,36 @@
     "framework": "19 TAC §110.36 (English I)",
     "primary": [
       {
-        "code": "E1.5F",
-        "canonical_code": "110.36.c.5.F",
+        "code": "E1.7E",
+        "canonical_code": "110.36.c.7.E",
         "section": "19 TAC §110.36",
-        "strand": "Comprehension / Response skills",
-        "focus": "analyzing how rhetorical appeals (ethos, pathos, logos) develop an argument",
-        "verification_status": "pending",
+        "strand": "Multiple genres",
+        "focus": "analyzing an argument: claim, appeals (ethos/pathos/logos), evidence, and treatment of counterarguments",
+        "verification_status": "verified",
         "source_url": "https://www.law.cornell.edu/regulations/texas/19-Tex-Admin-Code-SS-110-36"
       },
       {
-        "code": "E1.8F",
-        "canonical_code": "110.36.c.8.F",
+        "code": "E1.11G",
+        "canonical_code": "110.36.c.11.G",
         "section": "19 TAC §110.36",
-        "strand": "Author's purpose and craft",
-        "focus": "evaluating the argument and evidence for relevance, sufficiency, and credibility, including counterargument and rebuttal",
-        "verification_status": "pending",
+        "strand": "Inquiry and research",
+        "focus": "evaluating the quality of evidence and reasoning: source credibility, bias, and faulty reasoning",
+        "verification_status": "verified",
         "source_url": "https://www.law.cornell.edu/regulations/texas/19-Tex-Admin-Code-SS-110-36"
       },
       {
-        "code": "E1.10C",
-        "canonical_code": "110.36.c.10.C",
+        "code": "E1.9C",
+        "canonical_code": "110.36.c.9.C",
         "section": "19 TAC §110.36",
         "strand": "Composition (writing process)",
-        "focus": "revising a draft to strengthen support, reasoning, and focus",
-        "verification_status": "pending",
+        "focus": "revising and editing a draft to improve clarity, development, organization, and style",
+        "verification_status": "verified",
         "source_url": "https://www.law.cornell.edu/regulations/texas/19-Tex-Admin-Code-SS-110-36"
       }
     ],
     "supporting": [],
     "lock": "standards/standards-lock.json",
-    "verified_on": null
+    "verified_on": "2026-09-04"
   },
   "calculator_allowed": false,
   "color_required": false,

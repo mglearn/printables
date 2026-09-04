@@ -1188,25 +1188,25 @@
         {
           "code": "A.2C",
           "section": "19 TAC §111.39",
-          "status": "pending"
+          "status": "verified"
         },
         {
           "code": "A.3A",
           "section": "19 TAC §111.39",
-          "status": "pending"
+          "status": "verified"
         },
         {
           "code": "A.3B",
           "section": "19 TAC §111.39",
-          "status": "pending"
+          "status": "verified"
         },
         {
           "code": "A.5A",
           "section": "19 TAC §111.39",
-          "status": "pending"
+          "status": "verified"
         }
       ],
-      "standards_status": "pending",
+      "standards_status": "verified",
       "status": "draft",
       "version": "0.1.0",
       "href": "HS_ALG1_LinearFunctions_01/index.html",
@@ -1240,17 +1240,17 @@
       "color_required": false,
       "standards": [
         {
-          "code": "BIO.12.provisional.A",
-          "section": "19 TAC §112.34",
-          "status": "pending"
+          "code": "B.13B",
+          "section": "19 TAC §112.42",
+          "status": "verified"
         },
         {
-          "code": "BIO.12.provisional.B",
-          "section": "19 TAC §112.34",
-          "status": "pending"
+          "code": "B.13A",
+          "section": "19 TAC §112.42",
+          "status": "verified"
         }
       ],
-      "standards_status": "pending",
+      "standards_status": "verified",
       "status": "draft",
       "version": "0.1.0",
       "href": "HS_BIO_EnergyFlow_01/index.html",
@@ -1284,22 +1284,22 @@
       "color_required": false,
       "standards": [
         {
-          "code": "E1.5F",
+          "code": "E1.7E",
           "section": "19 TAC §110.36",
-          "status": "pending"
+          "status": "verified"
         },
         {
-          "code": "E1.8F",
+          "code": "E1.11G",
           "section": "19 TAC §110.36",
-          "status": "pending"
+          "status": "verified"
         },
         {
-          "code": "E1.10C",
+          "code": "E1.9C",
           "section": "19 TAC §110.36",
-          "status": "pending"
+          "status": "verified"
         }
       ],
-      "standards_status": "pending",
+      "standards_status": "verified",
       "status": "draft",
       "version": "0.1.0",
       "href": "HS_ENG1_ArgumentRhetoric_01/index.html",
@@ -1333,17 +1333,17 @@
       "color_required": false,
       "standards": [
         {
-          "code": "USH-industrialization",
+          "code": "US.3B",
           "section": "19 TAC §113.41",
-          "status": "pending"
+          "status": "verified"
         },
         {
-          "code": "USH-social-studies-skills",
+          "code": "US.28A",
           "section": "19 TAC §113.41",
-          "status": "pending"
+          "status": "verified"
         }
       ],
-      "standards_status": "pending",
+      "standards_status": "verified",
       "status": "draft",
       "version": "0.1.0",
       "href": "HS_USH_Industrialization_01/index.html",

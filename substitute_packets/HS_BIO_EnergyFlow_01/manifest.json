@@ -22,24 +22,30 @@
   ],
   "work_mode": "independent",
   "standards": {
-    "framework": "19 TAC §112.34 (Biology)",
+    "framework": "19 TAC §112.42 (Biology)",
     "primary": [
       {
-        "code": "BIO.12.provisional.A",
-        "section": "19 TAC §112.34",
+        "code": "B.13B",
+        "canonical_code": "112.42.c.13.B",
+        "section": "19 TAC §112.42",
         "strand": "Interdependence within environmental systems",
-        "focus": "Analyze the flow of energy through trophic levels and interpret energy pyramids, including the ~10% transfer of energy between levels",
-        "verification_status": "pending"
+        "focus": "energy flow and matter cycling through trophic levels / energy pyramids (~10% rule) and ecosystem stability",
+        "verification_status": "verified",
+        "source_url": "https://www.law.cornell.edu/regulations/texas/19-Tex-Admin-Code-SS-112-42"
       },
       {
-        "code": "BIO.12.provisional.B",
-        "section": "19 TAC §112.34",
+        "code": "B.13A",
+        "canonical_code": "112.42.c.13.A",
+        "section": "19 TAC §112.42",
         "strand": "Interdependence within environmental systems",
-        "focus": "Describe the roles of producers, consumers, and decomposers and predict how changes at one trophic level affect other levels",
-        "verification_status": "pending"
+        "focus": "ecosystem relationships: predation, parasitism, commensalism, mutualism, and competition",
+        "verification_status": "verified",
+        "source_url": "https://www.law.cornell.edu/regulations/texas/19-Tex-Admin-Code-SS-112-42"
       }
     ],
-    "supporting": []
+    "supporting": [],
+    "lock": "standards/standards-lock.json",
+    "verified_on": "2026-09-04"
   },
   "calculator_allowed": false,
   "color_required": false,

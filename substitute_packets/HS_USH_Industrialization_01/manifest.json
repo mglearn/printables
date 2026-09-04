@@ -25,21 +25,27 @@
     "framework": "19 TAC §113.41 (United States History Studies Since 1877)",
     "primary": [
       {
-        "code": "USH-industrialization",
+        "code": "US.3B",
+        "canonical_code": "113.41.d.3.B",
         "section": "19 TAC §113.41",
-        "strand": "Economic transformation / industrialization",
-        "focus": "causes and effects of the rise of industrialization on American society, including its impact on labor, urbanization, and immigration",
-        "verification_status": "pending"
+        "strand": "History",
+        "focus": "American industrialization (1870s-1910s) and its economic/social effects",
+        "verification_status": "verified",
+        "source_url": "https://www.law.cornell.edu/regulations/texas/19-Tex-Admin-Code-SS-113-41"
       },
       {
-        "code": "USH-social-studies-skills",
+        "code": "US.28A",
+        "canonical_code": "113.41.d.28.A",
         "section": "19 TAC §113.41",
         "strand": "Social studies skills",
-        "focus": "analyzing primary and secondary sources by identifying creator, date, type, and point of view, and using evidence to support a historical argument",
-        "verification_status": "pending"
+        "focus": "social studies skills: analyzing primary/secondary sources and point of view",
+        "verification_status": "verified",
+        "source_url": "https://www.law.cornell.edu/regulations/texas/19-Tex-Admin-Code-SS-113-41"
       }
     ],
-    "supporting": []
+    "supporting": [],
+    "lock": "standards/standards-lock.json",
+    "verified_on": "2026-09-04"
   },
   "calculator_allowed": false,
   "color_required": false,

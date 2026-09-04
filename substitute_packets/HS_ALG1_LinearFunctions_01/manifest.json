@@ -31,8 +31,8 @@
         "canonical_code": "111.39.c.2.C",
         "section": "19 TAC §111.39",
         "strand": "Linear functions, equations, and inequalities",
-        "focus": "write linear equations in slope-intercept form given a table, graph, or verbal description",
-        "verification_status": "pending",
+        "focus": "writing linear equations from tables, graphs, and verbal descriptions/contexts",
+        "verification_status": "verified",
         "source_url": "https://www.law.cornell.edu/regulations/texas/19-Tex-Admin-Code-SS-111-39"
       },
       {
@@ -40,8 +40,8 @@
         "canonical_code": "111.39.c.3.A",
         "section": "19 TAC §111.39",
         "strand": "Linear functions, equations, and inequalities",
-        "focus": "determine the slope of a line as a rate of change given two points, a table, or a graph",
-        "verification_status": "pending",
+        "focus": "determining slope (rate of change) from tables, graphs, two points, and equations",
+        "verification_status": "verified",
         "source_url": "https://www.law.cornell.edu/regulations/texas/19-Tex-Admin-Code-SS-111-39"
       },
       {
@@ -49,8 +49,8 @@
         "canonical_code": "111.39.c.3.B",
         "section": "19 TAC §111.39",
         "strand": "Linear functions, equations, and inequalities",
-        "focus": "interpret the meaning of slope and intercepts of a linear function in a real-world context",
-        "verification_status": "pending",
+        "focus": "slope as rate of change of a linear function across representations and in context",
+        "verification_status": "verified",
         "source_url": "https://www.law.cornell.edu/regulations/texas/19-Tex-Admin-Code-SS-111-39"
       },
       {
@@ -58,14 +58,14 @@
         "canonical_code": "111.39.c.5.A",
         "section": "19 TAC §111.39",
         "strand": "Linear functions, equations, and inequalities",
-        "focus": "solve linear equations in one variable, including equations of the form f(x) = k",
-        "verification_status": "pending",
+        "focus": "solving linear equations in one variable",
+        "verification_status": "verified",
         "source_url": "https://www.law.cornell.edu/regulations/texas/19-Tex-Admin-Code-SS-111-39"
       }
     ],
     "supporting": [],
     "lock": "standards/standards-lock.json",
-    "verified_on": null
+    "verified_on": "2026-09-04"
   },
   "calculator_allowed": true,
   "color_required": false,

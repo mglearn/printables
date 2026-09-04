@@ -3,7 +3,7 @@
   "$id": "https://mglearn.github.io/printables/substitute_packets/standards/standard.schema.json",
   "title": "TEKS standard record",
   "type": "object",
-  "required": ["code", "display_code", "subject", "grade", "section", "source_url", "verified_on", "status"],
+  "required": ["code", "display_code", "subject", "section", "source_url", "verified_on", "status"],
   "additionalProperties": false,
   "properties": {
     "code": { "type": "string", "description": "Canonical code including TAC section, e.g. 112.27.b.8.A" },

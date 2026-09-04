@@ -12,12 +12,16 @@
   var state = { grade: "all", subject: "all", packets: [] };
 
   function el(t, c, txt) { var n = document.createElement(t); if (c) n.className = c; if (txt != null) n.textContent = txt; return n; }
+  function gkey(p) { return p.grade_key || (p.grade != null ? String(p.grade) : "HS"); }
+  function gnum(k) { return k === "HS" ? 99 : +k; }
+  function gsort(p) { return p.grade != null ? p.grade : 99; }
+  function ghead(k) { return k === "HS" ? "High School (Grades 9–12)" : "Grade " + k; }
 
   fetch("catalog.json", { cache: "no-store" })
     .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
     .then(function (data) {
       state.packets = (data.packets || []).slice().sort(function (a, b) {
-        return (a.grade - b.grade) || (a.subject_key || "").localeCompare(b.subject_key || "");
+        return (gsort(a) - gsort(b)) || (a.subject_key || "").localeCompare(b.subject_key || "");
       });
       var fb = document.getElementById("pk-fallback"); if (fb) fb.remove();
       buildFilters();
@@ -27,9 +31,9 @@
 
   function buildFilters() {
     var bar = el("div", "pk-filters");
-    var grades = ["all"].concat(uniq(state.packets.map(function (p) { return String(p.grade); })).sort());
+    var grades = ["all"].concat(uniq(state.packets.map(gkey)).sort(function (a, b) { return gnum(a) - gnum(b); }));
     var subs = ["all"].concat(uniq(state.packets.map(function (p) { return p.subject_key; })));
-    bar.appendChild(group("Grade", grades, "grade", function (v) { return v === "all" ? "All grades" : "Grade " + v; }));
+    bar.appendChild(group("Grade", grades, "grade", function (v) { return v === "all" ? "All grades" : v === "HS" ? "High School" : "Grade " + v; }));
     bar.appendChild(group("Subject", subs, "subject", function (v) { return v === "all" ? "All subjects" : (SUBJ_LABEL[v] || v); }));
     mount.parentNode.insertBefore(bar, mount);
   }
@@ -55,16 +59,16 @@
   function render() {
     mount.innerHTML = "";
     var list = state.packets.filter(function (p) {
-      return (state.grade === "all" || String(p.grade) === state.grade) &&
+      return (state.grade === "all" || gkey(p) === state.grade) &&
              (state.subject === "all" || p.subject_key === state.subject);
     });
     var count = el("div", "pk-count", list.length + (list.length === 1 ? " packet" : " packets"));
     mount.appendChild(count);
 
     var byGrade = {};
-    list.forEach(function (p) { (byGrade[p.grade] = byGrade[p.grade] || []).push(p); });
-    Object.keys(byGrade).sort().forEach(function (g) {
-      mount.appendChild(el("h3", "pk-gradehead", "Grade " + g));
+    list.forEach(function (p) { var k = gkey(p); (byGrade[k] = byGrade[k] || []).push(p); });
+    Object.keys(byGrade).sort(function (a, b) { return gnum(a) - gnum(b); }).forEach(function (g) {
+      mount.appendChild(el("h3", "pk-gradehead", ghead(g)));
       var grid = el("div", "sp-grid");
       byGrade[g].forEach(function (p) { grid.appendChild(card(p)); });
       mount.appendChild(grid);
@@ -77,7 +81,7 @@
     var a = el("div", "pk"); a.style.setProperty("--pa", accent);
     var top = el("div", "pk-top");
     top.appendChild(el("span", "tag", SUBJ_LABEL[p.subject_key] || p.subject));
-    top.appendChild(el("span", "grade", "Grade " + p.grade));
+    top.appendChild(el("span", "grade", p.grade != null ? "Grade " + p.grade : (p.course || "High School")));
     a.appendChild(top);
 
     if (p.files && p.files.preview) {
@@ -88,7 +92,7 @@
 
     var body = el("div", "pk-body");
     body.appendChild(el("h3", null, p.title));
-    var mins = p.duration_minutes ? "~" + p.duration_minutes + " min" : "";
+    var mins = p.duration_minutes ? "~" + p.duration_minutes + " min" + (p.block_minutes ? " · " + p.block_minutes + " min block" : "") : "";
     var mats = (p.materials || []).length ? " · " + p.materials.join(", ") : "";
     var calc = p.calculator_allowed ? " · calculator ok" : "";
     body.appendChild(el("div", "facts", mins + mats + calc));

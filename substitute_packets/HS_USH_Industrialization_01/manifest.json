@@ -1,0 +1,62 @@
+{
+  "id": "HS_USH_Industrialization_01",
+  "title": "Industrialization and Its Effects",
+  "slug": "industrialization-and-its-effects",
+  "subject": "social",
+  "course": "U.S. History Since 1877",
+  "course_id": "USH",
+  "audience": {
+    "level_type": "course",
+    "grade": null,
+    "band": "9-12",
+    "course_id": "USH"
+  },
+  "grade": null,
+  "duration": {
+    "core_minutes": 50,
+    "block_minutes": 90
+  },
+  "materials": [
+    "printed student packet",
+    "pencil"
+  ],
+  "work_mode": "independent",
+  "standards": {
+    "framework": "19 TAC §113.41 (United States History Studies Since 1877)",
+    "primary": [
+      {
+        "code": "USH-industrialization",
+        "section": "19 TAC §113.41",
+        "strand": "Economic transformation / industrialization",
+        "focus": "causes and effects of the rise of industrialization on American society, including its impact on labor, urbanization, and immigration",
+        "verification_status": "pending"
+      },
+      {
+        "code": "USH-social-studies-skills",
+        "section": "19 TAC §113.41",
+        "strand": "Social studies skills",
+        "focus": "analyzing primary and secondary sources by identifying creator, date, type, and point of view, and using evidence to support a historical argument",
+        "verification_status": "pending"
+      }
+    ],
+    "supporting": []
+  },
+  "calculator_allowed": false,
+  "color_required": false,
+  "files": [
+    "student.html",
+    "subguide.html",
+    "answerkey.html",
+    "index.html",
+    "manifest.json"
+  ],
+  "copyright": {
+    "text": "original",
+    "images": "original-svg",
+    "license": "CC-BY-4.0",
+    "quoted_sources": "Excerpt from the 1903 Act of Congress creating the Department of Commerce and Labor (public domain)"
+  },
+  "status": "draft",
+  "review": null,
+  "version": "0.1.0"
+}

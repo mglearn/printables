@@ -23,8 +23,8 @@ let changed = 0;
 for (const [pid, codes] of Object.entries(lock.packet_map || {})) {
   const mf = join(ROOT, pid, "manifest.json");
   if (!existsSync(mf)) { console.warn(`  ! ${pid}: no manifest`); continue; }
-  const subj = SUBJ[(pid.split("_")[1] || "").toUpperCase()];
   const m = JSON.parse(readFileSync(mf, "utf8"));
+  const subj = SUBJ[(pid.split("_")[1] || "").toUpperCase()] || m.subject;   // HS_* folders: use manifest subject
 
   const primary = codes.map((dc) => {
     const rec = bySubjCode.get(subj + "|" + dc) || byCode.get(dc);

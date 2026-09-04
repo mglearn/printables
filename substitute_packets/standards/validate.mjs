@@ -31,7 +31,7 @@ for (const r of records) {
 // Cross-check manifests
 let manifestChecks = 0;
 for (const d of readdirSync(ROOT, { withFileTypes: true })) {
-  if (!d.isDirectory() || !/^G\d{2}_/.test(d.name)) continue;
+  if (!d.isDirectory() || !/^(G\d{2}|HS)_/.test(d.name)) continue;
   const mf = join(ROOT, d.name, "manifest.json");
   if (!existsSync(mf)) continue;
   let m; try { m = JSON.parse(readFileSync(mf, "utf8")); } catch { fail(`${d.name}: manifest not valid JSON`); continue; }

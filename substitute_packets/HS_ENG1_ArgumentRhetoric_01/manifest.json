@@ -1,0 +1,80 @@
+{
+  "id": "HS_ENG1_ArgumentRhetoric_01",
+  "title": "Analyzing Argument and Rhetoric",
+  "slug": "analyzing-argument-and-rhetoric",
+  "subject": "rla",
+  "course": "English I",
+  "course_id": "ENG1",
+  "audience": {
+    "level_type": "course",
+    "grade": null,
+    "band": "9-12",
+    "course_id": "ENG1"
+  },
+  "grade": null,
+  "duration": {
+    "core_minutes": 50,
+    "block_minutes": 90
+  },
+  "materials": [
+    "printed student packet",
+    "pencil"
+  ],
+  "work_mode": "independent",
+  "standards": {
+    "framework": "19 TAC §110.36 (English I)",
+    "primary": [
+      {
+        "code": "E1.5F",
+        "canonical_code": "110.36.c.5.F",
+        "section": "19 TAC §110.36",
+        "strand": "Comprehension / Response skills",
+        "focus": "analyzing how rhetorical appeals (ethos, pathos, logos) develop an argument",
+        "verification_status": "pending",
+        "source_url": "https://www.law.cornell.edu/regulations/texas/19-Tex-Admin-Code-SS-110-36"
+      },
+      {
+        "code": "E1.8F",
+        "canonical_code": "110.36.c.8.F",
+        "section": "19 TAC §110.36",
+        "strand": "Author's purpose and craft",
+        "focus": "evaluating the argument and evidence for relevance, sufficiency, and credibility, including counterargument and rebuttal",
+        "verification_status": "pending",
+        "source_url": "https://www.law.cornell.edu/regulations/texas/19-Tex-Admin-Code-SS-110-36"
+      },
+      {
+        "code": "E1.10C",
+        "canonical_code": "110.36.c.10.C",
+        "section": "19 TAC §110.36",
+        "strand": "Composition (writing process)",
+        "focus": "revising a draft to strengthen support, reasoning, and focus",
+        "verification_status": "pending",
+        "source_url": "https://www.law.cornell.edu/regulations/texas/19-Tex-Admin-Code-SS-110-36"
+      }
+    ],
+    "supporting": [],
+    "lock": "standards/standards-lock.json",
+    "verified_on": null
+  },
+  "calculator_allowed": false,
+  "color_required": false,
+  "files": [
+    "student.html",
+    "subguide.html",
+    "answerkey.html",
+    "index.html",
+    "manifest.json"
+  ],
+  "copyright": {
+    "text": "original",
+    "images": "none",
+    "license": "CC-BY-4.0"
+  },
+  "status": "draft",
+  "review": {
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "verification_status": null
+  },
+  "version": "0.1.0"
+}

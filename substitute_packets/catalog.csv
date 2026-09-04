@@ -23,3 +23,7 @@ G08_MATH_Linear_01,Linear Relationships in Four Forms,8,Mathematics,45,true,8.4A
 G08_RLA_Argument_01,"Analyzing an Argument, Evidence, and Revision",8,Reading/ELA,45,false,8.8E; 8.9G; 8.10C,verified,draft,0.1.0,G08_RLA_Argument_01/index.html
 G08_SCI_NewtonSafety_01,Newton's Laws and Transportation Safety,8,Science,45,false,8.7A; 8.7B,verified,draft,0.1.0,G08_SCI_NewtonSafety_01/index.html
 G08_SOC_Constitution_01,Principles of the U.S. Constitution,8,Social Studies,45,false,8.15D; 8.29A,verified,draft,0.1.0,G08_SOC_Constitution_01/index.html
+HS_ALG1_LinearFunctions_01,Linear Functions in Four Forms,,Mathematics,50,true,A.2C; A.3A; A.3B; A.5A,pending,draft,0.1.0,HS_ALG1_LinearFunctions_01/index.html
+HS_BIO_EnergyFlow_01,Energy Flow in Ecosystems,,Science,50,false,BIO.12.provisional.A; BIO.12.provisional.B,pending,draft,0.1.0,HS_BIO_EnergyFlow_01/index.html
+HS_ENG1_ArgumentRhetoric_01,Analyzing Argument and Rhetoric,,Reading/ELA,50,false,E1.5F; E1.8F; E1.10C,pending,draft,0.1.0,HS_ENG1_ArgumentRhetoric_01/index.html
+HS_USH_Industrialization_01,Industrialization and Its Effects,,Social Studies,50,false,USH-industrialization; USH-social-studies-skills,pending,draft,0.1.0,HS_USH_Industrialization_01/index.html

@@ -7,7 +7,7 @@ import { join } from "node:path";
 
 const ROOT = new URL(".", import.meta.url).pathname;
 const dirs = readdirSync(ROOT, { withFileTypes: true })
-  .filter((d) => d.isDirectory() && /^G\d{2}_/.test(d.name))
+  .filter((d) => d.isDirectory() && /^(G\d{2}|HS)_/.test(d.name))
   .map((d) => d.name)
   .sort();
 
@@ -22,7 +22,13 @@ for (const id of dirs) {
   try { m = JSON.parse(readFileSync(mfPath, "utf8")); }
   catch (e) { console.warn(`  ! ${id}: invalid manifest (${e.message}) — skipped`); continue; }
 
-  const grade = m.grade ?? m.audience?.grade ?? Number((id.match(/^G(\d{2})/) || [])[1]) ?? null;
+  const gm = id.match(/^G(\d{2})/);
+  let grade = m.grade ?? m.audience?.grade ?? (gm ? Number(gm[1]) : null);
+  if (Number.isNaN(grade)) grade = null;
+  const course = m.course || m.audience?.course || null;
+  const courseId = m.course_id || m.audience?.course_id || null;
+  const gradeKey = grade != null ? String(grade) : "HS";              // gallery group/filter key
+  const gradeLabel = grade != null ? "Grade " + grade : "High School"; // display header
   const subjRaw = (typeof m.subject === "object" ? (m.subject.code || m.subject.name) : m.subject) || (id.split("_")[1] || "").toLowerCase();
   const subjKey = String(subjRaw).toLowerCase();
   const subject = SUBJECT_NAME[subjKey] || (typeof m.subject === "object" ? m.subject.name : subjRaw) || subjKey;
@@ -54,9 +60,14 @@ for (const id of dirs) {
     id,
     title: val(m.title),
     grade,
+    grade_key: gradeKey,
+    grade_label: gradeLabel,
+    course,
+    course_id: courseId,
     subject,
     subject_key: subjKey.replace("sci", "science").replace("soc", "social"),
     duration_minutes: m.duration?.core_minutes ?? null,
+    block_minutes: m.duration?.block_minutes ?? null,
     extension_minutes: m.duration?.extension_minutes ?? null,
     materials: m.materials?.required || m.materials || [],
     calculator_allowed: m.calculator_allowed ?? m.accessibility?.calculator_allowed ?? false,

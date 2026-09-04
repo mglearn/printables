@@ -19,7 +19,7 @@ echo "→ divider"; render assets/divider.html "$TMP/divider.pdf"
 
 shopt -s nullglob
 built=0
-for dir in G[0-9][0-9]_*/; do
+for dir in G[0-9][0-9]_*/ HS_*/; do
   id="${dir%/}"
   [ -f "$dir/student.html" ] || { echo "  skip $id (no student.html)"; continue; }
   echo "→ $id"
@@ -44,7 +44,12 @@ zipset() { # out.zip  glob...
   [ ${#files[@]} -gt 0 ] && zip -qj "dist/$out" "${files[@]}" && echo "  dist/$out (${#files[@]} files)"
 }
 for g in 03 04 05 06 07 08; do zipset "grade-${g}-packets.zip" "G${g}_*/*_Student.pdf" "G${g}_*/*_SubGuide.pdf" "G${g}_*/*_AnswerKey.pdf"; done
-for s in RLA MATH SCI SOC; do zipset "subject-${s,,}-packets.zip" "G[0-9][0-9]_${s}_*/*_Student.pdf" "G[0-9][0-9]_${s}_*/*_SubGuide.pdf" "G[0-9][0-9]_${s}_*/*_AnswerKey.pdf"; done
-zipset "all-packets.zip" "G[0-9][0-9]_*/*_Student.pdf" "G[0-9][0-9]_*/*_SubGuide.pdf" "G[0-9][0-9]_*/*_AnswerKey.pdf" "G[0-9][0-9]_*/*_TeacherMaster.pdf"
+zipset "highschool-packets.zip" "HS_*/*_Student.pdf" "HS_*/*_SubGuide.pdf" "HS_*/*_AnswerKey.pdf"
+# subject bundles (HS folders are named by course, so add them explicitly per subject)
+zipset "subject-rla-packets.zip"  "G[0-9][0-9]_RLA_*/*_Student.pdf" "G[0-9][0-9]_RLA_*/*_SubGuide.pdf" "G[0-9][0-9]_RLA_*/*_AnswerKey.pdf" "HS_ENG*/*_Student.pdf" "HS_ENG*/*_SubGuide.pdf" "HS_ENG*/*_AnswerKey.pdf"
+zipset "subject-math-packets.zip" "G[0-9][0-9]_MATH_*/*_Student.pdf" "G[0-9][0-9]_MATH_*/*_SubGuide.pdf" "G[0-9][0-9]_MATH_*/*_AnswerKey.pdf" "HS_ALG*/*_Student.pdf" "HS_ALG*/*_SubGuide.pdf" "HS_ALG*/*_AnswerKey.pdf"
+zipset "subject-sci-packets.zip"  "G[0-9][0-9]_SCI_*/*_Student.pdf" "G[0-9][0-9]_SCI_*/*_SubGuide.pdf" "G[0-9][0-9]_SCI_*/*_AnswerKey.pdf" "HS_BIO*/*_Student.pdf" "HS_BIO*/*_SubGuide.pdf" "HS_BIO*/*_AnswerKey.pdf"
+zipset "subject-soc-packets.zip"  "G[0-9][0-9]_SOC_*/*_Student.pdf" "G[0-9][0-9]_SOC_*/*_SubGuide.pdf" "G[0-9][0-9]_SOC_*/*_AnswerKey.pdf" "HS_USH*/*_Student.pdf" "HS_USH*/*_SubGuide.pdf" "HS_USH*/*_AnswerKey.pdf"
+zipset "all-packets.zip" "G[0-9][0-9]_*/*_Student.pdf" "G[0-9][0-9]_*/*_SubGuide.pdf" "G[0-9][0-9]_*/*_AnswerKey.pdf" "G[0-9][0-9]_*/*_TeacherMaster.pdf" "HS_*/*_Student.pdf" "HS_*/*_SubGuide.pdf" "HS_*/*_AnswerKey.pdf" "HS_*/*_TeacherMaster.pdf"
 
 echo "done."

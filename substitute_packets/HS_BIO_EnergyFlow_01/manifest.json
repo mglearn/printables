@@ -1,0 +1,61 @@
+{
+  "id": "HS_BIO_EnergyFlow_01",
+  "title": "Energy Flow in Ecosystems",
+  "slug": "energy-flow-in-ecosystems",
+  "grade": null,
+  "subject": "science",
+  "course": "Biology",
+  "course_id": "BIO",
+  "audience": {
+    "level_type": "course",
+    "grade": null,
+    "band": "9-12",
+    "course_id": "BIO"
+  },
+  "duration": {
+    "core_minutes": 50,
+    "block_minutes": 90
+  },
+  "materials": [
+    "printed student packet",
+    "pencil"
+  ],
+  "work_mode": "independent",
+  "standards": {
+    "framework": "19 TAC §112.34 (Biology)",
+    "primary": [
+      {
+        "code": "BIO.12.provisional.A",
+        "section": "19 TAC §112.34",
+        "strand": "Interdependence within environmental systems",
+        "focus": "Analyze the flow of energy through trophic levels and interpret energy pyramids, including the ~10% transfer of energy between levels",
+        "verification_status": "pending"
+      },
+      {
+        "code": "BIO.12.provisional.B",
+        "section": "19 TAC §112.34",
+        "strand": "Interdependence within environmental systems",
+        "focus": "Describe the roles of producers, consumers, and decomposers and predict how changes at one trophic level affect other levels",
+        "verification_status": "pending"
+      }
+    ],
+    "supporting": []
+  },
+  "calculator_allowed": false,
+  "color_required": false,
+  "files": [
+    "student.html",
+    "subguide.html",
+    "answerkey.html",
+    "index.html",
+    "manifest.json"
+  ],
+  "copyright": {
+    "text": "original",
+    "images": "original-svg",
+    "license": "CC-BY-4.0"
+  },
+  "status": "draft",
+  "review": null,
+  "version": "0.1.0"
+}

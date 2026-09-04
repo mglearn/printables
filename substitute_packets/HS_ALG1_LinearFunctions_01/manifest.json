@@ -1,0 +1,91 @@
+{
+  "id": "HS_ALG1_LinearFunctions_01",
+  "title": "Linear Functions in Four Forms",
+  "slug": "linear-functions-in-four-forms",
+  "subject": "math",
+  "course": "Algebra I",
+  "course_id": "ALG1",
+  "audience": {
+    "level_type": "course",
+    "grade": null,
+    "band": "9-12",
+    "course_id": "ALG1"
+  },
+  "grade": null,
+  "duration": {
+    "core_minutes": 50,
+    "block_minutes": 90
+  },
+  "materials": [
+    "printed student packet",
+    "pencil",
+    "basic or graphing calculator (optional)"
+  ],
+  "work_mode": "independent",
+  "standards": {
+    "framework": "19 TAC §111.39 (Algebra I)",
+    "knowledge_and_skills": "A.2, A.3, A.5",
+    "primary": [
+      {
+        "code": "A.2C",
+        "canonical_code": "111.39.c.2.C",
+        "section": "19 TAC §111.39",
+        "strand": "Linear functions, equations, and inequalities",
+        "focus": "write linear equations in slope-intercept form given a table, graph, or verbal description",
+        "verification_status": "pending",
+        "source_url": "https://www.law.cornell.edu/regulations/texas/19-Tex-Admin-Code-SS-111-39"
+      },
+      {
+        "code": "A.3A",
+        "canonical_code": "111.39.c.3.A",
+        "section": "19 TAC §111.39",
+        "strand": "Linear functions, equations, and inequalities",
+        "focus": "determine the slope of a line as a rate of change given two points, a table, or a graph",
+        "verification_status": "pending",
+        "source_url": "https://www.law.cornell.edu/regulations/texas/19-Tex-Admin-Code-SS-111-39"
+      },
+      {
+        "code": "A.3B",
+        "canonical_code": "111.39.c.3.B",
+        "section": "19 TAC §111.39",
+        "strand": "Linear functions, equations, and inequalities",
+        "focus": "interpret the meaning of slope and intercepts of a linear function in a real-world context",
+        "verification_status": "pending",
+        "source_url": "https://www.law.cornell.edu/regulations/texas/19-Tex-Admin-Code-SS-111-39"
+      },
+      {
+        "code": "A.5A",
+        "canonical_code": "111.39.c.5.A",
+        "section": "19 TAC §111.39",
+        "strand": "Linear functions, equations, and inequalities",
+        "focus": "solve linear equations in one variable, including equations of the form f(x) = k",
+        "verification_status": "pending",
+        "source_url": "https://www.law.cornell.edu/regulations/texas/19-Tex-Admin-Code-SS-111-39"
+      }
+    ],
+    "supporting": [],
+    "lock": "standards/standards-lock.json",
+    "verified_on": null
+  },
+  "calculator_allowed": true,
+  "color_required": false,
+  "files": [
+    "student.html",
+    "subguide.html",
+    "answerkey.html",
+    "index.html",
+    "manifest.json"
+  ],
+  "copyright": {
+    "text": "original",
+    "images": "original-svg",
+    "license": "CC-BY-4.0"
+  },
+  "status": "draft",
+  "review": {
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "verification_status": null
+  },
+  "version": "0.1.0"
+}

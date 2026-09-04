@@ -25,36 +25,36 @@
     "framework": "19 TAC §110.37 (English II)",
     "primary": [
       {
-        "code": "E2.5",
-        "canonical_code": null,
+        "code": "E2.6A",
+        "canonical_code": "110.37.c.6.A",
         "section": "19 TAC §110.37",
-        "strand": "Comprehension / response",
-        "focus": "analyzing how a theme is developed across a literary text through characters and details",
-        "verification_status": "pending",
-        "source_url": null
+        "strand": "Multiple genres",
+        "focus": "analyzing how theme is developed through characterization and plot in fiction",
+        "verification_status": "verified",
+        "source_url": "https://www.law.cornell.edu/regulations/texas/19-Tex-Admin-Code-SS-110-37"
       },
       {
-        "code": "E2.7",
-        "canonical_code": null,
+        "code": "E2.6B",
+        "canonical_code": "110.37.c.6.B",
         "section": "19 TAC §110.37",
-        "strand": "Multiple genres (literary elements)",
-        "focus": "analyzing how a character's qualities and changes advance the plot and reveal meaning (characterization)",
-        "verification_status": "pending",
-        "source_url": null
+        "strand": "Multiple genres",
+        "focus": "analyzing characterization: how authors develop complex characters",
+        "verification_status": "verified",
+        "source_url": "https://www.law.cornell.edu/regulations/texas/19-Tex-Admin-Code-SS-110-37"
       },
       {
-        "code": "E2.8",
-        "canonical_code": null,
+        "code": "E2.8E",
+        "canonical_code": "110.37.c.8.E",
         "section": "19 TAC §110.37",
         "strand": "Author's purpose and craft",
-        "focus": "analyzing how an author's use of craft, such as symbolism, tone, or structure, contributes to meaning",
-        "verification_status": "pending",
-        "source_url": null
+        "focus": "author's craft: analyzing literary devices (irony, motif) and their purpose",
+        "verification_status": "verified",
+        "source_url": "https://www.law.cornell.edu/regulations/texas/19-Tex-Admin-Code-SS-110-37"
       }
     ],
     "supporting": [],
     "lock": "standards/standards-lock.json",
-    "verified_on": null
+    "verified_on": "2026-09-04"
   },
   "calculator_allowed": false,
   "color_required": false,

@@ -25,20 +25,28 @@
     "framework": "19 TAC Chapter 113 (United States Government)",
     "primary": [
       {
-        "code": "PROVISIONAL-FEDERALISM",
-        "strand": "Government / structure",
-        "focus": "how the U.S. Constitution divides and shares power among national (delegated), state (reserved), and concurrent levels",
-        "verification_status": "pending"
+        "code": "USG.8B",
+        "canonical_code": "113.44.c.8.B",
+        "section": "19 TAC §113.44",
+        "strand": "Government",
+        "focus": "federalism: the division of powers between national and state governments",
+        "verification_status": "verified",
+        "source_url": "https://www.law.cornell.edu/regulations/texas/19-Tex-Admin-Code-SS-113-44"
       },
       {
-        "code": "PROVISIONAL-SOURCE-ANALYSIS",
+        "code": "USG.19D",
+        "canonical_code": "113.44.c.19.D",
+        "section": "19 TAC §113.44",
         "strand": "Social studies skills",
-        "focus": "analyzing primary and secondary sources (creator, date, type, purpose) and using evidence to support a conclusion",
-        "verification_status": "pending"
+        "focus": "source analysis: evaluating sources for validity of information",
+        "verification_status": "verified",
+        "source_url": "https://www.law.cornell.edu/regulations/texas/19-Tex-Admin-Code-SS-113-44"
       }
     ],
     "supporting": [],
-    "note": "Provisional standards; paraphrased, not quoted. No section number asserted. Pending educator verification against the current official TAC source. Not a claim of TEKS alignment."
+    "note": "Provisional standards; paraphrased, not quoted. No section number asserted. Pending educator verification against the current official TAC source. Not a claim of TEKS alignment.",
+    "lock": "standards/standards-lock.json",
+    "verified_on": "2026-09-04"
   },
   "calculator_allowed": false,
   "color_required": false,

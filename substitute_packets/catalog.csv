@@ -24,18 +24,18 @@ G08_RLA_Argument_01,"Analyzing an Argument, Evidence, and Revision",8,Reading/EL
 G08_SCI_NewtonSafety_01,Newton's Laws and Transportation Safety,8,Science,45,false,8.7A; 8.7B,verified,draft,0.1.0,G08_SCI_NewtonSafety_01/index.html
 G08_SOC_Constitution_01,Principles of the U.S. Constitution,8,Social Studies,45,false,8.15D; 8.29A,verified,draft,0.1.0,G08_SOC_Constitution_01/index.html
 HS_ALG1_LinearFunctions_01,Linear Functions in Four Forms,,Mathematics,50,true,A.2C; A.3A; A.3B; A.5A,verified,draft,0.1.0,HS_ALG1_LinearFunctions_01/index.html
-HS_ALG2_Quadratics_01,"Quadratic Functions: Graphs, Zeros, and the Vertex",,Mathematics,50,true,provisional-quadratic-graph-attributes; provisional-quadratic-zeros-factoring; provisional-quadratic-vertex-context; provisional-quadratic-vertex-form,pending,draft,0.1.0,HS_ALG2_Quadratics_01/index.html
+HS_ALG2_Quadratics_01,"Quadratic Functions: Graphs, Zeros, and the Vertex",,Mathematics,50,true,AII.4D; AII.4F,verified,draft,0.1.0,HS_ALG2_Quadratics_01/index.html
 HS_BIO_EnergyFlow_01,Energy Flow in Ecosystems,,Science,50,false,B.13B; B.13A,verified,draft,0.1.0,HS_BIO_EnergyFlow_01/index.html
-HS_CHEM_ConservationMass_01,Conservation of Mass in Chemical Reactions,,Science,50,true,[object Object]; [object Object],pending,draft,0.1.0,HS_CHEM_ConservationMass_01/index.html
-HS_ECON_SupplyDemand_01,"Supply, Demand, and Market Equilibrium",,Social Studies,50,true,[object Object]; [object Object],pending,draft,0.1.0,HS_ECON_SupplyDemand_01/index.html
+HS_CHEM_ConservationMass_01,Conservation of Mass in Chemical Reactions,,Science,50,true,C.9A,verified,draft,0.1.0,HS_CHEM_ConservationMass_01/index.html
+HS_ECON_SupplyDemand_01,"Supply, Demand, and Market Equilibrium",,Social Studies,50,true,ECO.2A; ECO.2B; ECO.2C,verified,draft,0.1.0,HS_ECON_SupplyDemand_01/index.html
 HS_ENG1_ArgumentRhetoric_01,Analyzing Argument and Rhetoric,,Reading/ELA,50,false,E1.7E; E1.11G; E1.9C,verified,draft,0.1.0,HS_ENG1_ArgumentRhetoric_01/index.html
-HS_ENG2_ThemeCraft_01,Theme and Author's Craft in Fiction,,Reading/ELA,50,false,E2.5; E2.7; E2.8,pending,draft,0.1.0,HS_ENG2_ThemeCraft_01/index.html
-HS_ENG3_Synthesis_01,Synthesizing Across Sources,,Reading/ELA,50,false,E3.5; E3.9; E3.10,pending,draft,0.1.0,HS_ENG3_Synthesis_01/index.html
-HS_ENG4_ToneDiction_01,"Tone, Diction & Rhetorical Devices",,Reading/ELA,50,false,E4.5; E4.5,pending,draft,0.1.0,HS_ENG4_ToneDiction_01/index.html
-HS_GEOM_Pythagorean_01,The Pythagorean Theorem & Distance on the Coordinate Plane,,Mathematics,50,true,G.6D; G.2B; G.5A,pending,draft,0.1.0,HS_GEOM_Pythagorean_01/index.html
-HS_GOV_Federalism_01,Federalism: How the Constitution Divides Power,,Social Studies,50,false,PROVISIONAL-FEDERALISM; PROVISIONAL-SOURCE-ANALYSIS,pending,draft,0.1.0,HS_GOV_Federalism_01/index.html
-HS_IPC_PhysChemChange_01,Physical vs. Chemical Changes,,Science,50,false,[object Object]; [object Object],pending,draft,0.1.0,HS_IPC_PhysChemChange_01/index.html
-HS_PHYS_MotionGraphs_01,Interpreting Motion Graphs,,Science,50,true,[object Object]; [object Object],pending,draft,0.1.0,HS_PHYS_MotionGraphs_01/index.html
+HS_ENG2_ThemeCraft_01,Theme and Author's Craft in Fiction,,Reading/ELA,50,false,E2.6A; E2.6B; E2.8E,verified,draft,0.1.0,HS_ENG2_ThemeCraft_01/index.html
+HS_ENG3_Synthesis_01,Synthesizing Across Sources,,Reading/ELA,50,false,E3.4H; E3.11G; E3.10C,verified,draft,0.1.0,HS_ENG3_Synthesis_01/index.html
+HS_ENG4_ToneDiction_01,"Tone, Diction & Rhetorical Devices",,Reading/ELA,50,false,E4.8F; E4.8G,verified,draft,0.1.0,HS_ENG4_ToneDiction_01/index.html
+HS_GEOM_Pythagorean_01,The Pythagorean Theorem & Distance on the Coordinate Plane,,Mathematics,50,true,G.6D; G.9B; G.2B,verified,draft,0.1.0,HS_GEOM_Pythagorean_01/index.html
+HS_GOV_Federalism_01,Federalism: How the Constitution Divides Power,,Social Studies,50,false,USG.8B; USG.19D,verified,draft,0.1.0,HS_GOV_Federalism_01/index.html
+HS_IPC_PhysChemChange_01,Physical vs. Chemical Changes,,Science,50,false,IPC.8A; IPC.8B,verified,draft,0.1.0,HS_IPC_PhysChemChange_01/index.html
+HS_PHYS_MotionGraphs_01,Interpreting Motion Graphs,,Science,50,true,P.5A; P.5C,verified,draft,0.1.0,HS_PHYS_MotionGraphs_01/index.html
 HS_USH_Industrialization_01,Industrialization and Its Effects,,Social Studies,50,false,US.3B; US.28A,verified,draft,0.1.0,HS_USH_Industrialization_01/index.html
-HS_WGEO_RegionsCompare_01,Comparing Two World Regions,,Social Studies,50,false,[object Object]; [object Object]; [object Object],pending,draft,0.1.0,HS_WGEO_RegionsCompare_01/index.html
-HS_WHIST_ColumbianExchange_01,The Columbian Exchange,,Social Studies,50,false,[object Object]; [object Object],pending,draft,0.1.0,HS_WHIST_ColumbianExchange_01/index.html
+HS_WGEO_RegionsCompare_01,Comparing Two World Regions,,Social Studies,50,false,WG.9A; WG.21C,verified,draft,0.1.0,HS_WGEO_RegionsCompare_01/index.html
+HS_WHIST_ColumbianExchange_01,The Columbian Exchange,,Social Studies,50,false,WH.7B; WH.28C,verified,draft,0.1.0,HS_WHIST_ColumbianExchange_01/index.html

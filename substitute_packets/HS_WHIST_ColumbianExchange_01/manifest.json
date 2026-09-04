@@ -25,18 +25,28 @@
     "framework": "19 TAC Chapter 113 (World History Studies)",
     "primary": [
       {
-        "strand": "History / global interactions",
-        "focus": "causes and global effects of the Columbian Exchange: transfer of crops, animals, people, and disease and its impact on population, agriculture, economies, and societies across the Americas, Europe, and Africa",
-        "verification_status": "pending"
+        "code": "WH.7B",
+        "canonical_code": "113.42.d.7.B",
+        "section": "19 TAC §113.42",
+        "strand": "History",
+        "focus": "the Columbian Exchange and global interactions after 1450",
+        "verification_status": "verified",
+        "source_url": "https://www.law.cornell.edu/regulations/texas/19-Tex-Admin-Code-SS-113-42"
       },
       {
+        "code": "WH.28C",
+        "canonical_code": "113.42.d.28.C",
+        "section": "19 TAC §113.42",
         "strand": "Social studies skills",
-        "focus": "analyzing primary and secondary sources by identifying creator, date, type, purpose, and point of view, and using evidence to support a historical argument",
-        "verification_status": "pending"
+        "focus": "source analysis: primary/secondary sources, frame of reference, and point of view",
+        "verification_status": "verified",
+        "source_url": "https://www.law.cornell.edu/regulations/texas/19-Tex-Admin-Code-SS-113-42"
       }
     ],
     "supporting": [],
-    "note": "Framework cited without asserting a section number. Standards are paraphrased, not quoted; not a claim of TEKS alignment. Pending educator verification against the current official TAC source."
+    "note": "Framework cited without asserting a section number. Standards are paraphrased, not quoted; not a claim of TEKS alignment. Pending educator verification against the current official TAC source.",
+    "lock": "standards/standards-lock.json",
+    "verified_on": "2026-09-04"
   },
   "calculator_allowed": false,
   "color_required": false,

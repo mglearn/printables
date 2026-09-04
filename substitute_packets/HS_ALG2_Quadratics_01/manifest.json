@@ -27,45 +27,27 @@
     "knowledge_and_skills": "quadratic functions and equations",
     "primary": [
       {
-        "code": "provisional-quadratic-graph-attributes",
-        "canonical_code": null,
-        "section": "19 TAC §111.40 (Algebra II)",
-        "strand": "Quadratic functions and equations",
-        "focus": "graph quadratic functions from standard form y = ax^2 + bx + c and identify key attributes: vertex, axis of symmetry, zeros/x-intercepts, y-intercept, and maximum or minimum",
-        "verification_status": "pending",
-        "source_url": null
+        "code": "AII.4D",
+        "canonical_code": "111.40.c.4.D",
+        "section": "19 TAC §111.40",
+        "strand": "Quadratic and square root functions, equations, and inequalities",
+        "focus": "quadratic vertex form: identifying the vertex and key attributes of a parabola",
+        "verification_status": "verified",
+        "source_url": "https://www.law.cornell.edu/regulations/texas/19-Tex-Admin-Code-SS-111-40"
       },
       {
-        "code": "provisional-quadratic-zeros-factoring",
-        "canonical_code": null,
-        "section": "19 TAC §111.40 (Algebra II)",
-        "strand": "Quadratic functions and equations",
-        "focus": "solve quadratic equations by factoring and use the Zero Product Property to find zeros/roots",
-        "verification_status": "pending",
-        "source_url": null
-      },
-      {
-        "code": "provisional-quadratic-vertex-context",
-        "canonical_code": null,
-        "section": "19 TAC §111.40 (Algebra II)",
-        "strand": "Quadratic functions and equations",
-        "focus": "interpret the vertex of a quadratic model as a maximum or minimum value in a real-world context",
-        "verification_status": "pending",
-        "source_url": null
-      },
-      {
-        "code": "provisional-quadratic-vertex-form",
-        "canonical_code": null,
-        "section": "19 TAC §111.40 (Algebra II)",
-        "strand": "Quadratic functions and equations",
-        "focus": "identify the vertex and axis of symmetry from vertex form y = a(x - h)^2 + k (block extension)",
-        "verification_status": "pending",
-        "source_url": null
+        "code": "AII.4F",
+        "canonical_code": "111.40.c.4.F",
+        "section": "19 TAC §111.40",
+        "strand": "Quadratic and square root functions, equations, and inequalities",
+        "focus": "solving quadratic equations / finding zeros (roots) of a quadratic",
+        "verification_status": "verified",
+        "source_url": "https://www.law.cornell.edu/regulations/texas/19-Tex-Admin-Code-SS-111-40"
       }
     ],
     "supporting": [],
-    "lock": null,
-    "verified_on": null
+    "lock": "standards/standards-lock.json",
+    "verified_on": "2026-09-04"
   },
   "calculator_allowed": true,
   "color_required": false,

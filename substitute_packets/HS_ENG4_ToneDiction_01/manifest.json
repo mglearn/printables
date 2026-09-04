@@ -25,25 +25,27 @@
     "framework": "19 TAC §110.39 (English IV)",
     "primary": [
       {
-        "code": "E4.5",
+        "code": "E4.8F",
+        "canonical_code": "110.39.c.8.F",
         "section": "19 TAC §110.39",
         "strand": "Author's purpose and craft",
-        "focus": "analyzing how an author's diction, connotation, and detail create tone and convey the author's attitude and message",
-        "verification_status": "pending",
-        "source_url": null
+        "focus": "author's craft: how diction (word choice) and syntax shape tone and effect",
+        "verification_status": "verified",
+        "source_url": "https://www.law.cornell.edu/regulations/texas/19-Tex-Admin-Code-SS-110-39"
       },
       {
-        "code": "E4.5",
+        "code": "E4.8G",
+        "canonical_code": "110.39.c.8.G",
         "section": "19 TAC §110.39",
         "strand": "Author's purpose and craft",
-        "focus": "analyzing how rhetorical devices (such as imagery, metaphor, and parallelism) and syntax shape meaning and reinforce tone in nonfiction",
-        "verification_status": "pending",
-        "source_url": null
+        "focus": "rhetorical devices: analyzing their effects on meaning",
+        "verification_status": "verified",
+        "source_url": "https://www.law.cornell.edu/regulations/texas/19-Tex-Admin-Code-SS-110-39"
       }
     ],
     "supporting": [],
     "lock": "standards/standards-lock.json",
-    "verified_on": null
+    "verified_on": "2026-09-04"
   },
   "calculator_allowed": false,
   "color_required": false,

@@ -25,27 +25,27 @@
     "framework": "19 TAC Chapter 112 (Integrated Physics and Chemistry)",
     "primary": [
       {
-        "code": null,
-        "canonical_code": null,
-        "section": null,
-        "strand": "Matter and its properties / changes in matter",
-        "focus": "distinguish physical changes (state, shape, size; no new substance) from chemical changes in which one or more new substances form",
-        "verification_status": "pending",
-        "source_url": null
+        "code": "IPC.8A",
+        "canonical_code": "112.44.c.8.A",
+        "section": "19 TAC §112.44",
+        "strand": "Matter and energy",
+        "focus": "evidence of chemical reactions vs. physical changes (changes in properties as indicators)",
+        "verification_status": "verified",
+        "source_url": "https://www.law.cornell.edu/regulations/texas/19-Tex-Admin-Code-SS-112-44"
       },
       {
-        "code": null,
-        "canonical_code": null,
-        "section": null,
-        "strand": "Chemical reactions",
-        "focus": "recognize evidence that a chemical reaction has occurred, such as gas production, color change, temperature change, precipitate formation, or emission of light",
-        "verification_status": "pending",
-        "source_url": null
+        "code": "IPC.8B",
+        "canonical_code": "112.44.c.8.B",
+        "section": "19 TAC §112.44",
+        "strand": "Matter and energy",
+        "focus": "conservation of mass / atoms in a chemical reaction (supports evidence of chemical change)",
+        "verification_status": "verified",
+        "source_url": "https://www.law.cornell.edu/regulations/texas/19-Tex-Admin-Code-SS-112-44"
       }
     ],
     "supporting": [],
     "lock": "standards/standards-lock.json",
-    "verified_on": null
+    "verified_on": "2026-09-04"
   },
   "calculator_allowed": false,
   "color_required": false,

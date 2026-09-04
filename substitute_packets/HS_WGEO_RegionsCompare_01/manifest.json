@@ -25,36 +25,27 @@
     "framework": "19 TAC Chapter 113 (World Geography Studies)",
     "primary": [
       {
-        "code": null,
-        "canonical_code": null,
-        "section": null,
-        "strand": "Regions",
-        "focus": "describing and comparing the physical and human characteristics of world regions",
-        "verification_status": "pending",
-        "source_url": null
+        "code": "WG.9A",
+        "canonical_code": "113.43.c.9.A",
+        "section": "19 TAC §113.43",
+        "strand": "Geography",
+        "focus": "regions defined by physical and human geographic factors",
+        "verification_status": "verified",
+        "source_url": "https://www.law.cornell.edu/regulations/texas/19-Tex-Admin-Code-SS-113-43"
       },
       {
-        "code": null,
-        "canonical_code": null,
-        "section": null,
-        "strand": "Physical and human geography",
-        "focus": "explaining how physical features (climate, landforms) shape human activity, settlement, and economic patterns",
-        "verification_status": "pending",
-        "source_url": null
-      },
-      {
-        "code": null,
-        "canonical_code": null,
-        "section": null,
-        "strand": "Geographic skills",
-        "focus": "using maps, tables, and other geographic tools to interpret data and support conclusions with evidence",
-        "verification_status": "pending",
-        "source_url": null
+        "code": "WG.21C",
+        "canonical_code": "113.43.c.21.C",
+        "section": "19 TAC §113.43",
+        "strand": "Social studies skills",
+        "focus": "geographic skills: creating and interpreting maps to answer geographic questions",
+        "verification_status": "verified",
+        "source_url": "https://www.law.cornell.edu/regulations/texas/19-Tex-Admin-Code-SS-113-43"
       }
     ],
     "supporting": [],
     "lock": "standards/standards-lock.json",
-    "verified_on": null
+    "verified_on": "2026-09-04"
   },
   "calculator_allowed": false,
   "color_required": false,

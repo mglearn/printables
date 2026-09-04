@@ -30,33 +30,33 @@
         "code": "G.6D",
         "canonical_code": "111.41.c.6.D",
         "section": "19 TAC §111.41",
-        "strand": "Right triangles and trigonometric ratios",
-        "focus": "apply the Pythagorean Theorem and its converse to solve problems and to determine whether a triangle is a right triangle",
-        "verification_status": "pending",
-        "source_url": null
+        "strand": "Proof and congruence",
+        "focus": "the Pythagorean Theorem and right-triangle relationships / proof and application",
+        "verification_status": "verified",
+        "source_url": "https://www.law.cornell.edu/regulations/texas/19-Tex-Admin-Code-SS-111-41"
+      },
+      {
+        "code": "G.9B",
+        "canonical_code": "111.41.c.9.B",
+        "section": "19 TAC §111.41",
+        "strand": "Similarity, proof, and trigonometry",
+        "focus": "right-triangle reasoning: special right triangles and Pythagorean triples",
+        "verification_status": "verified",
+        "source_url": "https://www.law.cornell.edu/regulations/texas/19-Tex-Admin-Code-SS-111-41"
       },
       {
         "code": "G.2B",
         "canonical_code": "111.41.c.2.B",
         "section": "19 TAC §111.41",
         "strand": "Coordinate and transformational geometry",
-        "focus": "use the distance formula on the coordinate plane to find the length of a segment between two points",
-        "verification_status": "pending",
-        "source_url": null
-      },
-      {
-        "code": "G.5A",
-        "canonical_code": "111.41.c.5.A",
-        "section": "19 TAC §111.41",
-        "strand": "Logical argument and constructions / right-triangle relationships",
-        "focus": "use right-triangle length relationships to solve mathematical and real-world problems",
-        "verification_status": "pending",
-        "source_url": null
+        "focus": "distance on the coordinate plane using the distance formula (derived from the Pythagorean Theorem)",
+        "verification_status": "verified",
+        "source_url": "https://www.law.cornell.edu/regulations/texas/19-Tex-Admin-Code-SS-111-41"
       }
     ],
     "supporting": [],
     "lock": "standards/standards-lock.json",
-    "verified_on": null
+    "verified_on": "2026-09-04"
   },
   "calculator_allowed": true,
   "color_required": false,

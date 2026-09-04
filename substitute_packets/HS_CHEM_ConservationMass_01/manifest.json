@@ -26,27 +26,18 @@
     "framework": "19 TAC Chapter 112 (Chemistry)",
     "primary": [
       {
-        "code": null,
-        "canonical_code": null,
-        "section": "19 TAC Chapter 112 (Chemistry)",
+        "code": "C.9A",
+        "canonical_code": "112.43.c.9.A",
+        "section": "19 TAC §112.43",
         "strand": "Chemical reactions",
-        "focus": "conservation of mass in chemical reactions: reactants react to form products, and the total mass of reactants equals the total mass of products because atoms are rearranged, not created or destroyed",
-        "verification_status": "pending",
-        "source_url": null
-      },
-      {
-        "code": null,
-        "canonical_code": null,
-        "section": "19 TAC Chapter 112 (Chemistry)",
-        "strand": "Chemical reactions",
-        "focus": "interpret and balance simple chemical equations using coefficients so the number of atoms of each element is equal on both sides of the equation",
-        "verification_status": "pending",
-        "source_url": null
+        "focus": "conservation of mass and balancing/interpreting chemical reactions",
+        "verification_status": "verified",
+        "source_url": "https://www.law.cornell.edu/regulations/texas/19-Tex-Admin-Code-SS-112-43"
       }
     ],
     "supporting": [],
     "lock": "standards/standards-lock.json",
-    "verified_on": null
+    "verified_on": "2026-09-04"
   },
   "calculator_allowed": true,
   "color_required": false,

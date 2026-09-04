@@ -25,36 +25,36 @@
     "framework": "19 TAC §110.38 (English III)",
     "primary": [
       {
-        "code": "E3.5",
-        "canonical_code": null,
+        "code": "E3.4H",
+        "canonical_code": "110.38.c.4.H",
         "section": "19 TAC §110.38",
-        "strand": "Comprehension / response",
-        "focus": "synthesizing information and ideas across multiple sources to build and support a position",
-        "verification_status": "pending",
-        "source_url": null
+        "strand": "Comprehension skills",
+        "focus": "synthesizing information across multiple sources to create new understanding",
+        "verification_status": "verified",
+        "source_url": "https://www.law.cornell.edu/regulations/texas/19-Tex-Admin-Code-SS-110-38"
       },
       {
-        "code": "E3.9",
-        "canonical_code": null,
+        "code": "E3.11G",
+        "canonical_code": "110.38.c.11.G",
         "section": "19 TAC §110.38",
-        "strand": "Author's purpose and craft / inquiry",
-        "focus": "evaluating the relevance, sufficiency, and credibility of evidence and its sources",
-        "verification_status": "pending",
-        "source_url": null
+        "strand": "Inquiry and research",
+        "focus": "evaluating evidence: source credibility, bias, accuracy, and faulty reasoning",
+        "verification_status": "verified",
+        "source_url": "https://www.law.cornell.edu/regulations/texas/19-Tex-Admin-Code-SS-110-38"
       },
       {
-        "code": "E3.10",
-        "canonical_code": null,
+        "code": "E3.10C",
+        "canonical_code": "110.38.c.10.C",
         "section": "19 TAC §110.38",
-        "strand": "Composition (writing an argument)",
-        "focus": "composing an argument that states a clear position supported by well-chosen evidence, reasoning, and a response to a counterpoint",
-        "verification_status": "pending",
-        "source_url": null
+        "strand": "Composition (writing process)",
+        "focus": "composing an argument using genre characteristics and craft",
+        "verification_status": "verified",
+        "source_url": "https://www.law.cornell.edu/regulations/texas/19-Tex-Admin-Code-SS-110-38"
       }
     ],
     "supporting": [],
     "lock": "standards/standards-lock.json",
-    "verified_on": null
+    "verified_on": "2026-09-04"
   },
   "calculator_allowed": false,
   "color_required": false,

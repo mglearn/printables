@@ -1241,27 +1241,17 @@
       "color_required": false,
       "standards": [
         {
-          "code": "provisional-quadratic-graph-attributes",
-          "section": "19 TAC §111.40 (Algebra II)",
-          "status": "pending"
+          "code": "AII.4D",
+          "section": "19 TAC §111.40",
+          "status": "verified"
         },
         {
-          "code": "provisional-quadratic-zeros-factoring",
-          "section": "19 TAC §111.40 (Algebra II)",
-          "status": "pending"
-        },
-        {
-          "code": "provisional-quadratic-vertex-context",
-          "section": "19 TAC §111.40 (Algebra II)",
-          "status": "pending"
-        },
-        {
-          "code": "provisional-quadratic-vertex-form",
-          "section": "19 TAC §111.40 (Algebra II)",
-          "status": "pending"
+          "code": "AII.4F",
+          "section": "19 TAC §111.40",
+          "status": "verified"
         }
       ],
-      "standards_status": "pending",
+      "standards_status": "verified",
       "status": "draft",
       "version": "0.1.0",
       "href": "HS_ALG2_Quadratics_01/index.html",
@@ -1340,17 +1330,12 @@
       "color_required": false,
       "standards": [
         {
-          "code": "",
-          "section": "19 TAC Chapter 112 (Chemistry)",
-          "status": "pending"
-        },
-        {
-          "code": "",
-          "section": "19 TAC Chapter 112 (Chemistry)",
-          "status": "pending"
+          "code": "C.9A",
+          "section": "19 TAC §112.43",
+          "status": "verified"
         }
       ],
-      "standards_status": "pending",
+      "standards_status": "verified",
       "status": "draft",
       "version": "0.1.0",
       "href": "HS_CHEM_ConservationMass_01/index.html",
@@ -1385,17 +1370,22 @@
       "color_required": false,
       "standards": [
         {
-          "code": "",
-          "section": "",
-          "status": "pending"
+          "code": "ECO.2A",
+          "section": "19 TAC §113.31",
+          "status": "verified"
         },
         {
-          "code": "",
-          "section": "",
-          "status": "pending"
+          "code": "ECO.2B",
+          "section": "19 TAC §113.31",
+          "status": "verified"
+        },
+        {
+          "code": "ECO.2C",
+          "section": "19 TAC §113.31",
+          "status": "verified"
         }
       ],
-      "standards_status": "pending",
+      "standards_status": "verified",
       "status": "draft",
       "version": "0.1.0",
       "href": "HS_ECON_SupplyDemand_01/index.html",
@@ -1478,22 +1468,22 @@
       "color_required": false,
       "standards": [
         {
-          "code": "E2.5",
+          "code": "E2.6A",
           "section": "19 TAC §110.37",
-          "status": "pending"
+          "status": "verified"
         },
         {
-          "code": "E2.7",
+          "code": "E2.6B",
           "section": "19 TAC §110.37",
-          "status": "pending"
+          "status": "verified"
         },
         {
-          "code": "E2.8",
+          "code": "E2.8E",
           "section": "19 TAC §110.37",
-          "status": "pending"
+          "status": "verified"
         }
       ],
-      "standards_status": "pending",
+      "standards_status": "verified",
       "status": "draft",
       "version": "0.1.0",
       "href": "HS_ENG2_ThemeCraft_01/index.html",
@@ -1527,22 +1517,22 @@
       "color_required": false,
       "standards": [
         {
-          "code": "E3.5",
+          "code": "E3.4H",
           "section": "19 TAC §110.38",
-          "status": "pending"
+          "status": "verified"
         },
         {
-          "code": "E3.9",
+          "code": "E3.11G",
           "section": "19 TAC §110.38",
-          "status": "pending"
+          "status": "verified"
         },
         {
-          "code": "E3.10",
+          "code": "E3.10C",
           "section": "19 TAC §110.38",
-          "status": "pending"
+          "status": "verified"
         }
       ],
-      "standards_status": "pending",
+      "standards_status": "verified",
       "status": "draft",
       "version": "0.1.0",
       "href": "HS_ENG3_Synthesis_01/index.html",
@@ -1576,17 +1566,17 @@
       "color_required": false,
       "standards": [
         {
-          "code": "E4.5",
+          "code": "E4.8F",
           "section": "19 TAC §110.39",
-          "status": "pending"
+          "status": "verified"
         },
         {
-          "code": "E4.5",
+          "code": "E4.8G",
           "section": "19 TAC §110.39",
-          "status": "pending"
+          "status": "verified"
         }
       ],
-      "standards_status": "pending",
+      "standards_status": "verified",
       "status": "draft",
       "version": "0.1.0",
       "href": "HS_ENG4_ToneDiction_01/index.html",
@@ -1623,20 +1613,20 @@
         {
           "code": "G.6D",
           "section": "19 TAC §111.41",
-          "status": "pending"
+          "status": "verified"
+        },
+        {
+          "code": "G.9B",
+          "section": "19 TAC §111.41",
+          "status": "verified"
         },
         {
           "code": "G.2B",
           "section": "19 TAC §111.41",
-          "status": "pending"
-        },
-        {
-          "code": "G.5A",
-          "section": "19 TAC §111.41",
-          "status": "pending"
+          "status": "verified"
         }
       ],
-      "standards_status": "pending",
+      "standards_status": "verified",
       "status": "draft",
       "version": "0.1.0",
       "href": "HS_GEOM_Pythagorean_01/index.html",
@@ -1670,17 +1660,17 @@
       "color_required": false,
       "standards": [
         {
-          "code": "PROVISIONAL-FEDERALISM",
-          "section": "",
-          "status": "pending"
+          "code": "USG.8B",
+          "section": "19 TAC §113.44",
+          "status": "verified"
         },
         {
-          "code": "PROVISIONAL-SOURCE-ANALYSIS",
-          "section": "",
-          "status": "pending"
+          "code": "USG.19D",
+          "section": "19 TAC §113.44",
+          "status": "verified"
         }
       ],
-      "standards_status": "pending",
+      "standards_status": "verified",
       "status": "draft",
       "version": "0.1.0",
       "href": "HS_GOV_Federalism_01/index.html",
@@ -1714,17 +1704,17 @@
       "color_required": false,
       "standards": [
         {
-          "code": "",
-          "section": "",
-          "status": "pending"
+          "code": "IPC.8A",
+          "section": "19 TAC §112.44",
+          "status": "verified"
         },
         {
-          "code": "",
-          "section": "",
-          "status": "pending"
+          "code": "IPC.8B",
+          "section": "19 TAC §112.44",
+          "status": "verified"
         }
       ],
-      "standards_status": "pending",
+      "standards_status": "verified",
       "status": "draft",
       "version": "0.1.0",
       "href": "HS_IPC_PhysChemChange_01/index.html",
@@ -1759,17 +1749,17 @@
       "color_required": false,
       "standards": [
         {
-          "code": "",
-          "section": "",
-          "status": "pending"
+          "code": "P.5A",
+          "section": "19 TAC §112.45",
+          "status": "verified"
         },
         {
-          "code": "",
-          "section": "",
-          "status": "pending"
+          "code": "P.5C",
+          "section": "19 TAC §112.45",
+          "status": "verified"
         }
       ],
-      "standards_status": "pending",
+      "standards_status": "verified",
       "status": "draft",
       "version": "0.1.0",
       "href": "HS_PHYS_MotionGraphs_01/index.html",
@@ -1847,22 +1837,17 @@
       "color_required": false,
       "standards": [
         {
-          "code": "",
-          "section": "",
-          "status": "pending"
+          "code": "WG.9A",
+          "section": "19 TAC §113.43",
+          "status": "verified"
         },
         {
-          "code": "",
-          "section": "",
-          "status": "pending"
-        },
-        {
-          "code": "",
-          "section": "",
-          "status": "pending"
+          "code": "WG.21C",
+          "section": "19 TAC §113.43",
+          "status": "verified"
         }
       ],
-      "standards_status": "pending",
+      "standards_status": "verified",
       "status": "draft",
       "version": "0.1.0",
       "href": "HS_WGEO_RegionsCompare_01/index.html",
@@ -1896,17 +1881,17 @@
       "color_required": false,
       "standards": [
         {
-          "code": "",
-          "section": "",
-          "status": "pending"
+          "code": "WH.7B",
+          "section": "19 TAC §113.42",
+          "status": "verified"
         },
         {
-          "code": "",
-          "section": "",
-          "status": "pending"
+          "code": "WH.28C",
+          "section": "19 TAC §113.42",
+          "status": "verified"
         }
       ],
-      "standards_status": "pending",
+      "standards_status": "verified",
       "status": "draft",
       "version": "0.1.0",
       "href": "HS_WHIST_ColumbianExchange_01/index.html",

@@ -26,27 +26,27 @@
     "framework": "19 TAC Chapter 112 (Physics)",
     "primary": [
       {
-        "code": null,
-        "canonical_code": null,
-        "section": null,
-        "strand": "Motion and forces",
-        "focus": "describe and interpret the motion of an object using position-time and velocity-time graphs, relating slope to velocity or acceleration",
-        "verification_status": "pending",
-        "source_url": null
+        "code": "P.5A",
+        "canonical_code": "112.45.c.5.A",
+        "section": "19 TAC §112.45",
+        "strand": "Force, motion, and energy",
+        "focus": "describing motion with position-time, velocity-time, and acceleration-time graphs",
+        "verification_status": "verified",
+        "source_url": "https://www.law.cornell.edu/regulations/texas/19-Tex-Admin-Code-SS-112-45"
       },
       {
-        "code": null,
-        "canonical_code": null,
-        "section": null,
-        "strand": "Motion and forces",
-        "focus": "calculate average velocity and acceleration from data or graphs using speed = distance / time and acceleration = change in velocity / change in time",
-        "verification_status": "pending",
-        "source_url": null
+        "code": "P.5C",
+        "canonical_code": "112.45.c.5.C",
+        "section": "19 TAC §112.45",
+        "strand": "Force, motion, and energy",
+        "focus": "calculating velocity and acceleration in one-dimensional motion",
+        "verification_status": "verified",
+        "source_url": "https://www.law.cornell.edu/regulations/texas/19-Tex-Admin-Code-SS-112-45"
       }
     ],
     "supporting": [],
     "lock": "standards/standards-lock.json",
-    "verified_on": null
+    "verified_on": "2026-09-04"
   },
   "calculator_allowed": true,
   "color_required": false,

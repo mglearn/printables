@@ -41,6 +41,8 @@ for (const [pid, codes] of Object.entries(lock.packet_map || {})) {
   });
 
   m.standards = m.standards || {};
+  delete m.standards.alignment_note;   // stale free-text note superseded by verified per-SE records
+  delete m.alignment_note;
   m.standards.primary = primary;
   if (!Array.isArray(m.standards.supporting)) m.standards.supporting = [];
   m.standards.lock = "standards/standards-lock.json";

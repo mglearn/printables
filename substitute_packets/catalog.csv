@@ -1,4 +1,8 @@
 id,title,grade,subject,duration_minutes,calculator_allowed,standards,standards_status,status,version,href
+G05_MATH_FractionsDecimals_01,Fractions and Decimals in Everyday Problems,5,Mathematics,45,true,5.2B; 5.3H,pending,draft,0.1.0,G05_MATH_FractionsDecimals_01/index.html
+G05_RLA_ThemeSummary_01,Theme and Summary in a Short Story,5,Reading/ELA,45,false,5.6C; 5.7D; 5.6F,pending,draft,0.1.0,G05_RLA_ThemeSummary_01/index.html
+G05_SCI_MixturesSolutions_01,Mixtures and Solutions,5,Science,45,false,[object Object]; [object Object],pending,draft,0.1.0,G05_SCI_MixturesSolutions_01/index.html
+G05_SOC_ColonialRegions_01,Comparing the Three Colonial Regions,5,Social Studies,45,false,[object Object]; [object Object],pending,draft,0.1.0,G05_SOC_ColonialRegions_01/index.html
 G06_MATH_Ratios_01,"Ratios, Rates, and Percents",6,Mathematics,45,true,6.4B; 6.5B; 6.4C,verified,draft,0.1.0,G06_MATH_Ratios_01/index.html
 G06_RLA_CentralIdea_01,Central Idea and Evidence Across Two Texts,6,Reading/ELA,45,false,6.8D; 6.5F; 6.6C,verified,draft,0.1.0,G06_RLA_CentralIdea_01/index.html
 G06_SCI_ClassifyMatter_01,Classifying Matter by Its Properties,6,Science,45,false,6.6B; 6.6C(sci); 6.6A,verified,draft,0.1.0,G06_SCI_ClassifyMatter_01/index.html

@@ -1,0 +1,61 @@
+{
+  "id": "G05_SCI_MixturesSolutions_01",
+  "title": "Mixtures and Solutions",
+  "slug": "mixtures-and-solutions",
+  "grade": 5,
+  "subject": "science",
+  "duration": {
+    "core_minutes": 45,
+    "extension_minutes": 15
+  },
+  "materials": [
+    "printed student packet",
+    "pencil"
+  ],
+  "work_mode": "independent",
+  "standards": {
+    "framework": "19 TAC Chapter 112 (Grade 5 Science, 2021 TEKS)",
+    "knowledge_and_skills": null,
+    "primary": [
+      {
+        "code": null,
+        "section": "19 TAC Chapter 112 (Grade 5 Science)",
+        "strand": "Matter and energy",
+        "focus": "identify a solution as a mixture that looks the same throughout because a part dissolves",
+        "verification_status": "pending"
+      },
+      {
+        "code": null,
+        "section": "19 TAC Chapter 112 (Grade 5 Science)",
+        "strand": "Matter and energy",
+        "focus": "separate a mixture using physical properties (sifting, magnet, filtering, evaporation)",
+        "verification_status": "pending"
+      }
+    ],
+    "alignment_note": "Provisional — specific section number and student expectation codes are pending educator verification against the current official TAC source. Standards paraphrased, not quoted; not claimed as TEKS-aligned.",
+    "supporting": [],
+    "lock": "standards/standards-lock.json",
+    "verified_on": null
+  },
+  "calculator_allowed": false,
+  "color_required": false,
+  "files": [
+    "student.html",
+    "subguide.html",
+    "answerkey.html",
+    "index.html",
+    "manifest.json"
+  ],
+  "copyright": {
+    "text": "original",
+    "images": "original-svg",
+    "license": "CC-BY-4.0"
+  },
+  "status": "draft",
+  "review": {
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "verification_status": null
+  },
+  "version": "0.1.0"
+}

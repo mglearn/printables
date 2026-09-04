@@ -1,7 +1,169 @@
 {
   "generated": null,
-  "count": 12,
+  "count": 16,
   "packets": [
+    {
+      "id": "G05_MATH_FractionsDecimals_01",
+      "title": "Fractions and Decimals in Everyday Problems",
+      "grade": 5,
+      "subject": "Mathematics",
+      "subject_key": "math",
+      "duration_minutes": 45,
+      "extension_minutes": 15,
+      "materials": [
+        "printed student packet",
+        "pencil",
+        "basic calculator (optional)"
+      ],
+      "calculator_allowed": true,
+      "color_required": false,
+      "standards": [
+        {
+          "code": "5.2B",
+          "section": "19 TAC §111.7",
+          "status": "pending"
+        },
+        {
+          "code": "5.3H",
+          "section": "19 TAC §111.7",
+          "status": "pending"
+        }
+      ],
+      "standards_status": "pending",
+      "status": "draft",
+      "version": "0.1.0",
+      "href": "G05_MATH_FractionsDecimals_01/index.html",
+      "files": {
+        "html": "G05_MATH_FractionsDecimals_01/index.html",
+        "student_pdf": "G05_MATH_FractionsDecimals_01/G05_MATH_FractionsDecimals_01_Student.pdf",
+        "subguide_pdf": "G05_MATH_FractionsDecimals_01/G05_MATH_FractionsDecimals_01_SubGuide.pdf",
+        "answerkey_pdf": "G05_MATH_FractionsDecimals_01/G05_MATH_FractionsDecimals_01_AnswerKey.pdf",
+        "teacher_master_pdf": "G05_MATH_FractionsDecimals_01/G05_MATH_FractionsDecimals_01_TeacherMaster.pdf",
+        "preview": "G05_MATH_FractionsDecimals_01/G05_MATH_FractionsDecimals_01_Preview.webp"
+      }
+    },
+    {
+      "id": "G05_RLA_ThemeSummary_01",
+      "title": "Theme and Summary in a Short Story",
+      "grade": 5,
+      "subject": "Reading/ELA",
+      "subject_key": "rla",
+      "duration_minutes": 45,
+      "extension_minutes": 15,
+      "materials": [
+        "printed student packet",
+        "pencil"
+      ],
+      "calculator_allowed": false,
+      "color_required": false,
+      "standards": [
+        {
+          "code": "5.6C",
+          "section": "19 TAC §110.7",
+          "status": "pending"
+        },
+        {
+          "code": "5.7D",
+          "section": "19 TAC §110.7",
+          "status": "pending"
+        },
+        {
+          "code": "5.6F",
+          "section": "19 TAC §110.7",
+          "status": "pending"
+        }
+      ],
+      "standards_status": "pending",
+      "status": "draft",
+      "version": "0.1.0",
+      "href": "G05_RLA_ThemeSummary_01/index.html",
+      "files": {
+        "html": "G05_RLA_ThemeSummary_01/index.html",
+        "student_pdf": "G05_RLA_ThemeSummary_01/G05_RLA_ThemeSummary_01_Student.pdf",
+        "subguide_pdf": "G05_RLA_ThemeSummary_01/G05_RLA_ThemeSummary_01_SubGuide.pdf",
+        "answerkey_pdf": "G05_RLA_ThemeSummary_01/G05_RLA_ThemeSummary_01_AnswerKey.pdf",
+        "teacher_master_pdf": "G05_RLA_ThemeSummary_01/G05_RLA_ThemeSummary_01_TeacherMaster.pdf",
+        "preview": "G05_RLA_ThemeSummary_01/G05_RLA_ThemeSummary_01_Preview.webp"
+      }
+    },
+    {
+      "id": "G05_SCI_MixturesSolutions_01",
+      "title": "Mixtures and Solutions",
+      "grade": 5,
+      "subject": "Science",
+      "subject_key": "scienceence",
+      "duration_minutes": 45,
+      "extension_minutes": 15,
+      "materials": [
+        "printed student packet",
+        "pencil"
+      ],
+      "calculator_allowed": false,
+      "color_required": false,
+      "standards": [
+        {
+          "code": "",
+          "section": "19 TAC Chapter 112 (Grade 5 Science)",
+          "status": "pending"
+        },
+        {
+          "code": "",
+          "section": "19 TAC Chapter 112 (Grade 5 Science)",
+          "status": "pending"
+        }
+      ],
+      "standards_status": "pending",
+      "status": "draft",
+      "version": "0.1.0",
+      "href": "G05_SCI_MixturesSolutions_01/index.html",
+      "files": {
+        "html": "G05_SCI_MixturesSolutions_01/index.html",
+        "student_pdf": "G05_SCI_MixturesSolutions_01/G05_SCI_MixturesSolutions_01_Student.pdf",
+        "subguide_pdf": "G05_SCI_MixturesSolutions_01/G05_SCI_MixturesSolutions_01_SubGuide.pdf",
+        "answerkey_pdf": "G05_SCI_MixturesSolutions_01/G05_SCI_MixturesSolutions_01_AnswerKey.pdf",
+        "teacher_master_pdf": "G05_SCI_MixturesSolutions_01/G05_SCI_MixturesSolutions_01_TeacherMaster.pdf",
+        "preview": "G05_SCI_MixturesSolutions_01/G05_SCI_MixturesSolutions_01_Preview.webp"
+      }
+    },
+    {
+      "id": "G05_SOC_ColonialRegions_01",
+      "title": "Comparing the Three Colonial Regions",
+      "grade": 5,
+      "subject": "Social Studies",
+      "subject_key": "socialial",
+      "duration_minutes": 45,
+      "extension_minutes": 15,
+      "materials": [
+        "printed student packet",
+        "pencil"
+      ],
+      "calculator_allowed": false,
+      "color_required": false,
+      "standards": [
+        {
+          "code": "",
+          "section": "",
+          "status": "pending"
+        },
+        {
+          "code": "",
+          "section": "",
+          "status": "pending"
+        }
+      ],
+      "standards_status": "pending",
+      "status": "draft",
+      "version": "0.1.0",
+      "href": "G05_SOC_ColonialRegions_01/index.html",
+      "files": {
+        "html": "G05_SOC_ColonialRegions_01/index.html",
+        "student_pdf": "G05_SOC_ColonialRegions_01/G05_SOC_ColonialRegions_01_Student.pdf",
+        "subguide_pdf": "G05_SOC_ColonialRegions_01/G05_SOC_ColonialRegions_01_SubGuide.pdf",
+        "answerkey_pdf": "G05_SOC_ColonialRegions_01/G05_SOC_ColonialRegions_01_AnswerKey.pdf",
+        "teacher_master_pdf": "G05_SOC_ColonialRegions_01/G05_SOC_ColonialRegions_01_TeacherMaster.pdf",
+        "preview": "G05_SOC_ColonialRegions_01/G05_SOC_ColonialRegions_01_Preview.webp"
+      }
+    },
     {
       "id": "G06_MATH_Ratios_01",
       "title": "Ratios, Rates, and Percents",

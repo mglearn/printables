@@ -1,0 +1,72 @@
+{
+  "id": "G05_MATH_FractionsDecimals_01",
+  "title": "Fractions and Decimals in Everyday Problems",
+  "slug": "fractions-and-decimals-in-everyday-problems",
+  "grade": 5,
+  "subject": "math",
+  "duration": {
+    "core_minutes": 45,
+    "extension_minutes": 15
+  },
+  "materials": [
+    "printed student packet",
+    "pencil",
+    "basic calculator (optional)"
+  ],
+  "work_mode": "independent",
+  "standards": {
+    "framework": "19 TAC §111.7 (Grade 5 Mathematics)",
+    "knowledge_and_skills": "5.2, 5.3",
+    "primary": [
+      {
+        "code": "5.2B",
+        "section": "19 TAC §111.7",
+        "strand": "Number and operations",
+        "focus": "compare and order decimals to the thousandths using place value",
+        "verification_status": "pending",
+        "source_url": null
+      },
+      {
+        "code": "5.3H",
+        "section": "19 TAC §111.7",
+        "strand": "Number and operations",
+        "focus": "add and subtract fractions with unlike denominators using equivalent fractions (a common denominator)",
+        "verification_status": "pending",
+        "source_url": null
+      }
+    ],
+    "supporting": [
+      {
+        "code": "5.2A",
+        "section": "19 TAC §111.7",
+        "strand": "Number and operations",
+        "focus": "represent and connect a fraction to its decimal form",
+        "verification_status": "pending",
+        "source_url": null
+      }
+    ],
+    "alignment_note": "Provisional — pending educator verification against the current official TAC source. Standards paraphrased, not quoted.",
+    "verified_on": null
+  },
+  "calculator_allowed": true,
+  "color_required": false,
+  "files": [
+    "student.html",
+    "subguide.html",
+    "answerkey.html",
+    "index.html",
+    "manifest.json"
+  ],
+  "copyright": {
+    "text": "original",
+    "images": "original-svg",
+    "license": "CC-BY-4.0"
+  },
+  "status": "draft",
+  "review": {
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "verification_status": null
+  },
+  "version": "0.1.0"
+}

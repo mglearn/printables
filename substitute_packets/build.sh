@@ -43,7 +43,7 @@ zipset() { # out.zip  glob...
   local files=(); for g in "$@"; do for f in $g; do [ -e "$f" ] && files+=("$f"); done; done
   [ ${#files[@]} -gt 0 ] && zip -qj "dist/$out" "${files[@]}" && echo "  dist/$out (${#files[@]} files)"
 }
-for g in 06 07 08; do zipset "grade-${g}-packets.zip" "G${g}_*/*_Student.pdf" "G${g}_*/*_SubGuide.pdf" "G${g}_*/*_AnswerKey.pdf"; done
+for g in 05 06 07 08; do zipset "grade-${g}-packets.zip" "G${g}_*/*_Student.pdf" "G${g}_*/*_SubGuide.pdf" "G${g}_*/*_AnswerKey.pdf"; done
 for s in RLA MATH SCI SOC; do zipset "subject-${s,,}-packets.zip" "G[0-9][0-9]_${s}_*/*_Student.pdf" "G[0-9][0-9]_${s}_*/*_SubGuide.pdf" "G[0-9][0-9]_${s}_*/*_AnswerKey.pdf"; done
 zipset "all-packets.zip" "G[0-9][0-9]_*/*_Student.pdf" "G[0-9][0-9]_*/*_SubGuide.pdf" "G[0-9][0-9]_*/*_AnswerKey.pdf" "G[0-9][0-9]_*/*_TeacherMaster.pdf"
 

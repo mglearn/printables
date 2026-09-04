@@ -18,24 +18,28 @@
     "knowledge_and_skills": null,
     "primary": [
       {
-        "code": null,
-        "section": "19 TAC Chapter 112 (Grade 5 Science)",
+        "code": "5.6B",
+        "canonical_code": "112.7.b.6.B",
+        "section": "19 TAC §112.7",
         "strand": "Matter and energy",
-        "focus": "identify a solution as a mixture that looks the same throughout because a part dissolves",
-        "verification_status": "pending"
+        "focus": "mixtures maintain the physical properties of their substances (separating mixtures by physical properties)",
+        "verification_status": "verified",
+        "source_url": "https://teksguide.org/teks/s56b-0/overview"
       },
       {
-        "code": null,
-        "section": "19 TAC Chapter 112 (Grade 5 Science)",
+        "code": "5.6C",
+        "canonical_code": "112.7.b.6.C",
+        "section": "19 TAC §112.7",
         "strand": "Matter and energy",
-        "focus": "separate a mixture using physical properties (sifting, magnet, filtering, evaporation)",
-        "verification_status": "pending"
+        "focus": "solutions and conservation of matter when substances are combined",
+        "verification_status": "verified",
+        "source_url": "https://teksguide.org/teks/s56c-0/overview"
       }
     ],
     "alignment_note": "Provisional — specific section number and student expectation codes are pending educator verification against the current official TAC source. Standards paraphrased, not quoted; not claimed as TEKS-aligned.",
     "supporting": [],
     "lock": "standards/standards-lock.json",
-    "verified_on": null
+    "verified_on": "2026-09-04"
   },
   "calculator_allowed": false,
   "color_required": false,

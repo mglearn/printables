@@ -17,37 +17,37 @@
     "framework": "19 TAC §110.7 (Grade 5 English Language Arts and Reading)",
     "primary": [
       {
-        "code": "5.6C",
-        "canonical_code": "110.7.b.6.C",
+        "code": "5.8A",
+        "canonical_code": "110.7.b.8.A",
         "section": "19 TAC §110.7",
-        "strand": "Comprehension skills",
-        "focus": "inferring the theme or lesson of a literary text and supporting it with evidence",
-        "verification_status": "pending",
-        "source_url": null
+        "strand": "Multiple genres",
+        "focus": "inferring theme in a literary text and supporting it with text evidence",
+        "verification_status": "verified",
+        "source_url": "http://txrules.elaws.us/rule/title19_chapter110_sec.110.7"
       },
       {
         "code": "5.7D",
         "canonical_code": "110.7.b.7.D",
         "section": "19 TAC §110.7",
         "strand": "Response skills",
-        "focus": "summarizing a text so main events keep meaning and order",
-        "verification_status": "pending",
-        "source_url": null
+        "focus": "summarizing a text while maintaining meaning and logical order",
+        "verification_status": "verified",
+        "source_url": "http://txrules.elaws.us/rule/title19_chapter110_sec.110.7"
       },
       {
-        "code": "5.6F",
-        "canonical_code": "110.7.b.6.F",
+        "code": "5.7C",
+        "canonical_code": "110.7.b.7.C",
         "section": "19 TAC §110.7",
-        "strand": "Comprehension skills",
-        "focus": "using specific text details to support answers about a literary text",
-        "verification_status": "pending",
-        "source_url": null
+        "strand": "Response skills",
+        "focus": "using text details/evidence to support a response",
+        "verification_status": "verified",
+        "source_url": "http://txrules.elaws.us/rule/title19_chapter110_sec.110.7"
       }
     ],
     "alignment_note": "Provisional — pending educator verification against the current official TAC source. Standards paraphrased, not quoted. Codes to be verified separately.",
     "supporting": [],
     "lock": "standards/standards-lock.json",
-    "verified_on": null
+    "verified_on": "2026-09-04"
   },
   "calculator_allowed": false,
   "color_required": false,

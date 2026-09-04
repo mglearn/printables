@@ -17,18 +17,37 @@
     "framework": "19 TAC Chapter 113 (Grade 5 Social Studies)",
     "primary": [
       {
-        "strand": "Geography / early United States",
-        "focus": "comparing the New England, Middle, and Southern colonial regions and how physical geography and climate shaped settlement and ways of life",
-        "verification_status": "pending"
+        "code": "5.6B(soc)",
+        "canonical_code": "113.16.c.6.B",
+        "section": "19 TAC §113.16",
+        "strand": "Geography",
+        "focus": "comparing U.S. regions by physical geography (landform, climate, vegetation) — how geography shaped the colonial regions",
+        "verification_status": "verified",
+        "source_url": "http://txrules.elaws.us/rule/title19_chapter113_sec.113.16"
       },
       {
+        "code": "5.7B(soc)",
+        "canonical_code": "113.16.c.7.B",
+        "section": "19 TAC §113.16",
+        "strand": "Geography",
+        "focus": "how geographic factors shaped patterns of settlement / ways of life across the colonial regions",
+        "verification_status": "verified",
+        "source_url": "http://txrules.elaws.us/rule/title19_chapter113_sec.113.16"
+      },
+      {
+        "code": "5.24A",
+        "canonical_code": "113.16.c.24.A",
+        "section": "19 TAC §113.16",
         "strand": "Social studies skills",
-        "focus": "reading and interpreting a simple map and a comparison table, and comparing regions using evidence from the packet",
-        "verification_status": "pending"
+        "focus": "social studies skills: using and interpreting maps",
+        "verification_status": "verified",
+        "source_url": "http://txrules.elaws.us/rule/title19_chapter113_sec.113.16"
       }
     ],
     "supporting": [],
-    "alignment_note": "Provisional — pending educator verification against the current official TAC source. Standards are paraphrased, not quoted; no specific section number is asserted. Not TEKS-aligned until reviewed."
+    "alignment_note": "Provisional — pending educator verification against the current official TAC source. Standards are paraphrased, not quoted; no specific section number is asserted. Not TEKS-aligned until reviewed.",
+    "lock": "standards/standards-lock.json",
+    "verified_on": "2026-09-04"
   },
   "calculator_allowed": false,
   "color_required": false,

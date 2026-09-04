@@ -21,15 +21,20 @@
         {
           "code": "5.2B",
           "section": "19 TAC §111.7",
-          "status": "pending"
+          "status": "verified"
         },
         {
           "code": "5.3H",
           "section": "19 TAC §111.7",
-          "status": "pending"
+          "status": "verified"
+        },
+        {
+          "code": "5.2A",
+          "section": "19 TAC §111.7",
+          "status": "verified"
         }
       ],
-      "standards_status": "pending",
+      "standards_status": "verified",
       "status": "draft",
       "version": "0.1.0",
       "href": "G05_MATH_FractionsDecimals_01/index.html",
@@ -58,22 +63,22 @@
       "color_required": false,
       "standards": [
         {
-          "code": "5.6C",
+          "code": "5.8A",
           "section": "19 TAC §110.7",
-          "status": "pending"
+          "status": "verified"
         },
         {
           "code": "5.7D",
           "section": "19 TAC §110.7",
-          "status": "pending"
+          "status": "verified"
         },
         {
-          "code": "5.6F",
+          "code": "5.7C",
           "section": "19 TAC §110.7",
-          "status": "pending"
+          "status": "verified"
         }
       ],
-      "standards_status": "pending",
+      "standards_status": "verified",
       "status": "draft",
       "version": "0.1.0",
       "href": "G05_RLA_ThemeSummary_01/index.html",
@@ -102,17 +107,17 @@
       "color_required": false,
       "standards": [
         {
-          "code": "",
-          "section": "19 TAC Chapter 112 (Grade 5 Science)",
-          "status": "pending"
+          "code": "5.6B",
+          "section": "19 TAC §112.7",
+          "status": "verified"
         },
         {
-          "code": "",
-          "section": "19 TAC Chapter 112 (Grade 5 Science)",
-          "status": "pending"
+          "code": "5.6C",
+          "section": "19 TAC §112.7",
+          "status": "verified"
         }
       ],
-      "standards_status": "pending",
+      "standards_status": "verified",
       "status": "draft",
       "version": "0.1.0",
       "href": "G05_SCI_MixturesSolutions_01/index.html",
@@ -141,17 +146,22 @@
       "color_required": false,
       "standards": [
         {
-          "code": "",
-          "section": "",
-          "status": "pending"
+          "code": "5.6B(soc)",
+          "section": "19 TAC §113.16",
+          "status": "verified"
         },
         {
-          "code": "",
-          "section": "",
-          "status": "pending"
+          "code": "5.7B(soc)",
+          "section": "19 TAC §113.16",
+          "status": "verified"
+        },
+        {
+          "code": "5.24A",
+          "section": "19 TAC §113.16",
+          "status": "verified"
         }
       ],
-      "standards_status": "pending",
+      "standards_status": "verified",
       "status": "draft",
       "version": "0.1.0",
       "href": "G05_SOC_ColonialRegions_01/index.html",

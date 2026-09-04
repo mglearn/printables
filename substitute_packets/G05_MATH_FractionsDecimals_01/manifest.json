@@ -20,19 +20,30 @@
     "primary": [
       {
         "code": "5.2B",
+        "canonical_code": "111.7.b.2.B",
         "section": "19 TAC §111.7",
         "strand": "Number and operations",
-        "focus": "compare and order decimals to the thousandths using place value",
-        "verification_status": "pending",
-        "source_url": null
+        "focus": "comparing and ordering decimals to the thousandths",
+        "verification_status": "verified",
+        "source_url": "http://txrules.elaws.us/rule/title19_chapter111_sec.111.7"
       },
       {
         "code": "5.3H",
+        "canonical_code": "111.7.b.3.H",
         "section": "19 TAC §111.7",
         "strand": "Number and operations",
-        "focus": "add and subtract fractions with unlike denominators using equivalent fractions (a common denominator)",
-        "verification_status": "pending",
-        "source_url": null
+        "focus": "adding and subtracting fractions with unlike (unequal) denominators",
+        "verification_status": "verified",
+        "source_url": "http://txrules.elaws.us/rule/title19_chapter111_sec.111.7"
+      },
+      {
+        "code": "5.2A",
+        "canonical_code": "111.7.b.2.A",
+        "section": "19 TAC §111.7",
+        "strand": "Number and operations",
+        "focus": "place value of decimals to thousandths (supports relating fractions to decimals)",
+        "verification_status": "verified",
+        "source_url": "http://txrules.elaws.us/rule/title19_chapter111_sec.111.7"
       }
     ],
     "supporting": [
@@ -46,7 +57,8 @@
       }
     ],
     "alignment_note": "Provisional — pending educator verification against the current official TAC source. Standards paraphrased, not quoted.",
-    "verified_on": null
+    "verified_on": "2026-09-04",
+    "lock": "standards/standards-lock.json"
   },
   "calculator_allowed": true,
   "color_required": false,

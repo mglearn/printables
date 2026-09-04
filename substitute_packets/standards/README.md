@@ -23,7 +23,8 @@ Single source of truth for the TEKS student expectations the packets cite.
   source, but the exact official wording has not been transcribed into the record.
 - **pending** — not yet confirmed (none currently).
 
-As of the last run: **33 verified, 4 code-verified, 0 pending** across 37 records.
+As of the last run: **44 verified, 4 code-verified, 0 pending** across 48 records
+(grades 5–8, all four core subjects).
 
 ## Important caveat
 Code verification is **not** the same as the plan's human *alignment* review. A

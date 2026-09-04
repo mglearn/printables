@@ -1,0 +1,82 @@
+{
+  "id": "HS_GEOM_Pythagorean_01",
+  "title": "The Pythagorean Theorem & Distance on the Coordinate Plane",
+  "slug": "pythagorean-theorem-and-distance",
+  "subject": "math",
+  "course": "Geometry",
+  "course_id": "GEOM",
+  "audience": {
+    "level_type": "course",
+    "grade": null,
+    "band": "9-12",
+    "course_id": "GEOM"
+  },
+  "grade": null,
+  "duration": {
+    "core_minutes": 50,
+    "block_minutes": 90
+  },
+  "materials": [
+    "printed student packet",
+    "pencil",
+    "basic or scientific calculator (optional)"
+  ],
+  "work_mode": "independent",
+  "standards": {
+    "framework": "19 TAC §111.41 (Geometry)",
+    "knowledge_and_skills": "G.2, G.5, G.6",
+    "primary": [
+      {
+        "code": "G.6D",
+        "canonical_code": "111.41.c.6.D",
+        "section": "19 TAC §111.41",
+        "strand": "Right triangles and trigonometric ratios",
+        "focus": "apply the Pythagorean Theorem and its converse to solve problems and to determine whether a triangle is a right triangle",
+        "verification_status": "pending",
+        "source_url": null
+      },
+      {
+        "code": "G.2B",
+        "canonical_code": "111.41.c.2.B",
+        "section": "19 TAC §111.41",
+        "strand": "Coordinate and transformational geometry",
+        "focus": "use the distance formula on the coordinate plane to find the length of a segment between two points",
+        "verification_status": "pending",
+        "source_url": null
+      },
+      {
+        "code": "G.5A",
+        "canonical_code": "111.41.c.5.A",
+        "section": "19 TAC §111.41",
+        "strand": "Logical argument and constructions / right-triangle relationships",
+        "focus": "use right-triangle length relationships to solve mathematical and real-world problems",
+        "verification_status": "pending",
+        "source_url": null
+      }
+    ],
+    "supporting": [],
+    "lock": "standards/standards-lock.json",
+    "verified_on": null
+  },
+  "calculator_allowed": true,
+  "color_required": false,
+  "files": [
+    "student.html",
+    "subguide.html",
+    "answerkey.html",
+    "index.html",
+    "manifest.json"
+  ],
+  "copyright": {
+    "text": "original",
+    "images": "original-svg",
+    "license": "CC-BY-4.0"
+  },
+  "status": "draft",
+  "review": {
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "verification_status": null
+  },
+  "version": "0.1.0"
+}

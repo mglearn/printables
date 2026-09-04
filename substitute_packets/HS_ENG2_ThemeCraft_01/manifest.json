@@ -1,0 +1,80 @@
+{
+  "id": "HS_ENG2_ThemeCraft_01",
+  "title": "Theme and Author's Craft in Fiction",
+  "slug": "theme-and-authors-craft-in-fiction",
+  "subject": "rla",
+  "course": "English II",
+  "course_id": "ENG2",
+  "audience": {
+    "level_type": "course",
+    "grade": null,
+    "band": "9-12",
+    "course_id": "ENG2"
+  },
+  "grade": null,
+  "duration": {
+    "core_minutes": 50,
+    "block_minutes": 90
+  },
+  "materials": [
+    "printed student packet",
+    "pencil"
+  ],
+  "work_mode": "independent",
+  "standards": {
+    "framework": "19 TAC §110.37 (English II)",
+    "primary": [
+      {
+        "code": "E2.5",
+        "canonical_code": null,
+        "section": "19 TAC §110.37",
+        "strand": "Comprehension / response",
+        "focus": "analyzing how a theme is developed across a literary text through characters and details",
+        "verification_status": "pending",
+        "source_url": null
+      },
+      {
+        "code": "E2.7",
+        "canonical_code": null,
+        "section": "19 TAC §110.37",
+        "strand": "Multiple genres (literary elements)",
+        "focus": "analyzing how a character's qualities and changes advance the plot and reveal meaning (characterization)",
+        "verification_status": "pending",
+        "source_url": null
+      },
+      {
+        "code": "E2.8",
+        "canonical_code": null,
+        "section": "19 TAC §110.37",
+        "strand": "Author's purpose and craft",
+        "focus": "analyzing how an author's use of craft, such as symbolism, tone, or structure, contributes to meaning",
+        "verification_status": "pending",
+        "source_url": null
+      }
+    ],
+    "supporting": [],
+    "lock": "standards/standards-lock.json",
+    "verified_on": null
+  },
+  "calculator_allowed": false,
+  "color_required": false,
+  "files": [
+    "student.html",
+    "subguide.html",
+    "answerkey.html",
+    "index.html",
+    "manifest.json"
+  ],
+  "copyright": {
+    "text": "original",
+    "images": "none",
+    "license": "CC-BY-4.0"
+  },
+  "status": "draft",
+  "review": {
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "verification_status": null
+  },
+  "version": "0.1.0"
+}

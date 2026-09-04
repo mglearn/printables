@@ -1,0 +1,80 @@
+{
+  "id": "HS_ENG3_Synthesis_01",
+  "title": "Synthesizing Across Sources",
+  "slug": "synthesizing-across-sources",
+  "subject": "rla",
+  "course": "English III",
+  "course_id": "ENG3",
+  "audience": {
+    "level_type": "course",
+    "grade": null,
+    "band": "9-12",
+    "course_id": "ENG3"
+  },
+  "grade": null,
+  "duration": {
+    "core_minutes": 50,
+    "block_minutes": 90
+  },
+  "materials": [
+    "printed student packet",
+    "pencil"
+  ],
+  "work_mode": "independent",
+  "standards": {
+    "framework": "19 TAC §110.38 (English III)",
+    "primary": [
+      {
+        "code": "E3.5",
+        "canonical_code": null,
+        "section": "19 TAC §110.38",
+        "strand": "Comprehension / response",
+        "focus": "synthesizing information and ideas across multiple sources to build and support a position",
+        "verification_status": "pending",
+        "source_url": null
+      },
+      {
+        "code": "E3.9",
+        "canonical_code": null,
+        "section": "19 TAC §110.38",
+        "strand": "Author's purpose and craft / inquiry",
+        "focus": "evaluating the relevance, sufficiency, and credibility of evidence and its sources",
+        "verification_status": "pending",
+        "source_url": null
+      },
+      {
+        "code": "E3.10",
+        "canonical_code": null,
+        "section": "19 TAC §110.38",
+        "strand": "Composition (writing an argument)",
+        "focus": "composing an argument that states a clear position supported by well-chosen evidence, reasoning, and a response to a counterpoint",
+        "verification_status": "pending",
+        "source_url": null
+      }
+    ],
+    "supporting": [],
+    "lock": "standards/standards-lock.json",
+    "verified_on": null
+  },
+  "calculator_allowed": false,
+  "color_required": false,
+  "files": [
+    "student.html",
+    "subguide.html",
+    "answerkey.html",
+    "index.html",
+    "manifest.json"
+  ],
+  "copyright": {
+    "text": "original",
+    "images": "none",
+    "license": "CC-BY-4.0"
+  },
+  "status": "draft",
+  "review": {
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "verification_status": null
+  },
+  "version": "0.1.0"
+}

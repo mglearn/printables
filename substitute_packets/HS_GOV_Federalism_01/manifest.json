@@ -1,0 +1,61 @@
+{
+  "id": "HS_GOV_Federalism_01",
+  "title": "Federalism: How the Constitution Divides Power",
+  "slug": "federalism-dividing-power",
+  "subject": "social",
+  "course": "United States Government",
+  "course_id": "GOV",
+  "audience": {
+    "level_type": "course",
+    "grade": null,
+    "band": "9-12",
+    "course_id": "GOV"
+  },
+  "grade": null,
+  "duration": {
+    "core_minutes": 50,
+    "block_minutes": 90
+  },
+  "materials": [
+    "printed student packet",
+    "pencil"
+  ],
+  "work_mode": "independent",
+  "standards": {
+    "framework": "19 TAC Chapter 113 (United States Government)",
+    "primary": [
+      {
+        "code": "PROVISIONAL-FEDERALISM",
+        "strand": "Government / structure",
+        "focus": "how the U.S. Constitution divides and shares power among national (delegated), state (reserved), and concurrent levels",
+        "verification_status": "pending"
+      },
+      {
+        "code": "PROVISIONAL-SOURCE-ANALYSIS",
+        "strand": "Social studies skills",
+        "focus": "analyzing primary and secondary sources (creator, date, type, purpose) and using evidence to support a conclusion",
+        "verification_status": "pending"
+      }
+    ],
+    "supporting": [],
+    "note": "Provisional standards; paraphrased, not quoted. No section number asserted. Pending educator verification against the current official TAC source. Not a claim of TEKS alignment."
+  },
+  "calculator_allowed": false,
+  "color_required": false,
+  "files": [
+    "student.html",
+    "subguide.html",
+    "answerkey.html",
+    "index.html",
+    "manifest.json"
+  ],
+  "copyright": {
+    "text": "original",
+    "images": "original-svg",
+    "license": "CC-BY-4.0",
+    "quoted_sources": "Tenth Amendment (full) and U.S. Constitution Article I, Section 8 opening (public domain)"
+  },
+  "status": "draft",
+  "review": null,
+  "version": "0.1.0"
+}

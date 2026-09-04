@@ -1,0 +1,62 @@
+{
+  "id": "HS_ECON_SupplyDemand_01",
+  "title": "Supply, Demand, and Market Equilibrium",
+  "slug": "supply-demand-and-market-equilibrium",
+  "subject": "social",
+  "course": "Economics",
+  "course_id": "ECON",
+  "audience": {
+    "level_type": "course",
+    "grade": null,
+    "band": "9-12",
+    "course_id": "ECON"
+  },
+  "grade": null,
+  "duration": {
+    "core_minutes": 50,
+    "block_minutes": 90
+  },
+  "materials": [
+    "printed student packet",
+    "pencil",
+    "calculator (optional)"
+  ],
+  "work_mode": "independent",
+  "standards": {
+    "framework": "19 TAC Chapter 113 (Economics with Emphasis on the Free Enterprise System and Its Benefits)",
+    "primary": [
+      {
+        "strand": "Economics: microeconomics",
+        "focus": "the laws of supply and demand and how they interact to help determine the price of a good or service in a free market",
+        "verification_status": "pending",
+        "note": "Provisional; paraphrased, not quoted. Section number intentionally not asserted pending educator verification against the current official TAC source. Not a claim of TEKS alignment."
+      },
+      {
+        "strand": "Economics: microeconomics",
+        "focus": "interpreting supply-and-demand graphs and schedules to identify market equilibrium (equilibrium price and quantity) and to distinguish a shortage from a surplus",
+        "verification_status": "pending",
+        "note": "Provisional; paraphrased, not quoted. Section number intentionally not asserted pending educator verification against the current official TAC source. Not a claim of TEKS alignment."
+      }
+    ],
+    "supporting": [],
+    "verified_on": null
+  },
+  "calculator_allowed": true,
+  "color_required": false,
+  "files": [
+    "student.html",
+    "subguide.html",
+    "answerkey.html",
+    "index.html",
+    "manifest.json"
+  ],
+  "copyright": {
+    "text": "original",
+    "images": "original-svg",
+    "license": "CC-BY-4.0",
+    "quoted_sources": "none"
+  },
+  "status": "draft",
+  "review": null,
+  "version": "0.1.0"
+}

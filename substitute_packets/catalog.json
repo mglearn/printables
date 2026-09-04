@@ -1,6 +1,6 @@
 {
   "generated": null,
-  "count": 28,
+  "count": 40,
   "packets": [
     {
       "id": "G03_MATH_MultiplicationShares_01",
@@ -1220,6 +1220,61 @@
       }
     },
     {
+      "id": "HS_ALG2_Quadratics_01",
+      "title": "Quadratic Functions: Graphs, Zeros, and the Vertex",
+      "grade": null,
+      "grade_key": "HS",
+      "grade_label": "High School",
+      "course": "Algebra II",
+      "course_id": "ALG2",
+      "subject": "Mathematics",
+      "subject_key": "math",
+      "duration_minutes": 50,
+      "block_minutes": 90,
+      "extension_minutes": null,
+      "materials": [
+        "printed student packet",
+        "pencil",
+        "graphing or scientific calculator (optional)"
+      ],
+      "calculator_allowed": true,
+      "color_required": false,
+      "standards": [
+        {
+          "code": "provisional-quadratic-graph-attributes",
+          "section": "19 TAC §111.40 (Algebra II)",
+          "status": "pending"
+        },
+        {
+          "code": "provisional-quadratic-zeros-factoring",
+          "section": "19 TAC §111.40 (Algebra II)",
+          "status": "pending"
+        },
+        {
+          "code": "provisional-quadratic-vertex-context",
+          "section": "19 TAC §111.40 (Algebra II)",
+          "status": "pending"
+        },
+        {
+          "code": "provisional-quadratic-vertex-form",
+          "section": "19 TAC §111.40 (Algebra II)",
+          "status": "pending"
+        }
+      ],
+      "standards_status": "pending",
+      "status": "draft",
+      "version": "0.1.0",
+      "href": "HS_ALG2_Quadratics_01/index.html",
+      "files": {
+        "html": "HS_ALG2_Quadratics_01/index.html",
+        "student_pdf": "HS_ALG2_Quadratics_01/HS_ALG2_Quadratics_01_Student.pdf",
+        "subguide_pdf": "HS_ALG2_Quadratics_01/HS_ALG2_Quadratics_01_SubGuide.pdf",
+        "answerkey_pdf": "HS_ALG2_Quadratics_01/HS_ALG2_Quadratics_01_AnswerKey.pdf",
+        "teacher_master_pdf": "HS_ALG2_Quadratics_01/HS_ALG2_Quadratics_01_TeacherMaster.pdf",
+        "preview": "HS_ALG2_Quadratics_01/HS_ALG2_Quadratics_01_Preview.webp"
+      }
+    },
+    {
       "id": "HS_BIO_EnergyFlow_01",
       "title": "Energy Flow in Ecosystems",
       "grade": null,
@@ -1261,6 +1316,96 @@
         "answerkey_pdf": "HS_BIO_EnergyFlow_01/HS_BIO_EnergyFlow_01_AnswerKey.pdf",
         "teacher_master_pdf": "HS_BIO_EnergyFlow_01/HS_BIO_EnergyFlow_01_TeacherMaster.pdf",
         "preview": "HS_BIO_EnergyFlow_01/HS_BIO_EnergyFlow_01_Preview.webp"
+      }
+    },
+    {
+      "id": "HS_CHEM_ConservationMass_01",
+      "title": "Conservation of Mass in Chemical Reactions",
+      "grade": null,
+      "grade_key": "HS",
+      "grade_label": "High School",
+      "course": "Chemistry",
+      "course_id": "CHEM",
+      "subject": "Science",
+      "subject_key": "scienceence",
+      "duration_minutes": 50,
+      "block_minutes": 90,
+      "extension_minutes": null,
+      "materials": [
+        "printed student packet",
+        "pencil",
+        "calculator (optional)"
+      ],
+      "calculator_allowed": true,
+      "color_required": false,
+      "standards": [
+        {
+          "code": "",
+          "section": "19 TAC Chapter 112 (Chemistry)",
+          "status": "pending"
+        },
+        {
+          "code": "",
+          "section": "19 TAC Chapter 112 (Chemistry)",
+          "status": "pending"
+        }
+      ],
+      "standards_status": "pending",
+      "status": "draft",
+      "version": "0.1.0",
+      "href": "HS_CHEM_ConservationMass_01/index.html",
+      "files": {
+        "html": "HS_CHEM_ConservationMass_01/index.html",
+        "student_pdf": "HS_CHEM_ConservationMass_01/HS_CHEM_ConservationMass_01_Student.pdf",
+        "subguide_pdf": "HS_CHEM_ConservationMass_01/HS_CHEM_ConservationMass_01_SubGuide.pdf",
+        "answerkey_pdf": "HS_CHEM_ConservationMass_01/HS_CHEM_ConservationMass_01_AnswerKey.pdf",
+        "teacher_master_pdf": "HS_CHEM_ConservationMass_01/HS_CHEM_ConservationMass_01_TeacherMaster.pdf",
+        "preview": "HS_CHEM_ConservationMass_01/HS_CHEM_ConservationMass_01_Preview.webp"
+      }
+    },
+    {
+      "id": "HS_ECON_SupplyDemand_01",
+      "title": "Supply, Demand, and Market Equilibrium",
+      "grade": null,
+      "grade_key": "HS",
+      "grade_label": "High School",
+      "course": "Economics",
+      "course_id": "ECON",
+      "subject": "Social Studies",
+      "subject_key": "socialial",
+      "duration_minutes": 50,
+      "block_minutes": 90,
+      "extension_minutes": null,
+      "materials": [
+        "printed student packet",
+        "pencil",
+        "calculator (optional)"
+      ],
+      "calculator_allowed": true,
+      "color_required": false,
+      "standards": [
+        {
+          "code": "",
+          "section": "",
+          "status": "pending"
+        },
+        {
+          "code": "",
+          "section": "",
+          "status": "pending"
+        }
+      ],
+      "standards_status": "pending",
+      "status": "draft",
+      "version": "0.1.0",
+      "href": "HS_ECON_SupplyDemand_01/index.html",
+      "files": {
+        "html": "HS_ECON_SupplyDemand_01/index.html",
+        "student_pdf": "HS_ECON_SupplyDemand_01/HS_ECON_SupplyDemand_01_Student.pdf",
+        "subguide_pdf": "HS_ECON_SupplyDemand_01/HS_ECON_SupplyDemand_01_SubGuide.pdf",
+        "answerkey_pdf": "HS_ECON_SupplyDemand_01/HS_ECON_SupplyDemand_01_AnswerKey.pdf",
+        "teacher_master_pdf": "HS_ECON_SupplyDemand_01/HS_ECON_SupplyDemand_01_TeacherMaster.pdf",
+        "preview": "HS_ECON_SupplyDemand_01/HS_ECON_SupplyDemand_01_Preview.webp"
       }
     },
     {
@@ -1313,6 +1458,331 @@
       }
     },
     {
+      "id": "HS_ENG2_ThemeCraft_01",
+      "title": "Theme and Author's Craft in Fiction",
+      "grade": null,
+      "grade_key": "HS",
+      "grade_label": "High School",
+      "course": "English II",
+      "course_id": "ENG2",
+      "subject": "Reading/ELA",
+      "subject_key": "rla",
+      "duration_minutes": 50,
+      "block_minutes": 90,
+      "extension_minutes": null,
+      "materials": [
+        "printed student packet",
+        "pencil"
+      ],
+      "calculator_allowed": false,
+      "color_required": false,
+      "standards": [
+        {
+          "code": "E2.5",
+          "section": "19 TAC §110.37",
+          "status": "pending"
+        },
+        {
+          "code": "E2.7",
+          "section": "19 TAC §110.37",
+          "status": "pending"
+        },
+        {
+          "code": "E2.8",
+          "section": "19 TAC §110.37",
+          "status": "pending"
+        }
+      ],
+      "standards_status": "pending",
+      "status": "draft",
+      "version": "0.1.0",
+      "href": "HS_ENG2_ThemeCraft_01/index.html",
+      "files": {
+        "html": "HS_ENG2_ThemeCraft_01/index.html",
+        "student_pdf": "HS_ENG2_ThemeCraft_01/HS_ENG2_ThemeCraft_01_Student.pdf",
+        "subguide_pdf": "HS_ENG2_ThemeCraft_01/HS_ENG2_ThemeCraft_01_SubGuide.pdf",
+        "answerkey_pdf": "HS_ENG2_ThemeCraft_01/HS_ENG2_ThemeCraft_01_AnswerKey.pdf",
+        "teacher_master_pdf": "HS_ENG2_ThemeCraft_01/HS_ENG2_ThemeCraft_01_TeacherMaster.pdf",
+        "preview": "HS_ENG2_ThemeCraft_01/HS_ENG2_ThemeCraft_01_Preview.webp"
+      }
+    },
+    {
+      "id": "HS_ENG3_Synthesis_01",
+      "title": "Synthesizing Across Sources",
+      "grade": null,
+      "grade_key": "HS",
+      "grade_label": "High School",
+      "course": "English III",
+      "course_id": "ENG3",
+      "subject": "Reading/ELA",
+      "subject_key": "rla",
+      "duration_minutes": 50,
+      "block_minutes": 90,
+      "extension_minutes": null,
+      "materials": [
+        "printed student packet",
+        "pencil"
+      ],
+      "calculator_allowed": false,
+      "color_required": false,
+      "standards": [
+        {
+          "code": "E3.5",
+          "section": "19 TAC §110.38",
+          "status": "pending"
+        },
+        {
+          "code": "E3.9",
+          "section": "19 TAC §110.38",
+          "status": "pending"
+        },
+        {
+          "code": "E3.10",
+          "section": "19 TAC §110.38",
+          "status": "pending"
+        }
+      ],
+      "standards_status": "pending",
+      "status": "draft",
+      "version": "0.1.0",
+      "href": "HS_ENG3_Synthesis_01/index.html",
+      "files": {
+        "html": "HS_ENG3_Synthesis_01/index.html",
+        "student_pdf": "HS_ENG3_Synthesis_01/HS_ENG3_Synthesis_01_Student.pdf",
+        "subguide_pdf": "HS_ENG3_Synthesis_01/HS_ENG3_Synthesis_01_SubGuide.pdf",
+        "answerkey_pdf": "HS_ENG3_Synthesis_01/HS_ENG3_Synthesis_01_AnswerKey.pdf",
+        "teacher_master_pdf": "HS_ENG3_Synthesis_01/HS_ENG3_Synthesis_01_TeacherMaster.pdf",
+        "preview": "HS_ENG3_Synthesis_01/HS_ENG3_Synthesis_01_Preview.webp"
+      }
+    },
+    {
+      "id": "HS_ENG4_ToneDiction_01",
+      "title": "Tone, Diction & Rhetorical Devices",
+      "grade": null,
+      "grade_key": "HS",
+      "grade_label": "High School",
+      "course": "English IV",
+      "course_id": "ENG4",
+      "subject": "Reading/ELA",
+      "subject_key": "rla",
+      "duration_minutes": 50,
+      "block_minutes": 90,
+      "extension_minutes": null,
+      "materials": [
+        "printed student packet",
+        "pencil"
+      ],
+      "calculator_allowed": false,
+      "color_required": false,
+      "standards": [
+        {
+          "code": "E4.5",
+          "section": "19 TAC §110.39",
+          "status": "pending"
+        },
+        {
+          "code": "E4.5",
+          "section": "19 TAC §110.39",
+          "status": "pending"
+        }
+      ],
+      "standards_status": "pending",
+      "status": "draft",
+      "version": "0.1.0",
+      "href": "HS_ENG4_ToneDiction_01/index.html",
+      "files": {
+        "html": "HS_ENG4_ToneDiction_01/index.html",
+        "student_pdf": "HS_ENG4_ToneDiction_01/HS_ENG4_ToneDiction_01_Student.pdf",
+        "subguide_pdf": "HS_ENG4_ToneDiction_01/HS_ENG4_ToneDiction_01_SubGuide.pdf",
+        "answerkey_pdf": "HS_ENG4_ToneDiction_01/HS_ENG4_ToneDiction_01_AnswerKey.pdf",
+        "teacher_master_pdf": "HS_ENG4_ToneDiction_01/HS_ENG4_ToneDiction_01_TeacherMaster.pdf",
+        "preview": "HS_ENG4_ToneDiction_01/HS_ENG4_ToneDiction_01_Preview.webp"
+      }
+    },
+    {
+      "id": "HS_GEOM_Pythagorean_01",
+      "title": "The Pythagorean Theorem & Distance on the Coordinate Plane",
+      "grade": null,
+      "grade_key": "HS",
+      "grade_label": "High School",
+      "course": "Geometry",
+      "course_id": "GEOM",
+      "subject": "Mathematics",
+      "subject_key": "math",
+      "duration_minutes": 50,
+      "block_minutes": 90,
+      "extension_minutes": null,
+      "materials": [
+        "printed student packet",
+        "pencil",
+        "basic or scientific calculator (optional)"
+      ],
+      "calculator_allowed": true,
+      "color_required": false,
+      "standards": [
+        {
+          "code": "G.6D",
+          "section": "19 TAC §111.41",
+          "status": "pending"
+        },
+        {
+          "code": "G.2B",
+          "section": "19 TAC §111.41",
+          "status": "pending"
+        },
+        {
+          "code": "G.5A",
+          "section": "19 TAC §111.41",
+          "status": "pending"
+        }
+      ],
+      "standards_status": "pending",
+      "status": "draft",
+      "version": "0.1.0",
+      "href": "HS_GEOM_Pythagorean_01/index.html",
+      "files": {
+        "html": "HS_GEOM_Pythagorean_01/index.html",
+        "student_pdf": "HS_GEOM_Pythagorean_01/HS_GEOM_Pythagorean_01_Student.pdf",
+        "subguide_pdf": "HS_GEOM_Pythagorean_01/HS_GEOM_Pythagorean_01_SubGuide.pdf",
+        "answerkey_pdf": "HS_GEOM_Pythagorean_01/HS_GEOM_Pythagorean_01_AnswerKey.pdf",
+        "teacher_master_pdf": "HS_GEOM_Pythagorean_01/HS_GEOM_Pythagorean_01_TeacherMaster.pdf",
+        "preview": "HS_GEOM_Pythagorean_01/HS_GEOM_Pythagorean_01_Preview.webp"
+      }
+    },
+    {
+      "id": "HS_GOV_Federalism_01",
+      "title": "Federalism: How the Constitution Divides Power",
+      "grade": null,
+      "grade_key": "HS",
+      "grade_label": "High School",
+      "course": "United States Government",
+      "course_id": "GOV",
+      "subject": "Social Studies",
+      "subject_key": "socialial",
+      "duration_minutes": 50,
+      "block_minutes": 90,
+      "extension_minutes": null,
+      "materials": [
+        "printed student packet",
+        "pencil"
+      ],
+      "calculator_allowed": false,
+      "color_required": false,
+      "standards": [
+        {
+          "code": "PROVISIONAL-FEDERALISM",
+          "section": "",
+          "status": "pending"
+        },
+        {
+          "code": "PROVISIONAL-SOURCE-ANALYSIS",
+          "section": "",
+          "status": "pending"
+        }
+      ],
+      "standards_status": "pending",
+      "status": "draft",
+      "version": "0.1.0",
+      "href": "HS_GOV_Federalism_01/index.html",
+      "files": {
+        "html": "HS_GOV_Federalism_01/index.html",
+        "student_pdf": "HS_GOV_Federalism_01/HS_GOV_Federalism_01_Student.pdf",
+        "subguide_pdf": "HS_GOV_Federalism_01/HS_GOV_Federalism_01_SubGuide.pdf",
+        "answerkey_pdf": "HS_GOV_Federalism_01/HS_GOV_Federalism_01_AnswerKey.pdf",
+        "teacher_master_pdf": "HS_GOV_Federalism_01/HS_GOV_Federalism_01_TeacherMaster.pdf",
+        "preview": "HS_GOV_Federalism_01/HS_GOV_Federalism_01_Preview.webp"
+      }
+    },
+    {
+      "id": "HS_IPC_PhysChemChange_01",
+      "title": "Physical vs. Chemical Changes",
+      "grade": null,
+      "grade_key": "HS",
+      "grade_label": "High School",
+      "course": "Integrated Physics and Chemistry",
+      "course_id": "IPC",
+      "subject": "Science",
+      "subject_key": "scienceence",
+      "duration_minutes": 50,
+      "block_minutes": 90,
+      "extension_minutes": null,
+      "materials": [
+        "printed student packet",
+        "pencil"
+      ],
+      "calculator_allowed": false,
+      "color_required": false,
+      "standards": [
+        {
+          "code": "",
+          "section": "",
+          "status": "pending"
+        },
+        {
+          "code": "",
+          "section": "",
+          "status": "pending"
+        }
+      ],
+      "standards_status": "pending",
+      "status": "draft",
+      "version": "0.1.0",
+      "href": "HS_IPC_PhysChemChange_01/index.html",
+      "files": {
+        "html": "HS_IPC_PhysChemChange_01/index.html",
+        "student_pdf": "HS_IPC_PhysChemChange_01/HS_IPC_PhysChemChange_01_Student.pdf",
+        "subguide_pdf": "HS_IPC_PhysChemChange_01/HS_IPC_PhysChemChange_01_SubGuide.pdf",
+        "answerkey_pdf": "HS_IPC_PhysChemChange_01/HS_IPC_PhysChemChange_01_AnswerKey.pdf",
+        "teacher_master_pdf": "HS_IPC_PhysChemChange_01/HS_IPC_PhysChemChange_01_TeacherMaster.pdf",
+        "preview": "HS_IPC_PhysChemChange_01/HS_IPC_PhysChemChange_01_Preview.webp"
+      }
+    },
+    {
+      "id": "HS_PHYS_MotionGraphs_01",
+      "title": "Interpreting Motion Graphs",
+      "grade": null,
+      "grade_key": "HS",
+      "grade_label": "High School",
+      "course": "Physics",
+      "course_id": "PHYS",
+      "subject": "Science",
+      "subject_key": "scienceence",
+      "duration_minutes": 50,
+      "block_minutes": 90,
+      "extension_minutes": null,
+      "materials": [
+        "printed student packet",
+        "pencil",
+        "calculator (optional)"
+      ],
+      "calculator_allowed": true,
+      "color_required": false,
+      "standards": [
+        {
+          "code": "",
+          "section": "",
+          "status": "pending"
+        },
+        {
+          "code": "",
+          "section": "",
+          "status": "pending"
+        }
+      ],
+      "standards_status": "pending",
+      "status": "draft",
+      "version": "0.1.0",
+      "href": "HS_PHYS_MotionGraphs_01/index.html",
+      "files": {
+        "html": "HS_PHYS_MotionGraphs_01/index.html",
+        "student_pdf": "HS_PHYS_MotionGraphs_01/HS_PHYS_MotionGraphs_01_Student.pdf",
+        "subguide_pdf": "HS_PHYS_MotionGraphs_01/HS_PHYS_MotionGraphs_01_SubGuide.pdf",
+        "answerkey_pdf": "HS_PHYS_MotionGraphs_01/HS_PHYS_MotionGraphs_01_AnswerKey.pdf",
+        "teacher_master_pdf": "HS_PHYS_MotionGraphs_01/HS_PHYS_MotionGraphs_01_TeacherMaster.pdf",
+        "preview": "HS_PHYS_MotionGraphs_01/HS_PHYS_MotionGraphs_01_Preview.webp"
+      }
+    },
+    {
       "id": "HS_USH_Industrialization_01",
       "title": "Industrialization and Its Effects",
       "grade": null,
@@ -1354,6 +1824,99 @@
         "answerkey_pdf": "HS_USH_Industrialization_01/HS_USH_Industrialization_01_AnswerKey.pdf",
         "teacher_master_pdf": "HS_USH_Industrialization_01/HS_USH_Industrialization_01_TeacherMaster.pdf",
         "preview": "HS_USH_Industrialization_01/HS_USH_Industrialization_01_Preview.webp"
+      }
+    },
+    {
+      "id": "HS_WGEO_RegionsCompare_01",
+      "title": "Comparing Two World Regions",
+      "grade": null,
+      "grade_key": "HS",
+      "grade_label": "High School",
+      "course": "World Geography",
+      "course_id": "WGEO",
+      "subject": "Social Studies",
+      "subject_key": "socialial",
+      "duration_minutes": 50,
+      "block_minutes": 90,
+      "extension_minutes": null,
+      "materials": [
+        "printed student packet",
+        "pencil"
+      ],
+      "calculator_allowed": false,
+      "color_required": false,
+      "standards": [
+        {
+          "code": "",
+          "section": "",
+          "status": "pending"
+        },
+        {
+          "code": "",
+          "section": "",
+          "status": "pending"
+        },
+        {
+          "code": "",
+          "section": "",
+          "status": "pending"
+        }
+      ],
+      "standards_status": "pending",
+      "status": "draft",
+      "version": "0.1.0",
+      "href": "HS_WGEO_RegionsCompare_01/index.html",
+      "files": {
+        "html": "HS_WGEO_RegionsCompare_01/index.html",
+        "student_pdf": "HS_WGEO_RegionsCompare_01/HS_WGEO_RegionsCompare_01_Student.pdf",
+        "subguide_pdf": "HS_WGEO_RegionsCompare_01/HS_WGEO_RegionsCompare_01_SubGuide.pdf",
+        "answerkey_pdf": "HS_WGEO_RegionsCompare_01/HS_WGEO_RegionsCompare_01_AnswerKey.pdf",
+        "teacher_master_pdf": "HS_WGEO_RegionsCompare_01/HS_WGEO_RegionsCompare_01_TeacherMaster.pdf",
+        "preview": "HS_WGEO_RegionsCompare_01/HS_WGEO_RegionsCompare_01_Preview.webp"
+      }
+    },
+    {
+      "id": "HS_WHIST_ColumbianExchange_01",
+      "title": "The Columbian Exchange",
+      "grade": null,
+      "grade_key": "HS",
+      "grade_label": "High School",
+      "course": "World History",
+      "course_id": "WHIST",
+      "subject": "Social Studies",
+      "subject_key": "socialial",
+      "duration_minutes": 50,
+      "block_minutes": 90,
+      "extension_minutes": null,
+      "materials": [
+        "printed student packet",
+        "pencil"
+      ],
+      "calculator_allowed": false,
+      "color_required": false,
+      "standards": [
+        {
+          "code": "",
+          "section": "",
+          "status": "pending"
+        },
+        {
+          "code": "",
+          "section": "",
+          "status": "pending"
+        }
+      ],
+      "standards_status": "pending",
+      "status": "draft",
+      "version": "0.1.0",
+      "href": "HS_WHIST_ColumbianExchange_01/index.html",
+      "files": {
+        "html": "HS_WHIST_ColumbianExchange_01/index.html",
+        "student_pdf": "HS_WHIST_ColumbianExchange_01/HS_WHIST_ColumbianExchange_01_Student.pdf",
+        "subguide_pdf": "HS_WHIST_ColumbianExchange_01/HS_WHIST_ColumbianExchange_01_SubGuide.pdf",
+        "answerkey_pdf": "HS_WHIST_ColumbianExchange_01/HS_WHIST_ColumbianExchange_01_AnswerKey.pdf",
+        "teacher_master_pdf": "HS_WHIST_ColumbianExchange_01/HS_WHIST_ColumbianExchange_01_TeacherMaster.pdf",
+        "preview": "HS_WHIST_ColumbianExchange_01/HS_WHIST_ColumbianExchange_01_Preview.webp"
       }
     }
   ]

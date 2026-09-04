@@ -1,0 +1,67 @@
+{
+  "id": "HS_IPC_PhysChemChange_01",
+  "title": "Physical vs. Chemical Changes",
+  "slug": "physical-vs-chemical-changes",
+  "grade": null,
+  "subject": "science",
+  "course": "Integrated Physics and Chemistry",
+  "course_id": "IPC",
+  "audience": {
+    "level_type": "course",
+    "grade": null,
+    "band": "9-12",
+    "course_id": "IPC"
+  },
+  "duration": {
+    "core_minutes": 50,
+    "block_minutes": 90
+  },
+  "materials": [
+    "printed student packet",
+    "pencil"
+  ],
+  "work_mode": "independent",
+  "standards": {
+    "framework": "19 TAC Chapter 112 (Integrated Physics and Chemistry)",
+    "primary": [
+      {
+        "code": null,
+        "canonical_code": null,
+        "section": null,
+        "strand": "Matter and its properties / changes in matter",
+        "focus": "distinguish physical changes (state, shape, size; no new substance) from chemical changes in which one or more new substances form",
+        "verification_status": "pending",
+        "source_url": null
+      },
+      {
+        "code": null,
+        "canonical_code": null,
+        "section": null,
+        "strand": "Chemical reactions",
+        "focus": "recognize evidence that a chemical reaction has occurred, such as gas production, color change, temperature change, precipitate formation, or emission of light",
+        "verification_status": "pending",
+        "source_url": null
+      }
+    ],
+    "supporting": [],
+    "lock": "standards/standards-lock.json",
+    "verified_on": null
+  },
+  "calculator_allowed": false,
+  "color_required": false,
+  "files": [
+    "student.html",
+    "subguide.html",
+    "answerkey.html",
+    "index.html",
+    "manifest.json"
+  ],
+  "copyright": {
+    "text": "original",
+    "images": "original-svg",
+    "license": "CC-BY-4.0"
+  },
+  "status": "draft",
+  "review": null,
+  "version": "0.1.0"
+}

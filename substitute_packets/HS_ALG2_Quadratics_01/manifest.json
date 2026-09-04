@@ -1,0 +1,91 @@
+{
+  "id": "HS_ALG2_Quadratics_01",
+  "title": "Quadratic Functions: Graphs, Zeros, and the Vertex",
+  "slug": "quadratic-functions-graphs-zeros-and-the-vertex",
+  "subject": "math",
+  "course": "Algebra II",
+  "course_id": "ALG2",
+  "audience": {
+    "level_type": "course",
+    "grade": null,
+    "band": "9-12",
+    "course_id": "ALG2"
+  },
+  "grade": null,
+  "duration": {
+    "core_minutes": 50,
+    "block_minutes": 90
+  },
+  "materials": [
+    "printed student packet",
+    "pencil",
+    "graphing or scientific calculator (optional)"
+  ],
+  "work_mode": "independent",
+  "standards": {
+    "framework": "19 TAC §111.40 (Algebra II)",
+    "knowledge_and_skills": "quadratic functions and equations",
+    "primary": [
+      {
+        "code": "provisional-quadratic-graph-attributes",
+        "canonical_code": null,
+        "section": "19 TAC §111.40 (Algebra II)",
+        "strand": "Quadratic functions and equations",
+        "focus": "graph quadratic functions from standard form y = ax^2 + bx + c and identify key attributes: vertex, axis of symmetry, zeros/x-intercepts, y-intercept, and maximum or minimum",
+        "verification_status": "pending",
+        "source_url": null
+      },
+      {
+        "code": "provisional-quadratic-zeros-factoring",
+        "canonical_code": null,
+        "section": "19 TAC §111.40 (Algebra II)",
+        "strand": "Quadratic functions and equations",
+        "focus": "solve quadratic equations by factoring and use the Zero Product Property to find zeros/roots",
+        "verification_status": "pending",
+        "source_url": null
+      },
+      {
+        "code": "provisional-quadratic-vertex-context",
+        "canonical_code": null,
+        "section": "19 TAC §111.40 (Algebra II)",
+        "strand": "Quadratic functions and equations",
+        "focus": "interpret the vertex of a quadratic model as a maximum or minimum value in a real-world context",
+        "verification_status": "pending",
+        "source_url": null
+      },
+      {
+        "code": "provisional-quadratic-vertex-form",
+        "canonical_code": null,
+        "section": "19 TAC §111.40 (Algebra II)",
+        "strand": "Quadratic functions and equations",
+        "focus": "identify the vertex and axis of symmetry from vertex form y = a(x - h)^2 + k (block extension)",
+        "verification_status": "pending",
+        "source_url": null
+      }
+    ],
+    "supporting": [],
+    "lock": null,
+    "verified_on": null
+  },
+  "calculator_allowed": true,
+  "color_required": false,
+  "files": [
+    "student.html",
+    "subguide.html",
+    "answerkey.html",
+    "index.html",
+    "manifest.json"
+  ],
+  "copyright": {
+    "text": "original",
+    "images": "original-svg",
+    "license": "CC-BY-4.0"
+  },
+  "status": "draft",
+  "review": {
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "verification_status": null
+  },
+  "version": "0.1.0"
+}

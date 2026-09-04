@@ -1,0 +1,59 @@
+{
+  "id": "HS_WHIST_ColumbianExchange_01",
+  "title": "The Columbian Exchange",
+  "slug": "the-columbian-exchange",
+  "subject": "social",
+  "course": "World History",
+  "course_id": "WHIST",
+  "audience": {
+    "level_type": "course",
+    "grade": null,
+    "band": "9-12",
+    "course_id": "WHIST"
+  },
+  "grade": null,
+  "duration": {
+    "core_minutes": 50,
+    "block_minutes": 90
+  },
+  "materials": [
+    "printed student packet",
+    "pencil"
+  ],
+  "work_mode": "independent",
+  "standards": {
+    "framework": "19 TAC Chapter 113 (World History Studies)",
+    "primary": [
+      {
+        "strand": "History / global interactions",
+        "focus": "causes and global effects of the Columbian Exchange: transfer of crops, animals, people, and disease and its impact on population, agriculture, economies, and societies across the Americas, Europe, and Africa",
+        "verification_status": "pending"
+      },
+      {
+        "strand": "Social studies skills",
+        "focus": "analyzing primary and secondary sources by identifying creator, date, type, purpose, and point of view, and using evidence to support a historical argument",
+        "verification_status": "pending"
+      }
+    ],
+    "supporting": [],
+    "note": "Framework cited without asserting a section number. Standards are paraphrased, not quoted; not a claim of TEKS alignment. Pending educator verification against the current official TAC source."
+  },
+  "calculator_allowed": false,
+  "color_required": false,
+  "files": [
+    "student.html",
+    "subguide.html",
+    "answerkey.html",
+    "index.html",
+    "manifest.json"
+  ],
+  "copyright": {
+    "text": "original",
+    "images": "original-svg",
+    "license": "CC-BY-4.0",
+    "quoted_sources": "Short excerpt from the 1492 first-voyage journal (Columbus), later published and in the public domain, shown in modernized English translation"
+  },
+  "status": "draft",
+  "review": null,
+  "version": "0.1.0"
+}

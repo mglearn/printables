@@ -1,0 +1,77 @@
+{
+  "id": "HS_WGEO_RegionsCompare_01",
+  "title": "Comparing Two World Regions",
+  "slug": "comparing-two-world-regions",
+  "subject": "social",
+  "course": "World Geography",
+  "course_id": "WGEO",
+  "audience": {
+    "level_type": "course",
+    "grade": null,
+    "band": "9-12",
+    "course_id": "WGEO"
+  },
+  "grade": null,
+  "duration": {
+    "core_minutes": 50,
+    "block_minutes": 90
+  },
+  "materials": [
+    "printed student packet",
+    "pencil"
+  ],
+  "work_mode": "independent",
+  "standards": {
+    "framework": "19 TAC Chapter 113 (World Geography Studies)",
+    "primary": [
+      {
+        "code": null,
+        "canonical_code": null,
+        "section": null,
+        "strand": "Regions",
+        "focus": "describing and comparing the physical and human characteristics of world regions",
+        "verification_status": "pending",
+        "source_url": null
+      },
+      {
+        "code": null,
+        "canonical_code": null,
+        "section": null,
+        "strand": "Physical and human geography",
+        "focus": "explaining how physical features (climate, landforms) shape human activity, settlement, and economic patterns",
+        "verification_status": "pending",
+        "source_url": null
+      },
+      {
+        "code": null,
+        "canonical_code": null,
+        "section": null,
+        "strand": "Geographic skills",
+        "focus": "using maps, tables, and other geographic tools to interpret data and support conclusions with evidence",
+        "verification_status": "pending",
+        "source_url": null
+      }
+    ],
+    "supporting": [],
+    "lock": "standards/standards-lock.json",
+    "verified_on": null
+  },
+  "calculator_allowed": false,
+  "color_required": false,
+  "files": [
+    "student.html",
+    "subguide.html",
+    "answerkey.html",
+    "index.html",
+    "manifest.json"
+  ],
+  "copyright": {
+    "text": "original",
+    "images": "original-svg",
+    "license": "CC-BY-4.0",
+    "quoted_sources": "none"
+  },
+  "status": "draft",
+  "review": null,
+  "version": "0.1.0"
+}

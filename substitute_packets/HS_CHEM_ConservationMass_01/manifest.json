@@ -1,0 +1,68 @@
+{
+  "id": "HS_CHEM_ConservationMass_01",
+  "title": "Conservation of Mass in Chemical Reactions",
+  "slug": "conservation-of-mass-in-chemical-reactions",
+  "grade": null,
+  "subject": "science",
+  "course": "Chemistry",
+  "course_id": "CHEM",
+  "audience": {
+    "level_type": "course",
+    "grade": null,
+    "band": "9-12",
+    "course_id": "CHEM"
+  },
+  "duration": {
+    "core_minutes": 50,
+    "block_minutes": 90
+  },
+  "materials": [
+    "printed student packet",
+    "pencil",
+    "calculator (optional)"
+  ],
+  "work_mode": "independent",
+  "standards": {
+    "framework": "19 TAC Chapter 112 (Chemistry)",
+    "primary": [
+      {
+        "code": null,
+        "canonical_code": null,
+        "section": "19 TAC Chapter 112 (Chemistry)",
+        "strand": "Chemical reactions",
+        "focus": "conservation of mass in chemical reactions: reactants react to form products, and the total mass of reactants equals the total mass of products because atoms are rearranged, not created or destroyed",
+        "verification_status": "pending",
+        "source_url": null
+      },
+      {
+        "code": null,
+        "canonical_code": null,
+        "section": "19 TAC Chapter 112 (Chemistry)",
+        "strand": "Chemical reactions",
+        "focus": "interpret and balance simple chemical equations using coefficients so the number of atoms of each element is equal on both sides of the equation",
+        "verification_status": "pending",
+        "source_url": null
+      }
+    ],
+    "supporting": [],
+    "lock": "standards/standards-lock.json",
+    "verified_on": null
+  },
+  "calculator_allowed": true,
+  "color_required": false,
+  "files": [
+    "student.html",
+    "subguide.html",
+    "answerkey.html",
+    "index.html",
+    "manifest.json"
+  ],
+  "copyright": {
+    "text": "original",
+    "images": "original-svg",
+    "license": "CC-BY-4.0"
+  },
+  "status": "draft",
+  "review": null,
+  "version": "0.1.0"
+}

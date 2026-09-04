@@ -5,38 +5,54 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Texas Grab-and-Go Substitute Packets · Teacher Printables</title>
   <meta name="description"
-        content="Free, print-and-go substitute lessons for Texas classrooms — a full class period, no prep, no logins, no lab materials. Each packet includes a substitute guide, a student packet, and a separate answer key. Grades 6–8 pilot; Reading, Math, Science, and Social Studies.">
+        content="Free, print-and-go substitute lessons for Texas classrooms — a full class period, no prep, no logins, no lab materials. Each packet includes a substitute guide, a student packet, and a separate answer key. Grades 6–8; Reading, Math, Science, and Social Studies.">
   <link rel="stylesheet" href="../assets/styles.css">
   <script src="/printables/licensing-footer.js" defer></script>
   <style>
-    :root{--rla:#6b3fa0;--math:#0a5f8f;--science:#17745b;--social:#9a5b17;--line:#c8d0dc;--muted:#5a6680}
+    :root{--rla:#6b3fa0;--math:#0a5f8f;--science:#17745b;--social:#9a5b17;--line:#c8d0dc;--muted:#5a6680;--panel:#f4f6f9}
     .sp-head{max-width:1040px;margin:0 auto;padding:22px 20px 4px}
     .sp-head .back-link{font-weight:800;text-decoration:none}
     .sp-head h1{margin:.5rem 0 .35rem;font-size:clamp(1.6rem,3.4vw,2.3rem);line-height:1.08}
     .sp-head p{margin:0;color:var(--muted);font-weight:600;max-width:70ch}
     .sp-note{max-width:1040px;margin:12px auto 0;padding:0 20px}
     .sp-note .flag{background:#fff7ed;border:1px solid #f6d8b0;border-radius:10px;padding:10px 13px;font-size:.86rem;color:#7a4510;font-weight:600}
+    section.sp{max-width:1040px;margin:0 auto;padding:8px 20px 10px}
     .sp-grid{display:grid;grid-template-columns:1fr;gap:16px}
     @media(min-width:660px){.sp-grid{grid-template-columns:repeat(2,1fr)}}
     @media(min-width:980px){.sp-grid{grid-template-columns:repeat(3,1fr)}}
     .pk{display:flex;flex-direction:column;background:#fff;border:1px solid var(--line);border-top:6px solid var(--pa,#17745b);
-      border-radius:12px;overflow:hidden;text-decoration:none;color:inherit;box-shadow:0 6px 18px rgba(20,32,51,.07);transition:transform .15s,box-shadow .2s}
-    .pk:hover{transform:translateY(-3px);box-shadow:0 14px 30px rgba(20,32,51,.13)}
+      border-radius:12px;overflow:hidden;color:inherit;box-shadow:0 6px 18px rgba(20,32,51,.07)}
     .pk .pk-top{padding:14px 16px 0;display:flex;align-items:center;gap:8px}
     .pk .tag{font-size:.66rem;font-weight:800;letter-spacing:.05em;text-transform:uppercase;color:#fff;background:var(--pa,#17745b);border-radius:100px;padding:3px 10px}
     .pk .grade{font-size:.72rem;font-weight:800;color:var(--muted)}
-    .pk .pk-body{padding:6px 16px 16px;display:flex;flex-direction:column;gap:6px;flex:1}
-    .pk h3{margin:.15rem 0 0;font-size:1.12rem;color:#172033}
-    .pk p{margin:0;font-size:.88rem;color:var(--muted);font-weight:600;flex:1}
+    .pk .pk-body{padding:8px 16px 16px;display:flex;flex-direction:column;gap:6px;flex:1}
+    .pk h3{margin:.15rem 0 0;font-size:1.08rem;color:#172033}
     .pk .facts{font-size:.76rem;font-weight:700;color:var(--muted)}
-    .pk .cta{margin-top:6px;font-weight:800;color:var(--pa,#17745b)}
-    .pk.soon{cursor:default;opacity:.72;border-top-style:dashed}
-    .pk.soon:hover{transform:none;box-shadow:0 6px 18px rgba(20,32,51,.07)}
-    .pk.soon .cta{color:var(--muted)}
-    .legend{max-width:1040px;margin:8px auto 0;padding:0 20px;color:var(--muted);font-size:.8rem;font-weight:700}
-    section.sp{max-width:1040px;margin:0 auto;padding:8px 20px 10px}
+    .pk-preview{display:block;line-height:0;background:var(--panel);border-bottom:1px solid var(--line)}
+    .pk-preview img{width:100%;height:auto;display:block;aspect-ratio:8.5/11;object-fit:cover;object-position:top;transition:transform .18s}
+    .pk-preview:hover img{transform:scale(1.02)}
+    .pk-dl{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+    .pk-btn{font-size:.76rem;font-weight:800;text-decoration:none;border:1.5px solid var(--pa,#17745b);color:var(--pa,#17745b);background:#fff;border-radius:100px;padding:4px 11px}
+    .pk-btn.primary{background:var(--pa,#17745b);color:#fff}
+    .pk-btn:hover{filter:brightness(.95)}
+    .pk-filters{display:flex;flex-wrap:wrap;gap:18px;margin:6px 0 6px}
+    .pk-fgroup{display:flex;flex-wrap:wrap;align-items:center;gap:6px}
+    .pk-flabel{font-size:.74rem;font-weight:800;color:var(--muted);text-transform:uppercase;letter-spacing:.04em}
+    .pk-chip{font:inherit;font-size:.8rem;font-weight:800;cursor:pointer;border:1.5px solid var(--line);background:#fff;color:var(--muted);border-radius:100px;padding:5px 12px}
+    .pk-chip.on{background:#172033;color:#fff;border-color:#172033}
+    .pk-chip:focus-visible{outline:3px solid #0a5f8f;outline-offset:2px}
+    .pk-gradehead{margin:16px 0 8px;font-size:1.05rem;color:#172033}
+    .pk-count{color:var(--muted);font-weight:700;font-size:.82rem;margin-bottom:4px}
     .subjkey{display:flex;flex-wrap:wrap;gap:8px;margin:6px 0 2px}
     .subjkey span{font-size:.72rem;font-weight:800;color:#fff;border-radius:100px;padding:3px 10px}
+    .fallback-list{list-style:none;margin:10px 0;padding:0;display:grid;gap:8px}
+    .fallback-list li{font-weight:700;color:#172033}
+    .fallback-list a{font-weight:800}
+    .bulk{display:flex;flex-wrap:wrap;gap:8px;margin:8px 0 4px}
+    .bulk a{font-size:.82rem;font-weight:800;text-decoration:none;border:1.5px solid var(--line);border-radius:8px;padding:7px 12px;color:#172033;background:#fff}
+    .bulk a:hover{border-color:var(--muted)}
+    .legend{color:var(--muted);font-size:.8rem;font-weight:700;margin-top:8px}
+    .legend code{background:var(--panel);border:1px solid var(--line);border-radius:5px;padding:1px 5px}
   </style>
 </head>
 <body>
@@ -46,89 +62,66 @@
     <h1>Texas Grab-and-Go Substitute Packets</h1>
     <p>Print-and-go substitute lessons a teacher can pick, print, and leave — a full class period with no prep,
       no logins, no internet, and ordinary classroom materials. Each packet has a <strong>substitute guide</strong>,
-      a <strong>student packet</strong>, and a <strong>separate answer key</strong>. Grades 6–8 pilot across
+      a <strong>student packet</strong>, and a <strong>separate answer key</strong>. Grades 6–8 across
       Reading, Math, Science, and Social Studies.</p>
   </header>
 
   <div class="sp-note">
-    <p class="flag"><strong>In development.</strong> This collection is being built one vertical slice at a time,
-      starting with Grade 7 Science. Standards references are <strong>provisional and pending educator verification</strong>
-      against the current official Texas Administrative Code — packets do not claim formal alignment until reviewed.</p>
+    <p class="flag"><strong>Pilot complete — all 12 grade 6–8 packets.</strong> Standards references are
+      <strong>provisional and pending educator verification</strong> against the current official Texas
+      Administrative Code; packets do not claim formal alignment until reviewed.</p>
   </div>
 
-  <section class="sp" aria-labelledby="now-h">
-    <h2 id="now-h" class="section-title">Available now</h2>
+  <section class="sp" aria-labelledby="browse-h">
+    <h2 id="browse-h" class="section-title">Browse the packets</h2>
     <div class="subjkey" aria-hidden="true">
       <span style="background:#6b3fa0">Reading/ELA</span>
       <span style="background:#0a5f8f">Math</span>
       <span style="background:#17745b">Science</span>
       <span style="background:#9a5b17">Social Studies</span>
     </div>
-    <p class="section-sub">The Grade 7 subject-proof set — one packet in each core subject, built first to prove the
-      template works across Reading, Math, Science, and Social Studies.</p>
-    <div class="sp-grid">
-      <a class="pk" style="--pa:#6b3fa0" href="G07_RLA_Theme_01/index.html">
-        <div class="pk-top"><span class="tag">Reading/ELA</span><span class="grade">Grade 7</span></div>
-        <div class="pk-body">
-          <h3>Theme and Character in a Short Story</h3>
-          <p>Read an original short story, trace how a character changes, examine the author's craft, and explain
-            a theme with two pieces of text evidence.</p>
-          <div class="facts">~45 min + 15 min extension · Pencil only · Student packet + guide + key</div>
-          <div class="facts standards">Provisional: 19 TAC §110.23 — theme, character, craft (pending verification)</div>
-          <span class="cta">Open packet →</span>
-        </div>
-      </a>
-      <a class="pk" style="--pa:#0a5f8f" href="G07_MATH_Proportions_01/index.html">
-        <div class="pk-top"><span class="tag">Math</span><span class="grade">Grade 7</span></div>
-        <div class="pk-body">
-          <h3>Proportional Reasoning and Percents</h3>
-          <p>Match tables, graphs, equations, and situations; solve a tax-and-tip and a recipe-scaling task; find and
-            fix a percent error; then justify a strategy.</p>
-          <div class="facts">~45 min + 15 min extension · Calculator allowed · Student packet + guide + key</div>
-          <div class="facts standards">Provisional: 19 TAC §111.27 — 7.4A, 7.4D, 7.4E (pending verification)</div>
-          <span class="cta">Open packet →</span>
-        </div>
-      </a>
-      <a class="pk" style="--pa:#17745b" href="G07_SCI_ThermalEnergy_01/index.html">
-        <div class="pk-top"><span class="tag">Science</span><span class="grade">Grade 7</span></div>
-        <div class="pk-body">
-          <h3>Thermal Energy at School</h3>
-          <p>A paper investigation of conduction, convection, and radiation using supplied building-temperature data.
-            Observation vs. inference, a labeled diagram, a CER response, and an ACE close.</p>
-          <div class="facts">~45 min + 15 min extension · Pencil only · Student packet + guide + key</div>
-          <div class="facts standards">Provisional: 19 TAC §112.27 — 7.8A, 7.8C (pending verification)</div>
-          <span class="cta">Open packet →</span>
-        </div>
-      </a>
-      <a class="pk" style="--pa:#9a5b17" href="G07_SOC_TexasTurningPoint_01/index.html">
-        <div class="pk-top"><span class="tag">Social Studies</span><span class="grade">Grade 7</span></div>
-        <div class="pk-body">
-          <h3>Texas Turning Point: The Railroads Arrive</h3>
-          <p>Read short sources and a timeline of the 1870s–1880s railroad boom, build a cause-and-effect chain, and
-            explain the event's significance with evidence.</p>
-          <div class="facts">~45 min + 15 min extension · Pencil only · Student packet + guide + key</div>
-          <div class="facts standards">Provisional: 19 TAC §113.19 — 7.6, 7.21 (pending verification)</div>
-          <span class="cta">Open packet →</span>
-        </div>
-      </a>
+    <p class="section-sub">One packet per grade and core subject, for grades 6, 7, and 8. Open a packet for the
+      accessible version, or download the print-ready PDFs. Use the filters to narrow by grade or subject.</p>
+
+    <div id="pk-gallery">
+      <div id="pk-fallback">
+        <p class="section-sub">Enable JavaScript for filters, previews, and one-click PDF downloads — or browse packets directly:</p>
+        <ul class="fallback-list">
+          <li><strong>Grade 6:</strong>
+            <a href="G06_RLA_CentralIdea_01/index.html">Reading</a> ·
+            <a href="G06_MATH_Ratios_01/index.html">Math</a> ·
+            <a href="G06_SCI_ClassifyMatter_01/index.html">Science</a> ·
+            <a href="G06_SOC_CompareSocieties_01/index.html">Social Studies</a></li>
+          <li><strong>Grade 7:</strong>
+            <a href="G07_RLA_Theme_01/index.html">Reading</a> ·
+            <a href="G07_MATH_Proportions_01/index.html">Math</a> ·
+            <a href="G07_SCI_ThermalEnergy_01/index.html">Science</a> ·
+            <a href="G07_SOC_TexasTurningPoint_01/index.html">Social Studies</a></li>
+          <li><strong>Grade 8:</strong>
+            <a href="G08_RLA_Argument_01/index.html">Reading</a> ·
+            <a href="G08_MATH_Linear_01/index.html">Math</a> ·
+            <a href="G08_SCI_NewtonSafety_01/index.html">Science</a> ·
+            <a href="G08_SOC_Constitution_01/index.html">Social Studies</a></li>
+        </ul>
+      </div>
     </div>
   </section>
 
-  <section class="sp" aria-labelledby="pilot-h">
-    <h2 id="pilot-h" class="section-title">The twelve-packet pilot · Grades 6–8</h2>
-    <p class="section-sub">One packet per grade and core subject. The full Grade 7 set is complete (above); grades 6 and 8
-      follow next. Cards below fill in as each packet passes review.</p>
-    <div class="sp-grid">
-      <div class="pk soon" style="--pa:#6b3fa0"><div class="pk-top"><span class="tag">Reading/ELA</span><span class="grade">Grade 6</span></div><div class="pk-body"><h3>Central Idea &amp; Evidence</h3><p>Inference and evidence across two short informational texts.</p><span class="cta">In development</span></div></div>
-      <div class="pk soon" style="--pa:#0a5f8f"><div class="pk-top"><span class="tag">Math</span><span class="grade">Grade 6</span></div><div class="pk-body"><h3>Ratios, Rates &amp; Percents</h3><p>Represent and reason with ratios in a decision task.</p><span class="cta">In development</span></div></div>
-      <div class="pk soon" style="--pa:#17745b"><div class="pk-top"><span class="tag">Science</span><span class="grade">Grade 6</span></div><div class="pk-body"><h3>Classifying Matter</h3><p>Use physical-property data to classify and justify.</p><span class="cta">In development</span></div></div>
-      <div class="pk soon" style="--pa:#9a5b17"><div class="pk-top"><span class="tag">Social Studies</span><span class="grade">Grade 6</span></div><div class="pk-body"><h3>Comparing Societies</h3><p>Compare contemporary societies with maps and data.</p><span class="cta">In development</span></div></div>
-      <div class="pk soon" style="--pa:#6b3fa0"><div class="pk-top"><span class="tag">Reading/ELA</span><span class="grade">Grade 8</span></div><div class="pk-body"><h3>Argument &amp; Revision</h3><p>Evaluate evidence quality; revise a claim.</p><span class="cta">In development</span></div></div>
-      <div class="pk soon" style="--pa:#0a5f8f"><div class="pk-top"><span class="tag">Math</span><span class="grade">Grade 8</span></div><div class="pk-body"><h3>Linear Relationships</h3><p>Match tables, graphs, equations, and contexts.</p><span class="cta">In development</span></div></div>
-      <div class="pk soon" style="--pa:#17745b"><div class="pk-top"><span class="tag">Science</span><span class="grade">Grade 8</span></div><div class="pk-body"><h3>Newton's Laws in Safety</h3><p>Force analysis and a design recommendation.</p><span class="cta">In development</span></div></div>
-      <div class="pk soon" style="--pa:#9a5b17"><div class="pk-top"><span class="tag">Social Studies</span><span class="grade">Grade 8</span></div><div class="pk-body"><h3>Constitutional Principles</h3><p>A source-based historical claim.</p><span class="cta">In development</span></div></div>
+  <section class="sp" aria-labelledby="bulk-h">
+    <h2 id="bulk-h" class="section-title">Bulk downloads</h2>
+    <p class="section-sub">Zipped print-ready PDFs — student packet, substitute guide, and answer key for each packet.</p>
+    <div class="bulk">
+      <a href="dist/all-packets.zip" download>All 12 packets</a>
+      <a href="dist/grade-06-packets.zip" download>Grade 6</a>
+      <a href="dist/grade-07-packets.zip" download>Grade 7</a>
+      <a href="dist/grade-08-packets.zip" download>Grade 8</a>
+      <a href="dist/subject-rla-packets.zip" download>Reading/ELA</a>
+      <a href="dist/subject-math-packets.zip" download>Math</a>
+      <a href="dist/subject-sci-packets.zip" download>Science</a>
+      <a href="dist/subject-soc-packets.zip" download>Social Studies</a>
     </div>
-    <p class="legend">Provisional topics from the project plan; exact standards are added only after the record is verified.</p>
+    <p class="legend">Machine-readable catalog: <a href="catalog.json">catalog.json</a> · <a href="catalog.csv">catalog.csv</a>.
+      Regenerate every PDF, preview, ZIP, and the catalog with <code>./build.sh</code>.</p>
   </section>
 
   <section class="sp" aria-labelledby="how-h">
@@ -144,5 +137,6 @@
     <p>Created by Miguel Guhlin · Free to use, print, and adapt · <a href="../licensing.html">Licensing &amp; provenance</a></p>
   </footer>
 
+  <script src="assets/catalog.js" defer></script>
 </body>
 </html>

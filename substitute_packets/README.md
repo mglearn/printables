@@ -55,10 +55,25 @@ the Grade 7 Science packet for the reference structure.
 4. Add a card to this collection's `index.html`, and (for a new collection) a dashboard card in
    `../index.html`.
 
+## Build (PDFs, previews, catalog, ZIPs)
+
+`./build.sh` regenerates every output deterministically (requires `google-chrome`,
+`pdfunite`, `pdftoppm`, `cwebp`, `zip`, `node`). For each packet it renders the
+Student / SubGuide / AnswerKey PDFs (US Letter), assembles a **TeacherMaster**
+(guide + student + a "do not copy" divider + key), and makes a `_Preview.webp`.
+Then it runs `build-catalog.mjs` to write **`catalog.json`** + **`catalog.csv`**
+from the manifests, and packs per-grade / per-subject / all bulk ZIPs into `dist/`.
+
+The collection page's gallery is **data-driven**: `assets/catalog.js` fetches
+`catalog.json` and renders filterable cards with previews and PDF buttons, falling
+back to a static packet list when opened without a server. Re-run `./build.sh`
+after adding or changing a packet, then commit the regenerated outputs.
+
 ## Deploy
 
 Push `main` in the `mglearn/printables` repo — GitHub Pages serves it at
-`mglearn.github.io/printables/`.
+`mglearn.github.io/printables/`. (PDFs, previews, and ZIPs are committed so the
+downloads work without a build step on the server.)
 
 ## License
 

@@ -1,0 +1,56 @@
+{
+  "id": "G06_SCI_ClassifyMatter_01",
+  "title": "Classifying Matter by Its Properties",
+  "slug": "classifying-matter-by-its-properties",
+  "grade": 6,
+  "subject": "science",
+  "duration": {
+    "core_minutes": 45,
+    "extension_minutes": 15
+  },
+  "materials": [
+    "printed student packet",
+    "pencil"
+  ],
+  "work_mode": "independent",
+  "standards": {
+    "framework": "19 TAC §112.26 (Grade 6 Science)",
+    "knowledge_and_skills": "6.6",
+    "primary": [
+      {
+        "code": "6.6A",
+        "section": "19 TAC §112.26",
+        "focus": "compare and identify substances using physical properties such as density, magnetism, and conductivity",
+        "verification_status": "pending"
+      },
+      {
+        "code": "6.6B",
+        "section": "19 TAC §112.26",
+        "focus": "distinguish pure substances from mixtures and classify matter by its physical properties",
+        "verification_status": "pending"
+      }
+    ],
+    "alignment_note": "Provisional — pending educator verification against the current official TAC source. Standards paraphrased, not quoted."
+  },
+  "calculator_allowed": false,
+  "color_required": false,
+  "files": [
+    "student.html",
+    "subguide.html",
+    "answerkey.html",
+    "index.html",
+    "manifest.json"
+  ],
+  "copyright": {
+    "text": "original",
+    "images": "original-svg",
+    "license": "CC-BY-4.0"
+  },
+  "status": "draft",
+  "review": {
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "verification_status": null
+  },
+  "version": "0.1.0"
+}

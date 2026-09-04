@@ -1,0 +1,61 @@
+{
+  "id": "G08_RLA_Argument_01",
+  "title": "Analyzing an Argument, Evidence, and Revision",
+  "slug": "analyzing-an-argument-evidence-and-revision",
+  "grade": 8,
+  "subject": "rla",
+  "duration": {
+    "core_minutes": 45,
+    "extension_minutes": 15
+  },
+  "materials": [
+    "printed student packet",
+    "pencil"
+  ],
+  "work_mode": "independent",
+  "standards": {
+    "framework": "19 TAC §110.24 (Grade 8 English Language Arts and Reading)",
+    "primary": [
+      {
+        "code": "provisional-argument",
+        "section": "19 TAC §110.24",
+        "focus": "analyze the author's claim and how the argument is developed in an argumentative text",
+        "verification_status": "pending"
+      },
+      {
+        "code": "provisional-evidence",
+        "section": "19 TAC §110.24",
+        "focus": "evaluate whether the evidence supporting a claim is relevant, sufficient, and credible",
+        "verification_status": "pending"
+      },
+      {
+        "code": "provisional-revision",
+        "section": "19 TAC §110.24",
+        "focus": "revise a draft to strengthen support and improve clarity and focus",
+        "verification_status": "pending"
+      }
+    ],
+    "alignment_note": "Provisional — pending educator verification against the current official TAC source. Standards paraphrased, not quoted."
+  },
+  "calculator_allowed": false,
+  "color_required": false,
+  "files": [
+    "student.html",
+    "subguide.html",
+    "answerkey.html",
+    "index.html",
+    "manifest.json"
+  ],
+  "copyright": {
+    "text": "original",
+    "images": "none",
+    "license": "CC-BY-4.0"
+  },
+  "status": "draft",
+  "review": {
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "verification_status": null
+  },
+  "version": "0.1.0"
+}

@@ -1,0 +1,63 @@
+{
+  "id": "G08_MATH_Linear_01",
+  "title": "Linear Relationships in Four Forms",
+  "slug": "linear-relationships-in-four-forms",
+  "grade": 8,
+  "subject": "math",
+  "duration": {
+    "core_minutes": 45,
+    "extension_minutes": 15
+  },
+  "materials": [
+    "printed student packet",
+    "pencil",
+    "basic calculator (optional)"
+  ],
+  "work_mode": "independent",
+  "standards": {
+    "framework": "19 TAC §111.28 (Grade 8 Mathematics)",
+    "knowledge_and_skills": "8.4, 8.5",
+    "primary": [
+      {
+        "code": "8.4A",
+        "section": "19 TAC §111.28",
+        "focus": "develop and use slope as a constant rate of change (rise over run) between two points",
+        "verification_status": "pending"
+      },
+      {
+        "code": "8.4C",
+        "section": "19 TAC §111.28",
+        "focus": "write an equation in the form y = mx + b from data and interpret slope (m) and y-intercept (b) in context",
+        "verification_status": "pending"
+      },
+      {
+        "code": "8.5I",
+        "section": "19 TAC §111.28",
+        "focus": "distinguish proportional (y = kx, through the origin) from non-proportional (y = mx + b, b not 0) linear relationships across tables, graphs, and equations",
+        "verification_status": "pending"
+      }
+    ],
+    "alignment_note": "Provisional — pending educator verification against the current official TAC source. Standards paraphrased, not quoted."
+  },
+  "calculator_allowed": true,
+  "color_required": false,
+  "files": [
+    "student.html",
+    "subguide.html",
+    "answerkey.html",
+    "index.html",
+    "manifest.json"
+  ],
+  "copyright": {
+    "text": "original",
+    "images": "original-svg",
+    "license": "CC-BY-4.0"
+  },
+  "status": "draft",
+  "review": {
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "verification_status": null
+  },
+  "version": "0.1.0"
+}

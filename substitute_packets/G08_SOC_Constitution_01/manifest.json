@@ -1,0 +1,57 @@
+{
+  "id": "G08_SOC_Constitution_01",
+  "title": "Principles of the U.S. Constitution",
+  "slug": "principles-us-constitution",
+  "grade": 8,
+  "subject": "social",
+  "duration": {
+    "core_minutes": 45,
+    "extension_minutes": 15
+  },
+  "materials": [
+    "printed student packet",
+    "pencil"
+  ],
+  "work_mode": "independent",
+  "standards": {
+    "framework": "19 TAC §113.20 (Grade 8 Social Studies, U.S. History to 1877)",
+    "knowledge_and_skills": "8.15, 8.29",
+    "primary": [
+      {
+        "code": "8.15",
+        "section": "19 TAC §113.20",
+        "focus": "principles of the U.S. Constitution, including popular sovereignty, limited government, separation of powers, checks and balances, and federalism",
+        "verification_status": "pending"
+      },
+      {
+        "code": "8.29",
+        "section": "19 TAC §113.20",
+        "focus": "social studies skills: analyzing a source by identifying its creator, date, and type, and using evidence to support a claim",
+        "verification_status": "pending"
+      }
+    ],
+    "alignment_note": "Provisional — pending educator verification against the current official TAC source. Standards paraphrased, not quoted; not a claim of TEKS alignment."
+  },
+  "calculator_allowed": false,
+  "color_required": false,
+  "files": [
+    "student.html",
+    "subguide.html",
+    "answerkey.html",
+    "index.html",
+    "manifest.json"
+  ],
+  "copyright": {
+    "text": "original",
+    "images": "original-svg",
+    "license": "CC-BY-4.0",
+    "quoted_sources": "U.S. Constitution Preamble excerpt (public domain)"
+  },
+  "status": "draft",
+  "review": {
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "verification_status": null
+  },
+  "version": "0.1.0"
+}

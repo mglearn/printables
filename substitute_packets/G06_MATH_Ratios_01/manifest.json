@@ -1,0 +1,63 @@
+{
+  "id": "G06_MATH_Ratios_01",
+  "title": "Ratios, Rates, and Percents",
+  "slug": "ratios-rates-and-percents",
+  "grade": 6,
+  "subject": "math",
+  "duration": {
+    "core_minutes": 45,
+    "extension_minutes": 15
+  },
+  "materials": [
+    "printed student packet",
+    "pencil",
+    "basic calculator (optional)"
+  ],
+  "work_mode": "independent",
+  "standards": {
+    "framework": "19 TAC §111.26 (Grade 6 Mathematics)",
+    "knowledge_and_skills": "6.4, 6.5",
+    "primary": [
+      {
+        "code": "6.4B",
+        "section": "19 TAC §111.26",
+        "focus": "apply qualitative and quantitative reasoning to solve prediction and comparison problems involving ratios and rates",
+        "verification_status": "pending"
+      },
+      {
+        "code": "6.5B",
+        "section": "19 TAC §111.26",
+        "focus": "solve real-world problems to find the whole given a part and a percent, the part given the whole and a percent, and the percent given the part and the whole",
+        "verification_status": "pending"
+      },
+      {
+        "code": "6.4C",
+        "section": "19 TAC §111.26",
+        "focus": "give examples of ratios as multiplicative comparisons of two quantities describing the same situation",
+        "verification_status": "pending"
+      }
+    ],
+    "alignment_note": "Provisional — pending educator verification against the current official TAC source. Standards paraphrased, not quoted."
+  },
+  "calculator_allowed": true,
+  "color_required": false,
+  "files": [
+    "student.html",
+    "subguide.html",
+    "answerkey.html",
+    "index.html",
+    "manifest.json"
+  ],
+  "copyright": {
+    "text": "original",
+    "images": "original-svg",
+    "license": "CC-BY-4.0"
+  },
+  "status": "draft",
+  "review": {
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "verification_status": null
+  },
+  "version": "0.1.0"
+}

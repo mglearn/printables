@@ -1,0 +1,507 @@
+{
+  "generated": null,
+  "count": 12,
+  "packets": [
+    {
+      "id": "G06_MATH_Ratios_01",
+      "title": "Ratios, Rates, and Percents",
+      "grade": 6,
+      "subject": "Mathematics",
+      "subject_key": "math",
+      "duration_minutes": 45,
+      "extension_minutes": 15,
+      "materials": [
+        "printed student packet",
+        "pencil",
+        "basic calculator (optional)"
+      ],
+      "calculator_allowed": true,
+      "color_required": false,
+      "standards": [
+        {
+          "code": "6.4B",
+          "section": "19 TAC §111.26",
+          "status": "pending"
+        },
+        {
+          "code": "6.5B",
+          "section": "19 TAC §111.26",
+          "status": "pending"
+        },
+        {
+          "code": "6.4C",
+          "section": "19 TAC §111.26",
+          "status": "pending"
+        }
+      ],
+      "standards_status": "pending",
+      "status": "draft",
+      "version": "0.1.0",
+      "href": "G06_MATH_Ratios_01/index.html",
+      "files": {
+        "html": "G06_MATH_Ratios_01/index.html",
+        "student_pdf": "G06_MATH_Ratios_01/G06_MATH_Ratios_01_Student.pdf",
+        "subguide_pdf": "G06_MATH_Ratios_01/G06_MATH_Ratios_01_SubGuide.pdf",
+        "answerkey_pdf": "G06_MATH_Ratios_01/G06_MATH_Ratios_01_AnswerKey.pdf",
+        "teacher_master_pdf": "G06_MATH_Ratios_01/G06_MATH_Ratios_01_TeacherMaster.pdf",
+        "preview": "G06_MATH_Ratios_01/G06_MATH_Ratios_01_Preview.webp"
+      }
+    },
+    {
+      "id": "G06_RLA_CentralIdea_01",
+      "title": "Central Idea and Evidence Across Two Texts",
+      "grade": 6,
+      "subject": "Reading/ELA",
+      "subject_key": "rla",
+      "duration_minutes": 45,
+      "extension_minutes": 15,
+      "materials": [
+        "printed student packet",
+        "pencil"
+      ],
+      "calculator_allowed": false,
+      "color_required": false,
+      "standards": [
+        {
+          "code": "provisional-central-idea",
+          "section": "19 TAC §110.22",
+          "status": "pending"
+        },
+        {
+          "code": "provisional-inference",
+          "section": "19 TAC §110.22",
+          "status": "pending"
+        },
+        {
+          "code": "provisional-text-evidence",
+          "section": "19 TAC §110.22",
+          "status": "pending"
+        }
+      ],
+      "standards_status": "pending",
+      "status": "draft",
+      "version": "0.1.0",
+      "href": "G06_RLA_CentralIdea_01/index.html",
+      "files": {
+        "html": "G06_RLA_CentralIdea_01/index.html",
+        "student_pdf": "G06_RLA_CentralIdea_01/G06_RLA_CentralIdea_01_Student.pdf",
+        "subguide_pdf": "G06_RLA_CentralIdea_01/G06_RLA_CentralIdea_01_SubGuide.pdf",
+        "answerkey_pdf": "G06_RLA_CentralIdea_01/G06_RLA_CentralIdea_01_AnswerKey.pdf",
+        "teacher_master_pdf": "G06_RLA_CentralIdea_01/G06_RLA_CentralIdea_01_TeacherMaster.pdf",
+        "preview": "G06_RLA_CentralIdea_01/G06_RLA_CentralIdea_01_Preview.webp"
+      }
+    },
+    {
+      "id": "G06_SCI_ClassifyMatter_01",
+      "title": "Classifying Matter by Its Properties",
+      "grade": 6,
+      "subject": "Science",
+      "subject_key": "scienceence",
+      "duration_minutes": 45,
+      "extension_minutes": 15,
+      "materials": [
+        "printed student packet",
+        "pencil"
+      ],
+      "calculator_allowed": false,
+      "color_required": false,
+      "standards": [
+        {
+          "code": "6.6A",
+          "section": "19 TAC §112.26",
+          "status": "pending"
+        },
+        {
+          "code": "6.6B",
+          "section": "19 TAC §112.26",
+          "status": "pending"
+        }
+      ],
+      "standards_status": "pending",
+      "status": "draft",
+      "version": "0.1.0",
+      "href": "G06_SCI_ClassifyMatter_01/index.html",
+      "files": {
+        "html": "G06_SCI_ClassifyMatter_01/index.html",
+        "student_pdf": "G06_SCI_ClassifyMatter_01/G06_SCI_ClassifyMatter_01_Student.pdf",
+        "subguide_pdf": "G06_SCI_ClassifyMatter_01/G06_SCI_ClassifyMatter_01_SubGuide.pdf",
+        "answerkey_pdf": "G06_SCI_ClassifyMatter_01/G06_SCI_ClassifyMatter_01_AnswerKey.pdf",
+        "teacher_master_pdf": "G06_SCI_ClassifyMatter_01/G06_SCI_ClassifyMatter_01_TeacherMaster.pdf",
+        "preview": "G06_SCI_ClassifyMatter_01/G06_SCI_ClassifyMatter_01_Preview.webp"
+      }
+    },
+    {
+      "id": "G06_SOC_CompareSocieties_01",
+      "title": "Comparing Two Societies with Maps and Data",
+      "grade": 6,
+      "subject": "Social Studies",
+      "subject_key": "socialial",
+      "duration_minutes": 45,
+      "extension_minutes": 15,
+      "materials": [
+        "printed student packet",
+        "pencil"
+      ],
+      "calculator_allowed": false,
+      "color_required": false,
+      "standards": [
+        {
+          "code": "provisional-geography",
+          "section": "19 TAC §113.18",
+          "status": "pending"
+        },
+        {
+          "code": "provisional-skills",
+          "section": "19 TAC §113.18",
+          "status": "pending"
+        }
+      ],
+      "standards_status": "pending",
+      "status": "draft",
+      "version": "0.1.0",
+      "href": "G06_SOC_CompareSocieties_01/index.html",
+      "files": {
+        "html": "G06_SOC_CompareSocieties_01/index.html",
+        "student_pdf": "G06_SOC_CompareSocieties_01/G06_SOC_CompareSocieties_01_Student.pdf",
+        "subguide_pdf": "G06_SOC_CompareSocieties_01/G06_SOC_CompareSocieties_01_SubGuide.pdf",
+        "answerkey_pdf": "G06_SOC_CompareSocieties_01/G06_SOC_CompareSocieties_01_AnswerKey.pdf",
+        "teacher_master_pdf": "G06_SOC_CompareSocieties_01/G06_SOC_CompareSocieties_01_TeacherMaster.pdf",
+        "preview": "G06_SOC_CompareSocieties_01/G06_SOC_CompareSocieties_01_Preview.webp"
+      }
+    },
+    {
+      "id": "G07_MATH_Proportions_01",
+      "title": "Proportional Reasoning and Percents",
+      "grade": 7,
+      "subject": "Mathematics",
+      "subject_key": "math",
+      "duration_minutes": 45,
+      "extension_minutes": 15,
+      "materials": [
+        "printed student packet",
+        "pencil",
+        "basic calculator (optional)"
+      ],
+      "calculator_allowed": true,
+      "color_required": false,
+      "standards": [
+        {
+          "code": "7.4A",
+          "section": "19 TAC §111.27",
+          "status": "pending"
+        },
+        {
+          "code": "7.4D",
+          "section": "19 TAC §111.27",
+          "status": "pending"
+        },
+        {
+          "code": "7.4E",
+          "section": "19 TAC §111.27",
+          "status": "pending"
+        }
+      ],
+      "standards_status": "pending",
+      "status": "draft",
+      "version": "0.1.0",
+      "href": "G07_MATH_Proportions_01/index.html",
+      "files": {
+        "html": "G07_MATH_Proportions_01/index.html",
+        "student_pdf": "G07_MATH_Proportions_01/G07_MATH_Proportions_01_Student.pdf",
+        "subguide_pdf": "G07_MATH_Proportions_01/G07_MATH_Proportions_01_SubGuide.pdf",
+        "answerkey_pdf": "G07_MATH_Proportions_01/G07_MATH_Proportions_01_AnswerKey.pdf",
+        "teacher_master_pdf": "G07_MATH_Proportions_01/G07_MATH_Proportions_01_TeacherMaster.pdf",
+        "preview": "G07_MATH_Proportions_01/G07_MATH_Proportions_01_Preview.webp"
+      }
+    },
+    {
+      "id": "G07_RLA_Theme_01",
+      "title": "Theme and Character in a Short Story",
+      "grade": 7,
+      "subject": "Reading/ELA",
+      "subject_key": "rla",
+      "duration_minutes": 45,
+      "extension_minutes": 15,
+      "materials": [
+        "printed student packet",
+        "pencil"
+      ],
+      "calculator_allowed": false,
+      "color_required": false,
+      "standards": [
+        {
+          "code": "provisional-theme",
+          "section": "19 TAC §110.23",
+          "status": "pending"
+        },
+        {
+          "code": "provisional-character",
+          "section": "19 TAC §110.23",
+          "status": "pending"
+        },
+        {
+          "code": "provisional-craft",
+          "section": "19 TAC §110.23",
+          "status": "pending"
+        }
+      ],
+      "standards_status": "pending",
+      "status": "draft",
+      "version": "0.1.0",
+      "href": "G07_RLA_Theme_01/index.html",
+      "files": {
+        "html": "G07_RLA_Theme_01/index.html",
+        "student_pdf": "G07_RLA_Theme_01/G07_RLA_Theme_01_Student.pdf",
+        "subguide_pdf": "G07_RLA_Theme_01/G07_RLA_Theme_01_SubGuide.pdf",
+        "answerkey_pdf": "G07_RLA_Theme_01/G07_RLA_Theme_01_AnswerKey.pdf",
+        "teacher_master_pdf": "G07_RLA_Theme_01/G07_RLA_Theme_01_TeacherMaster.pdf",
+        "preview": "G07_RLA_Theme_01/G07_RLA_Theme_01_Preview.webp"
+      }
+    },
+    {
+      "id": "G07_SCI_ThermalEnergy_01",
+      "title": "Thermal Energy at School",
+      "grade": 7,
+      "subject": "Science",
+      "subject_key": "scienceence",
+      "duration_minutes": 45,
+      "extension_minutes": 15,
+      "materials": [
+        "printed student packet",
+        "pencil"
+      ],
+      "calculator_allowed": false,
+      "color_required": false,
+      "standards": [
+        {
+          "code": "7.8A",
+          "section": "19 TAC §112.27",
+          "status": "pending"
+        },
+        {
+          "code": "7.8C",
+          "section": "19 TAC §112.27",
+          "status": "pending"
+        }
+      ],
+      "standards_status": "pending",
+      "status": "draft",
+      "version": "0.1.0",
+      "href": "G07_SCI_ThermalEnergy_01/index.html",
+      "files": {
+        "html": "G07_SCI_ThermalEnergy_01/index.html",
+        "student_pdf": "G07_SCI_ThermalEnergy_01/G07_SCI_ThermalEnergy_01_Student.pdf",
+        "subguide_pdf": "G07_SCI_ThermalEnergy_01/G07_SCI_ThermalEnergy_01_SubGuide.pdf",
+        "answerkey_pdf": "G07_SCI_ThermalEnergy_01/G07_SCI_ThermalEnergy_01_AnswerKey.pdf",
+        "teacher_master_pdf": "G07_SCI_ThermalEnergy_01/G07_SCI_ThermalEnergy_01_TeacherMaster.pdf",
+        "preview": "G07_SCI_ThermalEnergy_01/G07_SCI_ThermalEnergy_01_Preview.webp"
+      }
+    },
+    {
+      "id": "G07_SOC_TexasTurningPoint_01",
+      "title": "Texas Turning Point: The Railroads Arrive",
+      "grade": 7,
+      "subject": "Social Studies",
+      "subject_key": "socialial",
+      "duration_minutes": 45,
+      "extension_minutes": 15,
+      "materials": [
+        "printed student packet",
+        "pencil"
+      ],
+      "calculator_allowed": false,
+      "color_required": false,
+      "standards": [
+        {
+          "code": "7.6",
+          "section": "19 TAC §113.19",
+          "status": "pending"
+        },
+        {
+          "code": "7.21",
+          "section": "19 TAC §113.19",
+          "status": "pending"
+        }
+      ],
+      "standards_status": "pending",
+      "status": "draft",
+      "version": "0.1.0",
+      "href": "G07_SOC_TexasTurningPoint_01/index.html",
+      "files": {
+        "html": "G07_SOC_TexasTurningPoint_01/index.html",
+        "student_pdf": "G07_SOC_TexasTurningPoint_01/G07_SOC_TexasTurningPoint_01_Student.pdf",
+        "subguide_pdf": "G07_SOC_TexasTurningPoint_01/G07_SOC_TexasTurningPoint_01_SubGuide.pdf",
+        "answerkey_pdf": "G07_SOC_TexasTurningPoint_01/G07_SOC_TexasTurningPoint_01_AnswerKey.pdf",
+        "teacher_master_pdf": "G07_SOC_TexasTurningPoint_01/G07_SOC_TexasTurningPoint_01_TeacherMaster.pdf",
+        "preview": "G07_SOC_TexasTurningPoint_01/G07_SOC_TexasTurningPoint_01_Preview.webp"
+      }
+    },
+    {
+      "id": "G08_MATH_Linear_01",
+      "title": "Linear Relationships in Four Forms",
+      "grade": 8,
+      "subject": "Mathematics",
+      "subject_key": "math",
+      "duration_minutes": 45,
+      "extension_minutes": 15,
+      "materials": [
+        "printed student packet",
+        "pencil",
+        "basic calculator (optional)"
+      ],
+      "calculator_allowed": true,
+      "color_required": false,
+      "standards": [
+        {
+          "code": "8.4A",
+          "section": "19 TAC §111.28",
+          "status": "pending"
+        },
+        {
+          "code": "8.4C",
+          "section": "19 TAC §111.28",
+          "status": "pending"
+        },
+        {
+          "code": "8.5I",
+          "section": "19 TAC §111.28",
+          "status": "pending"
+        }
+      ],
+      "standards_status": "pending",
+      "status": "draft",
+      "version": "0.1.0",
+      "href": "G08_MATH_Linear_01/index.html",
+      "files": {
+        "html": "G08_MATH_Linear_01/index.html",
+        "student_pdf": "G08_MATH_Linear_01/G08_MATH_Linear_01_Student.pdf",
+        "subguide_pdf": "G08_MATH_Linear_01/G08_MATH_Linear_01_SubGuide.pdf",
+        "answerkey_pdf": "G08_MATH_Linear_01/G08_MATH_Linear_01_AnswerKey.pdf",
+        "teacher_master_pdf": "G08_MATH_Linear_01/G08_MATH_Linear_01_TeacherMaster.pdf",
+        "preview": "G08_MATH_Linear_01/G08_MATH_Linear_01_Preview.webp"
+      }
+    },
+    {
+      "id": "G08_RLA_Argument_01",
+      "title": "Analyzing an Argument, Evidence, and Revision",
+      "grade": 8,
+      "subject": "Reading/ELA",
+      "subject_key": "rla",
+      "duration_minutes": 45,
+      "extension_minutes": 15,
+      "materials": [
+        "printed student packet",
+        "pencil"
+      ],
+      "calculator_allowed": false,
+      "color_required": false,
+      "standards": [
+        {
+          "code": "provisional-argument",
+          "section": "19 TAC §110.24",
+          "status": "pending"
+        },
+        {
+          "code": "provisional-evidence",
+          "section": "19 TAC §110.24",
+          "status": "pending"
+        },
+        {
+          "code": "provisional-revision",
+          "section": "19 TAC §110.24",
+          "status": "pending"
+        }
+      ],
+      "standards_status": "pending",
+      "status": "draft",
+      "version": "0.1.0",
+      "href": "G08_RLA_Argument_01/index.html",
+      "files": {
+        "html": "G08_RLA_Argument_01/index.html",
+        "student_pdf": "G08_RLA_Argument_01/G08_RLA_Argument_01_Student.pdf",
+        "subguide_pdf": "G08_RLA_Argument_01/G08_RLA_Argument_01_SubGuide.pdf",
+        "answerkey_pdf": "G08_RLA_Argument_01/G08_RLA_Argument_01_AnswerKey.pdf",
+        "teacher_master_pdf": "G08_RLA_Argument_01/G08_RLA_Argument_01_TeacherMaster.pdf",
+        "preview": "G08_RLA_Argument_01/G08_RLA_Argument_01_Preview.webp"
+      }
+    },
+    {
+      "id": "G08_SCI_NewtonSafety_01",
+      "title": "Newton's Laws and Transportation Safety",
+      "grade": 8,
+      "subject": "Science",
+      "subject_key": "scienceence",
+      "duration_minutes": 45,
+      "extension_minutes": 15,
+      "materials": [
+        "printed student packet",
+        "pencil"
+      ],
+      "calculator_allowed": false,
+      "color_required": false,
+      "standards": [
+        {
+          "code": "8.7 (provisional)",
+          "section": "19 TAC §112.28",
+          "status": "pending"
+        },
+        {
+          "code": "8.7 (provisional)",
+          "section": "19 TAC §112.28",
+          "status": "pending"
+        }
+      ],
+      "standards_status": "pending",
+      "status": "draft",
+      "version": "0.1.0",
+      "href": "G08_SCI_NewtonSafety_01/index.html",
+      "files": {
+        "html": "G08_SCI_NewtonSafety_01/index.html",
+        "student_pdf": "G08_SCI_NewtonSafety_01/G08_SCI_NewtonSafety_01_Student.pdf",
+        "subguide_pdf": "G08_SCI_NewtonSafety_01/G08_SCI_NewtonSafety_01_SubGuide.pdf",
+        "answerkey_pdf": "G08_SCI_NewtonSafety_01/G08_SCI_NewtonSafety_01_AnswerKey.pdf",
+        "teacher_master_pdf": "G08_SCI_NewtonSafety_01/G08_SCI_NewtonSafety_01_TeacherMaster.pdf",
+        "preview": "G08_SCI_NewtonSafety_01/G08_SCI_NewtonSafety_01_Preview.webp"
+      }
+    },
+    {
+      "id": "G08_SOC_Constitution_01",
+      "title": "Principles of the U.S. Constitution",
+      "grade": 8,
+      "subject": "Social Studies",
+      "subject_key": "socialial",
+      "duration_minutes": 45,
+      "extension_minutes": 15,
+      "materials": [
+        "printed student packet",
+        "pencil"
+      ],
+      "calculator_allowed": false,
+      "color_required": false,
+      "standards": [
+        {
+          "code": "8.15",
+          "section": "19 TAC §113.20",
+          "status": "pending"
+        },
+        {
+          "code": "8.29",
+          "section": "19 TAC §113.20",
+          "status": "pending"
+        }
+      ],
+      "standards_status": "pending",
+      "status": "draft",
+      "version": "0.1.0",
+      "href": "G08_SOC_Constitution_01/index.html",
+      "files": {
+        "html": "G08_SOC_Constitution_01/index.html",
+        "student_pdf": "G08_SOC_Constitution_01/G08_SOC_Constitution_01_Student.pdf",
+        "subguide_pdf": "G08_SOC_Constitution_01/G08_SOC_Constitution_01_SubGuide.pdf",
+        "answerkey_pdf": "G08_SOC_Constitution_01/G08_SOC_Constitution_01_AnswerKey.pdf",
+        "teacher_master_pdf": "G08_SOC_Constitution_01/G08_SOC_Constitution_01_TeacherMaster.pdf",
+        "preview": "G08_SOC_Constitution_01/G08_SOC_Constitution_01_Preview.webp"
+      }
+    }
+  ]
+}

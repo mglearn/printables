@@ -1,0 +1,56 @@
+{
+  "id": "G06_SOC_CompareSocieties_01",
+  "title": "Comparing Two Societies with Maps and Data",
+  "slug": "comparing-two-societies-maps-data",
+  "grade": 6,
+  "subject": "social",
+  "duration": {
+    "core_minutes": 45,
+    "extension_minutes": 15
+  },
+  "materials": [
+    "printed student packet",
+    "pencil"
+  ],
+  "work_mode": "independent",
+  "standards": {
+    "framework": "19 TAC §113.18 (Grade 6 Social Studies, Contemporary World Cultures)",
+    "knowledge_and_skills": "geography/society, social studies skills",
+    "primary": [
+      {
+        "code": "provisional-geography",
+        "section": "19 TAC §113.18",
+        "focus": "comparing how different societies use their physical environment and how geographic factors influence economic activities and where people live",
+        "verification_status": "pending"
+      },
+      {
+        "code": "provisional-skills",
+        "section": "19 TAC §113.18",
+        "focus": "social studies skills: analyzing information from maps, tables, and other visuals and distinguishing fact from interpretation and opinion",
+        "verification_status": "pending"
+      }
+    ],
+    "alignment_note": "Provisional — pending educator verification against the current official TAC source. Standards paraphrased, not quoted."
+  },
+  "calculator_allowed": false,
+  "color_required": false,
+  "files": [
+    "student.html",
+    "subguide.html",
+    "answerkey.html",
+    "index.html",
+    "manifest.json"
+  ],
+  "copyright": {
+    "text": "original",
+    "images": "original-svg",
+    "license": "CC-BY-4.0"
+  },
+  "status": "draft",
+  "review": {
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "verification_status": null
+  },
+  "version": "0.1.0"
+}

@@ -1,0 +1,56 @@
+{
+  "id": "G08_SCI_NewtonSafety_01",
+  "title": "Newton's Laws and Transportation Safety",
+  "slug": "newtons-laws-and-transportation-safety",
+  "grade": 8,
+  "subject": "science",
+  "duration": {
+    "core_minutes": 45,
+    "extension_minutes": 15
+  },
+  "materials": [
+    "printed student packet",
+    "pencil"
+  ],
+  "work_mode": "independent",
+  "standards": {
+    "framework": "19 TAC §112.28 (Grade 8 Science)",
+    "knowledge_and_skills": "8.7",
+    "primary": [
+      {
+        "code": "8.7 (provisional)",
+        "section": "19 TAC §112.28",
+        "focus": "apply Newton's three laws of motion (inertia; F = ma; action-reaction) to describe and predict the motion of objects",
+        "verification_status": "pending"
+      },
+      {
+        "code": "8.7 (provisional)",
+        "section": "19 TAC §112.28",
+        "focus": "calculate and interpret net force using F = ma; distinguish balanced and unbalanced forces",
+        "verification_status": "pending"
+      }
+    ],
+    "alignment_note": "Provisional - pending educator verification against the current official TAC source. Standards paraphrased, not quoted. Formal alignment to the TEKS is not claimed."
+  },
+  "calculator_allowed": false,
+  "color_required": false,
+  "files": [
+    "student.html",
+    "subguide.html",
+    "answerkey.html",
+    "index.html",
+    "manifest.json"
+  ],
+  "copyright": {
+    "text": "original",
+    "images": "original-svg",
+    "license": "CC-BY-4.0"
+  },
+  "status": "draft",
+  "review": {
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "verification_status": null
+  },
+  "version": "0.1.0"
+}

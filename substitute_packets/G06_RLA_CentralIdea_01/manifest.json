@@ -1,0 +1,61 @@
+{
+  "id": "G06_RLA_CentralIdea_01",
+  "title": "Central Idea and Evidence Across Two Texts",
+  "slug": "central-idea-and-evidence-across-two-texts",
+  "grade": 6,
+  "subject": "rla",
+  "duration": {
+    "core_minutes": 45,
+    "extension_minutes": 15
+  },
+  "materials": [
+    "printed student packet",
+    "pencil"
+  ],
+  "work_mode": "independent",
+  "standards": {
+    "framework": "19 TAC §110.22 (Grade 6 English Language Arts and Reading)",
+    "primary": [
+      {
+        "code": "provisional-central-idea",
+        "section": "19 TAC §110.22",
+        "focus": "identify and explain the central idea of an informational text and how details support it",
+        "verification_status": "pending"
+      },
+      {
+        "code": "provisional-inference",
+        "section": "19 TAC §110.22",
+        "focus": "make inferences supported by textual evidence",
+        "verification_status": "pending"
+      },
+      {
+        "code": "provisional-text-evidence",
+        "section": "19 TAC §110.22",
+        "focus": "use specific evidence from the text to support responses and compare ideas across two texts",
+        "verification_status": "pending"
+      }
+    ],
+    "alignment_note": "Provisional — pending educator verification against the current official TAC source. Standards paraphrased, not quoted."
+  },
+  "calculator_allowed": false,
+  "color_required": false,
+  "files": [
+    "student.html",
+    "subguide.html",
+    "answerkey.html",
+    "index.html",
+    "manifest.json"
+  ],
+  "copyright": {
+    "text": "original",
+    "images": "none",
+    "license": "CC-BY-4.0"
+  },
+  "status": "draft",
+  "review": {
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "verification_status": null
+  },
+  "version": "0.1.0"
+}

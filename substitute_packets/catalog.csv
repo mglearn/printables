@@ -1,0 +1,13 @@
+id,title,grade,subject,duration_minutes,calculator_allowed,standards,standards_status,status,version,href
+G06_MATH_Ratios_01,"Ratios, Rates, and Percents",6,Mathematics,45,true,6.4B; 6.5B; 6.4C,pending,draft,0.1.0,G06_MATH_Ratios_01/index.html
+G06_RLA_CentralIdea_01,Central Idea and Evidence Across Two Texts,6,Reading/ELA,45,false,provisional-central-idea; provisional-inference; provisional-text-evidence,pending,draft,0.1.0,G06_RLA_CentralIdea_01/index.html
+G06_SCI_ClassifyMatter_01,Classifying Matter by Its Properties,6,Science,45,false,6.6A; 6.6B,pending,draft,0.1.0,G06_SCI_ClassifyMatter_01/index.html
+G06_SOC_CompareSocieties_01,Comparing Two Societies with Maps and Data,6,Social Studies,45,false,provisional-geography; provisional-skills,pending,draft,0.1.0,G06_SOC_CompareSocieties_01/index.html
+G07_MATH_Proportions_01,Proportional Reasoning and Percents,7,Mathematics,45,true,7.4A; 7.4D; 7.4E,pending,draft,0.1.0,G07_MATH_Proportions_01/index.html
+G07_RLA_Theme_01,Theme and Character in a Short Story,7,Reading/ELA,45,false,provisional-theme; provisional-character; provisional-craft,pending,draft,0.1.0,G07_RLA_Theme_01/index.html
+G07_SCI_ThermalEnergy_01,Thermal Energy at School,7,Science,45,false,7.8A; 7.8C,pending,draft,0.1.0,G07_SCI_ThermalEnergy_01/index.html
+G07_SOC_TexasTurningPoint_01,Texas Turning Point: The Railroads Arrive,7,Social Studies,45,false,7.6; 7.21,pending,draft,0.1.0,G07_SOC_TexasTurningPoint_01/index.html
+G08_MATH_Linear_01,Linear Relationships in Four Forms,8,Mathematics,45,true,8.4A; 8.4C; 8.5I,pending,draft,0.1.0,G08_MATH_Linear_01/index.html
+G08_RLA_Argument_01,"Analyzing an Argument, Evidence, and Revision",8,Reading/ELA,45,false,provisional-argument; provisional-evidence; provisional-revision,pending,draft,0.1.0,G08_RLA_Argument_01/index.html
+G08_SCI_NewtonSafety_01,Newton's Laws and Transportation Safety,8,Science,45,false,8.7 (provisional); 8.7 (provisional),pending,draft,0.1.0,G08_SCI_NewtonSafety_01/index.html
+G08_SOC_Constitution_01,Principles of the U.S. Constitution,8,Social Studies,45,false,8.15; 8.29,pending,draft,0.1.0,G08_SOC_Constitution_01/index.html

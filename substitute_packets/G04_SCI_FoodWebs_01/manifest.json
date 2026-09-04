@@ -1,0 +1,65 @@
+{
+  "id": "G04_SCI_FoodWebs_01",
+  "title": "Food Webs and Energy Flow",
+  "slug": "food-webs-and-energy-flow",
+  "grade": 4,
+  "subject": "science",
+  "duration": {
+    "core_minutes": 45,
+    "extension_minutes": 15
+  },
+  "materials": [
+    "printed student packet",
+    "pencil"
+  ],
+  "work_mode": "independent",
+  "standards": {
+    "framework": "19 TAC Chapter 112 (Grade 4 Science, 2021 TEKS)",
+    "knowledge_and_skills": null,
+    "primary": [
+      {
+        "code": null,
+        "canonical_code": null,
+        "section": null,
+        "strand": "Organisms and environments",
+        "focus": "how energy flows through a food web, from the Sun to producers to consumers",
+        "verification_status": "pending",
+        "source_url": null
+      },
+      {
+        "code": null,
+        "canonical_code": null,
+        "section": null,
+        "strand": "Organisms and environments",
+        "focus": "roles of producers, consumers, and decomposers in an ecosystem, and predicting the effect of a change to the food web",
+        "verification_status": "pending",
+        "source_url": null
+      }
+    ],
+    "alignment_note": "Provisional — specific section number and student expectation codes are pending educator verification against the current official TAC source. Standards paraphrased, not quoted; not claimed as aligned to the TEKS.",
+    "supporting": [],
+    "lock": "standards/standards-lock.json",
+    "verified_on": null
+  },
+  "calculator_allowed": false,
+  "color_required": false,
+  "files": [
+    "student.html",
+    "subguide.html",
+    "answerkey.html",
+    "index.html",
+    "manifest.json"
+  ],
+  "copyright": {
+    "text": "original",
+    "images": "original-svg",
+    "license": "CC-BY-4.0"
+  },
+  "status": "draft",
+  "review": {
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "verification_status": null
+  },
+  "version": "0.1.0"
+}

@@ -1,0 +1,69 @@
+{
+  "id": "G03_RLA_CentralMessage_01",
+  "title": "Characters and the Lesson of a Story",
+  "slug": "characters-and-the-lesson-of-a-story",
+  "grade": 3,
+  "subject": "rla",
+  "duration": {
+    "core_minutes": 45,
+    "extension_minutes": 15
+  },
+  "materials": [
+    "printed student packet",
+    "pencil"
+  ],
+  "work_mode": "independent",
+  "standards": {
+    "framework": "19 TAC §110.5 (Grade 3 English Language Arts and Reading)",
+    "primary": [
+      {
+        "code": "3.8A",
+        "canonical_code": "110.5.b.8.A",
+        "section": "19 TAC §110.5",
+        "strand": "Multiple genres",
+        "focus": "inferring the central message or lesson of a story and supporting it with a text detail",
+        "verification_status": "pending",
+        "source_url": null
+      },
+      {
+        "code": "3.8B",
+        "canonical_code": "110.5.b.8.B",
+        "section": "19 TAC §110.5",
+        "strand": "Multiple genres",
+        "focus": "describing the main character and the character's feelings or actions",
+        "verification_status": "pending",
+        "source_url": null
+      },
+      {
+        "code": "3.7C",
+        "canonical_code": "110.5.b.7.C",
+        "section": "19 TAC §110.5",
+        "strand": "Response skills",
+        "focus": "using a text detail to support a response",
+        "verification_status": "pending",
+        "source_url": null
+      }
+    ],
+    "alignment_note": "Provisional — pending educator verification against the current official TAC source. Standards paraphrased, not quoted. Codes to be verified separately.",
+    "supporting": [],
+    "lock": "standards/standards-lock.json",
+    "verified_on": null
+  },
+  "calculator_allowed": false,
+  "color_required": false,
+  "files": [
+    "student.html",
+    "subguide.html",
+    "answerkey.html",
+    "index.html",
+    "manifest.json"
+  ],
+  "copyright": {
+    "text": "original",
+    "images": "none",
+    "license": "CC-BY-4.0"
+  },
+  "status": "draft",
+  "review": null,
+  "version": "0.1.0"
+}

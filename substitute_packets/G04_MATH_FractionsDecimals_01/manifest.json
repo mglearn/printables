@@ -1,0 +1,85 @@
+{
+  "id": "G04_MATH_FractionsDecimals_01",
+  "title": "Fractions and Decimals: Compare and Combine",
+  "slug": "fractions-and-decimals-compare-and-combine",
+  "grade": 4,
+  "subject": "math",
+  "duration": {
+    "core_minutes": 45,
+    "extension_minutes": 15
+  },
+  "materials": [
+    "printed student packet",
+    "pencil",
+    "basic calculator (optional)"
+  ],
+  "work_mode": "independent",
+  "standards": {
+    "framework": "19 TAC §111.6 (Grade 4 Mathematics)",
+    "knowledge_and_skills": "4.3",
+    "primary": [
+      {
+        "code": "4.3C",
+        "canonical_code": "111.6.b.3.C",
+        "section": "19 TAC §111.6",
+        "strand": "Number and operations",
+        "focus": "determine equivalent fractions and compare two fractions with the same denominator using a model",
+        "verification_status": "pending",
+        "source_url": null
+      },
+      {
+        "code": "4.3E",
+        "canonical_code": "111.6.b.3.E",
+        "section": "19 TAC §111.6",
+        "strand": "Number and operations",
+        "focus": "add and subtract fractions with like (equal) denominators using a model",
+        "verification_status": "pending",
+        "source_url": null
+      },
+      {
+        "code": "4.2G",
+        "canonical_code": "111.6.b.2.G",
+        "section": "19 TAC §111.6",
+        "strand": "Number and operations",
+        "focus": "relate a fraction with a denominator of 10 or 100 to its decimal (tenths and hundredths)",
+        "verification_status": "pending",
+        "source_url": null
+      }
+    ],
+    "supporting": [
+      {
+        "code": "4.3D",
+        "canonical_code": "111.6.b.3.D",
+        "section": "19 TAC §111.6",
+        "strand": "Number and operations",
+        "focus": "compare two fractions using symbols and justify with a model",
+        "verification_status": "pending",
+        "source_url": null
+      }
+    ],
+    "alignment_note": "Provisional — pending educator verification against the current official TAC source. Standards paraphrased, not quoted. Not a claim of TEKS alignment.",
+    "verified_on": null,
+    "lock": "standards/standards-lock.json"
+  },
+  "calculator_allowed": true,
+  "color_required": false,
+  "files": [
+    "student.html",
+    "subguide.html",
+    "answerkey.html",
+    "index.html",
+    "manifest.json"
+  ],
+  "copyright": {
+    "text": "original",
+    "images": "original-svg",
+    "license": "CC-BY-4.0"
+  },
+  "status": "draft",
+  "review": {
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "verification_status": null
+  },
+  "version": "0.1.0"
+}

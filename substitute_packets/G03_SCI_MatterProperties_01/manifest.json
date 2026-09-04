@@ -1,0 +1,65 @@
+{
+  "id": "G03_SCI_MatterProperties_01",
+  "title": "Sorting Matter by Its Properties",
+  "slug": "sorting-matter-by-its-properties",
+  "grade": 3,
+  "subject": "science",
+  "duration": {
+    "core_minutes": 45,
+    "extension_minutes": 15
+  },
+  "materials": [
+    "printed student packet",
+    "pencil"
+  ],
+  "work_mode": "independent",
+  "standards": {
+    "framework": "19 TAC Chapter 112 (Grade 3 Science, 2021 TEKS)",
+    "knowledge_and_skills": null,
+    "primary": [
+      {
+        "code": null,
+        "canonical_code": null,
+        "section": null,
+        "strand": "Matter and energy",
+        "focus": "classify matter by observable physical properties such as mass, magnetism, and whether an object sinks or floats in water",
+        "verification_status": "pending",
+        "source_url": null
+      },
+      {
+        "code": null,
+        "canonical_code": null,
+        "section": null,
+        "strand": "Matter and energy",
+        "focus": "describe and compare the physical states of matter: solid, liquid, and gas",
+        "verification_status": "pending",
+        "source_url": null
+      }
+    ],
+    "alignment_note": "Provisional — specific section number and student expectation codes are pending educator verification against the current official TAC source. Standards paraphrased, not quoted; not claimed as aligned to the TEKS.",
+    "supporting": [],
+    "lock": "standards/standards-lock.json",
+    "verified_on": null
+  },
+  "calculator_allowed": false,
+  "color_required": false,
+  "files": [
+    "student.html",
+    "subguide.html",
+    "answerkey.html",
+    "index.html",
+    "manifest.json"
+  ],
+  "copyright": {
+    "text": "original",
+    "images": "original-svg",
+    "license": "CC-BY-4.0"
+  },
+  "status": "draft",
+  "review": {
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "verification_status": null
+  },
+  "version": "0.1.0"
+}

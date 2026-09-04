@@ -1,0 +1,84 @@
+{
+  "id": "G03_MATH_MultiplicationShares_01",
+  "title": "Multiplication and Fair Shares",
+  "slug": "multiplication-and-fair-shares",
+  "grade": 3,
+  "subject": "math",
+  "duration": {
+    "core_minutes": 45,
+    "extension_minutes": 15
+  },
+  "materials": [
+    "printed student packet",
+    "pencil",
+    "basic calculator (optional, not required)"
+  ],
+  "work_mode": "independent",
+  "standards": {
+    "framework": "19 TAC §111.5 (Grade 3 Mathematics)",
+    "knowledge_and_skills": "3.4, 3.5",
+    "primary": [
+      {
+        "code": "3.4D",
+        "canonical_code": "111.5.b.4.D",
+        "section": "19 TAC §111.5",
+        "strand": "Number and operations",
+        "focus": "represent multiplication as equal groups of objects",
+        "verification_status": "pending",
+        "source_url": null
+      },
+      {
+        "code": "3.4E",
+        "canonical_code": "111.5.b.4.E",
+        "section": "19 TAC §111.5",
+        "strand": "Number and operations",
+        "focus": "represent multiplication as arrays using rows and columns",
+        "verification_status": "pending",
+        "source_url": null
+      },
+      {
+        "code": "3.4H",
+        "canonical_code": "111.5.b.4.H",
+        "section": "19 TAC §111.5",
+        "strand": "Number and operations",
+        "focus": "represent division as sharing a total into equal groups (fair shares)",
+        "verification_status": "pending",
+        "source_url": null
+      }
+    ],
+    "supporting": [
+      {
+        "code": "3.4K",
+        "section": "19 TAC §111.5",
+        "strand": "Number and operations",
+        "focus": "relate multiplication and division as inverse operations within 100",
+        "verification_status": "pending",
+        "source_url": null
+      }
+    ],
+    "alignment_note": "Provisional — pending educator verification against the current official TAC source. Standards paraphrased, not quoted. Not to be described as aligned to the TEKS until reviewed.",
+    "verified_on": null,
+    "lock": "standards/standards-lock.json"
+  },
+  "calculator_allowed": true,
+  "color_required": false,
+  "files": [
+    "student.html",
+    "subguide.html",
+    "answerkey.html",
+    "index.html",
+    "manifest.json"
+  ],
+  "copyright": {
+    "text": "original",
+    "images": "original-svg",
+    "license": "CC-BY-4.0"
+  },
+  "status": "draft",
+  "review": {
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "verification_status": null
+  },
+  "version": "0.1.0"
+}

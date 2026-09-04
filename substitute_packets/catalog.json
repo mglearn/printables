@@ -1,7 +1,351 @@
 {
   "generated": null,
-  "count": 16,
+  "count": 24,
   "packets": [
+    {
+      "id": "G03_MATH_MultiplicationShares_01",
+      "title": "Multiplication and Fair Shares",
+      "grade": 3,
+      "subject": "Mathematics",
+      "subject_key": "math",
+      "duration_minutes": 45,
+      "extension_minutes": 15,
+      "materials": [
+        "printed student packet",
+        "pencil",
+        "basic calculator (optional, not required)"
+      ],
+      "calculator_allowed": true,
+      "color_required": false,
+      "standards": [
+        {
+          "code": "3.4D",
+          "section": "19 TAC §111.5",
+          "status": "pending"
+        },
+        {
+          "code": "3.4E",
+          "section": "19 TAC §111.5",
+          "status": "pending"
+        },
+        {
+          "code": "3.4H",
+          "section": "19 TAC §111.5",
+          "status": "pending"
+        }
+      ],
+      "standards_status": "pending",
+      "status": "draft",
+      "version": "0.1.0",
+      "href": "G03_MATH_MultiplicationShares_01/index.html",
+      "files": {
+        "html": "G03_MATH_MultiplicationShares_01/index.html",
+        "student_pdf": "G03_MATH_MultiplicationShares_01/G03_MATH_MultiplicationShares_01_Student.pdf",
+        "subguide_pdf": "G03_MATH_MultiplicationShares_01/G03_MATH_MultiplicationShares_01_SubGuide.pdf",
+        "answerkey_pdf": "G03_MATH_MultiplicationShares_01/G03_MATH_MultiplicationShares_01_AnswerKey.pdf",
+        "teacher_master_pdf": "G03_MATH_MultiplicationShares_01/G03_MATH_MultiplicationShares_01_TeacherMaster.pdf",
+        "preview": "G03_MATH_MultiplicationShares_01/G03_MATH_MultiplicationShares_01_Preview.webp"
+      }
+    },
+    {
+      "id": "G03_RLA_CentralMessage_01",
+      "title": "Characters and the Lesson of a Story",
+      "grade": 3,
+      "subject": "Reading/ELA",
+      "subject_key": "rla",
+      "duration_minutes": 45,
+      "extension_minutes": 15,
+      "materials": [
+        "printed student packet",
+        "pencil"
+      ],
+      "calculator_allowed": false,
+      "color_required": false,
+      "standards": [
+        {
+          "code": "3.8A",
+          "section": "19 TAC §110.5",
+          "status": "pending"
+        },
+        {
+          "code": "3.8B",
+          "section": "19 TAC §110.5",
+          "status": "pending"
+        },
+        {
+          "code": "3.7C",
+          "section": "19 TAC §110.5",
+          "status": "pending"
+        }
+      ],
+      "standards_status": "pending",
+      "status": "draft",
+      "version": "0.1.0",
+      "href": "G03_RLA_CentralMessage_01/index.html",
+      "files": {
+        "html": "G03_RLA_CentralMessage_01/index.html",
+        "student_pdf": "G03_RLA_CentralMessage_01/G03_RLA_CentralMessage_01_Student.pdf",
+        "subguide_pdf": "G03_RLA_CentralMessage_01/G03_RLA_CentralMessage_01_SubGuide.pdf",
+        "answerkey_pdf": "G03_RLA_CentralMessage_01/G03_RLA_CentralMessage_01_AnswerKey.pdf",
+        "teacher_master_pdf": "G03_RLA_CentralMessage_01/G03_RLA_CentralMessage_01_TeacherMaster.pdf",
+        "preview": "G03_RLA_CentralMessage_01/G03_RLA_CentralMessage_01_Preview.webp"
+      }
+    },
+    {
+      "id": "G03_SCI_MatterProperties_01",
+      "title": "Sorting Matter by Its Properties",
+      "grade": 3,
+      "subject": "Science",
+      "subject_key": "scienceence",
+      "duration_minutes": 45,
+      "extension_minutes": 15,
+      "materials": [
+        "printed student packet",
+        "pencil"
+      ],
+      "calculator_allowed": false,
+      "color_required": false,
+      "standards": [
+        {
+          "code": "",
+          "section": "",
+          "status": "pending"
+        },
+        {
+          "code": "",
+          "section": "",
+          "status": "pending"
+        }
+      ],
+      "standards_status": "pending",
+      "status": "draft",
+      "version": "0.1.0",
+      "href": "G03_SCI_MatterProperties_01/index.html",
+      "files": {
+        "html": "G03_SCI_MatterProperties_01/index.html",
+        "student_pdf": "G03_SCI_MatterProperties_01/G03_SCI_MatterProperties_01_Student.pdf",
+        "subguide_pdf": "G03_SCI_MatterProperties_01/G03_SCI_MatterProperties_01_SubGuide.pdf",
+        "answerkey_pdf": "G03_SCI_MatterProperties_01/G03_SCI_MatterProperties_01_AnswerKey.pdf",
+        "teacher_master_pdf": "G03_SCI_MatterProperties_01/G03_SCI_MatterProperties_01_TeacherMaster.pdf",
+        "preview": "G03_SCI_MatterProperties_01/G03_SCI_MatterProperties_01_Preview.webp"
+      }
+    },
+    {
+      "id": "G03_SOC_CommunitiesCompare_01",
+      "title": "Comparing Communities: City, Suburb, and Country",
+      "grade": 3,
+      "subject": "Social Studies",
+      "subject_key": "socialial",
+      "duration_minutes": 45,
+      "extension_minutes": 15,
+      "materials": [
+        "printed student packet",
+        "pencil"
+      ],
+      "calculator_allowed": false,
+      "color_required": false,
+      "standards": [
+        {
+          "code": "3.SOC.communities.compare",
+          "section": "",
+          "status": "pending"
+        },
+        {
+          "code": "3.SOC.humangeography.place",
+          "section": "",
+          "status": "pending"
+        },
+        {
+          "code": "3.SOC.skills.mapchart",
+          "section": "",
+          "status": "pending"
+        }
+      ],
+      "standards_status": "pending",
+      "status": "draft",
+      "version": "0.1.0",
+      "href": "G03_SOC_CommunitiesCompare_01/index.html",
+      "files": {
+        "html": "G03_SOC_CommunitiesCompare_01/index.html",
+        "student_pdf": "G03_SOC_CommunitiesCompare_01/G03_SOC_CommunitiesCompare_01_Student.pdf",
+        "subguide_pdf": "G03_SOC_CommunitiesCompare_01/G03_SOC_CommunitiesCompare_01_SubGuide.pdf",
+        "answerkey_pdf": "G03_SOC_CommunitiesCompare_01/G03_SOC_CommunitiesCompare_01_AnswerKey.pdf",
+        "teacher_master_pdf": "G03_SOC_CommunitiesCompare_01/G03_SOC_CommunitiesCompare_01_TeacherMaster.pdf",
+        "preview": "G03_SOC_CommunitiesCompare_01/G03_SOC_CommunitiesCompare_01_Preview.webp"
+      }
+    },
+    {
+      "id": "G04_MATH_FractionsDecimals_01",
+      "title": "Fractions and Decimals: Compare and Combine",
+      "grade": 4,
+      "subject": "Mathematics",
+      "subject_key": "math",
+      "duration_minutes": 45,
+      "extension_minutes": 15,
+      "materials": [
+        "printed student packet",
+        "pencil",
+        "basic calculator (optional)"
+      ],
+      "calculator_allowed": true,
+      "color_required": false,
+      "standards": [
+        {
+          "code": "4.3C",
+          "section": "19 TAC §111.6",
+          "status": "pending"
+        },
+        {
+          "code": "4.3E",
+          "section": "19 TAC §111.6",
+          "status": "pending"
+        },
+        {
+          "code": "4.2G",
+          "section": "19 TAC §111.6",
+          "status": "pending"
+        }
+      ],
+      "standards_status": "pending",
+      "status": "draft",
+      "version": "0.1.0",
+      "href": "G04_MATH_FractionsDecimals_01/index.html",
+      "files": {
+        "html": "G04_MATH_FractionsDecimals_01/index.html",
+        "student_pdf": "G04_MATH_FractionsDecimals_01/G04_MATH_FractionsDecimals_01_Student.pdf",
+        "subguide_pdf": "G04_MATH_FractionsDecimals_01/G04_MATH_FractionsDecimals_01_SubGuide.pdf",
+        "answerkey_pdf": "G04_MATH_FractionsDecimals_01/G04_MATH_FractionsDecimals_01_AnswerKey.pdf",
+        "teacher_master_pdf": "G04_MATH_FractionsDecimals_01/G04_MATH_FractionsDecimals_01_TeacherMaster.pdf",
+        "preview": "G04_MATH_FractionsDecimals_01/G04_MATH_FractionsDecimals_01_Preview.webp"
+      }
+    },
+    {
+      "id": "G04_RLA_MainIdeaSummary_01",
+      "title": "Main Idea, Details, and Author's Purpose",
+      "grade": 4,
+      "subject": "Reading/ELA",
+      "subject_key": "rla",
+      "duration_minutes": 45,
+      "extension_minutes": 15,
+      "materials": [
+        "printed student packet",
+        "pencil"
+      ],
+      "calculator_allowed": false,
+      "color_required": false,
+      "standards": [
+        {
+          "code": "4.6",
+          "section": "19 TAC §110.6",
+          "status": "pending"
+        },
+        {
+          "code": "4.6",
+          "section": "19 TAC §110.6",
+          "status": "pending"
+        },
+        {
+          "code": "4.9",
+          "section": "19 TAC §110.6",
+          "status": "pending"
+        }
+      ],
+      "standards_status": "pending",
+      "status": "draft",
+      "version": "0.1.0",
+      "href": "G04_RLA_MainIdeaSummary_01/index.html",
+      "files": {
+        "html": "G04_RLA_MainIdeaSummary_01/index.html",
+        "student_pdf": "G04_RLA_MainIdeaSummary_01/G04_RLA_MainIdeaSummary_01_Student.pdf",
+        "subguide_pdf": "G04_RLA_MainIdeaSummary_01/G04_RLA_MainIdeaSummary_01_SubGuide.pdf",
+        "answerkey_pdf": "G04_RLA_MainIdeaSummary_01/G04_RLA_MainIdeaSummary_01_AnswerKey.pdf",
+        "teacher_master_pdf": "G04_RLA_MainIdeaSummary_01/G04_RLA_MainIdeaSummary_01_TeacherMaster.pdf",
+        "preview": "G04_RLA_MainIdeaSummary_01/G04_RLA_MainIdeaSummary_01_Preview.webp"
+      }
+    },
+    {
+      "id": "G04_SCI_FoodWebs_01",
+      "title": "Food Webs and Energy Flow",
+      "grade": 4,
+      "subject": "Science",
+      "subject_key": "scienceence",
+      "duration_minutes": 45,
+      "extension_minutes": 15,
+      "materials": [
+        "printed student packet",
+        "pencil"
+      ],
+      "calculator_allowed": false,
+      "color_required": false,
+      "standards": [
+        {
+          "code": "",
+          "section": "",
+          "status": "pending"
+        },
+        {
+          "code": "",
+          "section": "",
+          "status": "pending"
+        }
+      ],
+      "standards_status": "pending",
+      "status": "draft",
+      "version": "0.1.0",
+      "href": "G04_SCI_FoodWebs_01/index.html",
+      "files": {
+        "html": "G04_SCI_FoodWebs_01/index.html",
+        "student_pdf": "G04_SCI_FoodWebs_01/G04_SCI_FoodWebs_01_Student.pdf",
+        "subguide_pdf": "G04_SCI_FoodWebs_01/G04_SCI_FoodWebs_01_SubGuide.pdf",
+        "answerkey_pdf": "G04_SCI_FoodWebs_01/G04_SCI_FoodWebs_01_AnswerKey.pdf",
+        "teacher_master_pdf": "G04_SCI_FoodWebs_01/G04_SCI_FoodWebs_01_TeacherMaster.pdf",
+        "preview": "G04_SCI_FoodWebs_01/G04_SCI_FoodWebs_01_Preview.webp"
+      }
+    },
+    {
+      "id": "G04_SOC_TexasRegions_01",
+      "title": "The Four Regions of Texas",
+      "grade": 4,
+      "subject": "Social Studies",
+      "subject_key": "socialial",
+      "duration_minutes": 45,
+      "extension_minutes": 15,
+      "materials": [
+        "printed student packet",
+        "pencil"
+      ],
+      "calculator_allowed": false,
+      "color_required": false,
+      "standards": [
+        {
+          "code": "4.geo.regions(soc)",
+          "section": "",
+          "status": "pending"
+        },
+        {
+          "code": "4.geo.wayoflife(soc)",
+          "section": "",
+          "status": "pending"
+        },
+        {
+          "code": "4.skills.maps(soc)",
+          "section": "",
+          "status": "pending"
+        }
+      ],
+      "standards_status": "pending",
+      "status": "draft",
+      "version": "0.1.0",
+      "href": "G04_SOC_TexasRegions_01/index.html",
+      "files": {
+        "html": "G04_SOC_TexasRegions_01/index.html",
+        "student_pdf": "G04_SOC_TexasRegions_01/G04_SOC_TexasRegions_01_Student.pdf",
+        "subguide_pdf": "G04_SOC_TexasRegions_01/G04_SOC_TexasRegions_01_SubGuide.pdf",
+        "answerkey_pdf": "G04_SOC_TexasRegions_01/G04_SOC_TexasRegions_01_AnswerKey.pdf",
+        "teacher_master_pdf": "G04_SOC_TexasRegions_01/G04_SOC_TexasRegions_01_TeacherMaster.pdf",
+        "preview": "G04_SOC_TexasRegions_01/G04_SOC_TexasRegions_01_Preview.webp"
+      }
+    },
     {
       "id": "G05_MATH_FractionsDecimals_01",
       "title": "Fractions and Decimals in Everyday Problems",

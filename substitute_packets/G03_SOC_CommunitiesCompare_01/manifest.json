@@ -1,0 +1,60 @@
+{
+  "id": "G03_SOC_CommunitiesCompare_01",
+  "title": "Comparing Communities: City, Suburb, and Country",
+  "slug": "comparing-communities-city-suburb-country",
+  "grade": 3,
+  "subject": "social",
+  "duration": {
+    "core_minutes": 45,
+    "extension_minutes": 15
+  },
+  "materials": [
+    "printed student packet",
+    "pencil"
+  ],
+  "work_mode": "independent",
+  "standards": {
+    "framework": "19 TAC Chapter 113 (Grade 3 Social Studies)",
+    "primary": [
+      {
+        "code": "3.SOC.communities.compare",
+        "strand": "Geography / Communities",
+        "focus": "comparing urban, suburban, and rural communities and how the human and physical features of a place shape daily life, jobs, and travel",
+        "verification_status": "pending"
+      },
+      {
+        "code": "3.SOC.humangeography.place",
+        "strand": "Geography",
+        "focus": "describing how where people live shapes how they meet basic needs, do their work, and get from place to place",
+        "verification_status": "pending"
+      },
+      {
+        "code": "3.SOC.skills.mapchart",
+        "strand": "Social studies skills",
+        "focus": "using and interpreting a simple picture chart and a table to compare communities with evidence",
+        "verification_status": "pending"
+      }
+    ],
+    "supporting": [],
+    "alignment_note": "Provisional — pending educator verification against the current official TAC source. Standards are paraphrased, not quoted; no specific section number is asserted. Not aligned to the TEKS until reviewed.",
+    "lock": null,
+    "verified_on": null
+  },
+  "calculator_allowed": false,
+  "color_required": false,
+  "files": [
+    "student.html",
+    "subguide.html",
+    "answerkey.html",
+    "index.html",
+    "manifest.json"
+  ],
+  "copyright": {
+    "text": "original",
+    "images": "original-svg",
+    "license": "CC-BY-4.0"
+  },
+  "status": "draft",
+  "review": null,
+  "version": "0.1.0"
+}

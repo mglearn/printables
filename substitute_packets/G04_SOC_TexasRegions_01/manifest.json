@@ -1,0 +1,60 @@
+{
+  "id": "G04_SOC_TexasRegions_01",
+  "title": "The Four Regions of Texas",
+  "slug": "four-regions-of-texas",
+  "grade": 4,
+  "subject": "social",
+  "duration": {
+    "core_minutes": 45,
+    "extension_minutes": 15
+  },
+  "materials": [
+    "printed student packet",
+    "pencil"
+  ],
+  "work_mode": "independent",
+  "standards": {
+    "framework": "19 TAC Chapter 113 (Grade 4 Social Studies)",
+    "primary": [
+      {
+        "code": "4.geo.regions(soc)",
+        "strand": "Geography",
+        "focus": "identifying the natural regions of Texas (Mountains and Basins, Great Plains, North Central Plains, Coastal Plains) by landform and climate",
+        "verification_status": "pending"
+      },
+      {
+        "code": "4.geo.wayoflife(soc)",
+        "strand": "Geography",
+        "focus": "explaining how physical geography and climate shape settlement and ways of life across the Texas regions",
+        "verification_status": "pending"
+      },
+      {
+        "code": "4.skills.maps(soc)",
+        "strand": "Social studies skills",
+        "focus": "using and interpreting a map and a table to locate Texas regions and compare them with evidence",
+        "verification_status": "pending"
+      }
+    ],
+    "supporting": [],
+    "alignment_note": "Provisional — pending educator verification against the current official TAC source. Standards are paraphrased, not quoted; no specific section number is asserted. Not aligned to the TEKS until reviewed.",
+    "lock": null,
+    "verified_on": null
+  },
+  "calculator_allowed": false,
+  "color_required": false,
+  "files": [
+    "student.html",
+    "subguide.html",
+    "answerkey.html",
+    "index.html",
+    "manifest.json"
+  ],
+  "copyright": {
+    "text": "original",
+    "images": "original-svg",
+    "license": "CC-BY-4.0"
+  },
+  "status": "draft",
+  "review": null,
+  "version": "0.1.0"
+}

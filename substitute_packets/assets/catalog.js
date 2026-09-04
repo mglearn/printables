@@ -92,11 +92,6 @@
     var mats = (p.materials || []).length ? " · " + p.materials.join(", ") : "";
     var calc = p.calculator_allowed ? " · calculator ok" : "";
     body.appendChild(el("div", "facts", mins + mats + calc));
-    if (p.standards && p.standards.length) {
-      var codes = p.standards.map(function (s) { return s.code; }).filter(Boolean).join(", ");
-      var sec = p.standards[0] && p.standards[0].section ? p.standards[0].section + " — " : "";
-      body.appendChild(el("div", "facts standards", "Provisional: " + sec + codes + " (pending)"));
-    }
     var dl = el("div", "pk-dl");
     dl.appendChild(link(p.href, "Open →", "primary"));
     if (p.files && p.files.student_pdf) dl.appendChild(link(p.files.student_pdf, "Student PDF"));

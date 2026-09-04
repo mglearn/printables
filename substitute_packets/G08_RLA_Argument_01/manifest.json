@@ -17,25 +17,37 @@
     "framework": "19 TAC §110.24 (Grade 8 English Language Arts and Reading)",
     "primary": [
       {
-        "code": "provisional-argument",
+        "code": "8.8E",
+        "canonical_code": "110.24.b.8.E",
         "section": "19 TAC §110.24",
-        "focus": "analyze the author's claim and how the argument is developed in an argumentative text",
-        "verification_status": "pending"
+        "strand": "Multiple genres",
+        "focus": "analyzing an argument: claim, counterargument, and audience",
+        "verification_status": "verified",
+        "source_url": "https://www.law.cornell.edu/regulations/texas/19-Tex-Admin-Code-SS-110-24"
       },
       {
-        "code": "provisional-evidence",
+        "code": "8.9G",
+        "canonical_code": "110.24.b.9.G",
         "section": "19 TAC §110.24",
-        "focus": "evaluate whether the evidence supporting a claim is relevant, sufficient, and credible",
-        "verification_status": "pending"
+        "strand": "Author's purpose and craft",
+        "focus": "evaluating argument/evidence quality via rhetorical devices and logical fallacies",
+        "verification_status": "verified",
+        "source_url": "https://www.law.cornell.edu/regulations/texas/19-Tex-Admin-Code-SS-110-24"
       },
       {
-        "code": "provisional-revision",
+        "code": "8.10C",
+        "canonical_code": "110.24.b.10.C",
         "section": "19 TAC §110.24",
-        "focus": "revise a draft to strengthen support and improve clarity and focus",
-        "verification_status": "pending"
+        "strand": "Composition (writing process)",
+        "focus": "revising a draft to strengthen clarity, development, and focus",
+        "verification_status": "verified",
+        "source_url": "https://www.law.cornell.edu/regulations/texas/19-Tex-Admin-Code-SS-110-24"
       }
     ],
-    "alignment_note": "Provisional — pending educator verification against the current official TAC source. Standards paraphrased, not quoted."
+    "alignment_note": "Provisional — pending educator verification against the current official TAC source. Standards paraphrased, not quoted.",
+    "supporting": [],
+    "lock": "standards/standards-lock.json",
+    "verified_on": "2026-09-04"
   },
   "calculator_allowed": false,
   "color_required": false,

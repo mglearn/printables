@@ -18,19 +18,28 @@
     "knowledge_and_skills": "8.15, 8.29",
     "primary": [
       {
-        "code": "8.15",
+        "code": "8.15D",
+        "canonical_code": "113.20.c.15.D",
         "section": "19 TAC §113.20",
-        "focus": "principles of the U.S. Constitution, including popular sovereignty, limited government, separation of powers, checks and balances, and federalism",
-        "verification_status": "pending"
+        "strand": "Government",
+        "focus": "principles of the U.S. Constitution: separation of powers, checks and balances, federalism",
+        "verification_status": "verified",
+        "source_url": "https://www.law.cornell.edu/regulations/texas/19-Tex-Admin-Code-SS-113-20"
       },
       {
-        "code": "8.29",
+        "code": "8.29A",
+        "canonical_code": "113.20.c.29.A",
         "section": "19 TAC §113.20",
-        "focus": "social studies skills: analyzing a source by identifying its creator, date, and type, and using evidence to support a claim",
-        "verification_status": "pending"
+        "strand": "Social studies skills",
+        "focus": "social studies skills: locating and using valid primary and secondary sources",
+        "verification_status": "verified",
+        "source_url": "https://www.law.cornell.edu/regulations/texas/19-Tex-Admin-Code-SS-113-20"
       }
     ],
-    "alignment_note": "Provisional — pending educator verification against the current official TAC source. Standards paraphrased, not quoted; not a claim of TEKS alignment."
+    "alignment_note": "Provisional — pending educator verification against the current official TAC source. Standards paraphrased, not quoted; not a claim of TEKS alignment.",
+    "supporting": [],
+    "lock": "standards/standards-lock.json",
+    "verified_on": "2026-09-04"
   },
   "calculator_allowed": false,
   "color_required": false,

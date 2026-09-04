@@ -18,19 +18,28 @@
     "knowledge_and_skills": "7.6, 7.21",
     "primary": [
       {
-        "code": "7.6",
+        "code": "7.6C",
+        "canonical_code": "113.19.b.6.C",
         "section": "19 TAC §113.19",
-        "focus": "major developments in Texas from 1865 to the early 1900s, including railroad expansion and its effects on population, towns, and ranching",
-        "verification_status": "pending"
+        "strand": "History",
+        "focus": "post-1865 Texas: railroad growth and economic change",
+        "verification_status": "verified",
+        "source_url": "https://www.law.cornell.edu/regulations/texas/19-Tex-Admin-Code-SS-113-19"
       },
       {
-        "code": "7.21",
+        "code": "7.20B",
+        "canonical_code": "113.19.b.20.B",
         "section": "19 TAC §113.19",
-        "focus": "social studies skills: analyzing sources and applying cause-and-effect and sequencing to interpret historical change",
-        "verification_status": "pending"
+        "strand": "Social studies skills",
+        "focus": "social studies skills: cause-and-effect, sequencing, and source-based analysis",
+        "verification_status": "verified",
+        "source_url": "https://www.law.cornell.edu/regulations/texas/19-Tex-Admin-Code-SS-113-19"
       }
     ],
-    "alignment_note": "Provisional — pending educator verification against the current official TAC source. Standards paraphrased, not quoted."
+    "alignment_note": "Provisional — pending educator verification against the current official TAC source. Standards paraphrased, not quoted.",
+    "supporting": [],
+    "lock": "standards/standards-lock.json",
+    "verified_on": "2026-09-04"
   },
   "calculator_allowed": false,
   "color_required": false,

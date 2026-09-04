@@ -19,18 +19,27 @@
     "primary": [
       {
         "code": "7.8A",
+        "canonical_code": "112.27.b.8.A",
         "section": "19 TAC §112.27",
+        "strand": "Force, motion, and energy",
         "focus": "methods of thermal energy transfer: conduction, convection, radiation",
-        "verification_status": "pending"
+        "verification_status": "verified",
+        "source_url": "https://teksguide.org/teks/s78a-0/overview"
       },
       {
         "code": "7.8C",
+        "canonical_code": "112.27.b.8.C",
         "section": "19 TAC §112.27",
-        "focus": "relationship between temperature and the kinetic energy of particles",
-        "verification_status": "pending"
+        "strand": "Force, motion, and energy",
+        "focus": "relationship between temperature and particle kinetic energy",
+        "verification_status": "verified",
+        "source_url": "https://teksguide.org/teks/s78c-0/overview"
       }
     ],
-    "alignment_note": "Provisional — pending educator verification against the current official TAC source. Standards paraphrased, not quoted."
+    "alignment_note": "Provisional — pending educator verification against the current official TAC source. Standards paraphrased, not quoted.",
+    "supporting": [],
+    "lock": "standards/standards-lock.json",
+    "verified_on": "2026-09-04"
   },
   "calculator_allowed": false,
   "color_required": false,

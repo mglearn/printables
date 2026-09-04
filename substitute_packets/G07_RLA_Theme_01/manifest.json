@@ -17,25 +17,37 @@
     "framework": "19 TAC §110.23 (Grade 7 English Language Arts and Reading)",
     "primary": [
       {
-        "code": "provisional-theme",
+        "code": "7.7A",
+        "canonical_code": "110.23.b.7.A",
         "section": "19 TAC §110.23",
-        "focus": "analyze how a theme or central idea is developed across a literary text",
-        "verification_status": "pending"
+        "strand": "Multiple genres",
+        "focus": "inferring and analyzing theme in literary texts",
+        "verification_status": "verified",
+        "source_url": "https://www.law.cornell.edu/regulations/texas/19-Tex-Admin-Code-SS-110-23"
       },
       {
-        "code": "provisional-character",
+        "code": "7.7B",
+        "canonical_code": "110.23.b.7.B",
         "section": "19 TAC §110.23",
-        "focus": "analyze how a character's qualities and responses change and shape the plot",
-        "verification_status": "pending"
+        "strand": "Multiple genres",
+        "focus": "character development and its effect on plot/conflict",
+        "verification_status": "verified",
+        "source_url": "https://www.law.cornell.edu/regulations/texas/19-Tex-Admin-Code-SS-110-23"
       },
       {
-        "code": "provisional-craft",
+        "code": "7.9D",
+        "canonical_code": "110.23.b.9.D",
         "section": "19 TAC §110.23",
-        "focus": "analyze how word choice and structure contribute to meaning and tone",
-        "verification_status": "pending"
+        "strand": "Author's purpose and craft",
+        "focus": "author's craft: figurative language and its purpose",
+        "verification_status": "verified",
+        "source_url": "https://www.law.cornell.edu/regulations/texas/19-Tex-Admin-Code-SS-110-23"
       }
     ],
-    "alignment_note": "Provisional — pending educator verification against the current official TAC source. Standards paraphrased, not quoted."
+    "alignment_note": "Provisional — pending educator verification against the current official TAC source. Standards paraphrased, not quoted.",
+    "supporting": [],
+    "lock": "standards/standards-lock.json",
+    "verified_on": "2026-09-04"
   },
   "calculator_allowed": false,
   "color_required": false,

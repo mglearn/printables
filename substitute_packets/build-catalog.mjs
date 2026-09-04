@@ -44,7 +44,12 @@ for (const id of dirs) {
     preview: has("_Preview.webp") ? `${id}/${id}_Preview.webp` : null,
   };
 
-  const allPending = std.length > 0 && std.every((s) => s.status === "pending");
+  const ss = std.map((s) => s.status);
+  const standardsStatus = std.length === 0 ? "none"
+    : ss.every((s) => s === "verified") ? "verified"
+    : ss.every((s) => s === "pending") ? "pending"
+    : ss.some((s) => s === "pending") ? "mixed"
+    : "code-verified";
   records.push({
     id,
     title: val(m.title),
@@ -57,7 +62,7 @@ for (const id of dirs) {
     calculator_allowed: m.calculator_allowed ?? m.accessibility?.calculator_allowed ?? false,
     color_required: m.color_required ?? m.accessibility?.color_required ?? false,
     standards: std,
-    standards_status: allPending ? "pending" : (std.length ? "mixed" : "none"),
+    standards_status: standardsStatus,
     status: val(m.status || "draft"),
     version: val(m.version || "0.1.0"),
     href: `${id}/index.html`,

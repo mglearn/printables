@@ -18,19 +18,37 @@
     "knowledge_and_skills": "6.6",
     "primary": [
       {
-        "code": "6.6A",
+        "code": "6.6B",
+        "canonical_code": "112.26.b.6.B",
         "section": "19 TAC §112.26",
-        "focus": "compare and identify substances using physical properties such as density, magnetism, and conductivity",
-        "verification_status": "pending"
+        "strand": "Matter and energy",
+        "focus": "classifying matter as pure substances vs. mixtures using physical properties",
+        "verification_status": "verified",
+        "source_url": "https://teksguide.org/teks/s66b-0/overview"
       },
       {
-        "code": "6.6B",
+        "code": "6.6C(sci)",
+        "canonical_code": "112.26.b.6.C",
         "section": "19 TAC §112.26",
-        "focus": "distinguish pure substances from mixtures and classify matter by its physical properties",
-        "verification_status": "pending"
+        "strand": "Matter and energy",
+        "focus": "classifying elements by physical properties (metals/nonmetals/metalloids)",
+        "verification_status": "verified",
+        "source_url": "https://teksguide.org/teks/s66c-0/overview"
+      },
+      {
+        "code": "6.6A",
+        "canonical_code": "112.26.b.6.A",
+        "section": "19 TAC §112.26",
+        "strand": "Matter and energy",
+        "focus": "comparing states of matter (solids/liquids/gases) by physical structure",
+        "verification_status": "verified",
+        "source_url": "https://teksguide.org/teks/s66a-0/overview"
       }
     ],
-    "alignment_note": "Provisional — pending educator verification against the current official TAC source. Standards paraphrased, not quoted."
+    "alignment_note": "Provisional — pending educator verification against the current official TAC source. Standards paraphrased, not quoted.",
+    "supporting": [],
+    "lock": "standards/standards-lock.json",
+    "verified_on": "2026-09-04"
   },
   "calculator_allowed": false,
   "color_required": false,

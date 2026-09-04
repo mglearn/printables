@@ -20,24 +20,36 @@
     "primary": [
       {
         "code": "8.4A",
+        "canonical_code": "111.28.b.4.A",
         "section": "19 TAC §111.28",
-        "focus": "develop and use slope as a constant rate of change (rise over run) between two points",
-        "verification_status": "pending"
+        "strand": "Proportionality",
+        "focus": "slope as constant rate of change between any two points on a line",
+        "verification_status": "verified",
+        "source_url": "https://www.law.cornell.edu/regulations/texas/19-Tex-Admin-Code-SS-111-28"
       },
       {
         "code": "8.4C",
+        "canonical_code": "111.28.b.4.C",
         "section": "19 TAC §111.28",
-        "focus": "write an equation in the form y = mx + b from data and interpret slope (m) and y-intercept (b) in context",
-        "verification_status": "pending"
+        "strand": "Proportionality",
+        "focus": "determining slope and y-intercept from tables and graphs",
+        "verification_status": "verified",
+        "source_url": "https://www.law.cornell.edu/regulations/texas/19-Tex-Admin-Code-SS-111-28"
       },
       {
         "code": "8.5I",
+        "canonical_code": "111.28.b.5.I",
         "section": "19 TAC §111.28",
-        "focus": "distinguish proportional (y = kx, through the origin) from non-proportional (y = mx + b, b not 0) linear relationships across tables, graphs, and equations",
-        "verification_status": "pending"
+        "strand": "Proportionality",
+        "focus": "writing y = mx + b across tables, graphs, and equations",
+        "verification_status": "verified",
+        "source_url": "https://www.law.cornell.edu/regulations/texas/19-Tex-Admin-Code-SS-111-28"
       }
     ],
-    "alignment_note": "Provisional — pending educator verification against the current official TAC source. Standards paraphrased, not quoted."
+    "alignment_note": "Provisional — pending educator verification against the current official TAC source. Standards paraphrased, not quoted.",
+    "supporting": [],
+    "lock": "standards/standards-lock.json",
+    "verified_on": "2026-09-04"
   },
   "calculator_allowed": true,
   "color_required": false,

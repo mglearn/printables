@@ -20,24 +20,36 @@
     "primary": [
       {
         "code": "7.4A",
+        "canonical_code": "111.27.b.4.A",
         "section": "19 TAC §111.27",
-        "focus": "represent the constant of proportionality (k = y/x) and constant rates of change across tables, graphs, equations, and situations",
-        "verification_status": "pending"
+        "strand": "Proportionality",
+        "focus": "constant rate of change / constant of proportionality across representations",
+        "verification_status": "verified",
+        "source_url": "https://www.law.cornell.edu/regulations/texas/19-Tex-Admin-Code-SS-111-27"
       },
       {
         "code": "7.4D",
+        "canonical_code": "111.27.b.4.D",
         "section": "19 TAC §111.27",
-        "focus": "solve problems involving ratios, rates, and percents, including tax, tip, and discount",
-        "verification_status": "pending"
+        "strand": "Proportionality",
+        "focus": "percent applications: tax, tip, discount, percent increase/decrease",
+        "verification_status": "verified",
+        "source_url": "https://www.law.cornell.edu/regulations/texas/19-Tex-Admin-Code-SS-111-27"
       },
       {
         "code": "7.4E",
+        "canonical_code": "111.27.b.4.E",
         "section": "19 TAC §111.27",
-        "focus": "convert between representations of proportional relationships to compare rates",
-        "verification_status": "pending"
+        "strand": "Proportionality",
+        "focus": "using proportions and unit rates to convert between measurement systems",
+        "verification_status": "verified",
+        "source_url": "https://www.law.cornell.edu/regulations/texas/19-Tex-Admin-Code-SS-111-27"
       }
     ],
-    "alignment_note": "Provisional — pending educator verification against the current official TAC source. Standards paraphrased, not quoted."
+    "alignment_note": "Provisional — pending educator verification against the current official TAC source. Standards paraphrased, not quoted.",
+    "supporting": [],
+    "lock": "standards/standards-lock.json",
+    "verified_on": "2026-09-04"
   },
   "calculator_allowed": true,
   "color_required": false,

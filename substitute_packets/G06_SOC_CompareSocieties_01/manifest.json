@@ -18,19 +18,46 @@
     "knowledge_and_skills": "geography/society, social studies skills",
     "primary": [
       {
-        "code": "provisional-geography",
+        "code": "6.3A",
+        "canonical_code": "113.18.c.3.A",
         "section": "19 TAC §113.18",
-        "focus": "comparing how different societies use their physical environment and how geographic factors influence economic activities and where people live",
-        "verification_status": "pending"
+        "strand": "Geography",
+        "focus": "how geographic factors shape where people live across societies",
+        "verification_status": "verified",
+        "source_url": "https://www.law.cornell.edu/regulations/texas/19-Tex-Admin-Code-SS-113-18"
       },
       {
-        "code": "provisional-skills",
+        "code": "6.7B",
+        "canonical_code": "113.18.c.7.B",
         "section": "19 TAC §113.18",
-        "focus": "social studies skills: analyzing information from maps, tables, and other visuals and distinguishing fact from interpretation and opinion",
-        "verification_status": "pending"
+        "strand": "Economics",
+        "focus": "comparing economic systems of world societies",
+        "verification_status": "verified",
+        "source_url": "https://www.law.cornell.edu/regulations/texas/19-Tex-Admin-Code-SS-113-18"
+      },
+      {
+        "code": "6.10B",
+        "canonical_code": "113.18.c.10.B",
+        "section": "19 TAC §113.18",
+        "strand": "Government",
+        "focus": "comparing forms of government across world societies",
+        "verification_status": "verified",
+        "source_url": "https://www.law.cornell.edu/regulations/texas/19-Tex-Admin-Code-SS-113-18"
+      },
+      {
+        "code": "6.20D",
+        "canonical_code": "113.18.c.20.D",
+        "section": "19 TAC §113.18",
+        "strand": "Social studies skills",
+        "focus": "analyzing/creating maps, graphs, and charts of geographic and economic data",
+        "verification_status": "verified",
+        "source_url": "https://www.law.cornell.edu/regulations/texas/19-Tex-Admin-Code-SS-113-18"
       }
     ],
-    "alignment_note": "Provisional — pending educator verification against the current official TAC source. Standards paraphrased, not quoted."
+    "alignment_note": "Provisional — pending educator verification against the current official TAC source. Standards paraphrased, not quoted.",
+    "supporting": [],
+    "lock": "standards/standards-lock.json",
+    "verified_on": "2026-09-04"
   },
   "calculator_allowed": false,
   "color_required": false,

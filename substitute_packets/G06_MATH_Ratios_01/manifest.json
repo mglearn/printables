@@ -20,24 +20,36 @@
     "primary": [
       {
         "code": "6.4B",
+        "canonical_code": "111.26.b.4.B",
         "section": "19 TAC §111.26",
-        "focus": "apply qualitative and quantitative reasoning to solve prediction and comparison problems involving ratios and rates",
-        "verification_status": "pending"
+        "strand": "Proportionality",
+        "focus": "reasoning about ratios and rates to solve prediction/comparison problems",
+        "verification_status": "verified",
+        "source_url": "https://www.law.cornell.edu/regulations/texas/19-Tex-Admin-Code-SS-111-26"
       },
       {
         "code": "6.5B",
+        "canonical_code": "111.26.b.5.B",
         "section": "19 TAC §111.26",
-        "focus": "solve real-world problems to find the whole given a part and a percent, the part given the whole and a percent, and the percent given the part and the whole",
-        "verification_status": "pending"
+        "strand": "Proportionality",
+        "focus": "percent problems: find whole, part, or percent",
+        "verification_status": "verified",
+        "source_url": "https://www.law.cornell.edu/regulations/texas/19-Tex-Admin-Code-SS-111-26"
       },
       {
         "code": "6.4C",
+        "canonical_code": "111.26.b.4.C",
         "section": "19 TAC §111.26",
-        "focus": "give examples of ratios as multiplicative comparisons of two quantities describing the same situation",
-        "verification_status": "pending"
+        "strand": "Proportionality",
+        "focus": "ratios as multiplicative comparisons of like quantities",
+        "verification_status": "verified",
+        "source_url": "https://www.law.cornell.edu/regulations/texas/19-Tex-Admin-Code-SS-111-26"
       }
     ],
-    "alignment_note": "Provisional — pending educator verification against the current official TAC source. Standards paraphrased, not quoted."
+    "alignment_note": "Provisional — pending educator verification against the current official TAC source. Standards paraphrased, not quoted.",
+    "supporting": [],
+    "lock": "standards/standards-lock.json",
+    "verified_on": "2026-09-04"
   },
   "calculator_allowed": true,
   "color_required": false,

@@ -18,19 +18,28 @@
     "knowledge_and_skills": "8.7",
     "primary": [
       {
-        "code": "8.7 (provisional)",
+        "code": "8.7A",
+        "canonical_code": "112.28.b.7.A",
         "section": "19 TAC §112.28",
-        "focus": "apply Newton's three laws of motion (inertia; F = ma; action-reaction) to describe and predict the motion of objects",
-        "verification_status": "pending"
+        "strand": "Force, motion, and energy",
+        "focus": "Newton's Second Law: net force, mass, and acceleration (F = ma)",
+        "verification_status": "verified",
+        "source_url": "https://teksguide.org/teks/s87a-0/overview"
       },
       {
-        "code": "8.7 (provisional)",
+        "code": "8.7B",
+        "canonical_code": "112.28.b.7.B",
         "section": "19 TAC §112.28",
-        "focus": "calculate and interpret net force using F = ma; distinguish balanced and unbalanced forces",
-        "verification_status": "pending"
+        "strand": "Force, motion, and energy",
+        "focus": "Newton's three laws acting together in real systems (e.g., vehicle restraints/safety)",
+        "verification_status": "verified",
+        "source_url": "https://teksguide.org/teks/s87b-0/overview"
       }
     ],
-    "alignment_note": "Provisional - pending educator verification against the current official TAC source. Standards paraphrased, not quoted. Formal alignment to the TEKS is not claimed."
+    "alignment_note": "Provisional - pending educator verification against the current official TAC source. Standards paraphrased, not quoted. Formal alignment to the TEKS is not claimed.",
+    "supporting": [],
+    "lock": "standards/standards-lock.json",
+    "verified_on": "2026-09-04"
   },
   "calculator_allowed": false,
   "color_required": false,

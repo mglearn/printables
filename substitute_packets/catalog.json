@@ -21,20 +21,20 @@
         {
           "code": "6.4B",
           "section": "19 TAC §111.26",
-          "status": "pending"
+          "status": "verified"
         },
         {
           "code": "6.5B",
           "section": "19 TAC §111.26",
-          "status": "pending"
+          "status": "verified"
         },
         {
           "code": "6.4C",
           "section": "19 TAC §111.26",
-          "status": "pending"
+          "status": "verified"
         }
       ],
-      "standards_status": "pending",
+      "standards_status": "verified",
       "status": "draft",
       "version": "0.1.0",
       "href": "G06_MATH_Ratios_01/index.html",
@@ -63,22 +63,22 @@
       "color_required": false,
       "standards": [
         {
-          "code": "provisional-central-idea",
+          "code": "6.8D",
           "section": "19 TAC §110.22",
-          "status": "pending"
+          "status": "verified"
         },
         {
-          "code": "provisional-inference",
+          "code": "6.5F",
           "section": "19 TAC §110.22",
-          "status": "pending"
+          "status": "verified"
         },
         {
-          "code": "provisional-text-evidence",
+          "code": "6.6C",
           "section": "19 TAC §110.22",
-          "status": "pending"
+          "status": "verified"
         }
       ],
-      "standards_status": "pending",
+      "standards_status": "verified",
       "status": "draft",
       "version": "0.1.0",
       "href": "G06_RLA_CentralIdea_01/index.html",
@@ -107,17 +107,22 @@
       "color_required": false,
       "standards": [
         {
-          "code": "6.6A",
-          "section": "19 TAC §112.26",
-          "status": "pending"
-        },
-        {
           "code": "6.6B",
           "section": "19 TAC §112.26",
-          "status": "pending"
+          "status": "verified"
+        },
+        {
+          "code": "6.6C(sci)",
+          "section": "19 TAC §112.26",
+          "status": "verified"
+        },
+        {
+          "code": "6.6A",
+          "section": "19 TAC §112.26",
+          "status": "verified"
         }
       ],
-      "standards_status": "pending",
+      "standards_status": "verified",
       "status": "draft",
       "version": "0.1.0",
       "href": "G06_SCI_ClassifyMatter_01/index.html",
@@ -146,17 +151,27 @@
       "color_required": false,
       "standards": [
         {
-          "code": "provisional-geography",
+          "code": "6.3A",
           "section": "19 TAC §113.18",
-          "status": "pending"
+          "status": "verified"
         },
         {
-          "code": "provisional-skills",
+          "code": "6.7B",
           "section": "19 TAC §113.18",
-          "status": "pending"
+          "status": "verified"
+        },
+        {
+          "code": "6.10B",
+          "section": "19 TAC §113.18",
+          "status": "verified"
+        },
+        {
+          "code": "6.20D",
+          "section": "19 TAC §113.18",
+          "status": "verified"
         }
       ],
-      "standards_status": "pending",
+      "standards_status": "verified",
       "status": "draft",
       "version": "0.1.0",
       "href": "G06_SOC_CompareSocieties_01/index.html",
@@ -188,20 +203,20 @@
         {
           "code": "7.4A",
           "section": "19 TAC §111.27",
-          "status": "pending"
+          "status": "verified"
         },
         {
           "code": "7.4D",
           "section": "19 TAC §111.27",
-          "status": "pending"
+          "status": "verified"
         },
         {
           "code": "7.4E",
           "section": "19 TAC §111.27",
-          "status": "pending"
+          "status": "verified"
         }
       ],
-      "standards_status": "pending",
+      "standards_status": "verified",
       "status": "draft",
       "version": "0.1.0",
       "href": "G07_MATH_Proportions_01/index.html",
@@ -230,22 +245,22 @@
       "color_required": false,
       "standards": [
         {
-          "code": "provisional-theme",
+          "code": "7.7A",
           "section": "19 TAC §110.23",
-          "status": "pending"
+          "status": "verified"
         },
         {
-          "code": "provisional-character",
+          "code": "7.7B",
           "section": "19 TAC §110.23",
-          "status": "pending"
+          "status": "verified"
         },
         {
-          "code": "provisional-craft",
+          "code": "7.9D",
           "section": "19 TAC §110.23",
-          "status": "pending"
+          "status": "verified"
         }
       ],
-      "standards_status": "pending",
+      "standards_status": "verified",
       "status": "draft",
       "version": "0.1.0",
       "href": "G07_RLA_Theme_01/index.html",
@@ -276,15 +291,15 @@
         {
           "code": "7.8A",
           "section": "19 TAC §112.27",
-          "status": "pending"
+          "status": "verified"
         },
         {
           "code": "7.8C",
           "section": "19 TAC §112.27",
-          "status": "pending"
+          "status": "verified"
         }
       ],
-      "standards_status": "pending",
+      "standards_status": "verified",
       "status": "draft",
       "version": "0.1.0",
       "href": "G07_SCI_ThermalEnergy_01/index.html",
@@ -313,17 +328,17 @@
       "color_required": false,
       "standards": [
         {
-          "code": "7.6",
+          "code": "7.6C",
           "section": "19 TAC §113.19",
-          "status": "pending"
+          "status": "verified"
         },
         {
-          "code": "7.21",
+          "code": "7.20B",
           "section": "19 TAC §113.19",
-          "status": "pending"
+          "status": "verified"
         }
       ],
-      "standards_status": "pending",
+      "standards_status": "verified",
       "status": "draft",
       "version": "0.1.0",
       "href": "G07_SOC_TexasTurningPoint_01/index.html",
@@ -355,20 +370,20 @@
         {
           "code": "8.4A",
           "section": "19 TAC §111.28",
-          "status": "pending"
+          "status": "verified"
         },
         {
           "code": "8.4C",
           "section": "19 TAC §111.28",
-          "status": "pending"
+          "status": "verified"
         },
         {
           "code": "8.5I",
           "section": "19 TAC §111.28",
-          "status": "pending"
+          "status": "verified"
         }
       ],
-      "standards_status": "pending",
+      "standards_status": "verified",
       "status": "draft",
       "version": "0.1.0",
       "href": "G08_MATH_Linear_01/index.html",
@@ -397,22 +412,22 @@
       "color_required": false,
       "standards": [
         {
-          "code": "provisional-argument",
+          "code": "8.8E",
           "section": "19 TAC §110.24",
-          "status": "pending"
+          "status": "verified"
         },
         {
-          "code": "provisional-evidence",
+          "code": "8.9G",
           "section": "19 TAC §110.24",
-          "status": "pending"
+          "status": "verified"
         },
         {
-          "code": "provisional-revision",
+          "code": "8.10C",
           "section": "19 TAC §110.24",
-          "status": "pending"
+          "status": "verified"
         }
       ],
-      "standards_status": "pending",
+      "standards_status": "verified",
       "status": "draft",
       "version": "0.1.0",
       "href": "G08_RLA_Argument_01/index.html",
@@ -441,17 +456,17 @@
       "color_required": false,
       "standards": [
         {
-          "code": "8.7 (provisional)",
+          "code": "8.7A",
           "section": "19 TAC §112.28",
-          "status": "pending"
+          "status": "verified"
         },
         {
-          "code": "8.7 (provisional)",
+          "code": "8.7B",
           "section": "19 TAC §112.28",
-          "status": "pending"
+          "status": "verified"
         }
       ],
-      "standards_status": "pending",
+      "standards_status": "verified",
       "status": "draft",
       "version": "0.1.0",
       "href": "G08_SCI_NewtonSafety_01/index.html",
@@ -480,17 +495,17 @@
       "color_required": false,
       "standards": [
         {
-          "code": "8.15",
+          "code": "8.15D",
           "section": "19 TAC §113.20",
-          "status": "pending"
+          "status": "verified"
         },
         {
-          "code": "8.29",
+          "code": "8.29A",
           "section": "19 TAC §113.20",
-          "status": "pending"
+          "status": "verified"
         }
       ],
-      "standards_status": "pending",
+      "standards_status": "verified",
       "status": "draft",
       "version": "0.1.0",
       "href": "G08_SOC_Constitution_01/index.html",

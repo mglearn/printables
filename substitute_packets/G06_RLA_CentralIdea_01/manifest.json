@@ -17,25 +17,37 @@
     "framework": "19 TAC §110.22 (Grade 6 English Language Arts and Reading)",
     "primary": [
       {
-        "code": "provisional-central-idea",
+        "code": "6.8D",
+        "canonical_code": "110.22.b.8.D",
         "section": "19 TAC §110.22",
-        "focus": "identify and explain the central idea of an informational text and how details support it",
-        "verification_status": "pending"
+        "strand": "Multiple genres",
+        "focus": "identifying the central/controlling idea of informational text and how details support it",
+        "verification_status": "verified",
+        "source_url": "https://www.law.cornell.edu/regulations/texas/19-Tex-Admin-Code-SS-110-22"
       },
       {
-        "code": "provisional-inference",
+        "code": "6.5F",
+        "canonical_code": "110.22.b.5.F",
         "section": "19 TAC §110.22",
-        "focus": "make inferences supported by textual evidence",
-        "verification_status": "pending"
+        "strand": "Comprehension skills",
+        "focus": "making inferences supported by textual evidence",
+        "verification_status": "verified",
+        "source_url": "https://www.law.cornell.edu/regulations/texas/19-Tex-Admin-Code-SS-110-22"
       },
       {
-        "code": "provisional-text-evidence",
+        "code": "6.6C",
+        "canonical_code": "110.22.b.6.C",
         "section": "19 TAC §110.22",
-        "focus": "use specific evidence from the text to support responses and compare ideas across two texts",
-        "verification_status": "pending"
+        "strand": "Response skills",
+        "focus": "using specific text evidence to support responses",
+        "verification_status": "verified",
+        "source_url": "https://www.law.cornell.edu/regulations/texas/19-Tex-Admin-Code-SS-110-22"
       }
     ],
-    "alignment_note": "Provisional — pending educator verification against the current official TAC source. Standards paraphrased, not quoted."
+    "alignment_note": "Provisional — pending educator verification against the current official TAC source. Standards paraphrased, not quoted.",
+    "supporting": [],
+    "lock": "standards/standards-lock.json",
+    "verified_on": "2026-09-04"
   },
   "calculator_allowed": false,
   "color_required": false,

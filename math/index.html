@@ -7,14 +7,18 @@
   <meta name="description"
         content="Free, printable math resources for grades 3–8 — visual cue cards, formula references, and classroom supports teachers can download, print, and adapt. No carts, no checkout.">
   <link rel="stylesheet" href="../assets/styles.css">
-  <!-- Live sheet count for the Supplemental Aids card. -->
+  <!-- Live sheet counts for the collection cards. -->
   <script src="../supplemental_aids_math/assets/sa-manifest.js" defer></script>
+  <script src="../supplemental_aids_elem_math/assets/sa-manifest.js" defer></script>
   <script src="/printables/licensing-footer.js" defer></script>
   <script>
     document.addEventListener('DOMContentLoaded', function () {
       var ma = (window.MA_MANIFEST || []).length;
-      var el = document.getElementById('ma-count');
-      if (el && ma) el.textContent = 'Grades 6–8 · ' + ma + ' sheets';
+      var maEl = document.getElementById('ma-count');
+      if (maEl && ma) maEl.textContent = 'Grades 6–8 · ' + ma + ' sheets';
+      var em = (window.EM_MANIFEST || []).length;
+      var emEl = document.getElementById('em-count');
+      if (emEl && em) emEl.textContent = 'Grades 3–5 · ' + em + ' sheets';
     });
   </script>
 </head>
@@ -41,6 +45,23 @@
 
       <div class="collections">
 
+        <a class="collection" href="../supplemental_aids_elem_math/index.html">
+          <div class="collection-thumb">
+            <span class="collection-tag">Free</span>
+            <img src="../assets/thumb-elem-math.png" alt="Elementary math cue-card sheets for grades 3–5 — place value, fractions, operations, geometry and measurement, data, and money across the STAAR math reporting categories">
+          </div>
+          <div class="collection-body">
+            <h3>Elementary Math Supplemental Aids</h3>
+            <p>Visual cue cards for elementary math, grades 3–5 — place value, rounding, fractions, multi-digit
+              operations, geometry and measurement, data, and money. Mnemonics, models, and diagrams across the four
+              STAAR math reporting categories. Each concept card includes a printable 4-page activity packet.</p>
+            <span class="collection-meta">
+              <span class="collection-count" id="em-count">Grades 3–5 · 26 sheets</span>
+              <span class="collection-cta">Open collection</span>
+            </span>
+          </div>
+        </a>
+
         <a class="collection" href="../supplemental_aids_math/index.html">
           <div class="collection-thumb">
             <span class="collection-tag">Free</span>
@@ -60,8 +81,7 @@
 
       </div>
 
-      <p class="section-sub wide">Coming soon — elementary math supplemental aids for grades 3–5 and more grade 3–8
-        math supports. Check back, or explore the
+      <p class="section-sub wide">Grades 3–8 math, covered end to end. Also explore the
         <a href="../supplemental_aids_elem_science/index.html">elementary science STAAR aids</a> and
         <a href="../supplemental_aids/index.html">middle school science aids</a>.</p>
     </section>

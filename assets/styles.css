@@ -309,3 +309,34 @@ footer a { font-weight: 700; }
   .filters select { min-width: 100%; }
   .filters .field { width: 100%; }
 }
+
+/* --- Site search (home page) --- */
+.site-search { position: relative; margin: 0 0 1.8rem; max-width: 680px; }
+.site-search input[type="search"] {
+  width: 100%; font: inherit; font-size: 1rem; padding: .75rem 1rem;
+  border: 2px solid var(--line); border-radius: 12px; background: #fff; color: inherit;
+}
+.site-search input[type="search"]:focus {
+  outline: none; border-color: var(--brand);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--brand) 22%, transparent);
+}
+.search-results { margin: .7rem 0 0; display: grid; gap: .45rem; }
+.search-count { color: var(--ink-soft); font-size: .85rem; margin: 0 0 .2rem; }
+.search-empty { color: var(--ink-soft); font-size: .95rem; padding: .3rem 0; }
+.search-hit {
+  display: block; text-decoration: none; color: inherit; background: var(--card);
+  border: 1px solid var(--line); border-radius: 10px; padding: .55rem .85rem;
+  transition: border-color .12s ease, box-shadow .12s ease;
+}
+.search-hit:hover, .search-hit:focus-visible { border-color: var(--brand); box-shadow: var(--shadow-sm); }
+.search-hit .h-title { font-weight: 700; color: var(--brand-dark); }
+.search-hit .h-meta { display: block; font-size: .8rem; color: var(--ink-soft); margin-top: .1rem; }
+/* While searching, hide the browse groups (search box + results stay visible). */
+#collections.searching > .group-title,
+#collections.searching > .collections { display: none; }
+/* Deep-link highlight when arriving at a specific sheet card (#sheet-<base>). */
+.card.sheet-hit { animation: sheetHit 2.4s ease; }
+@keyframes sheetHit {
+  0%, 18% { box-shadow: 0 0 0 3px var(--brand); border-color: var(--brand); }
+  100% { box-shadow: 0 0 0 0 transparent; }
+}

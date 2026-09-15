@@ -75,6 +75,7 @@
 
   function card(w) {
     var fig = el('figure', 'card');
+    fig.id = 'sheet-' + String(w.file).replace(/\.[a-z0-9]+$/i, '');
 
     var btn = el('button', 'thumb');
     btn.type = 'button';
@@ -136,6 +137,16 @@
     document.getElementById('lightbox-img').src = '';
   }
 
+  // Deep-link support: scroll to and highlight a card when the URL has #sheet-<base>.
+  function focusHash() {
+    var h = decodeURIComponent((location.hash || '').slice(1));
+    if (!h) return;
+    var t = document.getElementById(h);
+    if (!t) return;
+    t.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    t.classList.remove('sheet-hit'); void t.offsetWidth; t.classList.add('sheet-hit');
+  }
+
   function init() {
     document.getElementById('lightbox-close').addEventListener('click', closeLightbox);
     document.getElementById('lightbox').addEventListener('click', function (e) {
@@ -146,6 +157,8 @@
     });
     renderDashboard();
     render();
+    focusHash();
+    window.addEventListener('hashchange', focusHash);
   }
 
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init);

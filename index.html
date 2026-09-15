@@ -15,6 +15,7 @@
   <script src="supplemental_aids_math/assets/sa-manifest.js" defer></script>
   <script src="supplemental_aids_elem_science/assets/sa-manifest.js" defer></script>
   <script src="supplemental_aids_elem_math/assets/sa-manifest.js" defer></script>
+  <script src="assets/search.js" defer></script>
   <script src="/printables/licensing-footer.js" defer></script>
   <script>
     document.addEventListener('DOMContentLoaded', function () {
@@ -50,6 +51,11 @@
       <h2 id="collections-h" class="section-title">Collections</h2>
       <p class="section-sub wide">Each collection is free to use and share — <strong><span id="total-count">140</span> free
         printables</strong> hosted here and counting. More on the way.</p>
+
+      <div class="site-search">
+        <input type="search" id="site-search-input" placeholder="Search all printables…" aria-label="Search all printables" autocomplete="off">
+        <div id="site-search-results" class="search-results" hidden></div>
+      </div>
 
       <h3 class="group-title">Science</h3>
       <div class="collections">

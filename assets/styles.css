@@ -202,8 +202,8 @@ main { max-width: var(--maxw); margin: 0 auto; padding: clamp(1.4rem, 3vw, 2.4re
 }
 .sa-dash-card:hover { transform: translateY(-2px); box-shadow: var(--shadow); border-color: var(--brand); }
 .sa-dash-card:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
-.sa-dash-thumb { display: block; aspect-ratio: 16 / 9; background: #eef5f2; overflow: hidden; border-bottom: 1px solid var(--line); }
-.sa-dash-thumb img { width: 100%; height: 100%; object-fit: cover; object-position: top center; }
+.sa-dash-thumb { display: block; aspect-ratio: 4 / 3; background: #fff; overflow: hidden; border-bottom: 1px solid var(--line); }
+.sa-dash-thumb img { width: 100%; height: 100%; object-fit: contain; object-position: center; }
 .sa-dash-body { padding: .6rem .8rem .7rem; display: flex; flex-direction: column; gap: .3rem; }
 .sa-dash-title { font-weight: 800; color: var(--brand-dark); font-size: .98rem; line-height: 1.2; }
 .sa-dash-count {

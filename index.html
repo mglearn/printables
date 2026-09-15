@@ -12,15 +12,19 @@
   <script src="srf/assets/srf-manifest.js" defer></script>
   <script src="phase_change_stations/assets/pcs-manifest.js" defer></script>
   <script src="supplemental_aids/assets/sa-manifest.js" defer></script>
+  <script src="supplemental_aids_math/assets/sa-manifest.js" defer></script>
+  <script src="supplemental_aids_elem_science/assets/sa-manifest.js" defer></script>
   <script src="/printables/licensing-footer.js" defer></script>
   <script>
     document.addEventListener('DOMContentLoaded', function () {
       var srf = (window.SRF_MANIFEST || []).length;
       var pcs = (window.PCS_MANIFEST || []).length;
       var sa  = (window.SA_MANIFEST || []).length;
+      var ma  = (window.MA_MANIFEST || []).length;
+      var es  = (window.ES_MANIFEST || []).length;
       var badge = document.getElementById('srf-count');
       if (badge && srf) badge.textContent = srf + ' forms';
-      var total = srf + pcs + sa;
+      var total = srf + pcs + sa + ma + es;
       var t = document.getElementById('total-count');
       if (t && total) t.textContent = total;
     });
@@ -42,7 +46,7 @@
   <main>
     <section id="collections" aria-labelledby="collections-h">
       <h2 id="collections-h" class="section-title">Collections</h2>
-      <p class="section-sub">Each collection is free to use and share — <strong><span id="total-count">70</span> free
+      <p class="section-sub">Each collection is free to use and share — <strong><span id="total-count">114</span> free
         printables</strong> hosted here and counting. More on the way.</p>
 
       <h3 class="group-title">Science</h3>
@@ -94,6 +98,45 @@
               answer keys, and editable PowerPoint decks included.</p>
             <span class="collection-meta">
               <span class="collection-count">Grades 5–8 · 5 cases</span>
+              <span class="collection-cta">Open collection</span>
+            </span>
+          </div>
+        </a>
+
+        <a class="collection" href="supplemental_aids_elem_science/index.html">
+          <div class="collection-thumb">
+            <span class="collection-tag">Free</span>
+            <img src="assets/thumb-elem-science.png" alt="Elementary science STAAR cue-card sheets for grades 3–5 — Matter &amp; Energy, Force/Motion/Energy, Earth &amp; Space, and Organisms &amp; Environments">
+          </div>
+          <div class="collection-body">
+            <h3>Elementary Science Supplemental Aids (STAAR)</h3>
+            <p>Visual cue cards for the Grade 5 Science STAAR, spiraling grades 3–5 — mnemonics, diagrams, and picture
+              cues across the four reporting categories: Matter &amp; Energy, Force/Motion/Energy, Earth &amp; Space, and
+              Organisms &amp; Environments. Each concept card offers a printable 4-page activity packet.</p>
+            <span class="collection-meta">
+              <span class="collection-count">Grades 3–5 · 28 sheets</span>
+              <span class="collection-cta">Open collection</span>
+            </span>
+          </div>
+        </a>
+
+      </div>
+
+      <h3 class="group-title">Math</h3>
+      <div class="collections">
+
+        <a class="collection" href="math/index.html">
+          <div class="collection-thumb">
+            <span class="collection-tag">Free</span>
+            <img src="assets/thumb-math-supplemental-aids.png" alt="Math printables for grades 3–8 — visual cue cards including integer rules, fractions and percents, ratios and proportions, equations, the coordinate plane, and slope">
+          </div>
+          <div class="collection-body">
+            <h3>Math Printables</h3>
+            <p>Free math printables for grades 3–8 — starting with Math Supplemental Aids for grades 6–8: visual cue
+              cards for integer rules, fractions and percents, ratios and proportions, equations, the coordinate plane,
+              slope, and data, plus a measurement formula reference. More grade 3–8 math collections on the way.</p>
+            <span class="collection-meta">
+              <span class="collection-count">Grades 3–8 · growing</span>
               <span class="collection-cta">Open collection</span>
             </span>
           </div>

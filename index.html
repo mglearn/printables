@@ -14,6 +14,7 @@
   <script src="supplemental_aids/assets/sa-manifest.js" defer></script>
   <script src="supplemental_aids_math/assets/sa-manifest.js" defer></script>
   <script src="supplemental_aids_elem_science/assets/sa-manifest.js" defer></script>
+  <script src="supplemental_aids_elem_math/assets/sa-manifest.js" defer></script>
   <script src="/printables/licensing-footer.js" defer></script>
   <script>
     document.addEventListener('DOMContentLoaded', function () {
@@ -22,9 +23,10 @@
       var sa  = (window.SA_MANIFEST || []).length;
       var ma  = (window.MA_MANIFEST || []).length;
       var es  = (window.ES_MANIFEST || []).length;
+      var em  = (window.EM_MANIFEST || []).length;
       var badge = document.getElementById('srf-count');
       if (badge && srf) badge.textContent = srf + ' forms';
-      var total = srf + pcs + sa + ma + es;
+      var total = srf + pcs + sa + ma + es + em;
       var t = document.getElementById('total-count');
       if (t && total) t.textContent = total;
     });
@@ -46,7 +48,7 @@
   <main>
     <section id="collections" aria-labelledby="collections-h">
       <h2 id="collections-h" class="section-title">Collections</h2>
-      <p class="section-sub">Each collection is free to use and share — <strong><span id="total-count">114</span> free
+      <p class="section-sub wide">Each collection is free to use and share — <strong><span id="total-count">140</span> free
         printables</strong> hosted here and counting. More on the way.</p>
 
       <h3 class="group-title">Science</h3>

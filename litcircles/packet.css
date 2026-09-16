@@ -36,3 +36,8 @@
  #page-9 .four{height:264px}#page-9 .two{height:120px}
  .organizer>.three{height:180px}
 }
+
+/* Keep short timing labels together in every view. */
+.timing-table th:first-child,.timing-table td:first-child{width:5rem;min-width:5rem;white-space:nowrap;overflow-wrap:normal}
+.steps,.options{margin:7px 0;padding-left:24px}
+.steps li,.options li{margin:0 0 7px;break-inside:avoid}

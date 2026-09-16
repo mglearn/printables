@@ -124,3 +124,7 @@ GitHub Pages serves this repo as a project site at `mglearn.github.io/printables
 The authoritative statement — reuse terms, attribution, provenance, and privacy —
 lives at [`licensing.html`](licensing.html) (`mglearn.github.io/printables/licensing.html`),
 surfaced on every page by the quiet one-line footer that `licensing-footer.js` injects.
+
+## Literature Circles Launch Kit
+
+`litcircles/` contains a 10-page US Letter teacher/student launch kit for grades 5–12, a collection landing page, editable HTML/CSS, and a Python generator. It covers local text approval, Texas ELAR TEKS, grouping, reading calendars, Reciprocal Teaching, optional Jigsaw, meeting records, and individual assessment. See [the collection README](litcircles/README.md) for sources and rebuild instructions.

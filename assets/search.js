@@ -15,6 +15,8 @@
 
   // Collections without a sheet-level manifest — searchable at the collection level.
   var COLLS = [
+    { title: 'Literature Circles Launch Kit', label: 'Reading & Language Arts', url: 'litcircles/index.html',
+      blurb: 'grades 5-12 literature circle organization teacher setup TEKS approved texts Aesop reciprocal teaching jigsaw reading schedule student handouts discussion' },
     { title: 'Phase Change Station Lab', label: 'Science', url: 'phase_change_stations/index.html',
       blurb: 'seven hands-on middle school science stations melting condensation evaporation deposition freezing sublimation particle model' },
     { title: 'CER & ACE Case Files', label: 'Science', url: 'https://mglearn.github.io/activities/science/case-files/',

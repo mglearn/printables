@@ -2,12 +2,12 @@
 
 Ten US Letter pages, with teacher organization guidance and reusable student forms. The original kit draws on the four planning/role PDFs in the sibling reference folder, without reproducing their content or artwork.
 
-- `literature-circles-launch-kit.pdf`: print-ready, exactly 10 pages.
+- `literature-circles-launch-kit.pdf`: print-ready, 11 pages: cover + 10 instructional pages.
 - `packet.html` and `packet.css`: editable, accessible text-based source and print view.
 - `index.html`: collection landing page.
 - `build.py`: original authoring content and static-page generator (Python standard library).
 
-Run `python3 build.py` to regenerate HTML/CSS. Render `packet.html` with headless Chrome using `--print-to-pdf=literature-circles-launch-kit.pdf --no-pdf-header-footer`. Use US Letter, 100% scale, and no browser headers/footers. Recheck page count and layout after edits.
+Run `python3 build.py` to regenerate HTML/CSS. Render `packet.html` with headless Chrome using `--print-to-pdf=literature-circles-launch-kit.pdf --no-pdf-header-footer`. Use US Letter, 100% scale, and no browser headers/footers. Recheck page count and layout after edits. The cover credits Miguel Guhlin · mguhlin.org, mguhlin@tcea.org, and blog.tcea.org. Kit page numbers remain 1–10; PDF page numbers are one higher.
 
 Copy teacher pp. 1–4 and 10 once, pp. 5 and 8 per group, pp. 6, 7 and 9 per student. The included fable is launch practice for all bands, with increasing analysis demands, rather than a replacement for grade-appropriate sustained reading.
 

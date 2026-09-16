@@ -1,6 +1,6 @@
 # Literature Circles Launch Kit (Grades 5–12)
 
-Ten US Letter pages, with teacher organization guidance and reusable student forms. The original kit draws on the four planning/role PDFs in the sibling reference folder, without reproducing their content or artwork.
+Ten US Letter instructional pages, plus cover and two organizers, with teacher organization guidance, reusable student forms, and color process illustrations. The original kit draws on the four planning/role PDFs in the sibling reference folder, without reproducing their content or artwork.
 
 - `literature-circles-launch-kit.pdf`: print-ready, 13 pages: cover + 10 instructional pages + two optional organizers.
 - `packet.html` and `packet.css`: editable, accessible text-based source and print view.

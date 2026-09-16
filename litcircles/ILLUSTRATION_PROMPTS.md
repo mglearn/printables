@@ -1,0 +1,16 @@
+# Color process illustrations
+
+Generated with the built-in image_gen tool. Style reference: assets/hero.png. Project copies are assets/setup.png, assets/discussion.png, and assets/jigsaw.png. Captions provide the actions as readable text.
+
+## setup
+
+New color educational illustration strip for a US Letter literature-circle teacher/student packet. Style reference is the attached Literature Circles hero. Match crisp friendly flat illustrated forms, navy outlines, teal/blue/green/orange/violet accents. Pure white background, no border, no card headers, no words, no watermark. Wide 3:1 horizontal composition with large clear shapes, generous white space, consistent characters. A horizontal three-panel process illustration: first a teacher reviews a book and a checklist with a green checkmark; next four diverse teenage readers gather around a classroom table with books; last a calendar with three highlighted meeting dates and a small timer. Arrows connect panels left to right. No words or numbers. Keep all subjects inside the frame. This will be placed at about 6 inches wide and 1 inch high with HTML labels beneath, so use simple easily understood actions and minimal detail.
+
+## discussion
+
+New color educational illustration strip for a US Letter literature-circle teacher/student packet. Style reference is the attached Literature Circles hero. Match crisp friendly flat illustrated forms, navy outlines, teal/blue/green/orange/violet accents. Pure white background, no border, no card headers, no words, no watermark. Wide 3:1 horizontal composition with large clear shapes, generous white space, consistent characters. A horizontal four-panel process illustration: a student points to a passage in an open book; two students exchange speech bubbles with a question mark; students compare annotated text evidence with a magnifying glass; a student writes a response with a small lightbulb above it. Arrows connect panels left to right. No words or numbers except a question mark. Keep all subjects inside the frame. This will be placed at about 6 inches wide and 1 inch high with HTML labels beneath, so use simple easily understood actions and minimal detail.
+
+## jigsaw
+
+New color educational illustration strip for a US Letter literature-circle teacher/student packet. Style reference is the attached Literature Circles hero. Match crisp friendly flat illustrated forms, navy outlines, teal/blue/green/orange/violet accents. Pure white background, no border, no card headers, no words, no watermark. Wide 3:1 horizontal composition with large clear shapes, generous white space, consistent characters. A horizontal three-panel process illustration showing true Jigsaw: home group of four diverse student readers with four different colored shirts (teal blue orange violet); center shows four small expert pairs where both people in each pair wear the same color, studying their books; right shows the home group reunited with the original four different shirt colors sharing notes and linking ideas with a small puzzle-piece icon. Left-to-right arrows, no words or numbers. Keep all subjects inside the frame. This will be placed at about 6 inches wide and 1 inch high with HTML labels beneath, so use simple easily understood actions and minimal detail.
+

@@ -14,3 +14,25 @@
  .notes-grid{grid-template-rows:minmax(260px,auto) minmax(235px,auto)}
  .page h1{font-size:clamp(24px,6vw,34px)}
 }
+
+/* Larger illustrations in print; allow each labeled kit section to span pages. */
+@page{size:letter;margin:.45in .55in}
+@media print{
+ .page{width:auto;height:auto;min-height:0;padding:0;margin:0;overflow-wrap:anywhere}
+ .page .action-strip{position:static;margin:12px 0 16px;break-inside:avoid}
+ .page .action-strip img,#page-7 .action-strip img,#page-8 .action-strip img{width:100%;height:auto;max-height:1.5in;object-fit:contain}
+ .page footer{position:static;margin-top:8px;gap:8px;break-inside:avoid}
+ .page>p:last-of-type{break-after:avoid}
+ .page{font-size:10pt}
+ #page-6 h2{margin-top:8px}
+ .cover h1{margin-top:22px}.cover-hero{margin:20px 0}
+ .cover-description,.cover-credits{margin:22px 0}
+ h1,h2,th{break-after:avoid}
+ tr,.callout,.reading{break-inside:avoid}
+ p{orphans:3;widows:3;break-inside:avoid}
+ .print-new-sheet{break-before:page}
+ #page-2 .write td{height:120px}
+ #page-8 .two{height:84px}#page-8 .write .tall td{height:140px}
+ #page-9 .four{height:264px}#page-9 .two{height:120px}
+ .organizer>.three{height:180px}
+}

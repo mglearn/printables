@@ -52,6 +52,12 @@ The dashboard groups the cards into a **Science** section (Phase Change Station
 Lab, Science Supplemental Aids, CER & ACE Case Files) and a **Classroom
 Management** section (Student Refusal Forms, Getting to Know You).
 
+The **Digital Citizenship, AI & Media Literacy** section holds **ELE Activity Packets**
+(`ele-packets/`) and a card for the **ELE Activity Bank** (`mglearn.github.io/eles/`).
+`ele-packets/index.html` is GENERATED from the ELE repo: run
+`node scripts/build-printables-unit.js` in `mglearn/eles` after its build, then commit
+here. Don't hand-edit it.
+
 The **Getting to Know You** card links out to its own repo/site at
 `mglearn.github.io/gtky`. The **CER & ACE Case Files** card links out to the
 Learning Activities Hub at `mglearn.github.io/activities/science/case-files/`.

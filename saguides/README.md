@@ -73,22 +73,25 @@ educator selection; each aid is a separate one-page file.
   instructions, explanations, branding, URLs, copyright text, teacher notes, or the
   words "STAAR Supplemental Aid." The filename may describe the aid even though the
   printed page has no such words.
-- **The teacher master library** (`teacher-guide/`, `compliance-matrix.md`) carries
-  all of that descriptive metadata and is **not** itself a student testing aid. It
-  is marked *TEACHER REFERENCE — NOT A STUDENT TESTING AID*.
+- **The teacher master library** (`index.html` catalog, `compliance-matrix.md`)
+  carries all of that descriptive metadata and is **not** itself a student testing
+  aid. It is marked *TEACHER REFERENCE — NOT A STUDENT TESTING AID*.
 
 ## Folder structure
 
 ```
 saguides/
+├── index.html                ← teacher catalog (the library landing page)
+├── catalog.js · catalog-data.js
+├── science-catalog.pdf · math-catalog.pdf   ← teacher contact sheets
 ├── README.md                 ← this file (disclaimer, rules)
 ├── compliance-matrix.md      ← per-resource status (section 16)
 ├── qa-checklist.md           ← human QA (section 15)
+├── assets/                   ← catalog hero art (not a student aid)
 ├── sources/                  ← TEA source + reference-material logs (section 1)
 ├── originals/                ← pointer to the classroom cue-card sources
 ├── candidates/               ← student-facing aids (SVG + PDF + PNG), by subject/grade
-├── classroom-only/           ← where ambiguous items are retired to (section 11)
-└── teacher-guide/            ← teacher catalog (index.html) + data
+└── classroom-only/           ← where ambiguous items are retired to (section 11)
 ```
 
 ## Reproducing the build
@@ -99,7 +102,7 @@ Everything is deterministic (no generative imagery on any test-use aid, section 
 python3 tools/generate_aids.py     # write all candidate SVGs + aids.json
 python3 tools/lint_aids.py         # aid-type linter (section 14) — must pass
 bash    tools/render.sh            # SVG -> print-ready PDF + high-res PNG (headless Chrome)
-python3 tools/build_catalog.py     # compliance-matrix.md + teacher-guide/catalog-data.js
+python3 tools/build_catalog.py     # compliance-matrix.md + catalog-data.js
 ```
 
 Update the review date in one place: `REVIEW_DATE` in `tools/build_catalog.py`

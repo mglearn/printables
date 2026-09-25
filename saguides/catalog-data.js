@@ -11,9 +11,9 @@ window.SACL = {
       "cue": "Recall counting/skip-count patterns",
       "status": "CANDIDATE",
       "notes": "Plain chart; no highlighting/shading.",
-      "png": "../candidates/math/grade-3/math-g3_5-number-chart-100.png",
-      "pdf": "../candidates/math/grade-3/math-g3_5-number-chart-100.pdf",
-      "svg": "../candidates/math/grade-3/math-g3_5-number-chart-100.svg"
+      "png": "candidates/math/grade-3/math-g3_5-number-chart-100.png",
+      "pdf": "candidates/math/grade-3/math-g3_5-number-chart-100.pdf",
+      "svg": "candidates/math/grade-3/math-g3_5-number-chart-100.svg"
     },
     {
       "title": "Blank whole-number place-value chart",
@@ -24,9 +24,9 @@ window.SACL = {
       "cue": "Align digits by place",
       "status": "CANDIDATE",
       "notes": "Blank cells + period commas only; no words/examples.",
-      "png": "../candidates/math/grade-4/math-g3_5-place-value-whole-blank.png",
-      "pdf": "../candidates/math/grade-4/math-g3_5-place-value-whole-blank.pdf",
-      "svg": "../candidates/math/grade-4/math-g3_5-place-value-whole-blank.svg"
+      "png": "candidates/math/grade-4/math-g3_5-place-value-whole-blank.png",
+      "pdf": "candidates/math/grade-4/math-g3_5-place-value-whole-blank.pdf",
+      "svg": "candidates/math/grade-4/math-g3_5-place-value-whole-blank.svg"
     },
     {
       "title": "Blank decimal place-value chart",
@@ -37,9 +37,9 @@ window.SACL = {
       "cue": "Align digits around the decimal point",
       "status": "CANDIDATE",
       "notes": "Blank cells + decimal point only.",
-      "png": "../candidates/math/grade-5/math-g5-place-value-decimal-blank.png",
-      "pdf": "../candidates/math/grade-5/math-g5-place-value-decimal-blank.pdf",
-      "svg": "../candidates/math/grade-5/math-g5-place-value-decimal-blank.svg"
+      "png": "candidates/math/grade-5/math-g5-place-value-decimal-blank.png",
+      "pdf": "candidates/math/grade-5/math-g5-place-value-decimal-blank.pdf",
+      "svg": "candidates/math/grade-5/math-g5-place-value-decimal-blank.svg"
     },
     {
       "title": "Unlabeled fraction bars (wall)",
@@ -50,9 +50,9 @@ window.SACL = {
       "cue": "Compare partition sizes",
       "status": "CANDIDATE",
       "notes": "Partitioning only; no numbers/labels/equivalency.",
-      "png": "../candidates/math/grade-3/math-g3_5-fraction-bars-blank.png",
-      "pdf": "../candidates/math/grade-3/math-g3_5-fraction-bars-blank.pdf",
-      "svg": "../candidates/math/grade-3/math-g3_5-fraction-bars-blank.svg"
+      "png": "candidates/math/grade-3/math-g3_5-fraction-bars-blank.png",
+      "pdf": "candidates/math/grade-3/math-g3_5-fraction-bars-blank.pdf",
+      "svg": "candidates/math/grade-3/math-g3_5-fraction-bars-blank.svg"
     },
     {
       "title": "Unlabeled fraction circles",
@@ -63,9 +63,9 @@ window.SACL = {
       "cue": "See equal partitions of a whole",
       "status": "CANDIDATE",
       "notes": "Partitioning only; no numbers/labels.",
-      "png": "../candidates/math/grade-3/math-g3_5-fraction-circles-blank.png",
-      "pdf": "../candidates/math/grade-3/math-g3_5-fraction-circles-blank.pdf",
-      "svg": "../candidates/math/grade-3/math-g3_5-fraction-circles-blank.svg"
+      "png": "candidates/math/grade-3/math-g3_5-fraction-circles-blank.png",
+      "pdf": "candidates/math/grade-3/math-g3_5-fraction-circles-blank.pdf",
+      "svg": "candidates/math/grade-3/math-g3_5-fraction-circles-blank.svg"
     },
     {
       "title": "Basic 2-D geometric figures",
@@ -76,9 +76,9 @@ window.SACL = {
       "cue": "Recall figure shapes",
       "status": "CANDIDATE",
       "notes": "Outlines only; no names/measures. Keep 2-D and 3-D separate (\u00a76D).",
-      "png": "../candidates/math/grade-3/math-g3-2d-figures.png",
-      "pdf": "../candidates/math/grade-3/math-g3-2d-figures.pdf",
-      "svg": "../candidates/math/grade-3/math-g3-2d-figures.svg"
+      "png": "candidates/math/grade-3/math-g3-2d-figures.png",
+      "pdf": "candidates/math/grade-3/math-g3-2d-figures.pdf",
+      "svg": "candidates/math/grade-3/math-g3-2d-figures.svg"
     },
     {
       "title": "Expanded 2-D geometric figures",
@@ -89,9 +89,9 @@ window.SACL = {
       "cue": "Recall figure shapes",
       "status": "CANDIDATE",
       "notes": "Outlines only; no names/measures/angles.",
-      "png": "../candidates/math/grade-5/math-g5_7-2d-figures.png",
-      "pdf": "../candidates/math/grade-5/math-g5_7-2d-figures.pdf",
-      "svg": "../candidates/math/grade-5/math-g5_7-2d-figures.svg"
+      "png": "candidates/math/grade-5/math-g5_7-2d-figures.png",
+      "pdf": "candidates/math/grade-5/math-g5_7-2d-figures.pdf",
+      "svg": "candidates/math/grade-5/math-g5_7-2d-figures.svg"
     },
     {
       "title": "3-D geometric solids",
@@ -102,9 +102,9 @@ window.SACL = {
       "cue": "Recall solid shapes",
       "status": "CANDIDATE",
       "notes": "Solids only (no nets); no labels/measures. Separate from 2-D (\u00a76D).",
-      "png": "../candidates/math/grade-6/math-g6_8-3d-figures.png",
-      "pdf": "../candidates/math/grade-6/math-g6_8-3d-figures.pdf",
-      "svg": "../candidates/math/grade-6/math-g6_8-3d-figures.svg"
+      "png": "candidates/math/grade-6/math-g6_8-3d-figures.png",
+      "pdf": "candidates/math/grade-6/math-g6_8-3d-figures.pdf",
+      "svg": "candidates/math/grade-6/math-g6_8-3d-figures.svg"
     },
     {
       "title": "Order-of-operations acronym",
@@ -115,9 +115,9 @@ window.SACL = {
       "cue": "Recall the operation order",
       "status": "NEEDS TEA/LOCAL VERIFICATION",
       "notes": "Acronym letters only; no decoded words/symbols (\u00a75). Local review: confirm acronym mnemonics are accepted.",
-      "png": "../candidates/math/mnemonics/math-g6-mnemonic-pemdas.png",
-      "pdf": "../candidates/math/mnemonics/math-g6-mnemonic-pemdas.pdf",
-      "svg": "../candidates/math/mnemonics/math-g6-mnemonic-pemdas.svg"
+      "png": "candidates/math/mnemonics/math-g6-mnemonic-pemdas.png",
+      "pdf": "candidates/math/mnemonics/math-g6-mnemonic-pemdas.pdf",
+      "svg": "candidates/math/mnemonics/math-g6-mnemonic-pemdas.svg"
     },
     {
       "title": "Blank Venn diagram",
@@ -128,9 +128,9 @@ window.SACL = {
       "cue": "Sort into overlapping sets",
       "status": "CANDIDATE",
       "notes": "Genuinely blank; no words/labels/numbers.",
-      "png": "../candidates/math/blank-organizers/math-venn-blank.png",
-      "pdf": "../candidates/math/blank-organizers/math-venn-blank.pdf",
-      "svg": "../candidates/math/blank-organizers/math-venn-blank.svg"
+      "png": "candidates/math/blank-organizers/math-venn-blank.png",
+      "pdf": "candidates/math/blank-organizers/math-venn-blank.pdf",
+      "svg": "candidates/math/blank-organizers/math-venn-blank.svg"
     },
     {
       "title": "Blank T-chart",
@@ -141,9 +141,9 @@ window.SACL = {
       "cue": "Two-column structure",
       "status": "CANDIDATE",
       "notes": "Genuinely blank; no words/labels/numbers.",
-      "png": "../candidates/math/blank-organizers/math-tchart-blank.png",
-      "pdf": "../candidates/math/blank-organizers/math-tchart-blank.pdf",
-      "svg": "../candidates/math/blank-organizers/math-tchart-blank.svg"
+      "png": "candidates/math/blank-organizers/math-tchart-blank.png",
+      "pdf": "candidates/math/blank-organizers/math-tchart-blank.pdf",
+      "svg": "candidates/math/blank-organizers/math-tchart-blank.svg"
     },
     {
       "title": "Blank four-quadrant organizer",
@@ -154,9 +154,9 @@ window.SACL = {
       "cue": "Four-part structure",
       "status": "CANDIDATE",
       "notes": "Genuinely blank; no words/labels/numbers.",
-      "png": "../candidates/math/blank-organizers/math-frayer-blank.png",
-      "pdf": "../candidates/math/blank-organizers/math-frayer-blank.pdf",
-      "svg": "../candidates/math/blank-organizers/math-frayer-blank.svg"
+      "png": "candidates/math/blank-organizers/math-frayer-blank.png",
+      "pdf": "candidates/math/blank-organizers/math-frayer-blank.pdf",
+      "svg": "candidates/math/blank-organizers/math-frayer-blank.svg"
     },
     {
       "title": "Blank table grid",
@@ -167,9 +167,9 @@ window.SACL = {
       "cue": "Rows/columns structure",
       "status": "CANDIDATE",
       "notes": "Genuinely blank; no words/labels/numbers.",
-      "png": "../candidates/math/blank-organizers/math-grid-blank.png",
-      "pdf": "../candidates/math/blank-organizers/math-grid-blank.pdf",
-      "svg": "../candidates/math/blank-organizers/math-grid-blank.svg"
+      "png": "candidates/math/blank-organizers/math-grid-blank.png",
+      "pdf": "candidates/math/blank-organizers/math-grid-blank.pdf",
+      "svg": "candidates/math/blank-organizers/math-grid-blank.svg"
     },
     {
       "title": "States of matter (particle spacing)",
@@ -180,9 +180,9 @@ window.SACL = {
       "cue": "Recall particle spacing/arrangement",
       "status": "CANDIDATE",
       "notes": "Grayscale particles; no labels/arrows/color-coding.",
-      "png": "../candidates/science/grade-8/science-g5_8-states-of-matter-unlabeled.png",
-      "pdf": "../candidates/science/grade-8/science-g5_8-states-of-matter-unlabeled.pdf",
-      "svg": "../candidates/science/grade-8/science-g5_8-states-of-matter-unlabeled.svg"
+      "png": "candidates/science/grade-8/science-g5_8-states-of-matter-unlabeled.png",
+      "pdf": "candidates/science/grade-8/science-g5_8-states-of-matter-unlabeled.pdf",
+      "svg": "candidates/science/grade-8/science-g5_8-states-of-matter-unlabeled.svg"
     },
     {
       "title": "Element / compound / mixture particles",
@@ -193,9 +193,9 @@ window.SACL = {
       "cue": "Distinguish particle groupings",
       "status": "CANDIDATE",
       "notes": "Grayscale particles; no labels/arrows/color.",
-      "png": "../candidates/science/grade-8/science-g8-element-compound-mixture-unlabeled.png",
-      "pdf": "../candidates/science/grade-8/science-g8-element-compound-mixture-unlabeled.pdf",
-      "svg": "../candidates/science/grade-8/science-g8-element-compound-mixture-unlabeled.svg"
+      "png": "candidates/science/grade-8/science-g8-element-compound-mixture-unlabeled.png",
+      "pdf": "candidates/science/grade-8/science-g8-element-compound-mixture-unlabeled.pdf",
+      "svg": "candidates/science/grade-8/science-g8-element-compound-mixture-unlabeled.svg"
     },
     {
       "title": "Mixture (two particle types)",
@@ -206,9 +206,9 @@ window.SACL = {
       "cue": "Two materials mixed, not bonded",
       "status": "CANDIDATE",
       "notes": "Two neutral shapes; no labels/color.",
-      "png": "../candidates/science/grade-5/science-g5-mixture-unlabeled.png",
-      "pdf": "../candidates/science/grade-5/science-g5-mixture-unlabeled.pdf",
-      "svg": "../candidates/science/grade-5/science-g5-mixture-unlabeled.svg"
+      "png": "candidates/science/grade-5/science-g5-mixture-unlabeled.png",
+      "pdf": "candidates/science/grade-5/science-g5-mixture-unlabeled.pdf",
+      "svg": "candidates/science/grade-5/science-g5-mixture-unlabeled.svg"
     },
     {
       "title": "Atomic structure (generic Bohr model)",
@@ -219,9 +219,9 @@ window.SACL = {
       "cue": "Nucleus + electron shells layout",
       "status": "CANDIDATE",
       "notes": "Generic (no element implied); no numbers/labels.",
-      "png": "../candidates/science/grade-8/science-g8-atomic-structure-unlabeled.png",
-      "pdf": "../candidates/science/grade-8/science-g8-atomic-structure-unlabeled.pdf",
-      "svg": "../candidates/science/grade-8/science-g8-atomic-structure-unlabeled.svg"
+      "png": "candidates/science/grade-8/science-g8-atomic-structure-unlabeled.png",
+      "pdf": "candidates/science/grade-8/science-g8-atomic-structure-unlabeled.pdf",
+      "svg": "candidates/science/grade-8/science-g8-atomic-structure-unlabeled.svg"
     },
     {
       "title": "Moon phases (illumination shapes)",
@@ -232,9 +232,9 @@ window.SACL = {
       "cue": "Recall the illuminated-shape sequence",
       "status": "NEEDS TEA/LOCAL VERIFICATION",
       "notes": "Shading depicts illumination (not a color label). Local review: confirm grayscale illumination is acceptable; no numbers/arrows/labels.",
-      "png": "../candidates/science/grade-8/science-g5_8-moon-phases-unlabeled.png",
-      "pdf": "../candidates/science/grade-8/science-g5_8-moon-phases-unlabeled.pdf",
-      "svg": "../candidates/science/grade-8/science-g5_8-moon-phases-unlabeled.svg"
+      "png": "candidates/science/grade-8/science-g5_8-moon-phases-unlabeled.png",
+      "pdf": "candidates/science/grade-8/science-g5_8-moon-phases-unlabeled.pdf",
+      "svg": "candidates/science/grade-8/science-g5_8-moon-phases-unlabeled.svg"
     },
     {
       "title": "Plate-boundary cross-sections",
@@ -245,9 +245,9 @@ window.SACL = {
       "cue": "Recall boundary geometry",
       "status": "NEEDS TEA/LOCAL VERIFICATION",
       "notes": "No arrows/labels. Local review: confirm the geometry is unambiguous without motion arrows; otherwise classroom-only.",
-      "png": "../candidates/science/grade-8/science-g8-plate-boundaries-unlabeled.png",
-      "pdf": "../candidates/science/grade-8/science-g8-plate-boundaries-unlabeled.pdf",
-      "svg": "../candidates/science/grade-8/science-g8-plate-boundaries-unlabeled.svg"
+      "png": "candidates/science/grade-8/science-g8-plate-boundaries-unlabeled.png",
+      "pdf": "candidates/science/grade-8/science-g8-plate-boundaries-unlabeled.pdf",
+      "svg": "candidates/science/grade-8/science-g8-plate-boundaries-unlabeled.svg"
     },
     {
       "title": "Animal cell (unlabeled organelles)",
@@ -258,9 +258,9 @@ window.SACL = {
       "cue": "Recall organelle shapes/locations",
       "status": "CANDIDATE",
       "notes": "Line art; no labels/color/arrows.",
-      "png": "../candidates/science/grade-8/science-g8-bio-animal-cell-unlabeled.png",
-      "pdf": "../candidates/science/grade-8/science-g8-bio-animal-cell-unlabeled.pdf",
-      "svg": "../candidates/science/grade-8/science-g8-bio-animal-cell-unlabeled.svg"
+      "png": "candidates/science/grade-8/science-g8-bio-animal-cell-unlabeled.png",
+      "pdf": "candidates/science/grade-8/science-g8-bio-animal-cell-unlabeled.pdf",
+      "svg": "candidates/science/grade-8/science-g8-bio-animal-cell-unlabeled.svg"
     },
     {
       "title": "Plant cell (unlabeled organelles)",
@@ -271,9 +271,9 @@ window.SACL = {
       "cue": "Recall wall/vacuole/organelle layout",
       "status": "CANDIDATE",
       "notes": "Line art; no labels/color/arrows.",
-      "png": "../candidates/science/grade-8/science-g8-bio-plant-cell-unlabeled.png",
-      "pdf": "../candidates/science/grade-8/science-g8-bio-plant-cell-unlabeled.pdf",
-      "svg": "../candidates/science/grade-8/science-g8-bio-plant-cell-unlabeled.svg"
+      "png": "candidates/science/grade-8/science-g8-bio-plant-cell-unlabeled.png",
+      "pdf": "candidates/science/grade-8/science-g8-bio-plant-cell-unlabeled.pdf",
+      "svg": "candidates/science/grade-8/science-g8-bio-plant-cell-unlabeled.svg"
     },
     {
       "title": "Plant parts (unlabeled)",
@@ -284,9 +284,9 @@ window.SACL = {
       "cue": "Recall roots/stem/leaves/flower",
       "status": "CANDIDATE",
       "notes": "Line art; no labels/color/arrows.",
-      "png": "../candidates/science/grade-5/science-g5-plant-parts-unlabeled.png",
-      "pdf": "../candidates/science/grade-5/science-g5-plant-parts-unlabeled.pdf",
-      "svg": "../candidates/science/grade-5/science-g5-plant-parts-unlabeled.svg"
+      "png": "candidates/science/grade-5/science-g5-plant-parts-unlabeled.png",
+      "pdf": "candidates/science/grade-5/science-g5-plant-parts-unlabeled.pdf",
+      "svg": "candidates/science/grade-5/science-g5-plant-parts-unlabeled.svg"
     },
     {
       "title": "Transverse wave (unlabeled)",
@@ -297,9 +297,9 @@ window.SACL = {
       "cue": "Recall amplitude/wavelength shape",
       "status": "CANDIDATE",
       "notes": "Curve + faint rest axis; no labels/measures/arrows.",
-      "png": "../candidates/science/grade-8/science-g8-transverse-wave-unlabeled.png",
-      "pdf": "../candidates/science/grade-8/science-g8-transverse-wave-unlabeled.pdf",
-      "svg": "../candidates/science/grade-8/science-g8-transverse-wave-unlabeled.svg"
+      "png": "candidates/science/grade-8/science-g8-transverse-wave-unlabeled.png",
+      "pdf": "candidates/science/grade-8/science-g8-transverse-wave-unlabeled.pdf",
+      "svg": "candidates/science/grade-8/science-g8-transverse-wave-unlabeled.svg"
     },
     {
       "title": "Simple closed circuit (pictorial)",
@@ -310,9 +310,9 @@ window.SACL = {
       "cue": "Recall a complete loop",
       "status": "NEEDS TEA/LOCAL VERIFICATION",
       "notes": "Pictorial (not schematic symbols); no text. Local review: confirm pictorial circuit is acceptable; otherwise classroom-only.",
-      "png": "../candidates/science/grade-5/science-g5-simple-circuit-unlabeled.png",
-      "pdf": "../candidates/science/grade-5/science-g5-simple-circuit-unlabeled.pdf",
-      "svg": "../candidates/science/grade-5/science-g5-simple-circuit-unlabeled.svg"
+      "png": "candidates/science/grade-5/science-g5-simple-circuit-unlabeled.png",
+      "pdf": "candidates/science/grade-5/science-g5-simple-circuit-unlabeled.pdf",
+      "svg": "candidates/science/grade-5/science-g5-simple-circuit-unlabeled.svg"
     },
     {
       "title": "Density relationship (variables only)",
@@ -323,9 +323,9 @@ window.SACL = {
       "cue": "Recall the m/D/V relationship",
       "status": "CANDIDATE",
       "notes": "On G8 science reference sheet. Variables only; no name/units/operators.",
-      "png": "../candidates/science/grade-8/science-g8-formula-triangle-density.png",
-      "pdf": "../candidates/science/grade-8/science-g8-formula-triangle-density.pdf",
-      "svg": "../candidates/science/grade-8/science-g8-formula-triangle-density.svg"
+      "png": "candidates/science/grade-8/science-g8-formula-triangle-density.png",
+      "pdf": "candidates/science/grade-8/science-g8-formula-triangle-density.pdf",
+      "svg": "candidates/science/grade-8/science-g8-formula-triangle-density.svg"
     },
     {
       "title": "Average speed relationship (variables only)",
@@ -336,9 +336,9 @@ window.SACL = {
       "cue": "Recall the d/s/t relationship",
       "status": "CANDIDATE",
       "notes": "On G8 science reference sheet. Variables only.",
-      "png": "../candidates/science/grade-8/science-g8-formula-triangle-average-speed.png",
-      "pdf": "../candidates/science/grade-8/science-g8-formula-triangle-average-speed.pdf",
-      "svg": "../candidates/science/grade-8/science-g8-formula-triangle-average-speed.svg"
+      "png": "candidates/science/grade-8/science-g8-formula-triangle-average-speed.png",
+      "pdf": "candidates/science/grade-8/science-g8-formula-triangle-average-speed.pdf",
+      "svg": "candidates/science/grade-8/science-g8-formula-triangle-average-speed.svg"
     },
     {
       "title": "Net force relationship (variables only)",
@@ -349,9 +349,9 @@ window.SACL = {
       "cue": "Recall the F/m/a relationship",
       "status": "CANDIDATE",
       "notes": "On G8 science reference sheet. Variables only.",
-      "png": "../candidates/science/grade-8/science-g8-formula-triangle-net-force.png",
-      "pdf": "../candidates/science/grade-8/science-g8-formula-triangle-net-force.pdf",
-      "svg": "../candidates/science/grade-8/science-g8-formula-triangle-net-force.svg"
+      "png": "candidates/science/grade-8/science-g8-formula-triangle-net-force.png",
+      "pdf": "candidates/science/grade-8/science-g8-formula-triangle-net-force.pdf",
+      "svg": "candidates/science/grade-8/science-g8-formula-triangle-net-force.svg"
     },
     {
       "title": "Work relationship (variables only)",
@@ -362,9 +362,9 @@ window.SACL = {
       "cue": "Recall the W/F/d relationship",
       "status": "CANDIDATE",
       "notes": "On G8 science reference sheet. Variables only.",
-      "png": "../candidates/science/grade-8/science-g8-formula-triangle-work.png",
-      "pdf": "../candidates/science/grade-8/science-g8-formula-triangle-work.pdf",
-      "svg": "../candidates/science/grade-8/science-g8-formula-triangle-work.svg"
+      "png": "candidates/science/grade-8/science-g8-formula-triangle-work.png",
+      "pdf": "candidates/science/grade-8/science-g8-formula-triangle-work.pdf",
+      "svg": "candidates/science/grade-8/science-g8-formula-triangle-work.svg"
     }
   ],
   "classroomOnly": [

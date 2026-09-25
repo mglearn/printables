@@ -51,11 +51,11 @@ def matrix():
     return "\n".join(out)
 
 
-# ---- teacher-guide/catalog-data.js -----------------------------------------
+# ---- catalog-data.js -------------------------------------------------------
 def catalog_js():
     rows = []
     for a in aids:
-        rel = "../" + a["path"]
+        rel = a["path"]                 # paths are relative to the saguides/ root
         rows.append({
             "title": a["concept"],
             "subject": a["subject"],
@@ -77,8 +77,7 @@ def catalog_js():
 
 with open(os.path.join(ROOT, "compliance-matrix.md"), "w") as f:
     f.write(matrix())
-os.makedirs(os.path.join(ROOT, "teacher-guide"), exist_ok=True)
-with open(os.path.join(ROOT, "teacher-guide", "catalog-data.js"), "w") as f:
+with open(os.path.join(ROOT, "catalog-data.js"), "w") as f:
     f.write(catalog_js())
 print(f"compliance-matrix.md: {len(aids)} candidates, {len(classroom)} classroom-only")
-print("teacher-guide/catalog-data.js written")
+print("catalog-data.js written")

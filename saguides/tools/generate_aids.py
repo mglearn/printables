@@ -437,15 +437,17 @@ def sci_states_of_matter():
     size = 200
     y = 430
     xs = [70, 308, 546]
-    # solid: ordered packed grid
-    solid = [(35 + c * 43, 35 + rr * 43) for rr in range(4) for c in range(4)]
-    # liquid: looser, offset
-    liquid = [(30 + c * 52 + (rr % 2) * 20, 40 + rr * 50) for rr in range(4) for c in range(3)]
-    # gas: sparse
-    gas = [(45, 55), (150, 40), (95, 120), (170, 150), (55, 165), (120, 180)]
-    s += _particle_box(xs[0], y, size, solid, r=12)
-    s += _particle_box(xs[1], y, size, liquid, r=12)
-    s += _particle_box(xs[2], y, size, gas, r=12)
+    # All particle centers kept within [32, 168] so no dot (r=11) touches the
+    # 0..200 frame (min margin ~21px).
+    # solid: ordered packed 4x4 grid
+    solid = [(32 + c * 45, 32 + rr * 45) for rr in range(4) for c in range(4)]
+    # liquid: looser, staggered rows (3 rows x 3), still fully inside
+    liquid = [(42 + c * 52 + (rr % 2) * 18, 50 + rr * 52) for rr in range(3) for c in range(3)]
+    # gas: sparse, well inside the frame
+    gas = [(52, 58), (142, 52), (98, 108), (150, 138), (48, 150), (114, 160)]
+    s += _particle_box(xs[0], y, size, solid, r=11)
+    s += _particle_box(xs[1], y, size, liquid, r=11)
+    s += _particle_box(xs[2], y, size, gas, r=11)
     return s + svg_close()
 
 

@@ -28,7 +28,6 @@ Per spec section 16. Status values: `CANDIDATE`, `CLASSROOM USE ONLY`, `NEEDS TE
 | Elementary science 'Mixtures & Solutions' cue card | Science | 5 | `science_graphic` | CANDIDATE | Two neutral shapes; no labels/color. | tea-source-log.md | 2026-09-25 | required |
 | Science 'Atomic Structure' cue card | Science | 8 | `science_graphic` | CANDIDATE | Generic (no element implied); no numbers/labels. | tea-source-log.md | 2026-09-25 | required |
 | Science 'Phases of the Moon' cue card | Science | 5-8 | `science_graphic` | NEEDS TEA/LOCAL VERIFICATION | Shading depicts illumination (not a color label). Local review: confirm grayscale illumination is acceptable; no numbers/arrows/labels. | tea-source-log.md | 2026-09-25 | required |
-| Science 'Plate Boundaries' cue card | Science | 8 | `science_graphic` | NEEDS TEA/LOCAL VERIFICATION | No arrows/labels. Local review: confirm the geometry is unambiguous without motion arrows; otherwise classroom-only. | tea-source-log.md | 2026-09-25 | required |
 | Science 'Cell Structures' cue card | Science | 8/Biology | `science_graphic` | CANDIDATE | Line art; no labels/color/arrows. | tea-source-log.md | 2026-09-25 | required |
 | Science 'Cell Structures' cue card | Science | 8/Biology | `science_graphic` | CANDIDATE | Line art; no labels/color/arrows. | tea-source-log.md | 2026-09-25 | required |
 | Elementary science 'Plant Parts & Functions' cue card | Science | 3-5 | `science_graphic` | CANDIDATE | Line art; no labels/color/arrows. | tea-source-log.md | 2026-09-25 | required |
@@ -49,6 +48,7 @@ Per spec section 16. Status values: `CANDIDATE`, `CLASSROOM USE ONLY`, `NEEDS TE
 | Science formula triangle: Power (P=W/t) | Science | (none) | CLASSROOM USE ONLY | Not on G8 science reference sheet. |
 | Science formula triangle: Wave speed (v=fλ) | Science | (none) | CLASSROOM USE ONLY | Not on G8 science reference sheet. |
 | Science formula triangle: Ohm's law (V=IR) | Science | (none) | CLASSROOM USE ONLY | Not on G8 science reference sheet. |
+| Plate boundaries (cross-sections) | Science | (none) | CLASSROOM USE ONLY | Boundary type reads only via motion arrows/labels; too ambiguous when stripped (§9, fail-closed). |
 | Water cycle diagram | Science | (none) | CLASSROOM USE ONLY | Meaning depends on arrows/labels; ambiguous when stripped (§9). |
 | Rock cycle diagram | Science | (none) | CLASSROOM USE ONLY | Cyclic process needs arrows/labels (§9). |
 | Weathering/erosion/deposition | Science | (none) | CLASSROOM USE ONLY | Process meaning depends on arrows/labels. |

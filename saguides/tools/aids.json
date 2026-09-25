@@ -253,20 +253,6 @@
       "path": "candidates/science/grade-8/science-g5_8-moon-phases-unlabeled.svg"
     },
     {
-      "file": "science-g8-plate-boundaries-unlabeled.svg",
-      "folder": "candidates/science/grade-8",
-      "aid_type": "science_graphic",
-      "subject": "Science",
-      "grade": "8",
-      "concept": "Plate-boundary cross-sections",
-      "teks": "plate tectonics",
-      "status": "NEEDS TEA/LOCAL VERIFICATION",
-      "source": "Science 'Plate Boundaries' cue card",
-      "cue": "Recall boundary geometry",
-      "notes": "No arrows/labels. Local review: confirm the geometry is unambiguous without motion arrows; otherwise classroom-only.",
-      "path": "candidates/science/grade-8/science-g8-plate-boundaries-unlabeled.svg"
-    },
-    {
       "file": "science-g8-bio-animal-cell-unlabeled.svg",
       "folder": "candidates/science/grade-8",
       "aid_type": "science_graphic",
@@ -423,6 +409,11 @@
       "source": "Science formula triangle: Ohm's law (V=IR)",
       "subject": "Science",
       "reason": "Not on G8 science reference sheet."
+    },
+    {
+      "source": "Plate boundaries (cross-sections)",
+      "subject": "Science",
+      "reason": "Boundary type reads only via motion arrows/labels; too ambiguous when stripped (\u00a79, fail-closed)."
     },
     {
       "source": "Water cycle diagram",

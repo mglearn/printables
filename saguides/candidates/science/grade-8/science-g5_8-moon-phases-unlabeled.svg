@@ -1,19 +1,24 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="8.5in" height="11in" viewBox="0 0 816 1056">
 <rect x="0" y="0" width="816" height="1056" fill="#ffffff"/>
-<circle cx="408.0" cy="228.0" r="78.0" fill="none" stroke="#000000" stroke-width="3"/>
 <circle cx="408.0" cy="228.0" r="78.0" fill="#000000" stroke="#000000" stroke-width="0"/>
 <circle cx="408.0" cy="228.0" r="78.0" fill="none" stroke="#000000" stroke-width="3"/>
+<circle cx="620.1" cy="315.9" r="78.0" fill="#000000" stroke="#000000" stroke-width="0"/>
+<path d="M 620.1 237.9 A 78.0 78.0 0 0 1 620.1 393.9 A 55.2 78.0 0 0 0 620.1 237.9 Z" fill="#ffffff" stroke="#000000" stroke-width="0"/>
 <circle cx="620.1" cy="315.9" r="78.0" fill="none" stroke="#000000" stroke-width="3"/>
-<path d="M 620.1 237.9 A 78.0 78.0 0 0 0 620.1 393.9 A 55.2 78.0 0 0 0 620.1 237.9 Z" fill="#000000" stroke="#000000" stroke-width="0"/>
+<circle cx="708.0" cy="528.0" r="78.0" fill="#000000" stroke="#000000" stroke-width="0"/>
+<path d="M 708.0 450.0 A 78.0 78.0 0 0 1 708.0 606.0 A 0.0 78.0 0 0 0 708.0 450.0 Z" fill="#ffffff" stroke="#000000" stroke-width="0"/>
 <circle cx="708.0" cy="528.0" r="78.0" fill="none" stroke="#000000" stroke-width="3"/>
-<path d="M 708.0 450.0 A 78.0 78.0 0 0 0 708.0 606.0 A 0.0 78.0 0 0 0 708.0 450.0 Z" fill="#000000" stroke="#000000" stroke-width="0"/>
+<circle cx="620.1" cy="740.1" r="78.0" fill="#000000" stroke="#000000" stroke-width="0"/>
+<path d="M 620.1 662.1 A 78.0 78.0 0 0 1 620.1 818.1 A 55.2 78.0 0 0 1 620.1 662.1 Z" fill="#ffffff" stroke="#000000" stroke-width="0"/>
 <circle cx="620.1" cy="740.1" r="78.0" fill="none" stroke="#000000" stroke-width="3"/>
-<path d="M 620.1 662.1 A 78.0 78.0 0 0 0 620.1 818.1 A 55.2 78.0 0 0 1 620.1 662.1 Z" fill="#000000" stroke="#000000" stroke-width="0"/>
 <circle cx="408.0" cy="828.0" r="78.0" fill="none" stroke="#000000" stroke-width="3"/>
+<circle cx="195.9" cy="740.1" r="78.0" fill="#000000" stroke="#000000" stroke-width="0"/>
+<path d="M 195.9 662.1 A 78.0 78.0 0 0 0 195.9 818.1 A 55.2 78.0 0 0 0 195.9 662.1 Z" fill="#ffffff" stroke="#000000" stroke-width="0"/>
 <circle cx="195.9" cy="740.1" r="78.0" fill="none" stroke="#000000" stroke-width="3"/>
-<path d="M 195.9 662.1 A 78.0 78.0 0 0 1 195.9 818.1 A 55.2 78.0 0 0 0 195.9 662.1 Z" fill="#000000" stroke="#000000" stroke-width="0"/>
+<circle cx="108.0" cy="528.0" r="78.0" fill="#000000" stroke="#000000" stroke-width="0"/>
+<path d="M 108.0 450.0 A 78.0 78.0 0 0 0 108.0 606.0 A 0.0 78.0 0 0 0 108.0 450.0 Z" fill="#ffffff" stroke="#000000" stroke-width="0"/>
 <circle cx="108.0" cy="528.0" r="78.0" fill="none" stroke="#000000" stroke-width="3"/>
-<path d="M 108.0 450.0 A 78.0 78.0 0 0 1 108.0 606.0 A 0.0 78.0 0 0 0 108.0 450.0 Z" fill="#000000" stroke="#000000" stroke-width="0"/>
+<circle cx="195.9" cy="315.9" r="78.0" fill="#000000" stroke="#000000" stroke-width="0"/>
+<path d="M 195.9 237.9 A 78.0 78.0 0 0 0 195.9 393.9 A 55.2 78.0 0 0 1 195.9 237.9 Z" fill="#ffffff" stroke="#000000" stroke-width="0"/>
 <circle cx="195.9" cy="315.9" r="78.0" fill="none" stroke="#000000" stroke-width="3"/>
-<path d="M 195.9 237.9 A 78.0 78.0 0 0 1 195.9 393.9 A 55.2 78.0 0 0 1 195.9 237.9 Z" fill="#000000" stroke="#000000" stroke-width="0"/>
 </svg>

@@ -237,19 +237,6 @@ window.SACL = {
       "svg": "candidates/science/grade-8/science-g5_8-moon-phases-unlabeled.svg"
     },
     {
-      "title": "Plate-boundary cross-sections",
-      "subject": "Science",
-      "grade": "8",
-      "aid_type": "science_graphic",
-      "teks": "plate tectonics",
-      "cue": "Recall boundary geometry",
-      "status": "NEEDS TEA/LOCAL VERIFICATION",
-      "notes": "No arrows/labels. Local review: confirm the geometry is unambiguous without motion arrows; otherwise classroom-only.",
-      "png": "candidates/science/grade-8/science-g8-plate-boundaries-unlabeled.png",
-      "pdf": "candidates/science/grade-8/science-g8-plate-boundaries-unlabeled.pdf",
-      "svg": "candidates/science/grade-8/science-g8-plate-boundaries-unlabeled.svg"
-    },
-    {
       "title": "Animal cell (unlabeled organelles)",
       "subject": "Science",
       "grade": "8/Biology",
@@ -397,6 +384,11 @@ window.SACL = {
       "source": "Science formula triangle: Ohm's law (V=IR)",
       "subject": "Science",
       "reason": "Not on G8 science reference sheet."
+    },
+    {
+      "source": "Plate boundaries (cross-sections)",
+      "subject": "Science",
+      "reason": "Boundary type reads only via motion arrows/labels; too ambiguous when stripped (\u00a79, fail-closed)."
     },
     {
       "source": "Water cycle diagram",

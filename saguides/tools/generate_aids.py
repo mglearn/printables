@@ -227,33 +227,32 @@ def math_geometry_2d_basic():
 
 
 def math_geometry_2d_full():
-    """math_geometry_2d: expanded plane figures (grades 5-7)."""
+    """math_geometry_2d: expanded plane figures (grades 5-7).
+    Each figure is centered in a grid cell so nothing overflows the page."""
     s = svg_open()
-    figs = []
-    # triangles: equilateral, right, obtuse, isosceles
-    figs.append([(0, 90), (100, -70), (200, 90)])          # equilateral-ish
-    figs.append([(0, 90), (0, -70), (170, 90)])            # right
-    figs.append([(0, 90), (60, -70), (210, 90)])           # scalene/obtuse
-    figs.append([(0, 90), (100, -80), (200, 90)])          # isosceles
-    # quads: square, rectangle, parallelogram, rhombus, trapezoid, kite
-    figs.append([(0, 0), (150, 0), (150, 150), (0, 150)])  # square
-    figs.append([(0, 0), (180, 0), (180, 110), (0, 110)])  # rectangle
-    figs.append([(30, 0), (200, 0), (170, 130), (0, 130)]) # parallelogram
-    figs.append([(90, 0), (180, 90), (90, 180), (0, 90)])  # rhombus
-    figs.append([(40, 0), (150, 0), (190, 120), (0, 120)]) # trapezoid
-    figs.append([(90, 0), (180, 80), (90, 200), (0, 80)])  # kite
-    # polygons: pentagon, hexagon, octagon, circle placeholder handled separately
-    positions = [(120, 170), (330, 170), (540, 170), (720, 170),
-                 (120, 400), (340, 400), (560, 400), (760, 400),
-                 (150, 640), (380, 640)]
-    for fig, (ox, oy) in zip(figs, positions):
-        pts = [(ox + x * 0.9, oy + y * 0.9) for x, y in fig]
-        s += polygon(pts, sw=3)
-    # pentagon, hexagon, octagon, circle on bottom row
-    s += polygon(_regular_polygon(150, 900, 78, 5, -90))
-    s += polygon(_regular_polygon(340, 900, 78, 6, -90))
-    s += polygon(_regular_polygon(540, 900, 78, 8, -90 + 22.5))
-    s += circle(730, 900, 80)
+    cols = [147, 321, 495, 669]                 # cell centers within margins
+    rows = [240, 430, 620, 810]
+    # figures defined as points relative to the cell center (~150x150 box)
+    polys = [
+        [(0, -72), (72, 58), (-72, 58)],                    # equilateral
+        [(-62, 58), (-62, -62), (72, 58)],                  # right
+        [(0, -72), (55, 58), (-55, 58)],                    # isosceles
+        [(-70, 55), (25, -62), (74, 55)],                   # scalene
+        [(-62, -62), (62, -62), (62, 62), (-62, 62)],       # square
+        [(-75, -46), (75, -46), (75, 46), (-75, 46)],       # rectangle
+        [(-52, -46), (78, -46), (52, 46), (-78, 46)],       # parallelogram
+        [(-42, -46), (42, -46), (78, 46), (-78, 46)],       # trapezoid
+        [(0, -72), (66, 0), (0, 72), (-66, 0)],             # rhombus
+        [(0, -72), (46, -6), (0, 80), (-46, -6)],           # kite (proper)
+    ]
+    placements = [(cols[i % 4], rows[i // 4]) for i in range(len(polys))]
+    for pts, (cx, cy) in zip(polys, placements):
+        s += polygon([(cx + x, cy + y) for x, y in pts], sw=3)
+    # pentagon, hexagon (row 2, cols 2-3); octagon, circle (row 3, cols 0-1)
+    s += polygon(_regular_polygon(cols[2], rows[2], 74, 5, -90))
+    s += polygon(_regular_polygon(cols[3], rows[2], 74, 6, -90))
+    s += polygon(_regular_polygon(cols[0], rows[3], 74, 8, -90 + 22.5))
+    s += circle(cols[1], rows[3], 76)
     return s + svg_close()
 
 
@@ -283,8 +282,8 @@ def math_geometry_3d():
 def math_mnemonic_pemdas():
     """mnemonic: verified acronym only, no decoded words/symbols."""
     s = svg_open()
-    s += text(CX, 520, 'PEMDAS', size=150, weight="800")
-    s += rect(CX - 300, 400, 600, 170, sw=4)
+    s += rect(CX - 330, 430, 660, 170, sw=4)
+    s += text(CX, 540, 'PEMDAS', size=118, weight="800")
     return s + svg_close()
 
 
@@ -451,31 +450,35 @@ def sci_states_of_matter():
 
 
 def sci_element_compound_mixture():
+    """Three framed boxes: identical single atoms | identical bonded molecules |
+    two atom types intermixed and unbonded. Grayscale; no labels/arrows/color."""
     s = svg_open()
     size = 200
     y = 430
     xs = [70, 308, 546]
-    # element: identical single atoms
-    el = [(35 + c * 43, 35 + rr * 43) for rr in range(4) for c in range(4)]
-    s += _particle_box(xs[0], y, size, [], r=0)
+
+    # element: identical single atoms (one type, unbonded) in a 3x3
     s += rect(xs[0], y, size, size, sw=3)
-    for px, py in el:
-        s += dot(xs[0] + px, y + py, 12)
-    # compound: identical two-atom molecules (big+small bonded)
+    for rr in range(3):
+        for c in range(3):
+            s += dot(xs[0] + 45 + c * 55, y + 45 + rr * 55, 13)
+
+    # compound: six IDENTICAL two-atom molecules (filled + open bonded), same orientation
     s += rect(xs[1], y, size, size, sw=3)
-    mol = [(45, 45), (110, 55), (60, 120), (130, 130), (40, 175)]
-    for px, py in mol:
-        s += dot(xs[1] + px, y + py, 14)
-        s += dot(xs[1] + px + 24, y + py + 8, 9)
-        s += line(xs[1] + px, y + py, xs[1] + px + 24, y + py + 8, sw=3)
-    # mixture: two kinds intermixed, unbonded
+    for (ax, ay) in [(48, 55), (122, 55), (48, 110), (122, 110), (48, 165), (122, 165)]:
+        bx, by = ax + 34, ay
+        s += line(xs[1] + ax, y + ay, xs[1] + bx, y + by, sw=4)
+        s += dot(xs[1] + ax, y + ay, 14)
+        s += circle(xs[1] + bx, y + by, 10, sw=3, fill="#ffffff")
+
+    # mixture: two atom types (filled + open) intermixed, unbonded, irregular
     s += rect(xs[2], y, size, size, sw=3)
-    big = [(40, 50), (150, 45), (95, 110), (55, 165), (160, 160)]
-    small = [(95, 45), (45, 110), (150, 110), (110, 165), (30, 45)]
-    for px, py in big:
-        s += dot(xs[2] + px, y + py, 15)
-    for px, py in small:
-        s += circle(xs[2] + px, y + py, 9, sw=3)
+    filled = [(52, 55), (150, 60), (100, 105), (55, 160), (160, 155)]
+    openc = [(105, 50), (50, 110), (155, 108), (112, 165), (78, 150)]
+    for px, py in filled:
+        s += dot(xs[2] + px, y + py, 13)
+    for px, py in openc:
+        s += circle(xs[2] + px, y + py, 10, sw=3, fill="#ffffff")
     return s + svg_close()
 
 
@@ -529,31 +532,28 @@ def sci_moon_phases():
 
 
 def _moon(cx, cy, r, phase):
-    """phase 0=new(dark) .. 0.5=full(light) .. ->new. Shade the dark part."""
-    s = circle(cx, cy, r, sw=3)
-    # illuminated fraction f (0..1) of a simple waxing/waning model
-    # draw dark region as filled path
-    if abs(phase - 0.0) < 1e-6 or abs(phase - 1.0) < 1e-6:
-        s += circle(cx, cy, r, sw=0, fill=BLACK)                     # new: fully dark
-        s += circle(cx, cy, r, sw=3)
-        return s
-    if abs(phase - 0.5) < 1e-6:
-        return s                                                     # full: fully light
-    # terminator ellipse width
-    k = math.cos(2 * math.pi * phase)          # -1..1
+    """phase in [0,1): 0=new (dark), 0.25=first quarter, 0.5=full (light),
+    0.75=last quarter. Waxing (0->0.5) is lit on the right; waning on the left.
+    Draws a dark disk with the illuminated lune in white, then the outline."""
+    eps = 1e-6
+    outline = circle(cx, cy, r, sw=3)
+    if phase < eps:                                   # new moon: fully dark
+        return circle(cx, cy, r, sw=0, fill=BLACK) + outline
+    if abs(phase - 0.5) < eps:                        # full moon: fully light
+        return outline
     waxing = phase < 0.5
-    # dark side path: left half if waxing, right half if waning, minus lit crescent
-    rx = abs(k) * r
-    if waxing:
-        # dark on left; lit grows from right
-        d = (f'M {cx:.1f} {cy-r:.1f} '
-             f'A {r:.1f} {r:.1f} 0 0 0 {cx:.1f} {cy+r:.1f} '
-             f'A {rx:.1f} {r:.1f} 0 0 {0 if k>0 else 1} {cx:.1f} {cy-r:.1f} Z')
-    else:
-        d = (f'M {cx:.1f} {cy-r:.1f} '
-             f'A {r:.1f} {r:.1f} 0 0 1 {cx:.1f} {cy+r:.1f} '
-             f'A {rx:.1f} {r:.1f} 0 0 {1 if k>0 else 0} {cx:.1f} {cy-r:.1f} Z')
-    s += path(d, sw=0, fill=BLACK)
+    c = math.cos(2 * math.pi * phase)                 # >0 crescent, <0 gibbous
+    rx = r * abs(c)                                    # terminator half-width
+    top = (cx, cy - r)
+    bot = (cx, cy + r)
+    limb_sweep = 1 if waxing else 0                   # lit limb: right if waxing
+    term_sweep = (0 if c > 0 else 1) if waxing else (1 if c > 0 else 0)
+    s = circle(cx, cy, r, sw=0, fill=BLACK)           # dark disk
+    d = (f'M {top[0]:.1f} {top[1]:.1f} '
+         f'A {r:.1f} {r:.1f} 0 0 {limb_sweep} {bot[0]:.1f} {bot[1]:.1f} '
+         f'A {rx:.1f} {r:.1f} 0 0 {term_sweep} {top[0]:.1f} {top[1]:.1f} Z')
+    s += path(d, sw=0, fill="#ffffff")                # illuminated lune
+    s += outline
     return s
 
 
@@ -854,12 +854,6 @@ REGISTRY = [
          teks="lunar cycle", status="NEEDS TEA/LOCAL VERIFICATION",
          source="Science 'Phases of the Moon' cue card",
          cue="Recall the illuminated-shape sequence", notes="Shading depicts illumination (not a color label). Local review: confirm grayscale illumination is acceptable; no numbers/arrows/labels."),
-    dict(fn=sci_plate_boundaries, file="science-g8-plate-boundaries-unlabeled.svg",
-         folder="candidates/science/grade-8", aid_type="science_graphic",
-         subject="Science", grade="8", concept="Plate-boundary cross-sections",
-         teks="plate tectonics", status="NEEDS TEA/LOCAL VERIFICATION",
-         source="Science 'Plate Boundaries' cue card",
-         cue="Recall boundary geometry", notes="No arrows/labels. Local review: confirm the geometry is unambiguous without motion arrows; otherwise classroom-only."),
     dict(fn=sci_cell_animal, file="science-g8-bio-animal-cell-unlabeled.svg",
          folder="candidates/science/grade-8", aid_type="science_graphic",
          subject="Science", grade="8/Biology", concept="Animal cell (unlabeled organelles)",
@@ -926,6 +920,7 @@ CLASSROOM_ONLY = [
     dict(source="Science formula triangle: Power (P=W/t)", subject="Science", reason="Not on G8 science reference sheet."),
     dict(source="Science formula triangle: Wave speed (v=fλ)", subject="Science", reason="Not on G8 science reference sheet."),
     dict(source="Science formula triangle: Ohm's law (V=IR)", subject="Science", reason="Not on G8 science reference sheet."),
+    dict(source="Plate boundaries (cross-sections)", subject="Science", reason="Boundary type reads only via motion arrows/labels; too ambiguous when stripped (§9, fail-closed)."),
     dict(source="Water cycle diagram", subject="Science", reason="Meaning depends on arrows/labels; ambiguous when stripped (§9)."),
     dict(source="Rock cycle diagram", subject="Science", reason="Cyclic process needs arrows/labels (§9)."),
     dict(source="Weathering/erosion/deposition", subject="Science", reason="Process meaning depends on arrows/labels."),

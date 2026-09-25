@@ -30,7 +30,9 @@
     b.appendChild(meta);
     var row = el('div'); row.style.display = 'flex'; row.style.gap = '.4rem'; row.style.flexWrap = 'wrap';
     row.appendChild(el('span', 'sacl-type', a.aid_type));
-    row.appendChild(el('span', badgeClass(a.status), a.status));
+    // "CANDIDATE" is the default state (explained in the status key at the page
+    // bottom); only surface the exceptions per-card.
+    if (a.status !== 'CANDIDATE') row.appendChild(el('span', badgeClass(a.status), a.status));
     b.appendChild(row);
     b.appendChild(el('div', 'sacl-cue', 'Memory cue: ' + a.cue));
     b.appendChild(el('div', 'sacl-notes', a.notes));

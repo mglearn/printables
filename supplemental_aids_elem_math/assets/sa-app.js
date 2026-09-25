@@ -83,7 +83,7 @@
     var img = el('img');
     img.loading = 'lazy';
     img.src = w.file;
-    img.alt = w.title + ' — printable elementary math supplemental aid';
+    img.alt = w.title + ' — printable elementary math visual cue card';
     btn.appendChild(img);
     btn.addEventListener('click', function () { openLightbox(w); });
     fig.appendChild(btn);

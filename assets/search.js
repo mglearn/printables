@@ -7,10 +7,10 @@
 
   // Sheet-level sources — { manifest global, collection path, display label }.
   var SRC = [
-    { g: 'SA_MANIFEST', path: 'supplemental_aids/',              label: 'Science Supplemental Aids (6–8)' },
-    { g: 'MA_MANIFEST', path: 'supplemental_aids_math/',         label: 'Math Supplemental Aids (6–8)' },
-    { g: 'ES_MANIFEST', path: 'supplemental_aids_elem_science/', label: 'Elementary Science · STAAR (3–5)' },
-    { g: 'EM_MANIFEST', path: 'supplemental_aids_elem_math/',    label: 'Elementary Math (3–5)' }
+    { g: 'SA_MANIFEST', path: 'supplemental_aids/',              label: 'Science Visual Cue Cards (6–8)' },
+    { g: 'MA_MANIFEST', path: 'supplemental_aids_math/',         label: 'Math Visual Cue Cards (6–8)' },
+    { g: 'ES_MANIFEST', path: 'supplemental_aids_elem_science/', label: 'Elementary Science Visual Cue Cards (3–5)' },
+    { g: 'EM_MANIFEST', path: 'supplemental_aids_elem_math/',    label: 'Elementary Math Visual Cue Cards (3–5)' }
   ];
 
   // Collections without a sheet-level manifest — searchable at the collection level.

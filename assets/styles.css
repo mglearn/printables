@@ -169,6 +169,42 @@ main { max-width: var(--maxw); margin: 0 auto; padding: clamp(1.4rem, 3vw, 2.4re
 .notice p { margin: .3rem 0; }
 .notice .notice-sub { font-size: .88rem; color: var(--ink-soft); }
 
+/* --- Resource classification (visual cue cards vs. STAAR supplemental aids) --- */
+.resource-badge {
+  display: inline-flex; align-items: center; gap: .5rem;
+  background: var(--brand-dark); color: #fff;
+  font-weight: 900; letter-spacing: .04em; text-transform: uppercase;
+  font-size: clamp(.82rem, 1.6vw, .98rem); line-height: 1.2;
+  padding: .55rem 1.1rem; border-radius: 999px;
+  border: 2px solid var(--gold); box-shadow: var(--shadow-sm);
+  margin: .2rem 0 1.2rem;
+}
+.resource-badge::before { content: "\2605"; color: var(--gold); font-size: 1.1em; line-height: 1; }
+.staar-notice {
+  background: #fff; border: 1px solid var(--line); border-left: 6px solid var(--gold);
+  border-radius: var(--radius); box-shadow: var(--shadow-sm);
+  padding: 1.1rem 1.3rem; margin: 0 0 1.8rem;
+}
+.staar-notice h2 { margin: 0 0 .5rem; color: var(--brand-dark); font-size: clamp(1.15rem, 2.6vw, 1.4rem); }
+.staar-notice p { margin: .55rem 0; color: var(--ink); max-width: 80ch; }
+.staar-notice p:last-child { margin-bottom: 0; }
+.staar-notice a { font-weight: 700; }
+.download-note {
+  background: #eef5f2; border: 1px solid var(--line); border-radius: 12px;
+  padding: .75rem 1rem; margin: 0 0 1.4rem; font-size: .92rem; color: var(--ink); max-width: 80ch;
+}
+.download-note strong { color: var(--brand-dark); }
+.for-staar {
+  background: #f1f7f4; border: 1px solid var(--line); border-radius: var(--radius);
+  padding: 1.3rem 1.5rem; margin: 1.8rem 0 0;
+}
+.for-staar h2 { color: var(--brand-dark); margin: 0 0 .6rem; font-size: clamp(1.2rem, 2.8vw, 1.6rem); }
+.for-staar ul { margin: .3rem 0; padding-left: 1.3rem; color: var(--ink); display: grid; gap: .4rem; }
+.for-staar li { max-width: 82ch; }
+.for-staar p { color: var(--ink); max-width: 82ch; margin: .8rem 0 0; }
+.for-staar a { font-weight: 700; }
+.guidance-date { font-size: .86rem; color: var(--ink-soft); font-style: italic; margin: 1rem 0 0; }
+
 /* --- Gallery filters --- */
 .filters {
   display: flex; flex-wrap: wrap; align-items: flex-end; gap: .9rem;

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="8.5in" height="11in" viewBox="0 0 816 1056">
+<rect x="0" y="0" width="816" height="1056" fill="#ffffff"/>
+<rect x="128.0" y="308.0" width="560.0" height="440.0" rx="18" fill="none" stroke="#000000" stroke-width="5"/>
+<rect x="144.0" y="324.0" width="528.0" height="408.0" rx="14" fill="none" stroke="#000000" stroke-width="2"/>
+<rect x="258.0" y="398.0" width="300.0" height="260.0" rx="30" fill="none" stroke="#000000" stroke-width="3"/>
+<circle cx="218.0" cy="408.0" r="55.0" fill="none" stroke="#000000" stroke-width="3"/>
+<circle cx="218.0" cy="408.0" r="16.0" fill="#000000"/>
+<ellipse cx="198.0" cy="648.0" rx="34.0" ry="18.0" fill="none" stroke="#000000" stroke-width="3"/>
+<ellipse cx="618.0" cy="418.0" rx="34.0" ry="18.0" fill="none" stroke="#000000" stroke-width="3"/>
+<ellipse cx="618.0" cy="648.0" rx="34.0" ry="18.0" fill="none" stroke="#000000" stroke-width="3"/>
+<ellipse cx="398.0" cy="368.0" rx="34.0" ry="18.0" fill="none" stroke="#000000" stroke-width="3"/>
+<ellipse cx="408.0" cy="708.0" rx="34.0" ry="18.0" fill="none" stroke="#000000" stroke-width="3"/>
+</svg>

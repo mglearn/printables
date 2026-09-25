@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>STAAR Supplemental Aid Candidate Library — Teacher Reference</title>
+  <meta name="description"
+        content="Teacher reference catalog of paper-based science and math supplemental-aid candidates designed to follow current TEA guidance. Not a student testing aid; not TEA approved. Local review required.">
+  <meta name="robots" content="noindex">
+  <link rel="stylesheet" href="../../assets/styles.css">
+  <style>
+    .tr-banner{background:var(--brand-dark);color:#fff;border:2px solid var(--gold);
+      border-radius:var(--radius);padding:1rem 1.2rem;margin:0 0 1.2rem;font-weight:800}
+    .tr-banner span{display:block;font-weight:600;font-size:.92rem;margin-top:.35rem;color:#e8f3f0}
+    .disclaimer{background:#fff;border:1px solid var(--line);border-left:6px solid var(--gold);
+      border-radius:var(--radius);padding:1rem 1.2rem;margin:0 0 1.4rem;max-width:80ch}
+    .disclaimer p{margin:.5rem 0}
+    .sacl-controls{display:flex;flex-wrap:wrap;gap:.6rem;align-items:center;margin:0 0 1.2rem}
+    .sacl-controls select{border:1.5px solid var(--line);border-radius:10px;padding:.45rem .7rem;font:inherit}
+    .sacl-count{font-weight:800;color:var(--ink-soft);margin-left:auto}
+    .sacl-grid{display:grid;gap:clamp(1rem,2vw,1.4rem);
+      grid-template-columns:repeat(auto-fill,minmax(290px,1fr))}
+    .sacl-card{background:var(--card);border:1px solid var(--line);border-radius:14px;
+      box-shadow:var(--shadow-sm);overflow:hidden;display:flex;flex-direction:column}
+    .sacl-thumb{background:#fff;border-bottom:1px solid var(--line);aspect-ratio:8.5/11;
+      display:flex;align-items:center;justify-content:center;overflow:hidden}
+    .sacl-thumb img{width:100%;height:100%;object-fit:contain}
+    .sacl-body{padding:.85rem 1rem 1rem;display:flex;flex-direction:column;gap:.4rem;flex:1}
+    .sacl-title{font-weight:800;color:var(--ink);font-size:1rem;line-height:1.25}
+    .sacl-meta{font-size:.82rem;color:var(--ink-soft)}
+    .sacl-type{display:inline-block;font-family:ui-monospace,Menlo,Consolas,monospace;
+      font-size:.74rem;background:#e2f1ec;color:var(--brand-dark);border-radius:6px;padding:.12rem .45rem}
+    .badge{display:inline-block;font-size:.72rem;font-weight:800;letter-spacing:.02em;
+      border-radius:999px;padding:.18rem .55rem;text-transform:uppercase}
+    .badge.candidate{background:#e2f1ec;color:var(--brand-dark)}
+    .badge.verify{background:#fdecc8;color:#7a5200}
+    .badge.classroom{background:#eceff1;color:#455a64}
+    .sacl-cue{font-size:.86rem;color:var(--ink)}
+    .sacl-notes{font-size:.8rem;color:var(--ink-soft)}
+    .sacl-dls{display:flex;gap:.4rem;flex-wrap:wrap;margin-top:.2rem}
+    .sacl-dls a{text-decoration:none;font-weight:800;font-size:.8rem;color:var(--brand-dark);
+      background:#e2f1ec;border-radius:8px;padding:.28rem .55rem}
+    .sacl-review{display:flex;align-items:center;gap:.4rem;font-size:.82rem;color:var(--ink-soft);margin-top:.3rem}
+    .co-list{columns:2;max-width:80ch}
+    @media(max-width:640px){.co-list{columns:1}}
+    .co-list li{margin:0 0 .4rem}
+  </style>
+</head>
+<body>
+  <header class="subhero">
+    <div class="subhero-inner">
+      <a class="back-link" href="../../index.html">← Teacher Printables</a>
+      <h1 class="visually-hidden">STAAR Supplemental Aid Candidate Library</h1>
+      <img class="hero-banner" src="assets/hero.png"
+           alt="STAAR Supplemental Aid Candidate Library — a teacher reference. Left: a colorful, labeled classroom cue card. Right: a minimal grayscale, unlabeled candidate aid. Paper-based science and math aids rebuilt to follow current TEA supplemental-aid guidance.">
+    </div>
+  </header>
+
+  <main>
+    <div class="tr-banner">TEACHER REFERENCE — NOT A STUDENT TESTING AID
+      <span>This catalog carries titles, categories, and notes for educator selection. The student-facing aid files themselves contain none of that text.</span>
+    </div>
+
+    <section class="disclaimer" aria-label="Disclaimer">
+      <p>These resources are designed to follow current Texas Education Agency guidance for locally created STAAR
+        supplemental aids. <strong>TEA does not review or approve locally created supplemental aids.</strong> A
+        resource's inclusion in this library does not make it automatically allowable for a particular student.
+        Eligibility, routine use, documentation, individualization, and local testing procedures must still be
+        reviewed before state assessment use.</p>
+      <p><strong>Individualize.</strong> Select only the aid or small set of aids that the individual student
+        routinely, independently, and effectively uses during instruction and classroom testing. Do not automatically
+        provide every student with the same collection. There is no "complete STAAR packet."</p>
+      <p class="sacl-meta">Testing guidance reviewed: <strong id="review-date">—</strong>. This does not imply the
+        library remains current after that date. Never described as TEA approved, STAAR approved, or certified.</p>
+    </section>
+
+    <div class="sacl-controls">
+      <label>Subject
+        <select id="f-subject"><option value="">All</option></select>
+      </label>
+      <label>Aid type
+        <select id="f-type"><option value="">All</option></select>
+      </label>
+      <label>Status
+        <select id="f-status"><option value="">All</option></select>
+      </label>
+      <span class="sacl-count" id="count">—</span>
+    </div>
+
+    <div class="sacl-grid" id="grid"></div>
+
+    <section aria-labelledby="co-h" style="margin-top:2.4rem">
+      <h2 id="co-h" class="section-title">Classroom-use-only (not built as candidates)</h2>
+      <p class="section-sub wide">These source resources were reviewed and kept as classroom/review materials only —
+        because a permitted, unlabeled test-use version would be ambiguous, or because the type is not a permitted
+        supplemental-aid category. Fail-closed (spec sections 9, 10, 26).</p>
+      <ul class="co-list" id="co-list"></ul>
+    </section>
+  </main>
+
+  <footer>
+    <p class="built">Teacher Printables · STAAR Supplemental Aid Candidate Library</p>
+    <p>Master library for educator selection · <a href="../README.md">README &amp; disclaimer</a> ·
+       <a href="../compliance-matrix.md">Compliance matrix</a></p>
+  </footer>
+
+  <script src="catalog-data.js" defer></script>
+  <script src="catalog.js" defer></script>
+</body>
+</html>

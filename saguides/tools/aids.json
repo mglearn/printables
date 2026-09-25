@@ -1,0 +1,498 @@
+{
+  "aids": [
+    {
+      "file": "math-g3_5-number-chart-100.svg",
+      "folder": "candidates/math/grade-3",
+      "aid_type": "math_number_chart",
+      "subject": "Math",
+      "grade": "3-5",
+      "concept": "Hundreds chart (1-100)",
+      "teks": "counting, patterns, number relationships",
+      "status": "CANDIDATE",
+      "source": "Elementary math cue cards (number/place value)",
+      "cue": "Recall counting/skip-count patterns",
+      "notes": "Plain chart; no highlighting/shading.",
+      "path": "candidates/math/grade-3/math-g3_5-number-chart-100.svg"
+    },
+    {
+      "file": "math-g3_5-place-value-whole-blank.svg",
+      "folder": "candidates/math/grade-4",
+      "aid_type": "math_place_value_chart",
+      "subject": "Math",
+      "grade": "3-5",
+      "concept": "Blank whole-number place-value chart",
+      "teks": "place value to millions",
+      "status": "CANDIDATE",
+      "source": "Elementary math 'Place Value' cue card",
+      "cue": "Align digits by place",
+      "notes": "Blank cells + period commas only; no words/examples.",
+      "path": "candidates/math/grade-4/math-g3_5-place-value-whole-blank.svg"
+    },
+    {
+      "file": "math-g5-place-value-decimal-blank.svg",
+      "folder": "candidates/math/grade-5",
+      "aid_type": "math_place_value_chart",
+      "subject": "Math",
+      "grade": "5",
+      "concept": "Blank decimal place-value chart",
+      "teks": "decimals to thousandths",
+      "status": "CANDIDATE",
+      "source": "Elementary math 'Place Value' cue card",
+      "cue": "Align digits around the decimal point",
+      "notes": "Blank cells + decimal point only.",
+      "path": "candidates/math/grade-5/math-g5-place-value-decimal-blank.svg"
+    },
+    {
+      "file": "math-g3_5-fraction-bars-blank.svg",
+      "folder": "candidates/math/grade-3",
+      "aid_type": "math_fraction_model",
+      "subject": "Math",
+      "grade": "3-5",
+      "concept": "Unlabeled fraction bars (wall)",
+      "teks": "fractions, equivalence",
+      "status": "CANDIDATE",
+      "source": "Elementary math 'Fractions' cue card",
+      "cue": "Compare partition sizes",
+      "notes": "Partitioning only; no numbers/labels/equivalency.",
+      "path": "candidates/math/grade-3/math-g3_5-fraction-bars-blank.svg"
+    },
+    {
+      "file": "math-g3_5-fraction-circles-blank.svg",
+      "folder": "candidates/math/grade-3",
+      "aid_type": "math_fraction_model",
+      "subject": "Math",
+      "grade": "3-5",
+      "concept": "Unlabeled fraction circles",
+      "teks": "fractions, equivalence",
+      "status": "CANDIDATE",
+      "source": "Elementary math 'Fractions' cue card",
+      "cue": "See equal partitions of a whole",
+      "notes": "Partitioning only; no numbers/labels.",
+      "path": "candidates/math/grade-3/math-g3_5-fraction-circles-blank.svg"
+    },
+    {
+      "file": "math-g3-2d-figures.svg",
+      "folder": "candidates/math/grade-3",
+      "aid_type": "math_geometry_2d",
+      "subject": "Math",
+      "grade": "3-5",
+      "concept": "Basic 2-D geometric figures",
+      "teks": "classify 2-D figures",
+      "status": "CANDIDATE",
+      "source": "Math geometry cue material",
+      "cue": "Recall figure shapes",
+      "notes": "Outlines only; no names/measures. Keep 2-D and 3-D separate (\u00a76D).",
+      "path": "candidates/math/grade-3/math-g3-2d-figures.svg"
+    },
+    {
+      "file": "math-g5_7-2d-figures.svg",
+      "folder": "candidates/math/grade-5",
+      "aid_type": "math_geometry_2d",
+      "subject": "Math",
+      "grade": "5-7",
+      "concept": "Expanded 2-D geometric figures",
+      "teks": "classify triangles/quadrilaterals/polygons",
+      "status": "CANDIDATE",
+      "source": "Math geometry cue material",
+      "cue": "Recall figure shapes",
+      "notes": "Outlines only; no names/measures/angles.",
+      "path": "candidates/math/grade-5/math-g5_7-2d-figures.svg"
+    },
+    {
+      "file": "math-g6_8-3d-figures.svg",
+      "folder": "candidates/math/grade-6",
+      "aid_type": "math_geometry_3d",
+      "subject": "Math",
+      "grade": "6-8",
+      "concept": "3-D geometric solids",
+      "teks": "3-D figures, nets/volume context",
+      "status": "CANDIDATE",
+      "source": "Math geometry cue material",
+      "cue": "Recall solid shapes",
+      "notes": "Solids only (no nets); no labels/measures. Separate from 2-D (\u00a76D).",
+      "path": "candidates/math/grade-6/math-g6_8-3d-figures.svg"
+    },
+    {
+      "file": "math-g6-mnemonic-pemdas.svg",
+      "folder": "candidates/math/mnemonics",
+      "aid_type": "mnemonic",
+      "subject": "Math",
+      "grade": "5-8",
+      "concept": "Order-of-operations acronym",
+      "teks": "order of operations",
+      "status": "NEEDS TEA/LOCAL VERIFICATION",
+      "source": "Order of operations instruction",
+      "cue": "Recall the operation order",
+      "notes": "Acronym letters only; no decoded words/symbols (\u00a75). Local review: confirm acronym mnemonics are accepted.",
+      "path": "candidates/math/mnemonics/math-g6-mnemonic-pemdas.svg"
+    },
+    {
+      "file": "math-venn-blank.svg",
+      "folder": "candidates/math/blank-organizers",
+      "aid_type": "blank_graphic_organizer",
+      "subject": "Math/Science",
+      "grade": "3-8",
+      "concept": "Blank Venn diagram",
+      "teks": "compare/contrast, sort",
+      "status": "CANDIDATE",
+      "source": "Classroom graphic organizers",
+      "cue": "Sort into overlapping sets",
+      "notes": "Genuinely blank; no words/labels/numbers.",
+      "path": "candidates/math/blank-organizers/math-venn-blank.svg"
+    },
+    {
+      "file": "math-tchart-blank.svg",
+      "folder": "candidates/math/blank-organizers",
+      "aid_type": "blank_graphic_organizer",
+      "subject": "Math/Science",
+      "grade": "3-8",
+      "concept": "Blank T-chart",
+      "teks": "organize pairs/relationships",
+      "status": "CANDIDATE",
+      "source": "Classroom graphic organizers",
+      "cue": "Two-column structure",
+      "notes": "Genuinely blank; no words/labels/numbers.",
+      "path": "candidates/math/blank-organizers/math-tchart-blank.svg"
+    },
+    {
+      "file": "math-frayer-blank.svg",
+      "folder": "candidates/math/blank-organizers",
+      "aid_type": "blank_graphic_organizer",
+      "subject": "Math/Science",
+      "grade": "3-8",
+      "concept": "Blank four-quadrant organizer",
+      "teks": "organize a concept",
+      "status": "CANDIDATE",
+      "source": "Classroom graphic organizers",
+      "cue": "Four-part structure",
+      "notes": "Genuinely blank; no words/labels/numbers.",
+      "path": "candidates/math/blank-organizers/math-frayer-blank.svg"
+    },
+    {
+      "file": "math-grid-blank.svg",
+      "folder": "candidates/math/blank-organizers",
+      "aid_type": "blank_graphic_organizer",
+      "subject": "Math/Science",
+      "grade": "3-8",
+      "concept": "Blank table grid",
+      "teks": "organize data",
+      "status": "CANDIDATE",
+      "source": "Classroom graphic organizers",
+      "cue": "Rows/columns structure",
+      "notes": "Genuinely blank; no words/labels/numbers.",
+      "path": "candidates/math/blank-organizers/math-grid-blank.svg"
+    },
+    {
+      "file": "science-g5_8-states-of-matter-unlabeled.svg",
+      "folder": "candidates/science/grade-8",
+      "aid_type": "science_graphic",
+      "subject": "Science",
+      "grade": "5-8",
+      "concept": "States of matter (particle spacing)",
+      "teks": "particle model of solids/liquids/gases",
+      "status": "CANDIDATE",
+      "source": "Science 'States of Matter' cue card",
+      "cue": "Recall particle spacing/arrangement",
+      "notes": "Grayscale particles; no labels/arrows/color-coding.",
+      "path": "candidates/science/grade-8/science-g5_8-states-of-matter-unlabeled.svg"
+    },
+    {
+      "file": "science-g8-element-compound-mixture-unlabeled.svg",
+      "folder": "candidates/science/grade-8",
+      "aid_type": "science_graphic",
+      "subject": "Science",
+      "grade": "8",
+      "concept": "Element / compound / mixture particles",
+      "teks": "classification of matter",
+      "status": "CANDIDATE",
+      "source": "Science 'Elements, Compounds & Mixtures' cue card",
+      "cue": "Distinguish particle groupings",
+      "notes": "Grayscale particles; no labels/arrows/color.",
+      "path": "candidates/science/grade-8/science-g8-element-compound-mixture-unlabeled.svg"
+    },
+    {
+      "file": "science-g5-mixture-unlabeled.svg",
+      "folder": "candidates/science/grade-5",
+      "aid_type": "science_graphic",
+      "subject": "Science",
+      "grade": "5",
+      "concept": "Mixture (two particle types)",
+      "teks": "mixtures keep their properties",
+      "status": "CANDIDATE",
+      "source": "Elementary science 'Mixtures & Solutions' cue card",
+      "cue": "Two materials mixed, not bonded",
+      "notes": "Two neutral shapes; no labels/color.",
+      "path": "candidates/science/grade-5/science-g5-mixture-unlabeled.svg"
+    },
+    {
+      "file": "science-g8-atomic-structure-unlabeled.svg",
+      "folder": "candidates/science/grade-8",
+      "aid_type": "science_graphic",
+      "subject": "Science",
+      "grade": "8",
+      "concept": "Atomic structure (generic Bohr model)",
+      "teks": "atomic structure",
+      "status": "CANDIDATE",
+      "source": "Science 'Atomic Structure' cue card",
+      "cue": "Nucleus + electron shells layout",
+      "notes": "Generic (no element implied); no numbers/labels.",
+      "path": "candidates/science/grade-8/science-g8-atomic-structure-unlabeled.svg"
+    },
+    {
+      "file": "science-g5_8-moon-phases-unlabeled.svg",
+      "folder": "candidates/science/grade-8",
+      "aid_type": "science_graphic",
+      "subject": "Science",
+      "grade": "5-8",
+      "concept": "Moon phases (illumination shapes)",
+      "teks": "lunar cycle",
+      "status": "NEEDS TEA/LOCAL VERIFICATION",
+      "source": "Science 'Phases of the Moon' cue card",
+      "cue": "Recall the illuminated-shape sequence",
+      "notes": "Shading depicts illumination (not a color label). Local review: confirm grayscale illumination is acceptable; no numbers/arrows/labels.",
+      "path": "candidates/science/grade-8/science-g5_8-moon-phases-unlabeled.svg"
+    },
+    {
+      "file": "science-g8-plate-boundaries-unlabeled.svg",
+      "folder": "candidates/science/grade-8",
+      "aid_type": "science_graphic",
+      "subject": "Science",
+      "grade": "8",
+      "concept": "Plate-boundary cross-sections",
+      "teks": "plate tectonics",
+      "status": "NEEDS TEA/LOCAL VERIFICATION",
+      "source": "Science 'Plate Boundaries' cue card",
+      "cue": "Recall boundary geometry",
+      "notes": "No arrows/labels. Local review: confirm the geometry is unambiguous without motion arrows; otherwise classroom-only.",
+      "path": "candidates/science/grade-8/science-g8-plate-boundaries-unlabeled.svg"
+    },
+    {
+      "file": "science-g8-bio-animal-cell-unlabeled.svg",
+      "folder": "candidates/science/grade-8",
+      "aid_type": "science_graphic",
+      "subject": "Science",
+      "grade": "8/Biology",
+      "concept": "Animal cell (unlabeled organelles)",
+      "teks": "cell structure",
+      "status": "CANDIDATE",
+      "source": "Science 'Cell Structures' cue card",
+      "cue": "Recall organelle shapes/locations",
+      "notes": "Line art; no labels/color/arrows.",
+      "path": "candidates/science/grade-8/science-g8-bio-animal-cell-unlabeled.svg"
+    },
+    {
+      "file": "science-g8-bio-plant-cell-unlabeled.svg",
+      "folder": "candidates/science/grade-8",
+      "aid_type": "science_graphic",
+      "subject": "Science",
+      "grade": "8/Biology",
+      "concept": "Plant cell (unlabeled organelles)",
+      "teks": "cell structure",
+      "status": "CANDIDATE",
+      "source": "Science 'Cell Structures' cue card",
+      "cue": "Recall wall/vacuole/organelle layout",
+      "notes": "Line art; no labels/color/arrows.",
+      "path": "candidates/science/grade-8/science-g8-bio-plant-cell-unlabeled.svg"
+    },
+    {
+      "file": "science-g5-plant-parts-unlabeled.svg",
+      "folder": "candidates/science/grade-5",
+      "aid_type": "science_graphic",
+      "subject": "Science",
+      "grade": "3-5",
+      "concept": "Plant parts (unlabeled)",
+      "teks": "plant structures/functions",
+      "status": "CANDIDATE",
+      "source": "Elementary science 'Plant Parts & Functions' cue card",
+      "cue": "Recall roots/stem/leaves/flower",
+      "notes": "Line art; no labels/color/arrows.",
+      "path": "candidates/science/grade-5/science-g5-plant-parts-unlabeled.svg"
+    },
+    {
+      "file": "science-g8-transverse-wave-unlabeled.svg",
+      "folder": "candidates/science/grade-8",
+      "aid_type": "science_graphic",
+      "subject": "Science",
+      "grade": "8",
+      "concept": "Transverse wave (unlabeled)",
+      "teks": "wave properties",
+      "status": "CANDIDATE",
+      "source": "Science 'Wave Properties' cue card",
+      "cue": "Recall amplitude/wavelength shape",
+      "notes": "Curve + faint rest axis; no labels/measures/arrows.",
+      "path": "candidates/science/grade-8/science-g8-transverse-wave-unlabeled.svg"
+    },
+    {
+      "file": "science-g5-simple-circuit-unlabeled.svg",
+      "folder": "candidates/science/grade-5",
+      "aid_type": "science_graphic",
+      "subject": "Science",
+      "grade": "4-5",
+      "concept": "Simple closed circuit (pictorial)",
+      "teks": "electricity, closed circuit",
+      "status": "NEEDS TEA/LOCAL VERIFICATION",
+      "source": "Elementary science 'Electricity & Circuits' cue card",
+      "cue": "Recall a complete loop",
+      "notes": "Pictorial (not schematic symbols); no text. Local review: confirm pictorial circuit is acceptable; otherwise classroom-only.",
+      "path": "candidates/science/grade-5/science-g5-simple-circuit-unlabeled.svg"
+    },
+    {
+      "file": "science-g8-formula-triangle-density.svg",
+      "folder": "candidates/science/grade-8",
+      "aid_type": "science_formula_triangle",
+      "subject": "Science",
+      "grade": "8",
+      "concept": "Density relationship (variables only)",
+      "teks": "density = mass/volume",
+      "status": "CANDIDATE",
+      "source": "Science 'Density' formula-triangle cue card",
+      "cue": "Recall the m/D/V relationship",
+      "notes": "On G8 science reference sheet. Variables only; no name/units/operators.",
+      "path": "candidates/science/grade-8/science-g8-formula-triangle-density.svg"
+    },
+    {
+      "file": "science-g8-formula-triangle-average-speed.svg",
+      "folder": "candidates/science/grade-8",
+      "aid_type": "science_formula_triangle",
+      "subject": "Science",
+      "grade": "8",
+      "concept": "Average speed relationship (variables only)",
+      "teks": "speed = distance/time",
+      "status": "CANDIDATE",
+      "source": "Science 'Average Speed' formula-triangle cue card",
+      "cue": "Recall the d/s/t relationship",
+      "notes": "On G8 science reference sheet. Variables only.",
+      "path": "candidates/science/grade-8/science-g8-formula-triangle-average-speed.svg"
+    },
+    {
+      "file": "science-g8-formula-triangle-net-force.svg",
+      "folder": "candidates/science/grade-8",
+      "aid_type": "science_formula_triangle",
+      "subject": "Science",
+      "grade": "8",
+      "concept": "Net force relationship (variables only)",
+      "teks": "F = m x a",
+      "status": "CANDIDATE",
+      "source": "Science 'Force' formula-triangle cue card",
+      "cue": "Recall the F/m/a relationship",
+      "notes": "On G8 science reference sheet. Variables only.",
+      "path": "candidates/science/grade-8/science-g8-formula-triangle-net-force.svg"
+    },
+    {
+      "file": "science-g8-formula-triangle-work.svg",
+      "folder": "candidates/science/grade-8",
+      "aid_type": "science_formula_triangle",
+      "subject": "Science",
+      "grade": "8",
+      "concept": "Work relationship (variables only)",
+      "teks": "W = F x d",
+      "status": "CANDIDATE",
+      "source": "Science 'Work' formula-triangle cue card",
+      "cue": "Recall the W/F/d relationship",
+      "notes": "On G8 science reference sheet. Variables only.",
+      "path": "candidates/science/grade-8/science-g8-formula-triangle-work.svg"
+    }
+  ],
+  "classroom_only": [
+    {
+      "source": "Science formula triangle: Weight (W=mg)",
+      "subject": "Science",
+      "reason": "Not on G8 science reference sheet (fail-closed, \u00a710)."
+    },
+    {
+      "source": "Science formula triangle: Momentum (p=mv)",
+      "subject": "Science",
+      "reason": "Not on G8 science reference sheet."
+    },
+    {
+      "source": "Science formula triangle: Pressure (P=F/A)",
+      "subject": "Science",
+      "reason": "Not on G8 science reference sheet."
+    },
+    {
+      "source": "Science formula triangle: Power (P=W/t)",
+      "subject": "Science",
+      "reason": "Not on G8 science reference sheet."
+    },
+    {
+      "source": "Science formula triangle: Wave speed (v=f\u03bb)",
+      "subject": "Science",
+      "reason": "Not on G8 science reference sheet."
+    },
+    {
+      "source": "Science formula triangle: Ohm's law (V=IR)",
+      "subject": "Science",
+      "reason": "Not on G8 science reference sheet."
+    },
+    {
+      "source": "Water cycle diagram",
+      "subject": "Science",
+      "reason": "Meaning depends on arrows/labels; ambiguous when stripped (\u00a79)."
+    },
+    {
+      "source": "Rock cycle diagram",
+      "subject": "Science",
+      "reason": "Cyclic process needs arrows/labels (\u00a79)."
+    },
+    {
+      "source": "Weathering/erosion/deposition",
+      "subject": "Science",
+      "reason": "Process meaning depends on arrows/labels."
+    },
+    {
+      "source": "Life cycles",
+      "subject": "Science",
+      "reason": "Sequence meaning depends on arrows/order."
+    },
+    {
+      "source": "Food chains / food webs",
+      "subject": "Science",
+      "reason": "Energy-flow arrows are essential (\u00a79)."
+    },
+    {
+      "source": "Ecological succession",
+      "subject": "Science",
+      "reason": "Time-sequence meaning depends on order/labels."
+    },
+    {
+      "source": "Heat transfer (conduction/convection/radiation)",
+      "subject": "Science",
+      "reason": "Distinctions depend on arrows/labels."
+    },
+    {
+      "source": "Electromagnetic spectrum",
+      "subject": "Science",
+      "reason": "Meaning depends on labels/scale/values."
+    },
+    {
+      "source": "Physical vs chemical change",
+      "subject": "Science",
+      "reason": "Abstract; requires labels/examples."
+    },
+    {
+      "source": "Photosynthesis",
+      "subject": "Science",
+      "reason": "Requires chemical formula/labels."
+    },
+    {
+      "source": "Newton's laws / net force diagrams",
+      "subject": "Science",
+      "reason": "Force arrows/vectors/labels prohibited (\u00a79)."
+    },
+    {
+      "source": "All MATH formula sheets / formula triangles",
+      "subject": "Math",
+      "reason": "Math formula aids not a permitted category (\u00a77)."
+    },
+    {
+      "source": "Multiplication/operation strategy cards",
+      "subject": "Math",
+      "reason": "Procedures/strategies not permitted (\u00a77)."
+    },
+    {
+      "source": "Conversion / measurement rule cards",
+      "subject": "Math",
+      "reason": "Rule/procedure content not permitted (\u00a77)."
+    }
+  ]
+}

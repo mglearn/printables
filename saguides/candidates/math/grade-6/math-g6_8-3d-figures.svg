@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="8.5in" height="11in" viewBox="0 0 816 1056">
+<rect x="0" y="0" width="816" height="1056" fill="#ffffff"/>
+<polygon points="130.0,200.0 260.0,200.0 260.0,330.0 130.0,330.0" fill="none" stroke="#000000" stroke-width="3"/>
+<line x1="130.0" y1="200.0" x2="175.0" y2="155.0" stroke="#000000" stroke-width="2" stroke-dasharray="8 6"/>
+<line x1="260.0" y1="200.0" x2="305.0" y2="155.0" stroke="#000000" stroke-width="3"/>
+<line x1="260.0" y1="330.0" x2="305.0" y2="285.0" stroke="#000000" stroke-width="3"/>
+<line x1="130.0" y1="330.0" x2="175.0" y2="285.0" stroke="#000000" stroke-width="2" stroke-dasharray="8 6"/>
+<polyline points="175.0,285.0 175.0,155.0 305.0,155.0" fill="none" stroke="#000000" stroke-width="2" stroke-dasharray="8 6"/>
+<polyline points="305.0,155.0 305.0,285.0 175.0,285.0" fill="none" stroke="#000000" stroke-width="3"/>
+<polygon points="360.0,200.0 530.0,200.0 530.0,310.0 360.0,310.0" fill="none" stroke="#000000" stroke-width="3"/>
+<line x1="530.0" y1="200.0" x2="575.0" y2="155.0" stroke="#000000" stroke-width="3"/>
+<line x1="530.0" y1="310.0" x2="575.0" y2="265.0" stroke="#000000" stroke-width="3"/>
+<polyline points="575.0,155.0 575.0,265.0" fill="none" stroke="#000000" stroke-width="3"/>
+<line x1="360.0" y1="200.0" x2="405.0" y2="155.0" stroke="#000000" stroke-width="2" stroke-dasharray="8 6"/>
+<line x1="360.0" y1="310.0" x2="405.0" y2="265.0" stroke="#000000" stroke-width="2" stroke-dasharray="8 6"/>
+<polyline points="405.0,265.0 405.0,155.0 575.0,155.0" fill="none" stroke="#000000" stroke-width="2" stroke-dasharray="8 6"/>
+<polygon points="620.0,320.0 695.0,200.0 770.0,320.0" fill="none" stroke="#000000" stroke-width="3"/>
+<line x1="620.0" y1="320.0" x2="665.0" y2="275.0" stroke="#000000" stroke-width="3"/>
+<line x1="695.0" y1="200.0" x2="740.0" y2="155.0" stroke="#000000" stroke-width="3"/>
+<line x1="770.0" y1="320.0" x2="815.0" y2="275.0" stroke="#000000" stroke-width="3"/>
+<polyline points="665.0,275.0 740.0,155.0 815.0,275.0" fill="none" stroke="#000000" stroke-width="3"/>
+<line x1="665.0" y1="275.0" x2="815.0" y2="275.0" stroke="#000000" stroke-width="2" stroke-dasharray="8 6"/>
+<ellipse cx="180.0" cy="475.0" rx="90.0" ry="28.8" fill="none" stroke="#000000" stroke-width="3"/>
+<line x1="90.0" y1="475.0" x2="90.0" y2="645.0" stroke="#000000" stroke-width="3"/>
+<line x1="270.0" y1="475.0" x2="270.0" y2="645.0" stroke="#000000" stroke-width="3"/>
+<path d="M 90.0 645.0 A 90.0 28.8 0 0 0 270.0 645.0" fill="none" stroke="#000000" stroke-width="3"/>
+<path d="M 90.0 645.0 A 90.0 28.8 0 0 1 270.0 645.0" fill="none" stroke="#000000" stroke-width="2" stroke-dasharray="8 6"/>
+<line x1="440.0" y1="465.0" x2="350.0" y2="655.0" stroke="#000000" stroke-width="3"/>
+<line x1="440.0" y1="465.0" x2="530.0" y2="655.0" stroke="#000000" stroke-width="3"/>
+<path d="M 350.0 655.0 A 90.0 28.8 0 0 0 530.0 655.0" fill="none" stroke="#000000" stroke-width="3"/>
+<path d="M 350.0 655.0 A 90.0 28.8 0 0 1 530.0 655.0" fill="none" stroke="#000000" stroke-width="2" stroke-dasharray="8 6"/>
+<circle cx="680.0" cy="620.0" r="95.0" fill="none" stroke="#000000" stroke-width="3"/>
+<path d="M 585.0 620.0 A 95.0 28.5 0 0 0 775.0 620.0" fill="none" stroke="#000000" stroke-width="3"/>
+<path d="M 585.0 620.0 A 95.0 28.5 0 0 1 775.0 620.0" fill="none" stroke="#000000" stroke-width="2" stroke-dasharray="8 6"/>
+<line x1="205.0" y1="940.0" x2="395.0" y2="940.0" stroke="#000000" stroke-width="3"/>
+<line x1="205.0" y1="940.0" x2="320.0" y2="770.0" stroke="#000000" stroke-width="3"/>
+<line x1="395.0" y1="940.0" x2="320.0" y2="770.0" stroke="#000000" stroke-width="3"/>
+<line x1="395.0" y1="940.0" x2="435.0" y2="900.0" stroke="#000000" stroke-width="3"/>
+<line x1="435.0" y1="900.0" x2="320.0" y2="770.0" stroke="#000000" stroke-width="3"/>
+<line x1="205.0" y1="940.0" x2="245.0" y2="900.0" stroke="#000000" stroke-width="2" stroke-dasharray="8 6"/>
+<line x1="245.0" y1="900.0" x2="435.0" y2="900.0" stroke="#000000" stroke-width="2" stroke-dasharray="8 6"/>
+<line x1="245.0" y1="900.0" x2="320.0" y2="770.0" stroke="#000000" stroke-width="2" stroke-dasharray="8 6"/>
+<line x1="495.0" y1="940.0" x2="705.0" y2="940.0" stroke="#000000" stroke-width="3"/>
+<line x1="495.0" y1="940.0" x2="627.5" y2="790.0" stroke="#000000" stroke-width="3"/>
+<line x1="705.0" y1="940.0" x2="627.5" y2="790.0" stroke="#000000" stroke-width="3"/>
+<line x1="705.0" y1="940.0" x2="760.0" y2="885.0" stroke="#000000" stroke-width="3"/>
+<line x1="760.0" y1="885.0" x2="627.5" y2="790.0" stroke="#000000" stroke-width="3"/>
+<line x1="495.0" y1="940.0" x2="550.0" y2="885.0" stroke="#000000" stroke-width="2" stroke-dasharray="8 6"/>
+<line x1="550.0" y1="885.0" x2="760.0" y2="885.0" stroke="#000000" stroke-width="2" stroke-dasharray="8 6"/>
+<line x1="550.0" y1="885.0" x2="627.5" y2="790.0" stroke="#000000" stroke-width="2" stroke-dasharray="8 6"/>
+</svg>

@@ -242,7 +242,7 @@ litcircles/
 ├── build.py                           Generator for the kit HTML/CSS + landing page
 ├── build_planners.py                  Generator for the per-title planners
 ├── README.md                          Sources, licensing, and build instructions
-├── readme.md                          ← this reference guide
+├── GUIDE.md                           ← this reference guide
 ├── HERO_PROMPT.md / ILLUSTRATION_PROMPTS.md / SAMPLE_NOTES_PROMPTS.md
 ├── assets/                            Illustrations + completed sample-note images
 └── planners/

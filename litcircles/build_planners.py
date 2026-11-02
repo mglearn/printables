@@ -533,7 +533,7 @@ def page2(t, blank):
 <h2>1 · Summary in my own words</h2>{summary}
 <h2>Bring to the circle</h2><p>{bring}</p>
 <p class="small">TEKS evidence: 6(C,D) supported inference; 7(A) theme through characters/events; 1(D) response to a peer.{tag}</p>
-<footer><span>Miguel Guhlin · mguhlin.org · mguhlin@tcea.org · blog.tcea.org</span><span>{t["title"]} · 2 / 2</span></footer></section>'''
+<footer><span>Miguel Guhlin · mguhlin@tcea.org · blog.tcea.org</span><span>{t["title"]} · 2 / 2</span></footer></section>'''
 
 def render(t, blank):
     kind = "Blank" if blank else "Worked example"

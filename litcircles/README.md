@@ -7,7 +7,7 @@ Ten instructional sections across 21 US Letter pages, including cover and two or
 - `index.html`: collection landing page.
 - `build.py`: original authoring content and static-page generator (Python standard library).
 
-Run `python3 build.py` to regenerate HTML/CSS. Render `packet.html` with headless Chrome using `--print-to-pdf=literature-circles-launch-kit.pdf --no-pdf-header-footer`. Use US Letter, 100% scale, and no browser headers/footers. Recheck page count and layout after edits. The cover credits Miguel Guhlin · mguhlin.org, mguhlin@tcea.org, and blog.tcea.org. Kit section numbers remain 1–10; sections may span more than one PDF page.
+Run `python3 build.py` to regenerate HTML/CSS. Render `packet.html` with headless Chrome using `--print-to-pdf=literature-circles-launch-kit.pdf --no-pdf-header-footer`. Use US Letter, 100% scale, and no browser headers/footers. Recheck page count and layout after edits. The cover credits Miguel Guhlin, mguhlin@tcea.org, and blog.tcea.org. Kit section numbers remain 1–10; sections may span more than one PDF page.
 
 Optional Appendix A/B can be copied per student; `student-organizers.pdf` provides these four pages alone. After rendering the full PDF, extract its final four pages to rebuild that download. The reference is the user-supplied Copy of Notes Organizer v3 by Miguel Guhlin.
 
